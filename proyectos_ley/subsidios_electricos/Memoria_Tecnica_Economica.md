@@ -126,9 +126,9 @@ Menor Costo                                                                     
 - En contraste, los parques eólicos de San Cristóbal y Baltra, y los proyectos solares fotovoltaicos con baterías en Santa Cruz e Isabela generan energía a un costo normalizado local muy inferior al diésel importado (entre **8 y 14 ¢USD/kWh**).
 - **Regla Territorial:** En Galápagos, la energía más barata asignada al Bloque Residencial de 250 kWh es obligatoriamente la generación eólica y solar local disponible, garantizando que el consumo de los habitantes insulares beneficie directamente a la transición ecológica y se reduzca la huella de carbono de las islas.
 
-#### 3.3. Balance Energético Nacional: ¿Alcanza la energía hidroeléctrica barata para hogares y comida? ("¿Nos alcanza acaso la energía?")
+#### 3.3. Balance Energético Nacional: ¿Alcanza la energía hidroeléctrica barata para hogares, comida y hospitales públicos? ("¿Nos alcanza acaso la energía?")
 
-Una interrogante técnica fundamental es si la matriz de generación de menor costo (principalmente hidroeléctrica en el continente) tiene la capacidad física y volumétrica para satisfacer íntegramente la demanda de los bloques protegidos.
+Una interrogante técnica fundamental es si la matriz de generación de menor costo (principalmente hidroeléctrica en el continente) tiene la capacidad física y volumétrica para satisfacer íntegramente la demanda de los bloques protegidos: hogares, cadena popular de alimentos y los hospitales de la Red Pública Integral de Salud (RPIS).
 
 Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** contra la **Oferta Hidroeléctrica Disponible**, tanto en condiciones hidrológicas medias como durante el periodo de estiaje más crítico registrado en el Ecuador (fuentes: estadísticas oficiales CENACE y balances anuales ARCONEL):
 
@@ -145,17 +145,20 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 |    - Tiendas y micromercados (500 kWh)      | ~550 GWh/año               | ~46 GWh/mes                |
 |    - Panaderías y obradores (800 kWh)       | ~314 GWh/año               | ~26 GWh/mes                |
 |    - Demanda Alimentaria Protegida          | **864 GWh/año**            | **72 GWh/mes**             |
+| 3. Red Pública Integral de Salud (RPIS)     |                            |                            |
+|    - Hospitales de especialidades, generales|                            |                            |
+|      y centros de salud 24h (~840 unidades) | **450 GWh/año**            | **37.5 GWh/mes**           |
 +---------------------------------------------+----------------------------+----------------------------+
-| **DEMANDA PROTEGIDA TOTAL (A)**             | **8,064 GWh/año**          | **672 GWh/mes**            |
+| **DEMANDA PROTEGIDA TOTAL (A)**             | **8,514 GWh/año**          | **709.5 GWh/mes**          |
 +---------------------------------------------+----------------------------+----------------------------+
 | **OFERTA HIDROELÉCTRICA NACIONAL (B):**                                                               |
 | • Año Hidrológico Normal (promedio histórico) | **22,000 a 25,500 GWh/año**| **~1,900 a 2,100 GWh/mes** |
-|   - Cobertura de la Demanda Protegida       | **273% a 316%**            | **SOBRA > 1,200 GWh/mes**  |
+|   - Cobertura de la Demanda Protegida       | **258% a 300%**            | **SOBRA > 1,190 GWh/mes**  |
 | • Año de Sequía Severa / Estiaje Crítico    | **16,000 a 17,500 GWh/año**| **~1,350 a 1,450 GWh/mes** |
 | • **Peor Mes de Estiaje Histórico** (Nov/Dic) | -                          | **1,150 a 1,300 GWh/mes**  |
-|   - Cobertura en el peor mes de crisis      | -                          | **171% a 193%**            |
+|   - Cobertura en el peor mes de crisis      | -                          | **162% a 183%**            |
 +---------------------------------------------+----------------------------+----------------------------+
-| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+478 a +628 GWh/mes**    |
+| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+440.5 a +590.5 GWh/mes**|
 +---------------------------------------------+----------------------------+----------------------------+
 ```
 
@@ -392,6 +395,46 @@ Frente a la alternativa de un recargo del 5%, la modelación económica demuestr
 - **Estrategia de Liquidez Acelerada (Descuento del 2% por Pronto Pago):**
   - Se concede un **descuento del 2% en la planilla** si el abonado paga dentro de los primeros 5 días hábiles o mediante débito automático bancario.
   - **Rentabilidad Financiera de la Medida:** A la empresa distribuidora le cuesta mucho más la cartera vencida, el costo del capital de trabajo y el costo operativo de enviar cuadrillas de corte y reconexión que otorgar un 2% de descuento comercial. La recaudación masiva en los primeros 5 días del mes inyecta liquidez líquida inmediata para pagar a generadores y evitar paradas por falta de combustible.
+
+#### 9.6. Régimen Coercitivo contra la Morosidad Pública y Extinción Forzosa de Deudas: ¿Por qué no solo cortar o embargar cuentas?
+Uno de los mayores drenajes de liquidez histórica en el sector eléctrico ecuatoriano ha sido la cartera incobrable del sector público (municipios, empresas públicas y ministerios). Históricamente, las herramientas ordinarias fracasaban por dos trampas estructurales:
+1. **La Trampa Constitucional del Corte Total:** Si la eléctrica corta el suministro general a un municipio, apaga las estaciones de bombeo de agua potable o plantas de tratamiento de aguas servidas. En menos de 4 horas, un juez constitucional otorga una Acción de Protección con Medida Cautelar por vulneración al derecho humano al agua (Art. 12 CRE) y ordena la reconexión bajo amenaza de destitución del gerente eléctrico.
+2. **La Trampa del Juicio Coactivo y Embargo de Cuentas Públicas:** Conforme al Art. 165 del COPLAFIP, los recursos del Presupuesto General del Estado y del Modelo de Equidad Territorial en el Banco Central del Ecuador (BCE) son legalmente inembargables para coactivas ordinarias entre entidades públicas, entrampando el cobro en el Tribunal Contencioso Administrativo durante 5 a 10 años.
+
+**La Solución Estructural de 4 Vías Implementada en la Ley:**
+```
+                           ESQUEMA COERCITIVO DE COBRO AL SECTOR PÚBLICO
+                                          ┌──────────────┐
+                                          │ Mora Pública │
+                                          └──────┬───────┘
+                                                 │
+                      ┌──────────────────────────┴──────────────────────────┐
+                      ▼                                                     ▼
+           [30 Días de Incumplimiento]                           [60 Días de Incumplimiento]
+                      │                                                     │
+                      ▼                                                     ▼
+         ┌─────────────────────────┐                           ┌─────────────────────────┐
+         │ Corte Remoto Quirúrgico │                           │ Retención y Compensación│
+         │ (Medición AMI)          │                           │ de Tasas Municipales    │
+         │ - Palacios Municipales  │                           │ (Aseo y Bomberos)       │
+         │ - Sedes Administrativas │                           └────────────┬────────────┘
+         │ - Estadios y Piletas    │                                        │
+         │ (Cero medidas cautelares│                               ¿Deuda no cubierta?
+         │  para burocracia)       │                                        │
+         └─────────────────────────┘                           ┌────────────┴────────────┐
+                                                               ▼                         ▼
+                                                    ┌────────────────────┐    ┌────────────────────┐
+                                                    │ Débito Automático  │    │ Responsabilidad    │
+                                                    │ MEF / Banco Central│    │ Solidaria y        │
+                                                    │ (Descuento de la   │    │ Destitución por la │
+                                                    │  alícuota fiscal)  │    │ Contraloría        │
+                                                    └────────────────────┘    └────────────────────┘
+```
+
+1. **Retención Líquida Directa de Tasas (Compensación de Obligaciones):** La distribuidora ya recauda en efectivo las tasas de aseo y bomberos de la ciudadanía. La ley establece la compensación forzosa automática: la eléctrica no transfiere ese dinero al GAD moroso hasta saldar al 100% las facturas eléctricas vencidas (>60 días).
+2. **Corte Remoto Quirúrgico a Cargas No Esenciales:** Se prohíbe cortar salas de cuidados intensivos o bombeo de agua, pero se ejecuta el corte remoto inmediato mediante tecnología AMI al Palacio Municipal, oficinas de tránsito, complejos deportivos y luminarias ornamentales. La ley prohíbe taxativamente a jueces constitucionales otorgar medidas cautelares a dependencias burocráticas morosas.
+3. **Débito Automático en Fuente del MEF y Banco Central:** Si las tasas retenidas no cubren la deuda, el MEF y el BCE debitan de oficio los valores de las alícuotas del Modelo de Equidad Territorial o del presupuesto institucional del ministerio deudor, transfiriéndolos a la distribuidora en 5 días hábiles.
+4. **Sanción de Destitución Inmediata y Juicio de Cuentas:** La autoridad y el director financiero que no presupuesten o no paguen la luz incurren en responsabilidad civil solidaria y causal de destitución automática por la Contraloría General del Estado.
 
 ---
 

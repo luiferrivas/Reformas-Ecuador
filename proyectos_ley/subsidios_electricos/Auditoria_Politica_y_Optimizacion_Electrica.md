@@ -130,16 +130,21 @@ Los GADs municipales, empresas de agua potable y hospitales públicos adeudan m�
 #### C. Veredicto de Viabilidad
 * **Débito Centralizado Unilateral:** **TOTALMENTE INVIABLE E INCONSTITUCIONAL.**
 
-#### D. La Adaptación Realista ("El Cómo Sí")
-Para cobrar legalmente sin violar la autonomía municipal, la ley debe utilizar tres palancas de compensación y elegibilidad crediticia:
+#### D. La Adaptación Realista ("El Cómo Sí: Esquema Coercitivo de 4 Vías")
+Para cobrar de manera 100% efectiva sin incurrir en suspensiones ilegales de agua potable ni quedar entrampados en juicios coactivos interminables de 10 años, la reforma articula un **Protocolo Coercitivo de 4 Vías Inviolables**:
 
-1. **Compensación de Cartera en la Misma Planilla (Regla de Retención de Tasas):**
-   * Las empresas eléctricas distribuidoras ya recaudan en su factura mensual la **Tasa de Recolección de Basura / Aseo de Calles** y la contribución para Bomberos a favor de los municipios.
-   * La ley reforma el régimen de convenios de recaudación: **Las distribuidoras quedan legalmente autorizadas a retener de los valores recaudados por la tasa de basura el monto correspondiente a la planilla eléctrica de alumbrado público y consumo de dependencias municipales**, entregando al municipio únicamente el saldo positivo remanente. De este modo, la distribuidora se cobra con la plata que ella misma recauda, sin tocar las transferencias de Finanzas.
-2. **Bloqueo de Cupo de Endeudamiento en el BDE:**
-   * El Banco de Desarrollo del Ecuador (BDE) no podrá aprobar ni desembolsar operaciones de crédito a municipios que mantengan deudas vencidas mayores a 60 días con la empresa eléctrica de su jurisdicción, a menos que suscriban un convenio formal de purga de mora en cuotas.
-3. **Cruce de Cuentas del Gobierno Central con Papeles Negociables (TBC):**
-   * Para deudas de ministerios y hospitales, el Ministerio de Finanzas emitirá Títulos del Banco Central (TBC) o notas de crédito tributario que las empresas eléctricas puedan utilizar para pagar sus compras de energía a CELEC EP y combustibles a Petroecuador.
+1. **Compensación y Retención Líquida de Tasas Municipales (Inmediata y Directa):**
+   * Las empresas eléctricas distribuidoras ya recaudan en la planilla la **Tasa de Recolección de Basura / Aseo de Calles** y la contribución de Bomberos a favor de los municipios.
+   * La ley reforma de raíz el régimen: **Las distribuidoras retienen de oficio el 100% de los valores recaudados por la tasa de basura y bomberos hasta cubrir las planillas eléctricas vencidas de más de 60 días de alumbrado público y dependencias municipales**, entregando al municipio únicamente el remanente si existiere. La distribuidora se cobra directamente con la liquidez que ya tiene en su propia caja recaudadora, sin depender de autorizaciones judiciales.
+2. **Corte Remoto Quirúrgico a Cargas No Esenciales (a los 30 días de mora):**
+   * Con el despliegue de telemetría y medidores inteligentes (AMI), se prohíbe cortar salas de cuidados intensivos, quirófanos o estaciones de bombeo de agua potable residencial (blindando a la empresa contra jueces constitucionales), pero **se ejecuta el corte remoto inmediato al Palacio Municipal, dependencias administrativas, edificios de ministerios deudores, estadios, coliseos y luminarias decorativas**.
+   * La ley prohíbe expresamente a jueces constitucionales dictar medidas cautelares o acciones de protección a favor de sedes burocráticas morosas.
+3. **Débito Automático Forzoso en el Ministerio de Finanzas (MEF) y Banco Central (BCE) (a los 60 días):**
+   * En caso de que la retención de tasas de aseo no cubra el monto adeudado (ej. municipios con deudas masivas de bombeo), la ley faculta a la distribuidora a ordenar el débito automático sobre las alícuotas mensuales del Modelo de Equidad Territorial del GAD o del presupuesto del ministerio moroso, transfiriendo los fondos en un plazo máximo de 5 días hábiles a la cuenta de la distribuidora.
+4. **Responsabilidad Solidaria, Destitución y Proceso Penal:**
+   * La máxima autoridad y el Director Financiero de la entidad deudora responderán con su patrimonio por intereses de mora e incurrirán en falta gravísima causal de destitución automática por la Contraloría General del Estado, eliminando el incentivo político de no pagar la luz.
+5. **Bloqueo de Cupo de Endeudamiento en el BDE:**
+   * El Banco de Desarrollo del Ecuador (BDE) no podrá desembolsar créditos a municipios en mora eléctrica no saneada mediante convenio de pago con retención garantizada.
 
 ---
 
@@ -237,9 +242,10 @@ El recargo del **10%** responde a tres realidades operativas ineludibles:
 
 ## IV. SÍNTESIS DE CONCLUSIONES PARA LA REFORMA LEGISLATIVA
 
-1. **Desechar propuestas que choquen contra la autonomía municipal:** Descartar el débito unilateral desde Finanzas a los GADs y sustituirlo por la **retención de la tasa de basura que la misma distribuidora recauda**.
-2. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
-3. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
-4. **Priorizar Solares en Daule-Peripa sobre Mazar:** Evitar los problemas de fluctuación extrema de cota andina en una primera etapa.
-5. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
-6. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
+1. **Protocolo Coercitivo de Extinción de Deudas Públicas (4 Vías):** Combinar la retención forzosa de tasas de aseo y bomberos, corte remoto quirúrgico a dependencias burocráticas y débito automático en MEF/BCE, con sanción de destitución inmediata por Contraloría para erradicar las deudas de los GADs y ministerios sin afectar el agua potable.
+2. **Prioridad Vital Ampliada (Hogares, Comida y Hospitales Públicos):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), y a las unidades de la Red Pública Integral de Salud (RPIS), garantizando salud y alimentación con estricto pago puntual sin tolerar subsidios cruzados internos.
+3. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
+4. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
+5. **Priorizar Solares en Daule-Peripa sobre Mazar:** Evitar los problemas de fluctuación extrema de cota andina en una primera etapa.
+6. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
+7. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
