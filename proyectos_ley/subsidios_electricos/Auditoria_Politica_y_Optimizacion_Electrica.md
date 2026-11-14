@@ -19,21 +19,29 @@
 | PROPUESTA EVALUADA                | VIABILIDAD TÉCNICA | VIABILIDAD POLÍTICA| FACTOR CRÍTICO DE ÉXITO |
 |                                   | Y ECONÓMICA        | / CONSTITUCIONAL   | (ADAPTACIÓN REALISTA)   |
 +-----------------------------------+--------------------+--------------------+-------------------------+
-| **I. GENERACIÓN:**                |                    |                    |                         |
+| **I. GENERACIÓN Y ENERGÍA:**      |                    |                    |                         |
 | 1. Gas de Mecheros Petroleros     | Muy Alta           | Media-Baja         | Skids privados en pozo  |
 | 2. Solares Flotantes en Embalses  | Alta               | Muy Alta           | Priorizar Daule-Peripa  |
 | 3. Hidroeléctricas de Bombeo      | Alta               | Baja (Corto plazo) | Baterías BESS inmediatas|
 | 4. Despegue Geotérmico 24/7       | Muy Alta           | Alta               | Fast-track concesional  |
+| 5. Ciclo Combinado Termogas (+150)| Muy Alta           | Muy Alta           | HRSG con fondos FERRE   |
+| 6. Interconexión 500 kV Perú      | Muy Alta           | Muy Alta           | Tramo binacional banco  |
 |                                   |                    |                    |                         |
-| **II. COBRANZAS:**                |                    |                    |                         |
-| 5. Cruce de Deuda de Municipios   | Muy Alta           | Crítica / Nula     | Retención tasa de basura|
-| 6. Electricidad Prepago Digital   | Muy Alta           | Muy Alta           | Recarga barrial + SOS   |
-| 7. Pronto Pago y Factura Digital  | Muy Alta           | Muy Alta           | Descuento del 2% en red |
+| **II. TARIFAS Y SUBSIDIOS:**      |                    |                    |                         |
+| 7. Capping 3era Edad (50 kWh)     | Muy Alta           | Media-Alta         | Blindaje antifraude     |
+| 8. Erradicación Subsidios Cruzados| Muy Alta           | Alta (Gremial)     | Cost-of-Service puro    |
+| 9. Tarifa Real Galápagos (38¢)    | Muy Alta           | Plena (Art. 258 CRE)| Paridad solar hotelera  |
 |                                   |                    |                    |                         |
-| **III. DISTRIBUCIÓN:**            |                    |                    |                         |
-| 8. Macro-medición Transformador   | Muy Alta           | Muy Alta           | Software de balance     |
-| 9. Cables Concéntricos Antifraude | Muy Alta           | Alta               | Plan Integral Barrial   |
-| 10. Concesión de Gestión de CNEL  | Alta               | Nula / Prohibida   | Contratos de éxito EPCm |
+| **III. COBRANZAS Y DEUDAS:**      |                    |                    |                         |
+| 10. Cruce de Deuda Municipios     | Muy Alta           | Crítica / Nula     | Retención tasa basura   |
+| 11. Electricidad Prepago Digital  | Muy Alta           | Muy Alta           | Recarga barrial + SOS   |
+| 12. Pronto Pago (Descuento 2%)    | Muy Alta           | Muy Alta           | Descuento en red        |
+|                                   |                    |                    |                         |
+| **IV. RED Y DISTRIBUCIÓN:**       |                    |                    |                         |
+| 13. Compensación Reactiva CNEL    | Muy Alta           | Muy Alta           | Bancos de capacitores   |
+| 14. Electrificación Camaronera    | Muy Alta           | Muy Alta           | Tarifas industriales    |
+| 15. Macro-medición Transformador  | Muy Alta           | Muy Alta           | Software de balance     |
+| 16. Concesión Integral de CNEL    | Alta               | Nula / Prohibida   | Contratos de éxito EPCm |
 +-----------------------------------+--------------------+--------------------+-------------------------+
 ```
 
@@ -247,13 +255,90 @@ El recargo del **10%** responde a tres realidades operativas ineludibles:
 
 ---
 
-## IV. SÍNTESIS DE CONCLUSIONES PARA LA REFORMA LEGISLATIVA
+## IV. BLOQUE DE TARIFAS, SUBSIDIOS Y REALISMO POLÍTICO
+
+### 10. Racionalización del Subsidio a la Tercera Edad: Capping Vital a 50 kWh/mes y Desmontaje de la Demagogia
+
+#### A. Diagnóstico Político y Fraude Social
+La tarifa de adultos mayores consagrada en la LOPAM (Art. 14) otorga un 50% de descuento. Al no haber tenido un tope de kilovatios-hora, grupos de altos ingresos aprendieron a evadir tarifas residenciales suntuarias:
+* Se registraban mansiones y fincas de recreo con consumos de 1,500 a 2,500 kWh/mes a nombre del abuelo o abuela.
+* Se detectaron casos de personas con 3 o 4 medidores subsidiados simultáneamente o medidores a nombre de personas fallecidas.
+* Esta distorsión le cuesta al Estado entre **$45 y $65 millones de USD anuales**.
+
+#### B. Auditoría de Resistencia Política
+* **El Riesgo Demagógico:** La oposición política y activistas acusarán al gobierno de *"quitarle la luz a los viejitos"*.
+* **El Blindaje Comunicacional ("El Cómo Sí"):**
+  1. **Narrativa de Justicia:** *"El 50% de descuento se mantiene 100% intocable para el consumo vital del adulto mayor humilde (hasta 50 kWh/mes, pagando apenas \$2.35 USD al mes)"*.
+  2. **Tramos Protectores:** De 51 a 250 kWh/mes no se le cobra tarifa de lujo, sino la tarifa residencial familiar ordinaria protegida.
+  3. **Ataque Frontal al Fraude:** *"Lo que se acaba es el subsidio del 50% a la piscina temperada, al sauna y a los 6 aires acondicionados que los nietos ricos ponían a nombre de la abuela"*.
+  4. **Cruce Digital Automático:** La interconexión obligatoria con el Registro Civil elimina las intermediaciones discrecionales y extingue el beneficio de oficio ante defunción.
+
+---
+
+### 11. Erradicación de Subsidios Cruzados Intersectoriales y Regulación por Costo de Servicio
+
+#### A. Diagnóstico Técnico y de Economía Política
+Históricamente, para maquillar las pérdidas por hurto de CNEL y las tarifas políticas deficitarias residenciales, ARCONEL cargaba sobretasas a la industria y al comercio formal.
+* **Impacto Económico Negativo:** Encarecimiento artificial de la industria manufacturera nacional frente a productos importados de Colombia o Perú.
+
+#### B. Auditoría de Choque y Alianzas
+* **Apoyo Gremial Total:** Las Cámaras de Industrias, Comercio y Pequeña Empresa respaldan unánimemente la prohibición legal de subsidios cruzados.
+* **La Falsa Objeción:** Los sectores populistas afirman que eliminar el subsidio cruzado obligará a triplicar la tarifa residencial.
+* **El Argumento Técnico Irrefutable:** El bloque de subsistencia residencial (hasta 250 kWh/mes) está físicamente respaldado por la hidroelectricidad amortizada del Estado (1.5 a 3.5 ¢USD/kWh). A la tarifa piso regulada (~9.5 ¢USD/kWh), **el consumo residencial cubre con creces sus costos de generación y distribución y genera un margen del 8% a 10% para la distribuidora**. No requiere ni un solo centavo de subsidio de la industria. Cada sector paga su costo de servicio real (*Cost-of-Service*).
+
+---
+
+### 12. Régimen Insular Galápagos: Constitucionalidad, Principio Contaminador-Pagador y Paridad de Red Hotelera
+
+#### A. ¿Es legal y constitucional la figura en Galápagos?
+* **Viabilidad Constitucional:** **100% BLINDADA.**
+  * El **Art. 258 de la CRE** subordina toda política insular a la conservación ambiental estricta.
+  * El **Art. 396 de la CRE** impone el Principio Contaminador-Pagador (*quien contamina asume el 100% de los costos*).
+  * Subsidiar diésel transportado en barcazas de alto riesgo ecológico marítimo para hoteles de lujo y cruceros contradice frontalmente la Constitución.
+* **Viabilidad Política:** El turismo de lujo en Galápagos factura en dólares tarifas de alta gama internacional (\$300 a \$1,200 USD por noche). Cobrar la tarifa real de 35 a 42 ¢USD/kWh al sector hotelero es éticamente inobjetable.
+* **El Detonante de Inversión Privada:** Con tarifas de 38 ¢USD/kWh, el Payback para instalar paneles solares con baterías BESS en hoteles cae a **menos de 2 años**. El propio sector privado financia la descarbonización de Galápagos sin gasto público.
+
+---
+
+## V. PROPUESTAS DE INGENIERÍA ESTRUCTURAL Y OPTIMIZACIÓN DEL SISTEMA ELÉCTRICO
+
+### 13. Seis Palancas de Optimización Inmediata y Resiliencia
+
+1. **Cierre de Ciclo Combinado en Termogas Machala (+150 MW sin Más Gas):**
+   * *Diagnóstico:* Opera a ciclo abierto simple (33% eficiencia).
+   * *Solución:* Calderas HRSG y turbina de vapor financiadas vía FERRE.
+   * *Impacto:* +150 MW de potencia firme limpia sin consumir gas adicional; baja costo a 5.0 ¢USD/kWh.
+2. **Interconexión Binacional a 500 kV Ecuador-Perú (1,000 MW de Capacidad):**
+   * *Diagnóstico:* Estiajes complementarios entre las cuencas de Ecuador y Perú.
+   * *Solución:* Acelerar la línea de 500 kV con financiamiento multilateral (BID/CAF).
+   * *Impacto:* Permite importar gas natural peruano a 7.0-9.0 ¢USD/kWh en sequía, desplazando el diésel colombiano de 30-45 ¢USD/kWh.
+3. **Conversión de Mecheros Petroleros a Electricidad ("Flare to Power" Modular Privado):**
+   * *Diagnóstico:* 70 MMSCFD quemados al aire mientras pozos y oleoductos usan diésel subsidiado.
+   * *Solución:* Contratos de autogeneración en borne de pozo con skids móviles privados.
+   * *Impacto:* 350 a 450 MW firmes; autoconsumo de Petroecuador sin costo fiscal de obra pública.
+4. **Compensación Reactiva Dinámica en CNEL EP (+150 MW de Capacidad Útil en Líneas Existentes):**
+   * *Diagnóstico:* Factor de potencia degradado a 0.82 en la Costa por motores y aires sin corregir.
+   * *Solución:* Bancos automáticos de capacitores y STATCOMs en 24 subestaciones.
+   * *Impacto:* Eleva factor de potencia a 0.98 y libera de 120 a 180 MW de capacidad de transmisión útil sin tender cables.
+5. **Electrificación Tecnificada del Sector Camaronero (Sustitución de Diésel por Electricidad Trifásica):**
+   * *Diagnóstico:* 220,000 hectáreas de piscinas camaroneras quemando diésel en motores estacionarios.
+   * *Solución:* Líneas trifásicas a tarifa real eficiente de 10-11.5 ¢USD/kWh.
+   * *Impacto:* Ahorro del 40% en costos operativos para el camaronero; elimina 140 millones de galones de diésel y contrabando.
+6. **Despacho Hidrotérmico Predictivo con Modelado Satelital e Inteligencia Artificial en CENACE:**
+   * *Diagnóstico:* Modelos hidrológicos deterministas con poca anticipación de crecidas.
+   * *Solución:* Algoritmos de Machine Learning alimentados con telemetría satelital (GPM/Copernicus).
+   * *Impacto:* Anticipación de caudales con 72-96 horas; preserva cotas de embalse para el pico de las 19:00 horas.
+
+---
+
+## VI. SÍNTESIS DE CONCLUSIONES PARA LA REFORMA LEGISLATIVA
 
 1. **Protocolo Coercitivo de Extinción de Deudas Públicas (4 Vías):** Combinar la retención forzosa de tasas de aseo y bomberos, corte remoto quirúrgico a dependencias burocráticas y débito automático en MEF/BCE, con sanción de destitución inmediata por Contraloría para erradicar las deudas de los GADs y ministerios sin afectar el agua potable.
-2. **Prioridad Vital Ampliada (Hogares, Comida, Hospitales y Escuelas Fiscales):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, garantizando salud, alimentación y educación con estricto pago puntual sin tolerar subsidios cruzados internos.
-3. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
-4. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
-5. **Priorizar Solares en Daule-Peripa sobre Mazar:** Evitar los problemas de fluctuación extrema de cota andina en una primera etapa.
-6. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
-7. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
-8. **Rubro de Resiliencia de hasta 1 Centavo/kWh ($0.01 USD/kWh):** Genera entre \$190 y \$280 millones anuales en liquidez directa para el FERRE, financiando baterías BESS para aplanar el pico nocturno de 18:00 a 22:00 y terminar con los apagones.
+2. **Prioridad Vital Ampliada (Hogares, Comida, Salud, Educación y 3era Edad):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), adultos mayores (50% de descuento vital hasta 50 kWh), hospitales públicos de la RPIS y escuelas fiscales, con estricto pago puntual y autofinanciamiento hidroeléctrico sin subsidios cruzados.
+3. **Cero Subsidios Cruzados y Cost-of-Service:** Cada sector paga su costo real eficiente, protegiendo la competitividad industrial ecuatoriana.
+4. **Sinceramiento Constitucional en Galápagos:** Cobro de 35 a 42 ¢USD/kWh a turismo y consumos suntuarios bajo Arts. 258 y 396 CRE, detonando la autogeneración solar con baterías BESS con retorno en <2 años.
+5. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
+6. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
+7. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
+8. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
+9. **Rubro de Resiliencia de hasta 1 Centavo/kWh ($0.01 USD/kWh):** Genera entre \$190 y \$280 millones anuales en liquidez directa para el FERRE, financiando baterías BESS para aplanar el pico nocturno de 18:00 a 22:00 y terminar con los apagones.

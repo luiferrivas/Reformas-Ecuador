@@ -48,6 +48,23 @@ umbrales_consumo:
         - "Vitrinas de conservación (0.35 kW)"
       objetivo_politica_publica: "Evitar inflación en el precio del pan popular de batalla y alimentos esenciales"
 
+  adultos_mayores_3ra_edad:
+    descripcion: "Focalización equitativa y capping del subsidio para adultos mayores (LOPAM Art. 14)"
+    descuento_tarifa_pct: 50.0
+    limite_descuento_vital_kwh_mes: 50
+    costo_mensual_estimado_vital_usd: 2.35
+    tramo_residencial_ordinario_max_kwh_mes: 250
+    regla_exceso_250kwh: "costo_real_pleno_100pct"
+    limite_suministros_por_cedula: 1
+    depuracion_automatica_registro_civil: true
+    ahorro_fiscal_estimado_anual_usd: 45000000
+
+  subsidios_cruzados:
+    prohibicion_expresa: true
+    modelo_regulatorio: "cost_of_service"
+    principio: "Cada segmento tarifario cubre sus propios costos eficientes sin sobretasas intersectoriales"
+    autofinanciamiento_residencial_hidro: true
+
   sectores_no_protegidos:
     descripcion: "Comercio de gran escala, gran industria, minería, banca y sector público"
     subsidio_estatal_pct: 0.0
