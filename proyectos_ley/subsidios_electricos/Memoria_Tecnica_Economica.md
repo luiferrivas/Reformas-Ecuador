@@ -332,9 +332,59 @@ Existe una sinergia meteorológica crucial en el Ecuador:
 
 ---
 
-### 9. RÉGIMEN DE ESTIAJE, SEQUÍAS Y CONTINGENCIA HIDROLÓGICA
+### 9. TARIFAS HORARIAS DINÁMICAS (TIME-OF-USE), MEDICIÓN INTELIGENTE (AMI) Y RÉGIMEN DE GARANTÍA AUTOFINANCIADA (COSTO + 5%)
 
-#### 9.1. Mecánica del Despacho en Cascada ante Sequía
+#### 9.1. La Curva de Carga Horaria y el Aplanamiento del Pico Nacional
+La demanda eléctrica en el Ecuador experimenta tres fases horarias claramente diferenciadas durante el ciclo diario de 24 horas:
+1. **Horas Valle y Supervalle (23:00 a 06:00 y horas de sol pico 10:00 a 14:00):** La demanda cae a mínimos de 1,700 a 2,000 MW. Sobra agua en las hidroeléctricas de pasada o radiación solar en los techos. El costo marginal es mínimo (~2.5 a 4.5 ¢USD/kWh).
+2. **Horas Llanas (06:00 a 18:00 y 22:00 a 23:00):** Demanda moderada comercial e industrial continua (~2,200 a 2,400 MW).
+3. **Horas Pico o de Máxima Demanda (18:00 a 22:00):** Coincide el retorno de las familias a los hogares con el comercio activo. La demanda trepa bruscamente hasta **4,800 a 5,000 MW**. Al no haber sol y descender los embalses, el sistema debe encender termoeléctricas caras a diésel e importar desde Colombia a costos de 25 a 35 ¢USD/kWh.
+
+**Impacto del Esquema Horario (Time-of-Use - TOU):**
+- Al declarar una tarifa diferenciada por horas, se genera un fuerte incentivo para el **desplazamiento de carga (Load Shifting)**:
+  - Panaderías artesanales desplazan parte de su proceso de amasado hacia las horas valle de la madrugada (02:00 a 06:00) o de mediodía, reduciendo sensiblemente su planilla mensual.
+  - Industrias y comercios cargan sus baterías BESS en horas valle diurnas o nocturnas y las descargan de 18:00 a 22:00, ahorrando dinero y evitando apagones.
+  - Hogares programan lavadoras, bombas de agua o recarga de autos eléctricos fuera del pico nocturno.
+
+#### 9.2. Infraestructura de Medición Avanzada (AMI - Medidores Inteligentes)
+Para que el usuario pueda facturar con tarifas horarias y aprovechar el net metering solar 1:1, es indispensable la transición tecnológica de los antiguos medidores electromecánicos a **medidores inteligentes bidireccionales con telemetría**:
+- Registro por intervalos de 15 minutos de energía activa y reactiva.
+- Corte y reconexión remota inmediata (reduciendo cuadrillas y costos operativos de campo).
+- Comunicación bidireccional mediante radiofrecuencia o celular (GPRS/LTE/PLC).
+- Detección instantánea de fraudes, manipulaciones y pérdidas no técnicas.
+
+#### 9.3. Modelo Económico del Depósito de Garantía: Costo + 5%
+Históricamente, en el Ecuador la provisión de medidores por parte de las distribuidoras ha sido ineficiente, con escasez recurrente de inventarios, trámites que demoraban más de un año y pérdidas patrimoniales al considerarse el medidor como un gasto absorbido por la empresa pública.
+
+La ley instaura el principio de **No Gratuidad y Universalización Autofinanciada**:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                    ESTRUCTURA ECONÓMICA DEL MEDIDOR INTELIGENTE AUTOFINANCIADO                        |
++--------------------------------------------+-----------------------------+----------------------------+
+| COMPONENTE / CONCEPTO                      | VALOR MONETARIO ESTIMADO    | PROPÓSITO TÉCNICO          |
++--------------------------------------------+-----------------------------+----------------------------+
+| Costo de compra consolidada a escala       | $55.00 a $65.00 USD         | Medidor inteligente AMI    |
+| (Importación masiva CELEC/Distribuidoras)  |                             | bidireccional homologado   |
+| Recargo operativo de garantía (+5%)        | $2.75 a $3.25 USD           | Fondo rotativo permanente  |
++--------------------------------------------+-----------------------------+----------------------------+
+| **DEPÓSITO DE GARANTÍA TOTAL AL USUARIO**  | **$57.75 a $68.25 USD**     | Saldo a favor del abonado  |
++--------------------------------------------+-----------------------------+----------------------------+
+| **Financiamiento social diferido**         | **$1.90 a $2.85 USD / mes** | Diferido a 24 o 36 meses   |
+| (Cuota fija en planilla mensual de luz)    |                             | sin intereses              |
++--------------------------------------------+-----------------------------+----------------------------+
+```
+
+- **Por qué el recargo del 5% resuelve el problema:**
+  1. **Stock Permanente y Cero Burocracia:** El 5% nutre un fondo rotativo que financia bodegaje, calibración del laboratorio técnico, logística y reposición inmediata de medidores por falla. Nunca más faltarán medidores en el país.
+  2. **Incentivo contra el Fraude y Cuidado del Equipo:** Al no ser gratuito, el abonado cuida el equipo. Si el usuario se muda o cancela el suministro, entrega el medidor y recibe de vuelta el 100% de su garantía o la traspasa al nuevo dueño.
+  3. **Universalidad (Inclusión sin Exclusión):** Al diferirse en la planilla a 36 meses (~$1.90/mes), cualquier familia de escasos recursos o tienda barrial puede tener medidor legal desde el primer día, terminando con las tomas clandestinas y los intermediarios ilegales.
+
+---
+
+### 10. RÉGIMEN DE ESTIAJE, SEQUÍAS Y CONTINGENCIA HIDROLÓGICA
+
+#### 10.1. Mecánica del Despacho en Cascada ante Sequía
 Cuando la cota de los embalses hidroeléctricos desciende por debajo de los niveles de seguridad operativa (Mazar a menos de 2.115 msnm, Paute a menos de 1.975 msnm):
 1. La disponibilidad de energía hidroeléctrica barata disminuye.
 2. El sistema despacha obligatoriamente la siguiente energía más económica disponible:
@@ -345,23 +395,23 @@ Cuando la cota de los embalses hidroeléctricos desciende por debajo de los nive
    - Como último recurso: turbinas térmicas a diésel e importaciones internacionales.
 3. Para los bloques preferentes (250 kWh residencial y 500/800 kWh alimentario), se asigna contablemente la energía más barata que quede en el despacho en ese momento. Al agotarse la hidroelectricidad, la tarifa de dichos bloques absorberá únicamente el incremento real de la fuente sustituta más económica disponible.
 
-#### 9.2. El Factor de Contingencia Climática por Estiaje ($FCC$)
+#### 10.2. El Factor de Contingencia Climática por Estiaje ($FCC$)
 El incremento del costo de despacho se refleja en un rubro temporal denominado **Factor de Contingencia Climática ($FCC$)**:
 
 $$FCC_m = \frac{\sum_{i} (C_{\text{fuente }, i} - C_{\text{base}}) \times E_i + C_{\text{importaciones}}}{E_{\text{total facturada}}}$$
 
-#### 9.3. Publicidad Previa Obligatoria y Transparencia
+#### 10.3. Publicidad Previa Obligatoria y Transparencia
 - El Ministerio de Energía y la ARCONEL tienen la obligación legal de anunciar el inicio de la temporada de ajuste con al menos **15 días de anticipación**.
 - Se prohíben aumentos retroactivos o sorpresivos.
 - En la planilla mensual del usuario se imprime un gráfico didáctico y el valor exacto del $FCC$, detallando cuántos centavos por kWh corresponden al estiaje y la fecha proyectada de cese.
 
-#### 9.4. Regla de Mantenimiento Temporal y Cero Déficit
+#### 10.4. Regla de Mantenimiento Temporal y Cero Déficit
 - La tarifa ajustada con el $FCC$ se mantendrá en vigencia **de manera continua hasta que se liquide y cancele el 100% de los pasivos generados durante la sequía** (pagos pendientes de combustibles a Petroecuador, liquidaciones comerciales con Colombia y Perú, contratos de generación de emergencia).
 - Una vez que los embalses recuperen sus niveles normales y la cuenta de costos de contingencia llegue a saldo cero, el $FCC$ se desactiva de forma automática por resolución de ARCONEL, retornando las tarifas a sus valores base.
 
 ---
 
-### 10. FONDO ESPECIAL DE REINVERSIÓN Y RESILIENCIA ELÉCTRICA (FERRE)
+### 11. FONDO ESPECIAL DE REINVERSIÓN Y RESILIENCIA ELÉCTRICA (FERRE)
 
 Uno de los aportes cardinales del proyecto es la gestión del excedente económico ("si sobra algo").
 
@@ -396,12 +446,12 @@ Uno de los aportes cardinales del proyecto es la gestión del excedente económi
  Mayor de Centrales]      y Renovables]            Subestaciones SNT]     Resiliencia Galápagos]
 ```
 
-#### 10.1. Blindaje Jurídico contra la Discrecionalidad Fiscal
+#### 11.1. Blindaje Jurídico contra la Discrecionalidad Fiscal
 - En el pasado, los excedentes de las empresas públicas del sector energético eran absorbidos por el Ministerio de Finanzas para financiar gasto corriente, salarios de la burocracia o subsidios políticos.
 - La ley declara a los excedentes del sector eléctrico como **patrimonio autónomo, intangible e intransferible**.
 - Queda prohibida su reversión a la Cuenta Única del Tesoro Nacional.
 
-#### 10.2. Asignación Estratégica del FERRE:
+#### 11.2. Asignación Estratégica del FERRE:
 1. **Mantenimiento Preventivo y Mayor:** Garantizar que turbinas, rodetes, transformadores y generadores térmicos tengan repuestos y mantenimiento a tiempo, evitando que salgan de servicio durante los estiajes.
 2. **Almacenamiento Energético (BESS):** Financiar la instalación de bancos de baterías de ion-litio a gran escala que acumulen los excedentes de energía solar diurna e hidroeléctrica nocturna para inyectarla en horas pico (18:00 a 22:00).
 3. **Reforzamiento del Sistema Nacional de Transmisión (SNT):** Eliminar cuellos de botella en líneas de 230 kV y 500 kV para evacuar energía renovable desde las zonas de generación hacia los grandes centros de consumo.
@@ -409,9 +459,10 @@ Uno de los aportes cardinales del proyecto es la gestión del excedente económi
 
 ---
 
-### 11. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
+### 12. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
 
-1. **Equidad Social Genuina:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (320 kWh en Costa/Amazonía cálida), y se preserva el precio de los alimentos populares hasta 500 kWh/mes en tiendas y 800 kWh/mes en panaderías artesanales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
+1. **Equidad Social Genuina:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), y se preserva el precio de los alimentos populares hasta 500 kWh/mes en tiendas y 800 kWh/mes en panaderías artesanales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
 2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno al resto de actividades económicas y a los consumos excesivos, el Estado erradica el déficit tarifario crónico sin necesidad de endeudamiento público ni apagones programados.
-3. **Resiliencia Adaptativa ante el Clima:** El sistema adquiere una regla matemática transparente para navegar temporadas de sequía, publicitando con antelación las variaciones y manteniendo las tarifas ajustadas solo el tiempo estrictamente necesario para no generar pérdidas.
-4. **Sostenibilidad y Modernización Continua:** Cualquier ganancia o remanente se convierte automáticamente en nuevas inversiones eléctricas a través del FERRE, asegurando que el Ecuador cuente con una matriz robusta, moderna y soberana.
+3. **Resiliencia Adaptativa y Elasticidad ante el Clima:** El sistema adquiere una regla matemática transparente para navegar temporadas de sequía, publicitando con antelación las variaciones y activando la sustitución tecnológica hacia ventiladores en los hogares y baterías BESS en las empresas.
+4. **Modernización Tecnológica Universal y No Gratuita:** El esquema de medidores inteligentes con depósito de garantía (Costo + 5%) asegura la universalización de la medición formal, erradica tomas clandestinas y permite tarifas horarias sin desfinanciar a las empresas distribuidoras.
+5. **Sostenibilidad y Modernización Continua:** Cualquier ganancia o remanente se convierte automáticamente en nuevas inversiones eléctricas a través del FERRE, asegurando que el Ecuador cuente con una matriz robusta, moderna y soberana.

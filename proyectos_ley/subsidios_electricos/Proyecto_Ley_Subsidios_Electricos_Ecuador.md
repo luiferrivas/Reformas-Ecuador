@@ -160,7 +160,16 @@ En ejercicio de las facultades legislativas consagradas en el artículo 120, num
 > 4. **Mantenimiento Temporal del Ajuste hasta la Recuperación Total:** La tarifa ajustada se mantendrá en aplicación y facturación de manera continua y rigurosa hasta que se liquiden, paguen y amorticen en su totalidad los costos extraordinarios de generación, combustibles e importaciones incurridos durante la contingencia, y se extinga cualquier déficit operativo originado en dicho periodo. La ARCONEL certificará formalmente la superación del desequilibrio económico para autorizar el retorno inmediato a las tarifas base ordinarias.
 > 5. **Prohibición de Generación de Déficit:** Prohíbese la absorción de pérdidas operativas extraordinarias derivadas de periodos de estiaje mediante déficit tarifario no fondeado en las empresas públicas o deudas impagas con generadores e importadores."
 
-**Artículo 7.- Agréguese a continuación del Artículo 57 de la Ley Orgánica del Servicio Público de Energía Eléctrica el siguiente artículo innumerado:**
+**Artículo 7.- Agréguese a continuación del Artículo 56 de la Ley Orgánica del Servicio Público de Energía Eléctrica el siguiente artículo innumerado:**
+
+> "**Art. (...).- Régimen de Tarifas Horarias Dinámicas (Time-of-Use) y Señales de Precio en Horas Pico.-** La ARCONEL estructurará dentro de los pliegos tarifarios esquemas de tarifas dinámicas diferenciadas por bloques horarios (Time-of-Use - TOU), con el propósito de enviar señales económicas transparentes que incentiven el desplazamiento voluntario del consumo fuera de los periodos de máxima exigencia de la red eléctrica:
+> 1. **Horas Valle y Supervalle (23:00 a 06:00 y horas de alta irradiancia solar 10:00 a 14:00):** Se aplicarán las tarifas más bajas del sistema, basadas en excedentes de hidroelectricidad de pasada y generación solar diurna, incentivando la recarga de sistemas de baterías BESS, vehículos eléctricos, bombeo agrícola y procesos electromecánicos diferibles (como el amasado nocturno en panaderías).
+> 2. **Horas Llanas (06:00 a 18:00 y 22:00 a 23:00):** Se aplicará la tarifa base de despacho ordinario.
+> 3. **Horas Pico o de Máxima Demanda (18:00 a 22:00 o momentos críticos de estiaje):** Se aplicará una tarifa horaria superior que refleje el costo marginal del despacho térmico de punta, desincentivando el encendido de cargas prescindibles y motivando la descarga de baterías BESS corporativas para aplanar la curva de carga nacional.
+>
+> Los usuarios de los bloques preferentes residenciales y alimentarios mantendrán su protección base, pero podrán beneficiarse voluntariamente de ahorros adicionales si modulan sus consumos hacia horas valle mediante medidores inteligentes."
+
+**Artículo 8.- Agréguese a continuación del Artículo 57 de la Ley Orgánica del Servicio Público de Energía Eléctrica el siguiente artículo innumerado:**
 
 > "**Art. (...).- Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE).-** En caso de que la recaudación mensual o anual generada por la aplicación de las tarifas a costo real y los factores de ajuste por contingencia supere los costos operativos, administrativos, de compra de energía, combustibles e importaciones, generando un saldo positivo o excedente económico, dichos recursos constituirán un superávit de carácter intangible y de reserva exclusiva del sector eléctrico.
 >
@@ -173,23 +182,32 @@ En ejercicio de las facultades legislativas consagradas en el artículo 120, num
 > d) Reducción de pérdidas técnicas y comerciales en redes de distribución y dotación masiva de medidores inteligentes de lectura bidireccional; y,
 > e) Proyectos de resiliencia climática y descarbonización prioritaria en el Régimen Especial de Galápagos y sistemas aislados."
 
-**Artículo 8.- Sustitúyase el Artículo 58 de la Ley Orgánica del Servicio Público de Energía Eléctrica por el siguiente texto:**
+**Artículo 9.- Sustitúyase el Artículo 58 de la Ley Orgánica del Servicio Público de Energía Eléctrica por el siguiente texto:**
 
 > "**Art. 58.- Garantía Presupuestaria y Liquidación de Compensaciones.-** El Estado ecuatoriano, a través del Ministerio de Economía y Finanzas, garantizará las asignaciones presupuestarias necesarias para respaldar las compensaciones y tarifas preferenciales de los bloques de subsistencia de hasta 250 kWh/mes residencial y de hasta 500 kWh/mes u 800 kWh/mes de soberanía alimentaria popular establecidos en la Ley, únicamente en aquellos casos en que la matriz disponible de menor costo resulte insuficiente para cubrir dichos umbrales sin alterar el equilibrio financiero del sector.
 >
 > La ARCONEL y el CENACE realizarán la liquidación mensual de los costos reales frente a lo facturado. Toda diferencia no cubierta por la estructura de tarifas preferenciales será cancelada de forma automática y líquida por el Ministerio de Economía y Finanzas dentro de los primeros quince (15) días del mes subsiguiente a las empresas eléctricas distribuidoras y generadoras, bajo responsabilidad civil y penal de la máxima autoridad de dicha Cartera de Estado."
 
-**Artículo 9.- Sustitúyase el Artículo 60 de la Ley Orgánica del Servicio Público de Energía Eléctrica por el siguiente texto:**
+**Artículo 10.- Sustitúyase el Artículo 60 de la Ley Orgánica del Servicio Público de Energía Eléctrica por el siguiente texto:**
 
 > "**Art. 60.- Facturación y Transparencia en la Planilla Eléctrica.-** En la factura o planilla emitida por las empresas eléctricas de distribución a los usuarios finales, se detallará con carácter mandatorio y en formato claro y legible:
-> 1. El volumen total de consumo registrado en el periodo (kWh);
+> 1. El volumen total de consumo registrado en el periodo (kWh), desglosado por bloques horarios (valle, llano y pico) cuando el abonado disponga de medidor inteligente;
 > 2. El desglose del bloque preferente de consumo de menor costo (hasta 250 kWh residencial o hasta 500/800 kWh de alimentación básica popular) con indicación de la fuente de energía asignada (hidroeléctrica continental o eólica/solar en Galápagos);
 > 3. El volumen de consumo que supere los límites preferenciales y el costo unitario real aplicado a dicho excedente;
 > 4. El rubro específico del 'Factor de Contingencia Climática por Estiaje', cuando se encuentre activado conforme al artículo 56 de esta Ley, detallando su valor unitario y la fecha estimada de vigencia;
-> 5. Los valores correspondientes a transmisión, distribución, comercialización y alumbrado público; y,
+> 5. Los valores correspondientes a transmisión, distribución, comercialización, alumbrado público y cuota de financiamiento del depósito de garantía del medidor inteligente, de existir; y,
 > 6. El aporte al Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE) originado en los excedentes de facturación, si correspondiere.
 >
 > Las tasas de recolección de basura o contribuciones de cuerpos de bomberos podrán constar en planilla bajo estricto cumplimiento de los convenios autorizados por la Ley, pero deberán imprimirse en sección independiente y separada, sin que su falta de pago impida el pago exclusivo de la energía eléctrica."
+
+**Artículo 11.- Agréguese a continuación del Artículo 60 de la Ley Orgánica del Servicio Público de Energía Eléctrica el siguiente artículo innumerado:**
+
+> "**Art. (...).- Despliegue de Medición Inteligente (AMI) y Régimen de Adquisición Autofinanciada con Depósito de Garantía (Costo + 5%).-** Para viabilizar la aplicación de las tarifas horarias dinámicas, la autogeneración solar con inyección bidireccional, el control de pérdidas y la erradicación definitiva de las conexiones clandestinas, establécese el Plan Nacional de Infraestructura de Medición Avanzada (AMI):
+> 1. **Principio de No Gratuidad y Universalidad:** Los medidores de energía eléctrica no serán provistos con carácter gratuito, garantizando la suficiencia financiera de las empresas distribuidoras, el cuidado patrimonial del equipo por parte del abonado y la universalización del parque de medición formal.
+> 2. **Depósito de Garantía de Adquisición (Costo + 5%):** Todo solicitante de un nuevo suministro o abonado sujeto a recambio tecnológico a medidor inteligente bidireccional aportará a la empresa distribuidora un Depósito de Garantía de Medición equivalente al costo real y eficiente de adquisición e importación del equipo medidor homologado, más un recargo del cinco por ciento (5%).
+> 3. **Destino y Uso del Recargo del Cinco por Ciento (5%):** El recargo del 5% constituirá un fondo rotativo específico administrado por la distribuidora destinado exclusivamente a: calibración técnica periódica, logística y custodia, reposición inmediata por fallas técnicas o daños fortuitos y mantenimiento de una reserva permanente de stock que garantice la entrega expedita de medidores a nivel nacional.
+> 4. **Mecanismo de Financiamiento Social en Planilla:** Para garantizar que el depósito de garantía no constituya una barrera económica de acceso para los hogares de menores recursos ni para las microempresas y tiendas populares, la empresa distribuidora financiará automáticamente dicho valor en un plazo de hasta veinticuatro (24) o treinta y seis (36) meses sin intereses, recaudado en cuotas mensuales fijas directamente a través de la planilla de servicio eléctrico.
+> 5. **Naturaleza Patrimonial y Devolución:** El depósito de garantía constituye un saldo patrimonial a favor del usuario. En caso de desvinculación voluntaria del servicio con entrega del equipo en condiciones operativas normales, o de traspaso del suministro, el valor de la garantía será íntegramente devuelto o transferido al nuevo titular."
 
 ---
 
@@ -215,6 +233,8 @@ c) La estructura del nuevo Pliego Tarifario Codificado que incorpore el piso tar
 **CUARTA.-** La ARCONEL y el Ministerio de Energía y Minas ejecutarán, durante los primeros ciento ochenta (180) días de vigencia de esta Ley, una Campaña Nacional de Comunicación y Pedagogía Energética denominada 'Energía Limpia y Tarifa Transparente', con el objetivo de difundir a toda la ciudadanía las reglas del nuevo régimen tarifario, los umbrales de 250 kWh, 500 kWh y 800 kWh, el mecanismo de ajuste por sequía y el incentivo al consumo responsable y eficiente.
 
 **QUINTA.-** La Corporación Eléctrica del Ecuador (CELEC EP) constituirá el fideicomiso mercantil para la operatividad del Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE) en un plazo no mayor a sesenta (60) días tras la expedición del reglamento general de esta Ley por parte del Presidente de la República.
+
+**SEXTA.-** En el plazo de ciento veinte (120) días a partir de la vigencia de esta Ley, la ARCONEL expedirá el Reglamento Técnico para la Homologación e Implementación de la Infraestructura de Medición Avanzada (AMI) y el Régimen del Depósito de Garantía de Medidores (Costo + 5%), priorizando en una primera fase (meses 1 a 24) a los usuarios industriales, comerciales y residenciales de consumos superiores a 500 kWh/mes, y desplegando en una segunda fase (meses 25 a 48) el recambio masivo en el resto de usuarios residenciales con facilidades automáticas de financiamiento social en planilla de hasta 36 meses.
 
 ---
 
