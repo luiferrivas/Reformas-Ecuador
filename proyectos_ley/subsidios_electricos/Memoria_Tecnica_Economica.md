@@ -126,9 +126,9 @@ Menor Costo                                                                     
 - En contraste, los parques eólicos de San Cristóbal y Baltra, y los proyectos solares fotovoltaicos con baterías en Santa Cruz e Isabela generan energía a un costo normalizado local muy inferior al diésel importado (entre **8 y 14 ¢USD/kWh**).
 - **Regla Territorial:** En Galápagos, la energía más barata asignada al Bloque Residencial de 250 kWh es obligatoriamente la generación eólica y solar local disponible, garantizando que el consumo de los habitantes insulares beneficie directamente a la transición ecológica y se reduzca la huella de carbono de las islas.
 
-#### 3.3. Balance Energético Nacional: ¿Alcanza la energía hidroeléctrica barata para hogares, comida y hospitales públicos? ("¿Nos alcanza acaso la energía?")
+#### 3.3. Balance Energético Nacional: ¿Alcanza la energía hidroeléctrica barata para hogares, comida, hospitales y escuelas públicas? ("¿Nos alcanza acaso la energía?")
 
-Una interrogante técnica fundamental es si la matriz de generación de menor costo (principalmente hidroeléctrica en el continente) tiene la capacidad física y volumétrica para satisfacer íntegramente la demanda de los bloques protegidos: hogares, cadena popular de alimentos y los hospitales de la Red Pública Integral de Salud (RPIS).
+Una interrogante técnica fundamental es si la matriz de generación de menor costo (principalmente hidroeléctrica en el continente) tiene la capacidad física y volumétrica para satisfacer íntegramente la demanda de los bloques protegidos: hogares, cadena popular de alimentos, hospitales de la Red Pública Integral de Salud (RPIS) y planteles educativos fiscales.
 
 Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** contra la **Oferta Hidroeléctrica Disponible**, tanto en condiciones hidrológicas medias como durante el periodo de estiaje más crítico registrado en el Ecuador (fuentes: estadísticas oficiales CENACE y balances anuales ARCONEL):
 
@@ -148,26 +148,41 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 | 3. Red Pública Integral de Salud (RPIS)     |                            |                            |
 |    - Hospitales de especialidades, generales|                            |                            |
 |      y centros de salud 24h (~840 unidades) | **450 GWh/año**            | **37.5 GWh/mes**           |
+| 4. Educación Pública Fiscal                 |                            |                            |
+|    - Escuelas básicas, colegios fiscales y  |                            |                            |
+|      Unidades del Milenio (~12,400 centros) | **240 GWh/año**            | **20.0 GWh/mes**           |
 +---------------------------------------------+----------------------------+----------------------------+
-| **DEMANDA PROTEGIDA TOTAL (A)**             | **8,514 GWh/año**          | **709.5 GWh/mes**          |
+| **DEMANDA PROTEGIDA TOTAL (A)**             | **8,754 GWh/año**          | **729.5 GWh/mes**          |
 +---------------------------------------------+----------------------------+----------------------------+
 | **OFERTA HIDROELÉCTRICA NACIONAL (B):**                                                               |
 | • Año Hidrológico Normal (promedio histórico) | **22,000 a 25,500 GWh/año**| **~1,900 a 2,100 GWh/mes** |
-|   - Cobertura de la Demanda Protegida       | **258% a 300%**            | **SOBRA > 1,190 GWh/mes**  |
+|   - Cobertura de la Demanda Protegida       | **251% a 291%**            | **SOBRA > 1,170 GWh/mes**  |
 | • Año de Sequía Severa / Estiaje Crítico    | **16,000 a 17,500 GWh/año**| **~1,350 a 1,450 GWh/mes** |
 | • **Peor Mes de Estiaje Histórico** (Nov/Dic) | -                          | **1,150 a 1,300 GWh/mes**  |
-|   - Cobertura en el peor mes de crisis      | -                          | **162% a 183%**            |
+|   - Cobertura en el peor mes de crisis      | -                          | **157.6% a 178.2%**        |
 +---------------------------------------------+----------------------------+----------------------------+
-| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+440.5 a +590.5 GWh/mes**|
+| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+420.5 a +570.5 GWh/mes**|
 +---------------------------------------------+----------------------------+----------------------------+
 ```
 
-- **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA!**
-  1. Incluso en el mes más seco de la peor sequía de la historia del país (cuando el complejo Paute-Mazar y Coca Codo operan en niveles mínimos y la generación hidroeléctrica desciende a 1,150 GWh/mes), **la generación hidroeléctrica base supera en más del 70% los 672 GWh/mes necesarios para abastecer a todos los hogares y panaderías del Ecuador**.
-  2. **¿Por qué ocurren los apagones entonces?**
-     El déficit eléctrico no se produce por falta de energía para las casas y panaderías populares. El déficit se genera porque la **Demanda Total del País** (que incluye industrias pesadas, grandes centros comerciales, minería, bombeo petrolero, alumbrado y consumos residenciales altos) oscila entre **2,500 y 2,750 GWh/mes**.
-  3. Al faltar 1,200 a 1,400 GWh/mes para abastecer el consumo no protegido, el país se ve obligado a encender termoeléctricas caras a diésel e importar desde Colombia.
-  4. Al consagrar en la ley que la energía barata va **primero y de forma exclusiva** a hogares (hasta 250/320 kWh) y comida (hasta 500/800 kWh), **la canasta básica queda 100% blindada con hidroelectricidad limpia**. El costo del parque térmico de emergencia y las importaciones se traslada con estricta justicia a los sectores comerciales e industriales de alto consumo, incentivándolos de forma inmediata a autogenerar con energía solar en sus techos.
+- **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA EN ENERGÍA!**
+  1. Incluso en el mes más seco de la peor sequía registrada en el país (con Mazar en cota crítica y Coca Codo en estiaje amazónico con 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 157.6% toda la demanda protegida combinada de familias, panaderías, tiendas, hospitales y escuelas públicas**.
+  2. Queda un excedente mensual mínimo de **+420.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía.
+
+#### 3.4. La Distinción Física y Operativa Crucial: Energía (MWh Acumulados) vs. Potencia Pico (MW Instantáneos a las 19:00 horas)
+
+Uno de los errores más comunes en la política energética ecuatoriana es confundir el volumen de agua/energía mensual con la potencia instantánea de la red:
+* **El problema no es de Energía mensual:** Como demuestra la tabla anterior, el agua que entra a los embalses en el mes entero alcanza para generar 1,150 GWh, superando los 729.5 GWh requeridos por los sectores protegidos.
+* **El problema real es de Potencia Pico (MW):** Entre las 18:00 y las 22:00 horas, la demanda nacional trepa a **4,800 - 5,000 MW**.
+  - Durante el estiaje, al bajar la cota de agua, las hidroeléctricas no pueden operar todas sus turbinas al mismo tiempo sin vaciar el embalse en pocas horas. La potencia hidroeléctrica disponible en punta se reduce a **~2,200 MW**.
+  - El sistema requiere **~2,700 MW de potencia térmica e importaciones** para no colapsar.
+  - Si las plantas térmicas están averiadas por falta de mantenimiento histórico o si Colombia corta las exportaciones, el sistema sufre un **déficit de potencia instantánea**, obligando a desconectar circuitos (apagones).
+* **Por qué las Escuelas y Colegios encajan a la perfección:**  
+  La red escolar consume energía entre las 07:00 y 17:30 horas (horario diurno), cuando la irradiancia solar es máxima y la demanda nacional es moderada. A las 18:00 horas las escuelas apagan sus luces y computadoras, **demandando cero potencia en la hora pico nocturna**.
+* **La Solución Estructural al Pico:** Para solucionar el cuello de botella de potencia sin subsidios, el proyecto introduce tres herramientas sinérgicas:
+  1. Tarifas horarias dinámicas (TOU) que castigan el consumo prescindible de 18:00 a 22:00;
+  2. Baterías BESS industriales cargadas con sol diurno; y,
+  3. El Fondo FERRE financiado con tarifas a costo real y el rubro de resiliencia de hasta $0.01 USD/kWh para instalar baterías BESS a gran escala en subestaciones del Estado.
 
 ---
 
@@ -513,12 +528,37 @@ Uno de los aportes cardinales del proyecto es la gestión del excedente económi
 3. **Reforzamiento del Sistema Nacional de Transmisión (SNT):** Eliminar cuellos de botella en líneas de 230 kV y 500 kV para evacuar energía renovable desde las zonas de generación hacia los grandes centros de consumo.
 4. **Resiliencia en Galápagos:** Incrementar la penetración eólica y solar en el archipiélago para reducir al mínimo el consumo de combustibles fósiles.
 
+#### 11.3. Modelación Cuantitativa del Rubro de Resiliencia de 1 Centavo ($0.01 USD/kWh): Solución de Fondo y Ganancias de Reinversión
+
+Para transformar el sector eléctrico de un sistema crónicamente quebrado a uno solvente con capacidad de inversión continua, la incorporación de un rubro de resiliencia de **un centavo de dólar por kilovatio-hora ($0.01 USD/kWh)** representa una palanca financiera de enorme potencia:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                    RECAUDACIÓN Y CAPACIDAD DE INVERSIÓN DEL RUBRO DE 1 CENTAVO (FERRE)                |
++---------------------------------------------+-----------------------------+---------------------------+
+| ESCENARIO DE APLICACIÓN                     | ENERGÍA FACTURABLE ANUAL    | RECAUDACIÓN NETA ANUAL    |
++---------------------------------------------+-----------------------------+---------------------------+
+| **Escenario A: Tarifa General Universal**   | 28,000 GWh / año            | **$280.00 M USD / año**   |
+| (Aplica a toda la energía facturada)        | (28,000,000,000 kWh)        |                           |
+| **Escenario B: Modulado y Progresivo**      | 19,250 GWh / año            | **$192.50 M USD / año**   |
+| (Exonera los 250 kWh base y aplica a resto) | (19,250,000,000 kWh)        |                           |
++---------------------------------------------+-----------------------------+---------------------------+
+```
+
+* **Poder Adquisitivo del Fondo en el Mundo Real:**
+  1. **Año 1:** Financiamiento e instalación de **250 MW / 1,000 MWh en sistemas de baterías BESS** en subestaciones críticas (Trinitaria, Pascuales, Dos Cerritos, Tisaleo). Esto inyecta 250 MW en la hora pico nocturna (18:00 a 22:00), eliminando de golpe los racionamientos por déficit de potencia.
+  2. **Año 2:** Recuperación y modernización mayor de la central termoeléctrica a gas natural local Termogas Machala (incorporando ciclo combinado) y dragado/desarenado de sedimentos en Coca Codo Sinclair y Paute.
+  3. **Año 3:** Blindaje de redes de distribución, subestaciones y telemetría de CNEL EP, reduciendo pérdidas del 20% al 12% (ahorrando otros $150 M USD/año recurrentes).
+* **Impacto en el usuario:**
+  - Para un usuario que consume 200 kWh (dentro del bloque protegido), el impacto es de \$0.00 en el Escenario B o de apenas **\$2.00 USD al mes** en el Escenario A.
+  - El usuario prefiere pagar \$2.00 USD más al mes antes que sufrir apagones que le queman los electrodomésticos, le pudren la comida en la refrigeradora o lo obligan a gastar \$150 USD en gasolina para un generador ruidoso.
+
 ---
 
 ### 12. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
 
-1. **Equidad Social Genuina:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), y se preserva el precio de los alimentos populares hasta 500 kWh/mes en tiendas y 800 kWh/mes en panaderías artesanales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
-2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno al resto de actividades económicas y a los consumos excesivos, el Estado erradica el déficit tarifario crónico sin necesidad de endeudamiento público ni apagones programados.
+1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
+2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno al resto de actividades económicas y a los consumos excesivos, el Estado erradica el 100% del subsidio eléctrico ciego e ineficiente, recuperando más de \$1,200 millones anuales sin necesidad de endeudamiento público.
 3. **Resiliencia Adaptativa y Elasticidad ante el Clima:** El sistema adquiere una regla matemática transparente para navegar temporadas de sequía, publicitando con antelación las variaciones y activando la sustitución tecnológica hacia ventiladores en los hogares y baterías BESS en las empresas.
-4. **Modernización Tecnológica Universal y No Gratuita:** El esquema de medidores inteligentes con depósito de garantía (Costo + 5%) asegura la universalización de la medición formal, erradica tomas clandestinas y permite tarifas horarias sin desfinanciar a las empresas distribuidoras.
-5. **Sostenibilidad y Modernización Continua:** Cualquier ganancia o remanente se convierte automáticamente en nuevas inversiones eléctricas a través del FERRE, asegurando que el Ecuador cuente con una matriz robusta, moderna y soberana.
+4. **Modernización Tecnológica Universal y No Gratuita:** El esquema de medidores inteligentes con depósito de garantía (Costo + 10%) financiado a 36 meses (~$1.80/mes) asegura la universalización de la medición formal, erradica tomas clandestinas y permite tarifas horarias sin desfinanciar a las empresas distribuidoras.
+5. **Ganancias Mínimas y Solución Estructural Continua:** La inclusión del margen regulado del 10% y el rubro de resiliencia de hasta 1 centavo/kWh ($0.01 USD/kWh) canalizado al FERRE garantiza que el sistema no opere a pérdida y genere entre \$190 y \$280 millones anuales en liquidez para mantenimiento de plantas y baterías BESS, acabando definitivamente con los apagones.

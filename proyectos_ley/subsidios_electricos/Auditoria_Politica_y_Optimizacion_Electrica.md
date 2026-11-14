@@ -173,6 +173,13 @@ Permitir a los usuarios que tengan medidor inteligente (AMI) comprar electricida
   * Se aplica un **2% de descuento en planilla** para usuarios que paguen en los primeros 5 días hábiles o mantengan débito bancario automático.
   * **Por qué es un excelente negocio para la distribuidora:** Cobrar en los primeros 5 días elimina el costo de capital de trabajo, erradica los intereses por mora de préstamos operativos y ahorra millones de dólares en logística de cuadrillas de corte y reconexión. El 2% se autofinancia con la eficiencia de recaudación y asegura liquidez inmediata para pagar generación y combustibles.
 
+#### 6.3. El Rubro de Resiliencia de 1 Centavo ($0.01 USD/kWh): Auditoría Política y Blindaje Comunicacional
+* **Diagnóstico Político:** Cualquier incremento tarifario en Ecuador es susceptible de demagogia y protesta. Sin embargo, la crisis de apagones de 14 horas al día cambió radicalmente la percepción ciudadana: hoy el costo de "no tener luz" (comida podrida, generadores a gasolina a \$150 USD/mes, delincuencia en la oscuridad) es infinitamente superior a un centavo por kilovatio-hora.
+* **El "Cómo Sí" Político:**
+  1. **Narrativa de "Fondo Blindado Cero Apagones":** No se presenta como un impuesto ni como gasto fiscal para el gobierno, sino como una contribución tangible destinada exclusivamente a comprar baterías BESS y repuestos para que no se vuelva a cortar la luz.
+  2. **Modulación Social Progresiva:** Para los 5.4 millones de hogares que consumen dentro del bloque de subsistencia (<250 kWh), el impacto es cero o de apenas \$1.50 a \$2.00 USD/mes. El grueso de la recaudación de los \$280 millones anuales proviene de industrias, centros comerciales y grandes consumidores que consumen el 65% de la energía nacional.
+  3. **Veeduría Ciudadana e Intangibilidad:** Al estar depositado en el fideicomiso FERRE fuera del alcance del Ministerio de Finanzas, se elimina la desconfianza ciudadana de que el dinero "se lo robe la burocracia".
+
 ---
 
 ## III. BLOQUE DE DISTRIBUCIÓN: ERRADICACIÓN DE PÉRDIDAS Y GESTIÓN
@@ -243,9 +250,10 @@ El recargo del **10%** responde a tres realidades operativas ineludibles:
 ## IV. SÍNTESIS DE CONCLUSIONES PARA LA REFORMA LEGISLATIVA
 
 1. **Protocolo Coercitivo de Extinción de Deudas Públicas (4 Vías):** Combinar la retención forzosa de tasas de aseo y bomberos, corte remoto quirúrgico a dependencias burocráticas y débito automático en MEF/BCE, con sanción de destitución inmediata por Contraloría para erradicar las deudas de los GADs y ministerios sin afectar el agua potable.
-2. **Prioridad Vital Ampliada (Hogares, Comida y Hospitales Públicos):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), y a las unidades de la Red Pública Integral de Salud (RPIS), garantizando salud y alimentación con estricto pago puntual sin tolerar subsidios cruzados internos.
+2. **Prioridad Vital Ampliada (Hogares, Comida, Hospitales y Escuelas Fiscales):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, garantizando salud, alimentación y educación con estricto pago puntual sin tolerar subsidios cruzados internos.
 3. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
 4. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
 5. **Priorizar Solares en Daule-Peripa sobre Mazar:** Evitar los problemas de fluctuación extrema de cota andina en una primera etapa.
 6. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
 7. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
+8. **Rubro de Resiliencia de hasta 1 Centavo/kWh ($0.01 USD/kWh):** Genera entre \$190 y \$280 millones anuales en liquidez directa para el FERRE, financiando baterías BESS para aplanar el pico nocturno de 18:00 a 22:00 y terminar con los apagones.

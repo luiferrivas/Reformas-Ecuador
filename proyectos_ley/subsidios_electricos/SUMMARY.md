@@ -21,9 +21,9 @@
 - **Información de Demanda y Medición:** Curvas de carga horaria en intervalos de 15 minutos mediante telemetría AMI $\rightarrow$ *Origen:* `Empresas Distribuidoras (CNEL, EEQ, Centrosur)`.
 
 ### Entregables y Salidas (Hacia el Sistema y Mercado)
-- **Energía Protegida a Canasta Básica y Salud:** 709.5 GWh/mes (8,514 GWh/año) blindados para 5.4 millones de hogares, 120,000 comercios populares y ~840 hospitales y centros de salud 24h de la Red Pública Integral de Salud (RPIS) $\rightarrow$ *Destino:* `Consumo Residencial, Red Alimentaria Popular y Hospitales Públicos`.
+- **Energía Protegida a Canasta Básica, Salud y Educación:** 729.5 GWh/mes (8,754 GWh/año) blindados para 5.4 millones de hogares, 120,000 comercios populares, ~840 hospitales/centros de salud 24h de la RPIS y ~12,400 escuelas y colegios fiscales $\rightarrow$ *Destino:* `Consumo Residencial, Red Alimentaria, Salud Pública y Educación Fiscal`.
 - **Capacidad Liberada en Pico Nocturno:** Alivio de hasta 450 MW de potencia en horas pico mediante sustitución de aire acondicionado por ventilación eficiente y autogeneración diurna $\rightarrow$ *Destino:* `Sistema Nacional Interconectado (SNI)`.
-- **Flujo Excedente y Recapitalización:** Reasignación de recursos recaudados por venta a costo real pleno hacia el fondo intangible FERRE para mantenimiento de activos y baterías $\rightarrow$ *Destino:* `Fondo FERRE / CELEC EP`.
+- **Flujo Excedente y Recapitalización:** Reasignación de recursos recaudados por venta a costo real pleno y rubro de resiliencia hacia el fondo intangible FERRE para mantenimiento de activos y baterías $\rightarrow$ *Destino:* `Fondo FERRE / CELEC EP`.
 
 ---
 
@@ -32,11 +32,13 @@
 1. **Umbral Residencial Familiar Base:** 250 kWh/mes (Ajuste estacional en Costa/Amazonía: hasta 300 kWh/mes en meses cálidos).
 2. **Umbral Soberanía Alimentaria:** 500 kWh/mes (Nivel 1: Tiendas de barrio/micromercados) y 800 kWh/mes (Nivel 2: Panaderías artesanales con obrador y carnicerías).
 3. **Bloque Red Pública Integral de Salud (RPIS):** Asignación prioritaria de generación barata a hospitales y centros asistenciales 24h (~450 GWh/año) con estricto pago obligatorio sin subsidios cruzados internos.
-4. **Piso Tarifario Mínimo Legal Regulado y Margen:** La tarifa preferente resultante no podrá ser inferior al pliego tarifario regulado vigente; ARCONEL debe garantizar un margen operativo de rentabilidad y reinversión $\ge 10\%$.
-5. **Demanda Protegida Nacional Total:** 709.5 GWh/mes (8,514 GWh/año) frente a una oferta hidroeléctrica en el peor mes histórico de estiaje de 1,150 GWh/mes (Cobertura: 162%).
-6. **Depósito de Garantía de Medidores AMI:** 66.00 USD promedio (Costo consolidado de 60.00 USD + 10% de recargo operativo de garantía y cobertura por rayos), diferido a 36 meses sin intereses en planilla (~1.83 USD/mes).
-7. **Incentivo Comercial de Pronto Pago:** Descuento del 2% por pago en los primeros 5 días hábiles o débito automático.
-8. **Régimen Coercitivo contra Deudas Públicas (4 Vías):** Retención obligatoria de tasas de basura/bomberos (>60 días), corte remoto quirúrgico AMI a sedes administrativas (>30 días), débito automático presupuestario en MEF/BCE (>60 días) y destitución por Contraloría.
+4. **Bloque Educación Pública Fiscal:** Asignación prioritaria a ~12,400 escuelas y colegios fiscales (~240 GWh/año = 20 GWh/mes) con consumo 100% diurno sin impacto en la punta nocturna.
+5. **Piso Tarifario Mínimo Legal Regulado y Margen:** La tarifa preferente resultante no podrá ser inferior al pliego tarifario regulado vigente; ARCONEL debe garantizar un margen operativo de rentabilidad y reinversión $\ge 10\%$.
+6. **Demanda Protegida Nacional Total:** 729.5 GWh/mes (8,754 GWh/año) frente a una oferta hidroeléctrica en el peor mes histórico de estiaje de 1,150 GWh/mes (Cobertura: 157.6%).
+7. **Depósito de Garantía de Medidores AMI:** 66.00 USD promedio (Costo consolidado de 60.00 USD + 10% de recargo operativo de garantía y cobertura por rayos), diferido a 36 meses sin intereses en planilla (~1.83 USD/mes).
+8. **Incentivo Comercial de Pronto Pago:** Descuento del 2% por pago en los primeros 5 días hábiles o débito automático.
+9. **Rubro de Resiliencia del FERRE (hasta 0.01 USD/kWh):** Recauda entre 192.50 y 280.00 M USD/año dedicados exclusivamente a baterías BESS y mantenimiento de plantas.
+10. **Régimen Coercitivo contra Deudas Públicas (4 Vías):** Retención obligatoria de tasas de basura/bomberos (>60 días), corte remoto quirúrgico AMI a sedes administrativas (>30 días), débito automático presupuestario en MEF/BCE (>60 días) y destitución por Contraloría.
 
 ---
 
@@ -49,15 +51,16 @@
 | :--- | :--- | :--- | :--- |
 | **Fase 1: Transición Regulatoria y TOU** | Promulgación legal, pliegos ARCONEL, adecuación de sistemas de facturación TOU | 3 meses | 2.50 M USD |
 | **Fase 2: Despliegue Masivo Medidores AMI** | Licitación consolidada e instalación de 1.2 millones de medidores inteligentes (Autofinanciado vía depósito de garantía Costo + 10%) | 24 meses | 79.20 M USD |
-| **Fase 3: BESS y Resiliencia de Red** | Instalación de 150 MW / 600 MWh en baterías BESS en subestaciones del SNT financiadas con superávit FERRE | 18 meses | 120.00 M USD |
-| **TOTAL CAPEX DEL PROGRAMA** | Modernización integral del régimen de despacho, medición y cobro coercitivo | 36 meses | 201.70 M USD |
+| **Fase 3: BESS y Resiliencia de Red** | Instalación de 250 MW / 1,000 MWh en baterías BESS financiadas con superávit FERRE y rubro de resiliencia | 18 meses | 180.00 M USD |
+| **TOTAL CAPEX DEL PROGRAMA** | Modernización integral del régimen de despacho, medición, almacenamiento y cobro coercitivo | 36 meses | 261.70 M USD |
 
 ### Estructura de OPEX
 - **Costo Operativo y Comercial Anual del Sistema AMI:** 4.20 M USD/año (Telemetría celular/RF, mantenimiento de servidores MDM y cuadrillas técnicas de calibración).
 - **Cuello de Botella Operativo:** Disponibilidad de semiconductores para tarjetas de comunicación de medidores bidireccionales y pruebas de ciberseguridad en protocolos DLMS/COSEM.
 
 ### Modelo de Ingresos y Rentabilidad Autosuficiente (Sin Subsidios)
-- **Eliminación del Déficit Tarifario:** Recuperación de más de 450.00 M USD/año al cobrar tarifa a costo real pleno (promedio 0.180 USD/kWh) a industrias pesadas, grandes centros comerciales y consumo residencial suntuario.
+- **Eliminación del Déficit Tarifario:** Recuperación de más de 1,200.00 M USD/año al cobrar tarifa a costo real pleno (promedio 0.180 USD/kWh) a industrias pesadas, grandes centros comerciales y consumo residencial suntuario.
+- **Recaudación FERRE por Resiliencia:** 192.50 a 280.00 M USD/año para inversión continua en BESS y mantenimiento mayor.
 - **Autofinanciamiento de Medidores:** El recargo del 10% genera un fondo rotativo de 7.20 M USD para reposición permanente de inventarios, costo de capital a 36 meses y seguro de siniestralidad por descargas atmosféricas sin aportes del Presupuesto General del Estado.
 
 ### Doble Métrica Obligatoria de Payback
