@@ -845,10 +845,73 @@ A fin de erradicar de forma definitiva los problemas de racionamiento, déficit 
 
 ---
 
-### 13. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
+### 13. MODELO DE SIMULACIÓN TARIFARIA Y ESTUDIOS DE CASO REALES (ANTES VS. DESPUÉS)
 
-1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a los adultos mayores (50% de descuento vital hasta 50 kWh/mes), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
-2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno al resto de actividades económicas, a los consumos excesivos y erradicar los subsidios al combustible térmico en Petroecuador, el Estado recupera entre **$2,350 y $3,250 millones de USD anuales** (2.5% a 3.2% del PIB), saneando de raíz el déficit fiscal nacional.
+A fin de comprobar el comportamiento microeconómico y el impacto financiero real en las planillas de los distintos usuarios de la economía ecuatoriana, se modelan ocho casos representativos comparando el régimen subsidiado histórico frente al régimen de la presente Ley:
+
+```
++-------------------------------------------------------------------------------------------------------------+
+|               MATRIZ DE SIMULACIÓN TARIFARIA: IMPACTO EN PLANILLA ANTES VS. DESPUÉS                         |
++----------------------------------------+----------------+--------------+---------------+------------+-------+
+| CASO / CATEGORÍA DE USUARIO            | CONSUMO MENSUAL| ANTES (USD)  | DESPUÉS (USD) | VARIACIÓN  | IMPACTO
++----------------------------------------+----------------+--------------+---------------+------------+-------+
+| 1. Hogar Vulnerable / Clase Media      | 180 kWh/mes    | 17.10 USD    | 17.10 USD     | +0.0%      | BLINDADO
+|    (Con pronto pago 2% / débito)       | 180 kWh/mes    | 17.10 USD    | 16.76 USD     | -2.0%      | AHORRO
+| 2. Hogar Confort / Auto Eléctrico (VE) | 420 kWh/mes    | 44.10 USD    | 55.20 USD     | +25.2%     | REAL  
+|    (Modulando recarga a Horas Valle)   | 420 kWh/mes    | 44.10 USD    | 34.80 USD     | -21.1%     | EFICIENTE
+| 3. Panadería Artesanal de Barrio       | 750 kWh/mes    | 75.00 USD    | 73.50 USD     | -2.0%      | PROTEGIDO
+| 4. Molino de Harina (Consumo Interno)  | 1,500,000 kWh  | 117,000 USD  | 144,000 USD   | +23.1%     | SECTORIAL
+|    (70% harina local / 30% exportación)| (1.5 GWh/mes)  | (Plana subv.)| (Desagregada) | (Solo exp.)| EXTERNO
+| 5. Agroexportadora Camaronera (100%)   | 350,000 kWh    | 28,700 USD   | 39,200 USD    | +36.6%     | COSTO 
+|    (120 hectáreas electrificadas MT)   | (350 MWh/mes)  | (Subvencion.)| (Costo real MT| (Ahorra vs.| REAL  
+|                                        |                |              | diésel $23.8k)| diésel)    | DIVISAS
+| 6. Gran Minería Metálica (Mirador)     | 45,000,000 kWh | 3,150,000 USD| 6,750,000 USD | +114.3%    | RENTA 
+|    (62 MW continuos en 230 kV)         | (45 GWh/mes)   | (7.0 ¢/kWh)  | (15.0 ¢ en AT)| (+$43.2M/a)| EXTRACT.
+| 7. Adulto Mayor Vulnerable (1 medidor) | 48 kWh/mes     | 2.28 USD     | 2.28 USD      | +0.0%      | VITAL 
+| 8. Mansión con Fraude 3ra Edad         | 450 kWh/mes    | 21.38 USD    | 58.38 USD     | +173.1%    | FIN AL
+|    (Sauna, piscina, aire acondicionado)| (450 kWh/mes)  | (Fraude LOPAM| (Fin de trampa| (+$37/mes) | FRAUDE
++----------------------------------------+----------------+--------------+---------------+------------+-------+
+```
+
+#### Análisis Detallado de los Estudios de Caso:
+
+1. **Caso 1: Hogar Familiar Típico (180 kWh/mes):**
+   - *Comportamiento:* Permanece holgadamente bajo el techo de 250 kWh/mes. Se liquida a la tarifa base regulada (~0.095 USD/kWh). Si paga en los primeros 5 días hábiles o registra débito bancario, accede al descuento del 2%, pagando 16.76 USD/mes.
+
+2. **Caso 2: Hogar con Movilidad Eléctrica o Confort Intensivo (420 kWh/mes):**
+   - *Física del Consumo:* 180 kWh base del hogar + 240 kWh por 4 recargas completas de un vehículo eléctrico con batería de 60 kWh.
+   - *Liquidación sin Modulación:* Los primeros 250 kWh pagan 0.095 USD/kWh (23.75 USD) y los 170 kWh excedentes pagan tarifa real plena a 0.185 USD/kWh (31.45 USD), totalizando 55.20 USD/mes. El usuario asume el costo real de su movilidad.
+   - *Efecto Eficiente con TOU:* Si programa el cargador para operar de madrugada en Horas Valle (23:00 a 06:00 a 0.065 USD/kWh), el excedente vehicular cuesta solo 11.05 USD, logrando una planilla final de **34.80 USD/mes**, ahorrando 9.30 USD frente a la tarifa histórica mientras ayuda a estabilizar la red nacional.
+
+3. **Caso 3: Panadería Artesanal Popular (750 kWh/mes):**
+   - *Comportamiento:* Amparada bajo el Bloque de Soberanía Alimentaria Nivel 2 (hasta 800 kWh/mes) para cubrir amasadoras industriales de 4 HP y cuartos de fermentación. Su factura no se incrementa (73.50 USD/mes), blindando el pan popular de 15 centavos.
+
+4. **Caso 4: Gran Molino de Trigo y Harina Nacional (1.5 GWh/mes con Cruce SRI-SENAE):**
+   - *Mecanismo:* La empresa destina el 70% a abastecer panaderías locales y exporta el 30% a mercados andinos.
+   - *Desagregación:* 1,050,000 kWh se liquidan a tarifa base hidroeléctrica eficiente en media tensión (0.075 USD/kWh = 78,750 USD). La cuota exportada de 450,000 kWh (verificada con DAE del SENAE) se liquida a tarifa plena a costo real con TOU (0.145 USD/kWh = 65,250 USD).
+   - *Resultado:* Factura total de 144,000 USD/mes (+23.1%). El incremento recae exclusivamente en la fracción exportada en dólares; el quintal de harina para el mercado interno mantiene su estructura de costo intacta.
+
+5. **Caso 5: Gran Agroexportadora Camaronera (350 MWh/mes - 100% Exportación):**
+   - *Comportamiento:* Finca de 120 ha con aireadores y bombeo trifásico continuo. Factura al 100% en costo real pleno de media tensión (0.112 USD/kWh = 39,200 USD/mes).
+   - *Ventaja Competitiva:* Aunque la tarifa eléctrica sube frente a los 8.2 ¢USD/kWh subsidiados anteriores, el productor sigue ahorrando **$23,800 USD/mes** frente a operar con motores diésel a precio internacional, mientras el Estado erradica el contrabando de combustible.
+
+6. **Caso 6: Megaminería Metálica a Cielo Abierto (Mirador - 45 GWh/mes):**
+   - *Comportamiento:* Demanda 62 MW continuos en 230 kV. Al facturarse al costo real pleno de alta tensión con recargo de estiaje (promedio 0.150 USD/kWh), su factura mensual pasa de 3.15 a 6.75 M USD/mes.
+   - *Impacto Fiscal:* El Fisco recupera más de **$43.2 M USD anuales** de una sola operación minera transnacional, incentivándola a construir sus propios parques solares y sistemas de baterías BESS en sitio.
+
+7. **Caso 7: Adulto Mayor Vulnerable (48 kWh/mes):**
+   - *Comportamiento:* Mantiene su 50% de descuento vital íntegro en su único medidor residencial registrado ante el Registro Civil, pagando 2.28 USD/mes.
+
+8. **Caso 8: Mansión Suntuaria con Fraude de 3era Edad (450 kWh/mes):**
+   - *Comportamiento:* Residencia de alto estrato con sauna, piscina y climatización.
+   - *Liquidación:* 0-50 kWh a descuento vital (2.38 USD); 51-250 kWh a tarifa ordinaria (19.00 USD); 251-450 kWh a costo real pleno (37.00 USD). Factura final: 58.38 USD/mes (+173.1% de incremento), eliminando el abuso histórico de la Ley del Anciano.
+
+---
+
+### 14. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
+
+1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a la agroindustria de alimentos internos (~85 GWh/mes a 7.5 ¢/kWh), a los adultos mayores (50% de descuento vital hasta 50 kWh/mes en 1 solo medidor nacional), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
+2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno a la gran industria, agroexportación, minería y consumos suntuarios, erradicar los subsidios al combustible térmico en Petroecuador y activar los mecanismos anti-fraude, el Estado recupera entre **$2,605 y $3,575 millones de USD anuales** (2.7% a 3.4% del PIB), saneando de raíz el déficit fiscal nacional sin recurrir a endeudamiento externo.
 3. **Erradicación de Subsidios Cruzados y Justicia Productiva:** Se prohíben las sobretasas artificiales a la industria; cada segmento responde a su costo real de servicio (*Cost-of-Service*), demostrándose que los bloques protegidos se autofinancian con la hidroelectricidad amortizada del Estado sin gravar al sector productivo.
 4. **Descarbonización Insular Acelerada en Galápagos:** Bajo el amparo de los Arts. 258 y 396 de la CRE y la LOREG, cobrar el costo real de 35 a 42 ¢USD/kWh al turismo y consumo suntuario desploma el Payback de techos solares con baterías BESS a menos de 2 años, logrando la transición limpia financiada íntegramente por el capital privado sin gasto público.
 5. **Modernización Tecnológica Universal y No Gratuita:** El esquema de medidores inteligentes con depósito de garantía (Costo + 10%) financiado a 36 meses (~$1.80/mes) asegura la universalización de la medición formal, erradica tomas clandestinas y permite tarifas horarias sin desfinanciar a las empresas distribuidoras.

@@ -71,7 +71,8 @@
 - **Ahorro Fiscal en Combustibles Térmicos (Petroecuador):** 700.00 a 1,150.00 M USD/año liberados al cobrar diésel y búnker al 100% de paridad internacional WTI a las termoeléctricas.
 - **Ahorro en Importaciones Eléctricas de Emergencia:** 150.00 a 350.00 M USD/año transferidos al Factor de Contingencia ($FCC$).
 - **Recuperación por Mecanismos Quirúrgicos de Fiscalización (Playa, Macro-Hurto, Urbanizaciones):** 210.00 a 280.00 M USD/año (la minería y la movilidad eléctrica están integradas en la facturación industrial y residencial excedente a costo real).
-- **Liberación Total de Recursos para el Estado:** **2,560.00 a 3,530.00 M USD/año** (2.7% a 3.4% del PIB nacional), extinguiendo el déficit fiscal del sector eléctrico.
+- **Ahorro por Racionalización de Subsidio a 3era Edad (Capping 50 kWh en 1 medidor):** 45.00 M USD/año.
+- **Liberación Total de Recursos para el Estado:** **2,605.00 a 3,575.00 M USD/año** (2.7% a 3.4% del PIB nacional), extinguiendo el déficit fiscal del sector eléctrico.
 - **Recaudación FERRE por Resiliencia:** 192.50 a 280.00 M USD/año para inversión continua en BESS y mantenimiento mayor.
 - **Autofinanciamiento de Medidores:** El recargo del 10% genera un fondo rotativo de 7.20 M USD para reposición permanente de inventarios, costo de capital a 36 meses y seguro de siniestralidad por descargas atmosféricas sin aportes del Presupuesto General del Estado.
 
