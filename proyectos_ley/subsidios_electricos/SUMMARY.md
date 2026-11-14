@@ -1,0 +1,92 @@
+# SUMMARY — Reforma al Régimen Tarifario y Subsidios Eléctricos
+> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Kronos**  
+> *Fuente primaria obligatoria de consulta para agentes y modelos en el subproyecto de Subsidios Eléctricos. Sujeta a la Regla de Cero Deriva.*
+
+---
+
+## 1. Misión y Estado Operativo Actual
+
+- **Identificador del Subproyecto:** `reforma_subsidios_electricos`
+- **Objetivo Concreto:** Reestructuración integral del régimen tarifario de la LOSPEE para priorizar hidroelectricidad amortizada de bajo costo a hogares (250 kWh/mes) y soberanía alimentaria (500/800 kWh/mes), eliminando transferencias ciegas a grandes consumidores e instaurando paridad de red para autogeneración solar con almacenamiento BESS sin dependencia de subsidios estatales.
+- **Fase de Desarrollo:** `Auditado Red Team`
+- **Última Actualización:** 2026-11-13
+
+---
+
+## 2. Contrato de Interfaces (Simbiosis Industrial)
+
+### Insumos Requeridos (Entradas al Sistema)
+- **Generación Base Continental:** Despacho prioritario de centrales hidroeléctricas públicas amortizadas (Paute, Mazar, Sopladora, Coca Codo) con costo marginal de 0.015 a 0.035 USD/kWh $\rightarrow$ *Origen:* `CELEC EP / Cuencas Hidrográficas`.
+- **Generación Insular Galápagos:** Despacho preferente de energía eólica y solar insular con respaldo BESS con costo de 0.080 a 0.140 USD/kWh $\rightarrow$ *Origen:* `Parques Eólicos Baltra y San Cristóbal / Sistemas Solares Santa Cruz`.
+- **Información de Demanda y Medición:** Curvas de carga horaria en intervalos de 15 minutos mediante telemetría AMI $\rightarrow$ *Origen:* `Empresas Distribuidoras (CNEL, EEQ, Centrosur)`.
+
+### Entregables y Salidas (Hacia el Sistema y Mercado)
+- **Energía Protegida a Canasta Básica:** 672 GWh/mes blindados para 5.4 millones de hogares y 120,000 comercios populares $\rightarrow$ *Destino:* `Consumo Residencial y Red Alimentaria Popular`.
+- **Capacidad Liberada en Pico Nocturno:** Alivio de hasta 450 MW de potencia en horas pico mediante sustitución de aire acondicionado por ventilación eficiente y autogeneración diurna $\rightarrow$ *Destino:* `Sistema Nacional Interconectado (SNI)`.
+- **Flujo Excedente y Recapitalización:** Reasignación de recursos recaudados por venta a costo real pleno hacia el fondo intangible FERRE para mantenimiento de activos y baterías $\rightarrow$ *Destino:* `Fondo FERRE / CELEC EP`.
+
+---
+
+## 3. Parámetros Técnicos Críticos Congelados
+
+1. **Umbral Residencial Familiar Base:** 250 kWh/mes (Ajuste estacional en Costa/Amazonía: hasta 300–320 kWh/mes en meses cálidos).
+2. **Umbral Soberanía Alimentaria:** 500 kWh/mes (Nivel 1: Tiendas de barrio/micromercados) y 800 kWh/mes (Nivel 2: Panaderías artesanales con obrador y carnicerías).
+3. **Piso Tarifario Mínimo Legal Regulado:** La tarifa preferente resultante no podrá ser inferior a 0.092 USD/kWh (promedio regulado actual).
+4. **Demanda Protegida Nacional Total:** 672 GWh/mes (8,064 GWh/año) frente a una oferta hidroeléctrica en el peor mes histórico de estiaje de 1,150 GWh/mes (Cobertura: 171%).
+5. **Depósito de Garantía de Medidores AMI:** 63.00 USD promedio (Costo consolidado de 60.00 USD + 5% de recargo operativo rotativo), diferido a 36 meses sin intereses en planilla (1.75 USD/mes).
+
+---
+
+## 4. Modelo Financiero, Fases y Rentabilidad
+
+### Fases de Ejecución y CAPEX
+*(Valores en USD)*
+
+| Fase de Implementación | Alcance Técnico / Hito Regulatorio | Plazo | CAPEX Estimado (USD) |
+| :--- | :--- | :--- | :--- |
+| **Fase 1: Transición Regulatoria y TOU** | Promulgación legal, pliegos ARCONEL, adecuación de sistemas de facturación TOU | 3 meses | 2.50 M USD |
+| **Fase 2: Despliegue Masivo Medidores AMI** | Licitación consolidada e instalación de 1.2 millones de medidores inteligentes (Autofinanciado vía depósito de garantía) | 24 meses | 75.60 M USD |
+| **Fase 3: BESS y Resiliencia de Red** | Instalación de 150 MW / 600 MWh en baterías BESS en subestaciones del SNT financiadas con superávit FERRE | 18 meses | 120.00 M USD |
+| **TOTAL CAPEX DEL PROGRAMA** | Modernización integral del régimen de despacho y medición | 36 meses | 198.10 M USD |
+
+### Estructura de OPEX
+- **Costo Operativo y Comercial Anual del Sistema AMI:** 4.20 M USD/año (Telemetría celular/RF, mantenimiento de servidores MDM y cuadrillas técnicas de calibración).
+- **Cuello de Botella Operativo:** Disponibilidad de semiconductores para tarjetas de comunicación de medidores bidireccionales y pruebas de ciberseguridad en protocolos DLMS/COSEM.
+
+### Modelo de Ingresos y Rentabilidad Autosuficiente (Sin Subsidios)
+- **Eliminación del Déficit Tarifario:** Recuperación de más de 450.00 M USD/año al cobrar tarifa a costo real pleno (promedio 0.180 USD/kWh) a industrias pesadas, grandes centros comerciales y consumo residencial suntuario.
+- **Autofinanciamiento de Medidores:** El recargo del 5% genera un fondo rotativo de 3.78 M USD para reposición permanente de inventarios sin aportes del Presupuesto General del Estado.
+
+### Doble Métrica Obligatoria de Payback
+
+$$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Después de Impuestos}}$$
+
+1. **Payback Crudo / Real de Resistencia (*Unshielded Payback*) para Autogeneración Solar + BESS Industrial:**
+   - **Tasa Fiscal Aplicada:** 15% utilidades laborales + 25% Impuesto a la Renta corporativo (Tasa efectiva agregada: 36.25% en Ecuador), sin exoneraciones ni contratos de inversión.
+   - **Resultado:** **4.8 años** *(Modelo rentable y solvente por sí mismo en el mercado abierto frente a la tarifa de red de 0.180 USD/kWh)*.
+
+2. **Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*):**
+   - **Mecanismos Aplicados:** Contrato de Inversión con estabilidad jurídica, deducción adicional del 100% en conciliación tributaria para maquinaria de energía limpia (Art. 10 LORTI), arancel 0% e ISD 0% para paneles y baterías BESS.
+   - **Resultado:** **3.2 años** *(Herramienta de aceleración de inversión privada sin costo fiscal recurrente)*.
+
+---
+
+## 5. Bitácora de Decisiones y Descartes Clave
+
+| Alternativa Evaluada | Decisión | Pros Identificados | Contras y Trade-offs | Justificación Técnica Exacta del Descarte |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tarifa Plana Universal Subvencionada (Esquema Histórico)** | **Descartada** | Simplicidad de facturación | Déficit crónico de más de 500 M USD/año; subsidio regresivo a sectores pudientes; apagones por falta de mantenimiento | Viola el Mandamiento 7 (Cero Subsidios). Generó desfinanciamiento severo en CELEC EP y Distribuidoras. |
+| **Corte Punitivo de Todo el Subsidio al Exceder 250 kWh** | **Descartada** | Fuerte castigo al consumo elevado | Provoca histeria social y fraude en medidores al pasar de 250 a 251 kWh; castiga desproporcionadamente a familias numerosas | Descartada por inestabilidad social y vulnerabilidad regulatoria. Se adoptó el cobro marginal por tramos. |
+| **Umbral Uniforme de 500 kWh para Toda la Economía Popular** | **Descartada** | Una sola categoría comercial | Dejaba a las panaderías artesanales descubiertas (consumen 930–1,100 kWh), forzando alzas en el pan popular | La cinética de hornos y amasadoras industriales de 4 HP requería 800 kWh/mes para blindar la soberanía alimentaria. |
+| **Medidores Inteligentes Entregados Gratuitamente por el Estado** | **Descartada** | Aceptación inmediata sin fricción | Destrucción patrimonial de las distribuidoras; roturas de stock recurrentes de hasta 18 meses | Viola el Mandamiento 7. Se sustituyó por el modelo de Depósito de Garantía (Costo + 5%) autofinanciado y reembolsable. |
+| **Doble Nivel Protegido: 250 kWh Familiar y 500/800 kWh Alimentario con Piso Tarifario** | **Aprobada** | Protege al 78% de hogares; no quiebra a distribuidoras; detona paridad de red solar | Requiere medición inteligente y control estricto de pérdidas | Aprobada por balance técnico, estabilidad financiera y justicia distributiva. |
+
+---
+
+## 6. Índice de Documentación Profunda
+
+- **Memoria Técnica, Económica y Tarifaria:** [Memoria_Tecnica_Economica.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md)
+- **Proyecto de Ley en Formato Oficial:** [Proyecto_Ley_Subsidios_Electricos_Ecuador.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md)
+- **Configuración de Parámetros YAML:** [subsidios_electricos.yaml](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/reformas/subsidios_electricos.yaml)
+- **Esquema de Validación JSON:** [reforma_electrica.schema.json](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/schemas/reforma_electrica.schema.json)
+- **Directorio de Versiones Superadas / Archivadas:** [historico/](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/historico/)

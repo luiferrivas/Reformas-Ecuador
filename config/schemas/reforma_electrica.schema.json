@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConfiguracionReformaElectricaEcuador",
+  "description": "Esquema de validación para parámetros cuantitativos, regulatorios y tarifarios de la reforma eléctrica en Ecuador.",
+  "type": "object",
+  "required": [
+    "reforma_id",
+    "denominacion",
+    "version",
+    "umbrales_consumo",
+    "orden_de_merito",
+    "balance_energetico_nacional",
+    "modelo_tarifario",
+    "tarifas_horarias_tou",
+    "transicion_industrial",
+    "medicion_inteligente_ami",
+    "autogeneracion_solar",
+    "fondo_reinversion_ferre"
+  ],
+  "properties": {
+    "reforma_id": {
+      "type": "string"
+    },
+    "denominacion": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "umbrales_consumo": {
+      "type": "object",
+      "required": ["residencial", "soberania_alimentaria", "sectores_no_protegidos"],
+      "properties": {
+        "residencial": {
+          "type": "object",
+          "required": ["sierra", "costa_amazonia", "regla_cobro_excedente"],
+          "properties": {
+            "sierra": {
+              "type": "object",
+              "required": ["limite_preferente_kwh_mes"],
+              "properties": {
+                "limite_preferente_kwh_mes": { "type": "number", "minimum": 50, "maximum": 500 }
+              }
+            },
+            "costa_amazonia": {
+              "type": "object",
+              "required": ["limite_preferente_base_kwh_mes", "limite_preferente_temporada_calida_kwh_mes"],
+              "properties": {
+                "limite_preferente_base_kwh_mes": { "type": "number", "minimum": 50, "maximum": 500 },
+                "limite_preferente_temporada_calida_kwh_mes": { "type": "number", "minimum": 50, "maximum": 600 },
+                "limite_maximo_excepcion_bioclimatica_kwh_mes": { "type": "number", "minimum": 50, "maximum": 700 }
+              }
+            },
+            "regla_cobro_excedente": { "type": "string" }
+          }
+        },
+        "soberania_alimentaria": {
+          "type": "object",
+          "required": ["nivel_1_comercio_minorista", "nivel_2_procesamiento_artesanal"],
+          "properties": {
+            "nivel_1_comercio_minorista": {
+              "type": "object",
+              "required": ["limite_preferente_kwh_mes"],
+              "properties": {
+                "limite_preferente_kwh_mes": { "type": "number", "minimum": 100, "maximum": 1000 }
+              }
+            },
+            "nivel_2_procesamiento_artesanal": {
+              "type": "object",
+              "required": ["limite_preferente_kwh_mes"],
+              "properties": {
+                "limite_preferente_kwh_mes": { "type": "number", "minimum": 200, "maximum": 2000 }
+              }
+            }
+          }
+        },
+        "sectores_no_protegidos": {
+          "type": "object",
+          "required": ["subsidio_estatal_pct", "tratamiento_tarifario"],
+          "properties": {
+            "subsidio_estatal_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "tratamiento_tarifario": { "type": "string" }
+          }
+        }
+      }
+    },
+    "orden_de_merito": {
+      "type": "object",
+      "required": ["continente", "galapagos_insular"],
+      "properties": {
+        "continente": { "type": "object" },
+        "galapagos_insular": { "type": "object" }
+      }
+    },
+    "balance_energetico_nacional": {
+      "type": "object",
+      "required": ["demanda_protegida", "oferta_hidroelectrica_nacional"],
+      "properties": {
+        "demanda_protegida": { "type": "object" },
+        "oferta_hidroelectrica_nacional": { "type": "object" }
+      }
+    },
+    "modelo_tarifario": {
+      "type": "object",
+      "required": ["piso_tarifario_minimo_legal", "tarifa_costo_real_pleno", "factor_contingencia_climatica_fcc"],
+      "properties": {
+        "piso_tarifario_minimo_legal": {
+          "type": "object",
+          "required": ["activo", "formula", "tarifa_residencial_piso_usd_kwh"],
+          "properties": {
+            "activo": { "type": "boolean" },
+            "tarifa_residencial_piso_usd_kwh": { "type": "number", "minimum": 0 }
+          }
+        },
+        "tarifa_costo_real_pleno": {
+          "type": "object",
+          "required": ["promedio_referencial_usd_kwh", "componentes_reconocidos"],
+          "properties": {
+            "promedio_referencial_usd_kwh": { "type": "number", "minimum": 0 }
+          }
+        },
+        "factor_contingencia_climatica_fcc": {
+          "type": "object",
+          "required": ["bonificacion_ahorro"],
+          "properties": {
+            "bonificacion_ahorro": {
+              "type": "object",
+              "required": ["umbral_reduccion_consumo_pct", "exoneracion_fcc_pct"]
+            }
+          }
+        }
+      }
+    },
+    "tarifas_horarias_tou": {
+      "type": "object",
+      "required": ["activas", "bloques"],
+      "properties": {
+        "activas": { "type": "boolean" },
+        "bloques": { "type": "object" }
+      }
+    },
+    "transicion_industrial": {
+      "type": "object",
+      "required": ["duracion_meses", "esquema_escalonado", "mecanismo_financiamiento_verde"],
+      "properties": {
+        "duracion_meses": { "type": "integer", "minimum": 1 },
+        "esquema_escalonado": { "type": "object" }
+      }
+    },
+    "medicion_inteligente_ami": {
+      "type": "object",
+      "required": ["modelo_costo_garantia", "amortizacion_usuario"],
+      "properties": {
+        "modelo_costo_garantia": {
+          "type": "object",
+          "required": ["costo_adquisicion_escala_usd", "recargo_operativo_garantia_pct", "deposito_garantia_total_usd"]
+        },
+        "amortizacion_usuario": {
+          "type": "object",
+          "required": ["plazo_cuotas_meses", "cuota_mensual_planilla_usd"]
+        }
+      }
+    },
+    "autogeneracion_solar": {
+      "type": "object",
+      "required": ["fast_track_conexion_dias_habiles", "esquema_net_metering"],
+      "properties": {
+        "fast_track_conexion_dias_habiles": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "fondo_reinversion_ferre": {
+      "type": "object",
+      "required": ["nombre_completo", "siglas", "naturaleza_juridica", "blindaje_fiscal", "fuentes_recaudacion", "destinos_obligatorios"]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+# ==============================================================================
+# CONFIGURACIÓN GENERAL DEL PROYECTO: REFORMAS ECUADOR
+# ==============================================================================
+
+proyecto:
+  nombre: "Reformas Ecuador"
+  pais: "República del Ecuador"
+  codigo_pais: "EC"
+  moneda: "USD"
+  simbolo_moneda: "$"
+  idioma_oficial: "es-EC"
+  zona_horaria: "America/Guayaquil"
+
+marco_normativo_nacional:
+  constitucion: "Constitución de la República del Ecuador (2008)"
+  articulos_clave:
+    - articulo: 133
+      materia: "Leyes Orgánicas y procedimiento legislativo"
+    - articulo: 285
+      materia: "Objetivos de la política fiscal y sostenibilidad de las finanzas públicas"
+    - articulo: 286
+      materia: "Financiamiento del gasto público y prohibición de déficit corriente estructural"
+    - articulo: 313
+      materia: "Sectores estratégicos y energía eléctrica"
+    - articulo: 314
+      materia: "Garantía de servicios públicos de calidad, continuidad y precios equitativos"
+    - articulo: 315
+      materia: "Empresas públicas y reinversión de excedentes"
+  ley_legislativa: "Ley Orgánica de la Función Legislativa (LOFL)"
+
+entidades_e_instituciones:
+  legislativo:
+    organismo: "Asamblea Nacional del Ecuador"
+    organos_relevantes:
+      - "Consejo de Administración Legislativa (CAL)"
+      - "Comisión Especializada Permanente de Desarrollo Económico, Productivo y la Microempresa"
+  rectoria_y_regulacion_energetica:
+    ministerio_rector: "Ministerio de Energía y Minas"
+    ente_regulador: "Agencia de Regulación y Control de la Energía y los Recursos Naturales No Renovables (ARCONEL)"
+    operador_tecnico_red: "Operador Nacional de Electricidad (CENACE)"
+  operadores_publicos:
+    generacion_y_transmision: "Corporación Eléctrica del Ecuador (CELEC EP)"
+    distribucion_y_comercializacion:
+      - "Empresa Eléctrica Pública de Guayaquil (CNEL EP)"
+      - "Empresa Eléctrica Quito (EEQ)"
+      - "Empresa Eléctrica Regional Centro Sur (Centrosur)"
+      - "Empresas Distribuidoras Provinciales (20 empresas del sector)"
+  banca_de_desarrollo_y_financiamiento:
+    - "Banco Central del Ecuador (BCE)"
+    - "Corporación Financiera Nacional (CFN)"
+    - "BanEcuador B.P."
+
+iniciativas_activas:
+  - id: "reforma_subsidios_electricos"
+    titulo_corto: "Reforma al Régimen Tarifario y Subsidios Eléctricos"
+    ley_impactada: "Ley Orgánica del Servicio Público de Energía Eléctrica (LOSPEE)"
+    estado: "borrador_prelegislativo"
+    directorio: "proyectos_ley/subsidios_electricos"
+    archivo_configuracion: "config/reformas/subsidios_electricos.yaml"
+
+doctrina_agentes:
+  estandar: "Consorcio Industrial Kronos — Reglas Inviolables de Ejecución"
+  documento_maestro: "AGENTS.md"
+  directorio_configuracion: "config/agentes"
+  archivo_reglas: "config/agentes/doctrina.yaml"
+  prompt_base: "config/agentes/system_prompt_base.md"
+

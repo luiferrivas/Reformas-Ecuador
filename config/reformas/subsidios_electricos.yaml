@@ -1,0 +1,251 @@
+# ==============================================================================
+# CONFIGURACIÓN TÉCNICA Y PARÁMETROS: REFORMA TARIFARIA Y SUBSIDIOS ELÉCTRICOS
+# ==============================================================================
+# Base Legal: Proyecto de Ley Reformatoria a la LOSPEE
+# Documentos vinculados:
+#   - proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md
+#   - proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md
+# ==============================================================================
+
+reforma_id: "reforma_subsidios_electricos"
+denominacion: "Ley Orgánica Reformatoria a la Ley Orgánica del Servicio Público de Energía Eléctrica (LOSPEE)"
+version: "1.0.0"
+
+# ------------------------------------------------------------------------------
+# 1. UMBRALES DE CONSUMO PROTEGIDO (TARIFA PREFERENTE)
+# ------------------------------------------------------------------------------
+umbrales_consumo:
+  residencial:
+    sierra:
+      limite_preferente_kwh_mes: 250
+      criterio: "Cubre iluminación, refrigeración eficiente y computación del 78% de hogares"
+      consumo_promedio_estimado_kwh_mes: 140
+    costa_amazonia:
+      limite_preferente_base_kwh_mes: 250
+      limite_preferente_temporada_calida_kwh_mes: 300
+      limite_maximo_excepcion_bioclimatica_kwh_mes: 320
+      criterio: "Ajuste estacional para refrigeración y ventilación/climatización moderada"
+      consumo_promedio_estimado_kwh_mes: 205
+    regla_cobro_excedente: "marginal_por_tramos" # (T_preferente * min(C, U)) + (T_real * max(0, C - U))
+
+  soberania_alimentaria:
+    nivel_1_comercio_minorista:
+      descripcion: "Tiendas de abarrotes, micromercados de barrio, fruterías y legumbres"
+      limite_preferente_kwh_mes: 500
+      cobertura_necesidad_operativa_pct: 120 # Cubre 110% - 150% de refrigeración continua y exhibición
+      equipos_tipicos:
+        - "1-2 vitrinas refrigeradas lácteos/bebidas (0.25 kW)"
+        - "1 congelador horizontal helados/carnes (0.20 kW)"
+        - "Iluminación LED y terminal punto de venta (0.15 kW)"
+    nivel_2_procesamiento_artesanal:
+      descripcion: "Panaderías artesanales con obrador electromecánico, carnicerías con cuarto frío y centros lecheros rurales"
+      limite_preferente_kwh_mes: 800
+      cobertura_necesidad_operativa_pct: 85 # Cubre 80% - 90% de amasadoras, batidoras y frío continuo
+      equipos_tipicos:
+        - "Amasadora espiral industrial (3.0 kW - 4 HP)"
+        - "Batidora planetaria de masas (1.5 kW - 2 HP)"
+        - "Cámara de fermentación controlada / cuarto frío (1.2 kW)"
+        - "Vitrinas de conservación (0.35 kW)"
+      objetivo_politica_publica: "Evitar inflación en el precio del pan popular de batalla y alimentos esenciales"
+
+  sectores_no_protegidos:
+    descripcion: "Comercio de gran escala, gran industria, minería, banca y sector público"
+    subsidio_estatal_pct: 0.0
+    tratamiento_tarifario: "costo_real_pleno_100pct"
+
+# ------------------------------------------------------------------------------
+# 2. ORDEN DE MÉRITO Y COSTOS DE GENERACIÓN SEGÚN REGIÓN
+# ------------------------------------------------------------------------------
+orden_de_merito:
+  continente:
+    fuente_preferente_prioritaria: "hidroelectrica_amortizada"
+    estratos_costo_usd_kwh:
+      hidroelectrica_amortizada:
+        min: 0.015
+        max: 0.035
+        centrales: ["Paute-Molino", "Mazar", "Sopladora", "Coca Codo Sinclair", "Delsitanisagua"]
+      renovables_no_convencionales:
+        min: 0.045
+        max: 0.065
+        tecnologias: ["Solar Fotovoltaica", "Eólica Continental", "Biomasa"]
+      termica_gas_natural_local:
+        min: 0.070
+        max: 0.090
+        centrales: ["Termogas Machala (Campo Amistad)"]
+      termica_bunker_fuel_oil:
+        min: 0.110
+        max: 0.150
+        centrales: ["Trinitaria", "Esmeraldas II"]
+      termica_diesel_e_importaciones:
+        min: 0.180
+        max: 0.350
+        origen: ["Barcazas y generadores móviles diésel", "Interconexión Colombia / Perú en sequía"]
+
+  galapagos_insular:
+    fuente_preferente_prioritaria: "eolica_y_solar_insular_con_bess"
+    estratos_costo_usd_kwh:
+      renovables_insulares_con_baterias:
+        min: 0.080
+        max: 0.140
+        parques: ["Parque Eólico San Cristóbal", "Eólica Baltra", "Solar Santa Cruz", "Solar Isabela"]
+      termica_diesel_insular:
+        min: 0.350
+        max: 0.500
+        nota: "Alto costo logístico de transporte en barcazas de doble casco y riesgo ecológico marítimo"
+
+# ------------------------------------------------------------------------------
+# 3. BALANCE ENERGÉTICO NACIONAL (VOLÚMENES MENSUALES Y ANUALES)
+# ------------------------------------------------------------------------------
+balance_energetico_nacional:
+  demanda_protegida:
+    residencial_abonados_aprox: 5400000
+    residencial_consumo_medio_bloque_kwh: 111
+    residencial_demanda_gwh_mes: 600
+    residencial_demanda_gwh_ano: 7200
+    alimentaria_locales_aprox: 120000
+    alimentaria_demanda_gwh_mes: 72
+    alimentaria_demanda_gwh_ano: 864
+    demanda_protegida_total_gwh_mes: 672
+    demanda_protegida_total_gwh_ano: 8064
+
+  oferta_hidroelectrica_nacional:
+    ano_hidrologico_normal_gwh_ano: 23500
+    promedio_mensual_normal_gwh_mes: 1950
+    cobertura_normal_pct: 290 # Oferta normal cubre 290% de la demanda prioritaria
+    ano_sequia_critica_gwh_ano: 16500
+    promedio_mensual_sequia_gwh_mes: 1400
+    peor_mes_estiaje_historico_gwh_mes: 1150
+    cobertura_peor_mes_pct: 171 # Incluso en el peor mes histórico, sobra el 71% de energía barata
+    margen_excedente_peor_mes_gwh_mes: 478
+
+  demanda_nacional_total_gwh_mes: 2600 # Incluye industrias, minería y consumo suntuario
+
+# ------------------------------------------------------------------------------
+# 4. MODELO TARIFARIO Y REGLAS DE CÁLCULO
+# ------------------------------------------------------------------------------
+modelo_tarifario:
+  piso_tarifario_minimo_legal:
+    activo: true
+    descripcion: "La tarifa preferente resultante no podrá ser inferior al pliego tarifario regulado actual"
+    formula: "T_preferente = max(T_actual_regulada, C_gen_barato + C_trans + C_dist + C_com + C_SAPG)"
+    objetivo: "Prevenir descalces financieros en las 20 empresas eléctricas distribuidoras (CNEL, EEQ, etc.)"
+    tarifa_residencial_piso_usd_kwh: 0.092
+
+  tarifa_costo_real_pleno:
+    promedio_referencial_usd_kwh: 0.180
+    rango_mercado_usd_kwh:
+      min: 0.160
+      max: 0.220
+    componentes_reconocidos:
+      - id: "C_gen_real"
+        nombre: "Costo ponderado de generación eficiente real"
+      - id: "C_trans"
+        nombre: "Peaje de transmisión del Sistema Nacional de Transmisión"
+      - id: "C_dist"
+        nombre: "Valor Agregado de Distribución (VAD) eficiente"
+      - id: "C_com"
+        nombre: "Costos comerciales de medición, lectura y recaudación"
+      - id: "C_perdidas"
+        nombre: "Reconocimiento exclusivo de pérdidas técnicas eficientes"
+        tope_maximo_perdidas_tecnicas_pct: 8.5
+      - id: "C_SAPG"
+        nombre: "Servicio de Alumbrado Público General proporcional"
+
+  factor_contingencia_climatica_fcc:
+    descripcion: "Cargo temporal durante estiajes severos por generación térmica de emergencia"
+    bonificacion_ahorro:
+      umbral_reduccion_consumo_pct: 10.0
+      exoneracion_fcc_pct: 100.0
+      mecanismo: "Si el abonado ahorra >= 10% vs su promedio histórico, no paga FCC"
+
+# ------------------------------------------------------------------------------
+# 5. BLOQUES HORARIOS TIME-OF-USE (TOU)
+# ------------------------------------------------------------------------------
+tarifas_horarias_tou:
+  activas: true
+  bloques:
+    valle_y_supervalle:
+      franjas:
+        - "23:00 - 06:00"
+        - "10:00 - 14:00 (Ventana de radiación solar máxima)"
+      costo_marginal_estimado_usd_kwh: 0.035
+      objetivo: "Aprovechar excedentes de agua nocturna y solar diurna; recarga de BESS y vehículos eléctricos"
+    llano:
+      franjas:
+        - "06:00 - 10:00"
+        - "14:00 - 18:00"
+        - "22:00 - 23:00"
+      costo_marginal_estimado_usd_kwh: 0.090
+      objetivo: "Consumo productivo ordinario"
+    pico:
+      franjas:
+        - "18:00 - 22:00"
+      costo_marginal_estimado_usd_kwh: 0.260
+      objetivo: "Desplazar demanda fuera del horario crítico; incentivo a descarga de baterías BESS"
+
+# ------------------------------------------------------------------------------
+# 6. TRANSICIÓN PRODUCTIVA INDUSTRIAL (ANTI-INFLACIONARIA)
+# ------------------------------------------------------------------------------
+transicion_industrial:
+  duracion_meses: 12
+  esquema_escalonado:
+    trimestre_1:
+      meses: "1 a 3"
+      absorcion_diferencial_real_pct: 33.0
+    trimestre_2:
+      meses: "4 a 6"
+      absorcion_diferencial_real_pct: 66.0
+    trimestre_3:
+      meses: "7 a 12"
+      absorcion_diferencial_real_pct: 100.0
+  mecanismo_financiamiento_verde:
+    entidades: ["CFN", "BanEcuador", "Banco Central del Ecuador"]
+    tasa_interes_anual_pct: 5.0
+    plazo_credito_anos: 7
+    destinos: ["Instalación de techos solares fotovoltaicos", "Sistemas de baterías BESS industriales"]
+
+# ------------------------------------------------------------------------------
+# 7. INFRAESTRUCTURA DE MEDICIÓN INTELIGENTE (AMI) Y GARANTÍA AUTOFINANCIADA
+# ------------------------------------------------------------------------------
+medicion_inteligente_ami:
+  principio: "No gratuidad con depósito de garantía recuperable y fondo de rotación permanente"
+  modelo_costo_garantia:
+    costo_adquisicion_escala_usd: 60.00 # Rango: $55.00 a $65.00 USD
+    recargo_operativo_garantia_pct: 5.0 # Nutre el fondo rotativo para stock permanente y calibración
+    recargo_operativo_monto_usd: 3.00
+    deposito_garantia_total_usd: 63.00
+  amortizacion_usuario:
+    plazo_cuotas_meses: 36 # Diferido en planilla mensual
+    tasa_interes_pct: 0.0
+    cuota_mensual_planilla_usd: 1.75
+  devolucion_garantia:
+    condicion: "Devolución íntegra del depósito si el usuario entrega el medidor al terminar el contrato o traspaso a nuevo titular"
+
+# ------------------------------------------------------------------------------
+# 8. PARIDAD DE RED Y ENERGÍA DISTRIBUIDA (SOLAR + BESS)
+# ------------------------------------------------------------------------------
+autogeneracion_solar:
+  fast_track_conexion_dias_habiles: 15 # Silencio administrativo positivo
+  esquema_net_metering: "1_a_1" # kWh solar inyectado descuenta 1 kWh de red
+  indicadores_economicos:
+    payback_solar_techo_anos: 3.5 # Reducido desde 11 años con subsidio distorsionado
+    tir_solar_techo_pct: 28.5
+    payback_solar_con_bess_anos: 4.5
+    lcoe_solar_estimado_usd_kwh: 0.065
+
+# ------------------------------------------------------------------------------
+# 9. GOBERNANZA DEL FONDO ESPECIAL (FERRE)
+# ------------------------------------------------------------------------------
+fondo_reinversion_ferre:
+  nombre_completo: "Fondo Especial de Reinversión y Resiliencia Eléctrica"
+  siglas: "FERRE"
+  naturaleza_juridica: "Cuenta fiduciaria especial e intangible"
+  blindaje_fiscal: "Prohibición expresa de destinar fondos al Presupuesto General del Estado o gasto corriente"
+  fuentes_recaudacion:
+    - "Superávits provenientes de la venta de energía a costo real pleno a grandes consumidores"
+    - "Saldos positivos resultantes de la liquidación del FCC"
+  destinos_obligatorios:
+    - "Mantenimiento mayor preventivo y correctivo del parque de generación del Estado"
+    - "Incorporación de sistemas de almacenamiento BESS estratégicos en subestaciones críticas"
+    - "Modernización y repotenciación de líneas del Sistema Nacional de Transmisión"
+    - "Ampliación de redes de distribución rural y alumbrado público eficiente"

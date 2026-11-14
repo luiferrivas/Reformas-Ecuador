@@ -1,0 +1,136 @@
+# ==============================================================================
+# DOCTRINA MANDATORIA DE OPERACIÓN DE AGENTES Y REQUERIMIENTOS TÉCNICOS
+# Consorcio Industrial Kronos — Reglas Inviolables de Ejecución
+# ==============================================================================
+
+version_doctrina: "1.0.0"
+alcance: "Todos los agentes IA, subagentes, analistas técnicos y modelos de requerimientos"
+jurisdicciones_base:
+  principal: "Ecuador (EC)"
+  secundaria_comparativa: "Colombia (CO) / Internacional"
+
+mandamientos_inviolables:
+  # 1. No Complacencia
+  1_no_complacencia:
+    nombre: "No Complacencia"
+    regla: "Prohibido emitir respuestas complacientes, condescendientes o halagadoras. Rigor crítico inmediato ante cualquier debilidad técnica o inconsistencia."
+    severidad: "inviolable"
+    chequeos_calidad:
+      - "Eliminar introducciones adulatorias o frases de cortesía innecesarias"
+      - "Identificar y señalar fallas metodológicas o inconsistencias numéricas inmediatamente"
+
+  # 2. Cero Positivismo Naive
+  2_cero_positivismo_naive:
+    nombre: "Cero Positivismo Naive (Cero Maquillaje de Cifras)"
+    regla: "Prohibido forzar cifras, inventar eficiencias mágicas o maquillar balances para que un proyecto cuadre. Crudeza y exactitud matemática."
+    severidad: "inviolable"
+    chequeos_calidad:
+      - "Verificar que las eficiencias no violen límites físicos conocidos"
+      - "Exponer cuellos de botella y restricciones operativas sin atenuantes"
+
+  # 3. Realismo Estricto
+  3_realismo_estricto:
+    nombre: "Realismo Estricto en Respuestas y Modelos"
+    regla: "Todos los balances de masa, energía, costos unitarios (OPEX/CAPEX), cinéticas y tiempos regulatorios deben regirse por leyes físicas, termodinámicas y economía de mercado real."
+    severidad: "inviolable"
+
+  # 4. No Omitir Realidad Experimental Empírica
+  4_no_omitir_realidad_empirica:
+    nombre: "No Omitir la Realidad Experimental Empírica"
+    regla: "Confrontar toda teoría o modelo predictivo directamente con datos de campo, laboratorio y pruebas de concepto reales."
+    severidad: "inviolable"
+
+  # 5. Compatibilidad Estricta LaTeX / KaTeX
+  5_compatibilidad_katex_aislamiento:
+    nombre: "Compatibilidad Estricta LaTeX / KaTeX (Aislamiento de Entornos y Formato Puro)"
+    regla: "Separación estricta de tablas Markdown y bloques matemáticos KaTeX. Cero errores visuales."
+    severidad: "inviolable"
+    especificaciones_formato:
+      tablas_markdown:
+        permitido: "Texto plano, números limpios, caracteres Unicode (ej. ±500 kV, CO2, H2SO4, 3.26%, 2,300 m)"
+        prohibido:
+          - "Uso de delimitadores '$' dentro de celdas de tablas Markdown"
+          - "Uso de entornos '\\begin{array}' en celdas de tablas"
+      bloques_matematicos:
+        delimitador_obligatorio: "$$ ... $$"
+        ubicacion: "Líneas independientes aisladas fuera de tablas y listas"
+      unidades_y_variables:
+        sintaxis_obligatoria: "\\text{...} para unidades y texto (ej. \\text{USD/kWh}, \\text{GWh/mes})"
+
+  # 6. Bitácora Obligatoria de Decisiones y Descartes
+  6_bitacora_decisiones_y_descartes:
+    nombre: "Bitácora Obligatoria de Decisiones y Descartes"
+    regla: "Todo documento técnico, informe o especificación debe incluir sección explícita de pros, contras, trade-offs y justificación técnica del descarte de alternativas."
+    severidad: "inviolable"
+    seccion_requerida: "Bitácora de Decisiones y Descartes"
+    campos_minimos:
+      - alternativa_evaluada
+      - decision_adoptada # "Aprobada" o "Descartada"
+      - trade_offs_pros_contras
+      - justificacion_tecnica_descarte
+
+  # 7. Cero Dependencia de Subsidios
+  7_cero_dependencia_subsidios:
+    nombre: "Cero Dependencia de Subsidios e Independencia Financiera Radical"
+    regla: "Prohibido fundamentar viabilidad, escala o retorno en subsidios estatales, créditos blandos o transferencias públicas. Autosuficiencia 100% de mercado."
+    severidad: "inviolable"
+    tratamiento_subsidios_externos:
+      definicion: "Bonos de carbono, créditos verdes internacionales (CBAM, UE, etc.), incentivos multilaterales"
+      condicion_estricta: "Exclusivamente como 'Upside Marginal' secundario; NUNCA como flujo de caja base o condición de viabilidad"
+    filtro_ideologia_verde: "Si requiere subsidio estatal para ser rentable, se declara NO VIABLE y se descarta en la bitácora"
+
+  # 8. Formato Obligatorio de Monedas
+  8_formato_monedas_valores_financieros:
+    nombre: "Formato Obligatorio de Monedas y Valores Financieros"
+    regla: "Base mandatoria en USD. Moneda local entre paréntesis inmediatamente después."
+    severidad: "inviolable"
+    patron_ejemplo: "3.50 USD (3.20 EUR), 150 USD (600,000 COP), 100 USD (370 PEN)"
+    moneda_base: "USD"
+
+  # 9. SUMMARY.md Obligatorio por Subproyecto
+  9_summary_l1_cache:
+    nombre: "Archivo SUMMARY.md Obligatorio por Subproyecto (L1 Cache)"
+    regla: "Cada subproyecto debe mantener obligatoriamente un SUMMARY.md en su raíz como interfaz L1 para consulta de agentes y reducción de tokens."
+    severidad: "inviolable"
+    regla_cero_deriva: "Terminantemente prohibido alterar parámetros sin actualizar SUMMARY.md en el mismo turno o commit"
+    secciones_mandatorias:
+      - "1. Misión y Estado Operativo Actual (En diseño / Auditado Red Team / Congelado / Descartado)"
+      - "2. Contrato de Interfaces - Simbiosis Industrial (Insumos requeridos y entregables/subproductos generados)"
+      - "3. Parámetros Técnicos Críticos Congelados (3 a 5 especificaciones innegociables)"
+      - "4. Modelo Financiero, Fases y Rentabilidad (Fases/CAPEX en USD, OPEX, Ingresos sin subsidio, EBITDA, Payback)"
+      - "5. Bitácora de Decisiones y Descartes Clave"
+      - "6. Índice de Documentación Profunda (Enlaces directos file:///... a memorias, planos y scripts)"
+
+  # 10. Cálculo Riguroso de Payback y Doble Métrica
+  10_payback_riguroso_doble_metrica:
+    nombre: "Cálculo Riguroso de Payback y Doble Métrica Financiera"
+    regla: "Prohibido Payback sobre EBITDA bruto. Descontar impuestos reales (15% trabajadores + 25% IR en Ecuador; 35% renta en Colombia), regalías y costos andinos."
+    severidad: "inviolable"
+    doble_metrica_obligatoria:
+      1_payback_crudo_resistencia:
+        nombre: "Payback Crudo / Real de Resistencia (Unshielded Payback)"
+        criterio: "Régimen fiscal ordinario severo sin beneficios ni acuerdos estatales. Si este payback no es viable, el proyecto se descarta."
+      2_payback_acelerado_negociado:
+        nombre: "Payback Acelerado por Negociación Estatal (Fast-Track / Negotiated Payback)"
+        criterio: "Considera instrumentos legítimos (Contratos de Inversión con exención temporal de ISD/aranceles, Obras por Impuestos, depreciación acelerada). Instrumento estratégico de negociación soberana."
+
+  # 11. Benchmark de Petróleo
+  11_benchmark_petroleo_wti:
+    nombre: "Benchmark Obligatorio de Petróleo (WTI Base + Spread Brent)"
+    regla: "WTI en USD/bbl es el referente primario obligatorio para contratos, sensibilidades y balances. Brent únicamente como spread comparativo secundario."
+    severidad: "inviolable"
+    marcador_primario: "West Texas Intermediate (WTI)"
+    unidad: "USD/bbl"
+    marcador_comparativo: "Brent (solo para spread: ej. Brent +X.XX USD/bbl)"
+
+  # 12. Protocolo de Carpetas historico/ y Regla de Descarte
+  12_protocolo_historico_y_descarte:
+    nombre: "Protocolo Mandatorio de Carpetas historico/ y Regla de Oro de Descarte"
+    regla: "Carpeta historico/ obligatoria en cada subproyecto. Raíz canónica exclusiva para decisiones vigentes. Cabecera forense obligatoria en historico/."
+    severidad: "inviolable"
+    cabecera_forense_obligatoria:
+      elementos:
+        - "Fecha y autor/agente del descarte"
+        - "Enlace directo file:///... a la versión canónica vigente que la sustituye"
+        - "Causales técnicas de descarte (balances, presiones, temperaturas, CAPEX/OPEX, seguridad)"
+        - "Lecciones aprendidas para evitar amnesia operativa"
