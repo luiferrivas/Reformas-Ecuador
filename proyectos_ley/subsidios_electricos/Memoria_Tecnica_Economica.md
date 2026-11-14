@@ -366,6 +366,52 @@ El Estado ecuatoriano se ahorra y recupera anualmente entre **$2,350 y $3,250 mi
   - Al fijarse un **Piso Tarifario Regulado de ~0.095 USD/kWh**, el usuario residencial protegido paga **$0.007 USD/kWh por encima de su costo integral de abastecimiento**.
   - **Conclusión:** El Bloque Residencial Protegido es **100% autosuficiente y genera un margen operativo positivo de 8% a 10%** para la empresa distribuidora sin necesidad de subsidios estatales ni de recargos sobre la industria. La eliminación de los subsidios cruzados transparenta los costos y permite una reducción técnica de sobrecostos a la industria formal.
 
+#### 4.5. Cinco Vías Estructurales para Retirar Subsidios sin Perjudicar a los Quintiles Vulnerables
+
+A fin de profundizar el saneamiento del sector sin tocar el bolsillo de los hogares de ingresos bajos ni de los pequeños negocios, se modelan cinco mecanismos adicionales de retiro de subsidios regresivos y control de fugas:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|             CINCO VÍAS ADICIONALES DE RETIRO DE SUBSIDIOS Y RECUPERACIÓN FISCAL REGRESIVA             |
++---------------------------------------------+-------------------------------+-------------------------+
+| MECANISMO / SECTOR AFECTADO                 | IMPACTO FISCAL ANUAL (USD)    | IMPACTO EN HOGARES      |
+|                                             |                               | VULNERABLES             |
++---------------------------------------------+-------------------------------+-------------------------+
+| 1. Exclusión de Segundas Residencias        | +$35.00 M USD / año           | **CERO** (Solo grava    |
+|    (Departamentos de playa y veraneo)       |                               | segundas propiedades)   |
+| 2. Tarifa a Gran Minería (LRMC + Take/Pay)  | +$120.00 M USD / año          | **CERO** (Aplica a      |
+|    (Ecuacorriente, Lundin Gold, etc.)       |                               | transnacionales)        |
+| 3. Puntos de Carga Vehículos Eléctricos     | +$18.00 M USD / año           | **CERO** (Grava autos   |
+|    (Wallbox >3.7 kW en residencias)         |                               | de $40,000 a $100,000)  |
+| 4. Auditoría Forense a Macro-Hurto          | +$150.00 a +$220.00 M USD/año | **CERO** (Detecta       |
+|    (Piladoras, haciendas y granjas cripto)  |                               | fraude agroindustrial)  |
+| 5. Costeo de Red en Urbanizaciones de Lujo  | +$25.00 M USD / año           | **CERO** (Financiado por|
+|    (Samborondón, Cumbayá, Vía a la Costa)   |                               | promotores privados)    |
++---------------------------------------------+-------------------------------+-------------------------+
+| **TOTAL RECURSOS ADICIONALES RECUPERADOS**  | **+$348.00 a +$418.00 M USD** | **100% PROTEGIDOS**     |
++---------------------------------------------+-------------------------------+-------------------------+
+```
+
+1. **Exclusión de Segundas Residencias y Casas de Recreo:**
+   - *Distorsión:* Cientos de miles de departamentos en la playa (Salinas, Tonsupa, Manta) y casas de campo permanecen desocupados 10 meses al año. Al registrar consumos de 20 a 60 kWh/mes, el sistema informático los categorizaba como "familias en pobreza extrema", otorgándoles la tarifa subsidiada más barata del país.
+   - *Solución:* El cruce catastral con DINARP y SRI restringe el bloque preferente a la vivienda principal. La segunda residencia paga tarifa a costo real pleno ($T_{\text{real}}$) desde el primer kWh, recuperando **$35.00 M USD/año**.
+
+2. **Tarifa Especial a Gran Minería e Industrias Extractivas a Costo Marginal de Expansión de Largo Plazo (LRMC):**
+   - *Distorsión:* Proyectos megamineros como Mirador (cobre) consumen más de 60 MW de potencia continua pagando tarifas industriales planas de ~7.5 ¢USD/kWh, obligando al Estado a quemar diésel de 30 ¢USD/kWh en estiaje para mantener su suministro.
+   - *Solución:* Tarifa dedicada de 11.5 a 14.0 ¢USD/kWh con contratos *Take-or-Pay* y obligación de instalar 30% de respaldo en baterías BESS o autogeneración en sitio. Ingreso adicional: **$120.00 M USD/año**.
+
+3. **Medición Independiente y Tarifa Plena para Cargadores de Autos Eléctricos de Alta Gama:**
+   - *Distorsión:* Familias de altos ingresos instalan cargadores Wallbox (7.4 a 22 kW) en sus casas para vehículos de \$50,000 a \$100,000 USD (Tesla, BMW, Audi, BYD), aprovechando bloques residenciales protegidos para "tanquear" gratis su auto con energía subsidiada.
+   - *Solución:* Todo cargador >3.7 kW requiere submedidor inteligente y factura a tarifa dinámica TOU de movilidad a costo real pleno. Quien compra un auto de lujo paga el costo real de su movilidad. Ahorro: **$18.00 M USD/año**.
+
+4. **Auditoría Forense Algorítmica y Termográfica a Macro-Fraude:**
+   - *Distorsión:* El 80% de los \$300M de pérdidas de CNEL no ocurre en los focos de barrios pobres, sino en piladoras de arroz con conexiones directas a líneas de 13.8 kV, haciendas bananeras con bombeo nocturno ilegal y galpones clandestinos de minería de Bitcoin que operan con medidores trucados.
+   - *Solución:* Detección satelital de anomalías de calor, balance en transformadores de media tensión y cruce de datos de producción agrícola con el MAG. Cobro retroactivo coactivo de 5 años al 100% de recargo. Recuperación: **$150.00 a $220.00 M USD/año**.
+
+5. **Infraestructura Eléctrica al 100% a Cargo de Promotores de Urbanizaciones de Lujo:**
+   - *Distorsión:* Las empresas distribuidoras invertían fondos públicos en tender alimentadores, subestaciones y cables subterráneos para proyectos inmobiliarios privados de alta plusvalía.
+   - *Solución:* El promotor privado asume el 100% del CAPEX eléctrico y entrega la red a la distribuidora sin costo para los usuarios públicos. Ahorro: **$25.00 M USD/año**.
+
 ---
 
 ### 5. PARIDAD DE RED Y DETONANTE DE LA ENERGÍA SOLAR DISTRIBUIDA
