@@ -11,7 +11,8 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 
 ### Documentos del Proyecto
 1. **[Proyecto de Ley Completo (Formato Legislativo Oficial)](./proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md)**: Texto legal estructurado con Exposición de Motivos, Considerandos, Articulado Reformatorio, Disposiciones Generales, Transitorias, Derogatorias y Final.
-2. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md)**: Análisis cuantitativo de demanda, modelado de los umbrales de 250 kWh y 500 kWh, regla de despacho por orden de mérito regional (Continente vs. Galápagos), formulación del Factor de Contingencia Climática ($FCC$) y gobernanza del Fondo de Reinversión (FERRE).
+2. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md)**: Análisis cuantitativo de demanda, modelado de los umbrales de 250 kWh, 500 kWh y 800 kWh, regla de despacho por orden de mérito regional, tarifas horarias TOU, formulación del $FCC$, gobernanza del FERRE y régimen de medidores con garantía (Costo + 5%).
+3. **[Auditoría de Viabilidad Política y Optimización del Sistema Eléctrico](./proyectos_ley/subsidios_electricos/Auditoria_Politica_y_Optimizacion_Electrica.md)**: Análisis de realismo político y límites constitucionales sobre mecheros petroleros, autonomía municipal en cobranzas, sindicatos de CNEL, hidroeléctricas de bombeo, solares flotantes y el modelo de luz prepago digital.
 
 ---
 
