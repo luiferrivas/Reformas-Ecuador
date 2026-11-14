@@ -212,10 +212,13 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 | 1. Clientes Residenciales (~5.4 millones)   |                            |                            |
 |    - Consumo medio bloque subsistencia      | ~111 kWh/mes por abonado   | -                          |
 |    - Demanda Residencial Protegida          | **7,200 GWh/año**          | **600 GWh/mes**            |
-| 2. Soberanía Alimentaria (~120.000 locales) |                            |                            |
+| 2. Soberanía Alimentaria (~120.000 locales + Agroindustria Nacional) |                            |                            |
 |    - Tiendas y micromercados (500 kWh)      | ~550 GWh/año               | ~46 GWh/mes                |
-|    - Panaderías y obradores (800 kWh)       | ~314 GWh/año               | ~26 GWh/mes                |
-|    - Demanda Alimentaria Protegida          | **864 GWh/año**            | **72 GWh/mes**             |
+|    - Panaderías artesanales (800 kWh)       | ~314 GWh/año               | ~26 GWh/mes                |
+|    - Agroindustria de Consumo Nacional      |                            |                            |
+|      (Molinos harina/trigo, piladoras arroz, |                            |                            |
+|      balanceado avícola/porcino, lácteos)   | **1,020 GWh/año**          | **85 GWh/mes**             |
+|    - Demanda Alimentaria Total Protegida     | **1,884 GWh/año**          | **157 GWh/mes**            |
 | 3. Red Pública Integral de Salud (RPIS)     |                            |                            |
 |    - Hospitales de especialidades, generales|                            |                            |
 |      y centros de salud 24h (~840 unidades) | **450 GWh/año**            | **37.5 GWh/mes**           |
@@ -223,27 +226,27 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 |    - Escuelas básicas, colegios fiscales y  |                            |                            |
 |      Unidades del Milenio (~12,400 centros) | **240 GWh/año**            | **20.0 GWh/mes**           |
 +---------------------------------------------+----------------------------+----------------------------+
-| **DEMANDA PROTEGIDA TOTAL (A)**             | **8,754 GWh/año**          | **729.5 GWh/mes**          |
+| **DEMANDA PROTEGIDA TOTAL (A)**             | **9,774 GWh/año**          | **814.5 GWh/mes**          |
 +---------------------------------------------+----------------------------+----------------------------+
 | **OFERTA HIDROELÉCTRICA NACIONAL (B):**                                                               |
 | • Año Hidrológico Normal (promedio histórico) | **22,000 a 25,500 GWh/año**| **~1,900 a 2,100 GWh/mes** |
-|   - Cobertura de la Demanda Protegida       | **251% a 291%**            | **SOBRA > 1,170 GWh/mes**  |
+|   - Cobertura de la Demanda Protegida       | **225% a 261%**            | **SOBRA > 1,085 GWh/mes**  |
 | • Año de Sequía Severa / Estiaje Crítico    | **16,000 a 17,500 GWh/año**| **~1,350 a 1,450 GWh/mes** |
 | • **Peor Mes de Estiaje Histórico** (Nov/Dic) | -                          | **1,150 a 1,300 GWh/mes**  |
-|   - Cobertura en el peor mes de crisis      | -                          | **157.6% a 178.2%**        |
+|   - Cobertura en el peor mes de crisis      | -                          | **141.2% a 159.6%**        |
 +---------------------------------------------+----------------------------+----------------------------+
-| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+420.5 a +570.5 GWh/mes**|
+| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+335.5 a +485.5 GWh/mes**|
 +---------------------------------------------+----------------------------+----------------------------+
 ```
 
 - **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA EN ENERGÍA!**
-  1. Incluso en el mes más seco de la peor sequía registrada en el país (con Mazar en cota crítica y Coca Codo en estiaje amazónico con 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 157.6% toda la demanda protegida combinada de familias, panaderías, tiendas, hospitales y escuelas públicas**.
-  2. Queda un excedente mensual mínimo de **+420.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía.
+  1. Incluso en el mes más seco de la peor sequía registrada en la historia nacional (con Mazar en cota crítica y Coca Codo en estiaje amazónico generando solo 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 141.2% toda la demanda protegida combinada de familias, panaderías, tiendas, la agroindustria molinera de alimentos internos, hospitales y escuelas públicas**.
+  2. Queda un excedente mensual mínimo garantizado de **+335.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía productiva.
 
 #### 3.4. La Distinción Física y Operativa Crucial: Energía (MWh Acumulados) vs. Potencia Pico (MW Instantáneos a las 19:00 horas)
 
 Uno de los errores más comunes en la política energética ecuatoriana es confundir el volumen de agua/energía mensual con la potencia instantánea de la red:
-* **El problema no es de Energía mensual:** Como demuestra la tabla anterior, el agua que entra a los embalses en el mes entero alcanza para generar 1,150 GWh, superando los 729.5 GWh requeridos por los sectores protegidos.
+* **El problema no es de Energía mensual:** Como demuestra la tabla anterior, el agua que entra a los embalses en el mes entero alcanza para generar 1,150 GWh, superando con creces los 814.5 GWh requeridos por todos los sectores protegidos (familias, red alimentaria y agroindustria básica, hospitales y escuelas).
 * **El problema real es de Potencia Pico (MW):** Entre las 18:00 y las 22:00 horas, la demanda nacional trepa a **4,800 - 5,000 MW**.
   - Durante el estiaje, al bajar la cota de agua, las hidroeléctricas no pueden operar todas sus turbinas al mismo tiempo sin vaciar el embalse en pocas horas. La potencia hidroeléctrica disponible en punta se reduce a **~2,200 MW**.
   - El sistema requiere **~2,700 MW de potencia térmica e importaciones** para no colapsar.
@@ -365,6 +368,50 @@ El Estado ecuatoriano se ahorra y recupera anualmente entre **$2,350 y $3,250 mi
   - **Costo Integral de Servir al Hogar Protegido:** **$0.088 USD/kWh**.
   - Al fijarse un **Piso Tarifario Regulado de ~0.095 USD/kWh**, el usuario residencial protegido paga **$0.007 USD/kWh por encima de su costo integral de abastecimiento**.
   - **Conclusión:** El Bloque Residencial Protegido es **100% autosuficiente y genera un margen operativo positivo de 8% a 10%** para la empresa distribuidora sin necesidad de subsidios estatales ni de recargos sobre la industria. La eliminación de los subsidios cruzados transparenta los costos y permite una reducción técnica de sobrecostos a la industria formal.
+
+#### 4.4.1. Priorización de la Cadena Agroalimentaria de Consumo Interno vs. Tarifa Plena a Agroexportación y Minería
+
+A fin de blindar la soberanía alimentaria nacional y evitar que el sinceramiento tarifario se traduzca en una espiral inflacionaria en los alimentos de primera necesidad, el modelo amplía el bloque preferente a la **cadena industrial agroalimentaria de consumo interno**:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|              SEGMENTACIÓN DE LA CADENA ALIMENTARIA: CONSUMO INTERNO VS. AGROEXPORTACIÓN               |
++---------------------------------------------+-------------------------------+-------------------------+
+| SECTOR / CADENA PRODUCTIVA                  | TRATAMIENTO TARIFARIO         | JUSTIFICACIÓN TÉCNICA   |
+|                                             |                               | Y FISCAL                |
++---------------------------------------------+-------------------------------+-------------------------+
+| 1. Agroindustria de Consumo Interno         | Tarifa Base Hidroeléctrica    | Alimentos de la Canasta |
+|    (Molinos trigo/harina, piladoras arroz,  | Eficiente (~0.072 a 0.078     | Básica Familiar (INEC). |
+|    balanceado avícola/porcino, lácteos)     | USD/kWh) en MT. Cero subsidio.| Evita inflación en pan, |
+|    Volumen: ~85.0 GWh/mes (1,020 GWh/año)   | Modulación horaria fuera pico.| arroz, pollo y huevos.  |
+| 2. Agroexportación Intensiva                | Tarifa a Costo Real Pleno     | Facturan en USD en      |
+|    (Camarón, banano, flores, cacao, pesca)  | ($T_{\text{real}}$ + TOU +    | mercados mundiales.     |
+|    Volumen: ~180.0 GWh/mes (2,160 GWh/año)  | FCC en estiaje). 14 a 22 ¢/kWh| Tienen alta capacidad de|
+|                                             |                               | pago y cobertura de red.|
+| 3. Gran Minería Metálica e Hidrocarburos    | Tarifa a Costo Real Pleno     | Actividades extractivas |
+|    (Mirador, Fruta del Norte, bombeo crudo) | ($T_{\text{real}}$ + TOU +    | de gran escala. Cero    |
+|    Volumen: ~100.0 GWh/mes (1,200 GWh/año)  | FCC en estiaje). 13 a 20 ¢/kWh| subsidio del Estado.    |
++---------------------------------------------+-------------------------------+-------------------------+
+```
+
+##### A. Estructura de Costo Eficiente para la Agroindustria Interna (Sin Pérdida Estatal)
+La tarifa para la molienda de trigo, maíz, arroz y procesamiento lácteo de consumo local no es un regalo del Presupuesto General del Estado:
+1. Generación hidroeléctrica base amortizada asignada en cascada: **$0.025 USD/kWh**.
+2. Peaje de transmisión en alta tensión (TRANSELECTRIC): **$0.009 USD/kWh**.
+3. Valor Agregado de Distribución (VAD) en Media Tensión industrial (13.8 / 22 kV): **$0.028 USD/kWh**.
+4. Comercialización y margen regulado de rentabilidad (10%): **$0.008 USD/kWh**.
+- **Tarifa Base Eficiente Resultante en Media Tensión:** **$0.070 a $0.078 USD/kWh**.
+
+Esta tarifa es plenamente autosuficiente y rentable para CELEC EP y las distribuidoras, pero **aísla a la comida del pueblo ecuatoriano del sobrecosto térmico de 20 a 35 ¢USD/kWh durante los meses de estiaje**.
+
+##### B. Criterio de Selección y Filtro Forense SRI / SENAE
+Para impedir que exportadores camaroneros, bananeros o pesqueros simulen ser "productores de alimentos locales" para capturar la tarifa base:
+- **Cruce Mensual Obligatorio SRI-SENAE:** Se confrontan los ingresos del Formulario 101/104 del SRI con las Declaraciones Aduaneras de Exportación (DAE).
+- **Regla de Proporcionalidad Estricta:** Si una empresa agroindustrial comercializa el 60% de su producción en el mercado nacional y exporta el 40%, su factura eléctrica se desagrega automáticamente: el 60% se liquida a tarifa base hidroeléctrica y el 40% se liquida a costo real pleno ($T_{\text{real}}$ + FCC).
+- **Exclusión de Alimentos y Bebidas Suntuarias:** Cerveceras, licores, bebidas azucaradas, gaseosas, confitería y tabaco quedan totalmente excluidos y pagan costo real pleno desde el kWh 0.
+
+##### C. Condicionalidad de Modulación Horaria (Desplazamiento del Pico)
+Para proteger la potencia instantánea del Sistema Nacional Interconectado entre las 18:00 y las 22:00 horas, las plantas molineras deben operar sus motores de inducción pesados (500 a 2,000 HP) en **Horas Valle y Llanas (23:00 a 17:00)**. La energía consumida en horas pico nocturnas pagará la tarifa marginal térmica de punta ($T_{\text{pico}}$), incentivando el trabajo nocturno y la acumulación de granos en silos.
 
 #### 4.5. Mecanismos Específicos de Fiscalización y Control de Subsidios Regresivos (Protección al 100% de Vulnerables)
 

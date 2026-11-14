@@ -322,6 +322,14 @@ Aquellos nichos que sí intentan vulnerar o burlar el umbral de 250 kWh requiere
 3. **Costeo de Infraestructura por Promotores de Urbanizaciones de Lujo (+25 M USD/año):**
    * *Aceptación Ciudadana:* **Total (90%).** Las empresas públicas no financian transformadores ni redes subterráneas en urbanizaciones privadas de alta plusvalía. El promotor asume el 100% del CAPEX.
 
+#### D. Priorización de la Industria Alimentaria Interna vs. Mayor Costo a Agroexportación y Minería
+- **Legitimidad Política y Paz Social (Aceptación del 94%):** El aumento de tarifas suele detonar estallidos sociales si impacta el precio de los alimentos básicos. Al blindar la energía para los molinos de trigo/harina, piladoras de arroz, plantas de balanceado avícola/porcino y pasteurizadoras de consumo local:
+  * El quintal de harina y el pan popular no sufren shock inflacionario.
+  * El pollo, los huevos, el arroz y la leche mantienen precios estables para las familias de menores ingresos.
+- **La Diferenciación Justa: Capacidad de Pago en Divisas vs. Consumo Popular:**
+  * **Agroexportación (Camarón, Banano, Flores, Cacao, Pesca) y Gran Minería:** Son industrias dolarizadas que venden sus bienes en los mercados internacionales a precios de paridad mundial. Subsidiarles la electricidad con agua del Estado ecuatoriano mientras se quema diésel en estiaje es transferir recursos públicos a exportadores privados. Pagar la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia) es técnica y éticamente inobjetable.
+  * **Cruce SENAE / SRI:** Cero espacio para que los agroexportadores simulen ser productores locales; toda cuota con Declaración Aduanera de Exportación (DAE) tributa el costo real pleno.
+
 ---
 
 ## V. PROPUESTAS DE INGENIERÍA ESTRUCTURAL Y OPTIMIZACIÓN DEL SISTEMA ELÉCTRICO
@@ -358,7 +366,7 @@ Aquellos nichos que sí intentan vulnerar o burlar el umbral de 250 kWh requiere
 ## VI. SÍNTESIS DE CONCLUSIONES PARA LA REFORMA LEGISLATIVA
 
 1. **Protocolo Coercitivo de Extinción de Deudas Públicas (4 Vías):** Combinar la retención forzosa de tasas de aseo y bomberos, corte remoto quirúrgico a dependencias burocráticas y débito automático en MEF/BCE, con sanción de destitución inmediata por Contraloría para erradicar las deudas de los GADs y ministerios sin afectar el agua potable.
-2. **Prioridad Vital Ampliada (Hogares, Comida, Salud, Educación y 3era Edad):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), adultos mayores (50% de descuento vital hasta 50 kWh), hospitales públicos de la RPIS y escuelas fiscales, con estricto pago puntual y autofinanciamiento hidroeléctrico sin subsidios cruzados.
+2. **Prioridad Vital Ampliada (Hogares, Red Alimentaria, Agroindustria de Consumo Interno, Salud, Educación y 3era Edad):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), molinos de trigo/harina, piladoras de arroz, balanceado avícola/porcino y pasteurizadoras de consumo nacional (~85 GWh/mes con cruce SRI/SENAE), adultos mayores (50% de descuento vital hasta 50 kWh en 1 solo medidor), hospitales de la RPIS y escuelas fiscales, con estricto pago puntual y autofinanciamiento hidroeléctrico sin subsidios. Dejar a la agroexportación (camarón, banano, cacao) y gran minería a la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia).
 3. **Cero Subsidios Cruzados y Cost-of-Service:** Cada sector paga su costo real eficiente, protegiendo la competitividad industrial ecuatoriana.
 4. **Sinceramiento Constitucional en Galápagos:** Cobro de 35 a 42 ¢USD/kWh a turismo y consumos suntuarios bajo Arts. 258 y 396 CRE, detonando la autogeneración solar con baterías BESS con retorno en <2 años.
 5. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.

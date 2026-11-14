@@ -47,6 +47,15 @@ umbrales_consumo:
         - "Cámara de fermentación controlada / cuarto frío (1.2 kW)"
         - "Vitrinas de conservación (0.35 kW)"
       objetivo_politica_publica: "Evitar inflación en el precio del pan popular de batalla y alimentos esenciales"
+    nivel_3_agroindustria_consumo_nacional:
+      descripcion: "Molinos de trigo/harina, piladoras de arroz, balanceado avícola/porcino, lácteos de canasta básica"
+      demanda_estimada_gwh_mes: 85.0
+      demanda_estimada_gwh_ano: 1020.0
+      tarifa_base_eficiente_usd_kwh: 0.075
+      destino_exclusivo: "Canasta Básica Familiar en mercado nacional"
+      filtro_forense_exportacion: "Cruce mensual SRI-SENAE; cuota DAE tributa a costo real pleno"
+      exclusion_expresa: ["Bebidas alcoholicas", "Cerveceras", "Bebidas azucaradas", "Snacks", "Tabaco"]
+      modulacion_horaria: "Operacion de molienda pesada en horas valle y llanas (23:00 a 17:00); pico 18:00-22:00 a tarifa termica marginal"
 
   adultos_mayores_3ra_edad:
     descripcion: "Focalización equitativa y capping del subsidio para adultos mayores (LOPAM Art. 14)"
@@ -84,7 +93,7 @@ umbrales_consumo:
       recarga_vehiculos_electricos: "Absorbida directamente en el tramo >250 kWh a costo real pleno sin submedidor"
 
   sectores_no_protegidos:
-    descripcion: "Comercio de gran escala, gran industria, minería, banca y sector público"
+    descripcion: "Comercio de gran escala, agroexportación intensiva (camarón, banano, flores, cacao), gran minería metálica e hidrocarburos, manufacturas generales, banca y sector público"
     subsidio_estatal_pct: 0.0
     tratamiento_tarifario: "costo_real_pleno_100pct"
 
