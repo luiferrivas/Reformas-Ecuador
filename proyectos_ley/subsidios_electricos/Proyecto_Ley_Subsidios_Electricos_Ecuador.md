@@ -190,24 +190,37 @@ En ejercicio de las facultades legislativas consagradas en el artículo 120, num
 
 **Artículo 10.- Sustitúyase el Artículo 60 de la Ley Orgánica del Servicio Público de Energía Eléctrica por el siguiente texto:**
 
-> "**Art. 60.- Facturación y Transparencia en la Planilla Eléctrica.-** En la factura o planilla emitida por las empresas eléctricas de distribución a los usuarios finales, se detallará con carácter mandatorio y en formato claro y legible:
+> "**Art. 60.- Facturación, Sostenibilidad Financiera y Transparencia en la Planilla Eléctrica.-** En la factura o planilla emitida por las empresas eléctricas de distribución a los usuarios finales, se detallará con carácter mandatorio y en formato claro y legible:
 > 1. El volumen total de consumo registrado en el periodo (kWh), desglosado por bloques horarios (valle, llano y pico) cuando el abonado disponga de medidor inteligente;
 > 2. El desglose del bloque preferente de consumo de menor costo (hasta 250 kWh residencial o hasta 500/800 kWh de alimentación básica popular) con indicación de la fuente de energía asignada (hidroeléctrica continental o eólica/solar en Galápagos);
 > 3. El volumen de consumo que supere los límites preferenciales y el costo unitario real aplicado a dicho excedente;
 > 4. El rubro específico del 'Factor de Contingencia Climática por Estiaje', cuando se encuentre activado conforme al artículo 56 de esta Ley, detallando su valor unitario y la fecha estimada de vigencia;
-> 5. Los valores correspondientes a transmisión, distribución, comercialización, alumbrado público y cuota de financiamiento del depósito de garantía del medidor inteligente, de existir; y,
+> 5. Los valores correspondientes a transmisión, distribución, comercialización, alumbrado público y cuota mensual de financiamiento del depósito de garantía del medidor inteligente, de existir; y,
 > 6. El aporte al Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE) originado en los excedentes de facturación, si correspondiere.
 >
-> Las tasas de recolección de basura o contribuciones de cuerpos de bomberos podrán constar en planilla bajo estricto cumplimiento de los convenios autorizados por la Ley, pero deberán imprimirse en sección independiente y separada, sin que su falta de pago impida el pago exclusivo de la energía eléctrica."
+> **Incentivo de Pronto Pago y Recaudación Ágil:** Las empresas distribuidoras aplicarán un descuento del dos por ciento (2%) sobre el valor neto de la energía facturada a aquellos usuarios que cancelen la totalidad de su planilla dentro de los primeros cinco (5) días hábiles siguientes a su emisión, o que mantengan domiciliado el pago mediante débito bancario automático recurrente o billetera digital interoperable.
+>
+> **Suficiencia Financiera y Prohibición de Servicio a Pérdida:** Los pliegos tarifarios elaborados por la ARCONEL garantizarán obligatoriamente la recuperación integral de costos eficientes más un margen operativo de rentabilidad y reinversión del sector no inferior al diez por ciento (10%), quedando estrictamente prohibida la fijación de tarifas a pérdida o con márgenes insuficientes que comprometan la reposición de activos o la liquidez empresarial.
+>
+> **Compensación de Cartera y Retención de Tasas Municipales:** Las empresas distribuidoras quedan facultadas a retener y compensar, de los valores recaudados en planilla por concepto de tasas de recolección de basura o contribuciones bomberiles a favor de los Gobiernos Autónomos Descentralizados municipales, los valores correspondientes al consumo eléctrico de alumbrado público y dependencias municipales que mantengan deudas vencidas mayores a sesenta (60) días, transfiriendo al municipio únicamente el saldo neto remanente."
 
-**Artículo 11.- Agréguese a continuación del Artículo 60 de la Ley Orgánica del Servicio Público de Energía Eléctrica el siguiente artículo innumerado:**
+**Artículo 11.- Agréguese a continuación del Artículo 60 de la Ley Orgánica del Servicio Público de Energía Eléctrica los siguientes artículos innumerados:**
 
-> "**Art. (...).- Despliegue de Medición Inteligente (AMI) y Régimen de Adquisición Autofinanciada con Depósito de Garantía (Costo + 5%).-** Para viabilizar la aplicación de las tarifas horarias dinámicas, la autogeneración solar con inyección bidireccional, el control de pérdidas y la erradicación definitiva de las conexiones clandestinas, establécese el Plan Nacional de Infraestructura de Medición Avanzada (AMI):
-> 1. **Principio de No Gratuidad y Universalidad:** Los medidores de energía eléctrica no serán provistos con carácter gratuito, garantizando la suficiencia financiera de las empresas distribuidoras, el cuidado patrimonial del equipo por parte del abonado y la universalización del parque de medición formal.
-> 2. **Depósito de Garantía de Adquisición (Costo + 5%):** Todo solicitante de un nuevo suministro o abonado sujeto a recambio tecnológico a medidor inteligente bidireccional aportará a la empresa distribuidora un Depósito de Garantía de Medición equivalente al costo real y eficiente de adquisición e importación del equipo medidor homologado, más un recargo del cinco por ciento (5%).
-> 3. **Destino y Uso del Recargo del Cinco por Ciento (5%):** El recargo del 5% constituirá un fondo rotativo específico administrado por la distribuidora destinado exclusivamente a: calibración técnica periódica, logística y custodia, reposición inmediata por fallas técnicas o daños fortuitos y mantenimiento de una reserva permanente de stock que garantice la entrega expedita de medidores a nivel nacional.
-> 4. **Mecanismo de Financiamiento Social en Planilla:** Para garantizar que el depósito de garantía no constituya una barrera económica de acceso para los hogares de menores recursos ni para las microempresas y tiendas populares, la empresa distribuidora financiará automáticamente dicho valor en un plazo de hasta veinticuatro (24) o treinta y seis (36) meses sin intereses, recaudado en cuotas mensuales fijas directamente a través de la planilla de servicio eléctrico.
+> "**Art. (...).- Habilitación Legal, Medición Inteligente (AMI) y Régimen de Garantía Autofinanciada (Costo + 10%).-** Para viabilizar la aplicación de las tarifas horarias dinámicas, la autogeneración solar con inyección bidireccional, el control de pérdidas y la erradicación definitiva de las conexiones clandestinas, establécese el Plan Nacional de Infraestructura de Medición Avanzada (AMI):
+> 1. **Habilitación Legal Expresa y Principio de No Gratuidad:** Derógase cualquier disposición legal, reglamentaria o resolutiva de igual o menor jerarquía que prohíba o restrinja la recuperación de costos de los equipos de medición. Los medidores de energía eléctrica no serán provistos con carácter gratuito ni subsidiado a pérdida de las distribuidoras, garantizando la suficiencia financiera de las empresas públicas, el cuidado del equipo por parte del abonado y la universalización del parque de medición formal.
+> 2. **Depósito de Garantía de Adquisición (Costo + 10%):** Todo solicitante de un nuevo suministro o abonado sujeto a recambio tecnológico a medidor inteligente bidireccional aportará a la empresa distribuidora un Depósito de Garantía de Medición equivalente al costo real y eficiente de adquisición e importación consolidada del equipo medidor homologado, más un recargo del diez por ciento (10%).
+> 3. **Destino del Recargo del Diez por Ciento (10%):** El recargo del 10% constituirá un fondo rotativo permanente administrado por la distribuidora para:
+>    a) Absorber el costo financiero del financiamiento diferido sin intereses en planilla a favor del usuario;
+>    b) Amortizar la tasa técnica de falla o siniestralidad por descargas atmosféricas (rayos) y variaciones de tensión; y,
+>    c) Cubrir logística, calibración y mantenimiento de un stock permanente de reserva en todas las agencias cantonales del país, garantizando la entrega inmediata sin demoras burocráticas.
+> 4. **Mecanismo de Financiamiento Social en Planilla:** Para que el depósito de garantía no constituya una barrera económica de acceso para los hogares de menores recursos ni para las microempresas y tiendas populares, la empresa distribuidora financiará automáticamente dicho valor en un plazo de hasta veinticuatro (24) o treinta y seis (36) meses sin intereses, recaudado en cuotas mensuales fijas de aproximadamente dos dólares ($2 USD/mes) directamente a través de la planilla de servicio eléctrico.
 > 5. **Naturaleza Patrimonial y Devolución:** El depósito de garantía constituye un saldo patrimonial a favor del usuario. En caso de desvinculación voluntaria del servicio con entrega del equipo en condiciones operativas normales, o de traspaso del suministro, el valor de la garantía será íntegramente devuelto o transferido al nuevo titular."
+
+> "**Art. (...).- Modalidad de Suministro Eléctrico Prepago Digital.-** Autorízase la implementación voluntaria de la modalidad de Suministro Eléctrico Prepago Digital para usuarios residenciales y pequeños comercios que cuenten con medidores inteligentes AMI.
+>
+> Los usuarios podrán realizar recargas fraccionadas de energía desde un dólar de los Estados Unidos de América ($1 USD) en comercios de barrio, farmacias, corresponsales no bancarios y billeteras móviles interoperables, sin cargos por corte ni reconexión.
+>
+> A fin de garantizar la seguridad ciudadana y la refrigeración de alimentos y medicinas, el sistema contará con un Crédito de Reserva Nocturna de Emergencia (SOS) de hasta cinco kilovatios-hora (5 kWh), impidiendo la suspensión del suministro entre las 20:00 y las 08:00 del día siguiente, valor que será debitado automáticamente en la siguiente recarga."
 
 ---
 
@@ -234,13 +247,15 @@ c) La estructura del nuevo Pliego Tarifario Codificado que incorpore el piso tar
 
 **QUINTA.-** La Corporación Eléctrica del Ecuador (CELEC EP) constituirá el fideicomiso mercantil para la operatividad del Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE) en un plazo no mayor a sesenta (60) días tras la expedición del reglamento general de esta Ley por parte del Presidente de la República.
 
-**SEXTA.-** En el plazo de ciento veinte (120) días a partir de la vigencia de esta Ley, la ARCONEL expedirá el Reglamento Técnico para la Homologación e Implementación de la Infraestructura de Medición Avanzada (AMI) y el Régimen del Depósito de Garantía de Medidores (Costo + 5%), priorizando en una primera fase (meses 1 a 24) a los usuarios industriales, comerciales y residenciales de consumos superiores a 500 kWh/mes, y desplegando en una segunda fase (meses 25 a 48) el recambio masivo en el resto de usuarios residenciales con facilidades automáticas de financiamiento social en planilla de hasta 36 meses.
+**SEXTA.-** En el plazo de ciento veinte (120) días a partir de la vigencia de esta Ley, la ARCONEL expedirá el Reglamento Técnico para la Homologación e Implementación de la Infraestructura de Medición Avanzada (AMI), el Régimen del Depósito de Garantía de Medidores (Costo + 10%) y el Suministro Eléctrico Prepago Digital, priorizando en una primera fase (meses 1 a 24) a los usuarios industriales, comerciales y residenciales de consumos superiores a 500 kWh/mes, y desplegando en una segunda fase (meses 25 a 48) el recambio masivo en el resto de usuarios residenciales con financiamiento social en planilla de hasta 36 meses.
 
 ---
 
 ### DISPOSICIÓN DEROGATORIA
 
-**ÚNICA.-** Deróganse todas las disposiciones legales, decretos ejecutivos, resoluciones ministeriales y actos administrativos de igual o menor jerarquía que se opongan a los preceptos de la presente Ley Orgánica, y de manera expresa aquellas que establezcan subsidios ciegos o generalizados sobre consumos que excedan los umbrales determinados en esta norma.
+**ÚNICA.-** Deróganse todas las disposiciones legales, decretos ejecutivos, resoluciones ministeriales y actos administrativos de igual o menor jerarquía que se opongan a los preceptos de la presente Ley Orgánica, y de manera expresa:
+1. Aquellas que establezcan subsidios ciegos o generalizados sobre consumos que excedan los umbrales determinados en esta norma; y,
+2. Cualquier norma ordinaria, reglamentaria o resolutiva (incluyendo disposiciones de la Ley Orgánica de Defensa del Consumidor o regulaciones de ARCONEL) que prohíba, limite o sancione la recuperación de los costos eficientes de adquisición, homologación, instalación y financiamiento de equipos de medición a través del régimen de Depósito de Garantía patrimonial y financiamiento social establecido en esta Ley.
 
 ---
 

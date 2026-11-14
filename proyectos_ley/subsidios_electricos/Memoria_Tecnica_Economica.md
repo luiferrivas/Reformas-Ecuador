@@ -353,10 +353,10 @@ Para que el usuario pueda facturar con tarifas horarias y aprovechar el net mete
 - Comunicación bidireccional mediante radiofrecuencia o celular (GPRS/LTE/PLC).
 - Detección instantánea de fraudes, manipulaciones y pérdidas no técnicas.
 
-#### 9.3. Modelo Económico del Depósito de Garantía: Costo + 5%
+#### 9.3. Modelo Económico del Depósito de Garantía: Costo + 10%
 Históricamente, en el Ecuador la provisión de medidores por parte de las distribuidoras ha sido ineficiente, con escasez recurrente de inventarios, trámites que demoraban más de un año y pérdidas patrimoniales al considerarse el medidor como un gasto absorbido por la empresa pública.
 
-La ley instaura el principio de **No Gratuidad y Universalización Autofinanciada**:
+Frente a la alternativa de un recargo del 5%, la modelación económica demuestra que **un recargo del diez por ciento (10%) sobre los costos eficientes es técnicamente superior y financiero-sostenible**:
 
 ```
 +-------------------------------------------------------------------------------------------------------+
@@ -366,19 +366,32 @@ La ley instaura el principio de **No Gratuidad y Universalización Autofinanciad
 +--------------------------------------------+-----------------------------+----------------------------+
 | Costo de compra consolidada a escala       | $55.00 a $65.00 USD         | Medidor inteligente AMI    |
 | (Importación masiva CELEC/Distribuidoras)  |                             | bidireccional homologado   |
-| Recargo operativo de garantía (+5%)        | $2.75 a $3.25 USD           | Fondo rotativo permanente  |
+| Recargo operativo de garantía (+10%)       | $5.50 a $6.50 USD           | Cobertura y fondo de stock |
 +--------------------------------------------+-----------------------------+----------------------------+
-| **DEPÓSITO DE GARANTÍA TOTAL AL USUARIO**  | **$57.75 a $68.25 USD**     | Saldo a favor del abonado  |
+| **DEPÓSITO DE GARANTÍA TOTAL AL USUARIO**  | **$60.50 a $71.50 USD**     | Saldo patrimonial abonado  |
 +--------------------------------------------+-----------------------------+----------------------------+
-| **Financiamiento social diferido**         | **$1.90 a $2.85 USD / mes** | Diferido a 24 o 36 meses   |
+| **Financiamiento social diferido**         | **$1.68 a $1.98 USD / mes** | Diferido a 36 meses        |
 | (Cuota fija en planilla mensual de luz)    |                             | sin intereses              |
 +--------------------------------------------+-----------------------------+----------------------------+
 ```
 
-- **Por qué el recargo del 5% resuelve el problema:**
-  1. **Stock Permanente y Cero Burocracia:** El 5% nutre un fondo rotativo que financia bodegaje, calibración del laboratorio técnico, logística y reposición inmediata de medidores por falla. Nunca más faltarán medidores en el país.
-  2. **Incentivo contra el Fraude y Cuidado del Equipo:** Al no ser gratuito, el abonado cuida el equipo. Si el usuario se muda o cancela el suministro, entrega el medidor y recibe de vuelta el 100% de su garantía o la traspasa al nuevo dueño.
-  3. **Universalidad (Inclusión sin Exclusión):** Al diferirse en la planilla a 36 meses (~$1.90/mes), cualquier familia de escasos recursos o tienda barrial puede tener medidor legal desde el primer día, terminando con las tomas clandestinas y los intermediarios ilegales.
+- **Por qué el 10% es la cifra óptima frente al 5%:**
+  1. **Absorción del Costo Financiero del Diferimiento (36 meses):** En el Ecuador, la tasa de interés activa referencial bordea el 9% a 11% anual. Al conceder financiamiento a 3 años sin intereses para los abonados humildes, la distribuidora inmoviliza capital de trabajo. Un 5% quedaba corto; el 10% compensa el costo de oportunidad del dinero.
+  2. **Cobertura por Siniestralidad y Mortalidad Técnica (Rayos y Sobretensión):** En el clima tropical y húmedo del Ecuador (Costa y Amazonía), las descargas atmosféricas y fallas de red provocan una tasa de mortalidad técnica del 2% al 3% anual en componentes electrónicos de telemetría. El 10% cubre este seguro de reposición sin pedir dinero al Presupuesto General del Estado.
+  3. **Stock Permanente y Cero Burocracia:** El remanente nutre un fondo rotativo que financia bodegaje, calibración del laboratorio técnico y custodia para que nunca más falte un medidor en ninguna agencia cantonal.
+  4. **Universalidad (Inclusión sin Exclusión):** Con una cuota mensual de apenas **$1.68 a $1.98 USD al mes**, ninguna familia queda excluida del servicio formal.
+
+#### 9.4. Viabilidad Jurídica: Cómo Sortear la Prohibición Histórica de Cobro de Medidores
+- **El Obstáculo Jurídico Previo:** En el Ecuador existía la noción jurídica y reglamentaria (en resoluciones previas de ARCONEL y en interpretaciones de la Ley Orgánica de Defensa del Consumidor, Art. 40) de que las empresas de servicios públicos domiciliarios no pueden cobrar al usuario por la instalación de equipos indispensables para la medición del servicio.
+- **La Solución en la Ley Orgánica Reformatoria:**
+  1. **Principio de Jerarquía Normativa (Lex Posterior y Lex Specialis):** Este proyecto tiene rango de **Ley Orgánica**, jerárquicamente superior a la Ley del Consumidor (que es ordinaria en materia de servicios públicos regulados por ley especial) y a las resoluciones de ARCONEL. La ley incorpora una **derogatoria expresa** de cualquier prohibición previa.
+  2. **Naturaleza Jurídica de "Depósito de Garantía Patrimonial" (No Venta Forzosa):** La ley no estructura el mecanismo como una venta mercantil forzosa, sino como un **depósito de garantía por custodia del bien público**. Si el usuario cancela su contrato y entrega el medidor operativo, **recibe el 100% de su dinero de vuelta**, o puede traspasarlo al nuevo propietario del predio. Esto blinda la norma contra cualquier demanda de inconstitucionalidad.
+
+#### 9.5. Sostenibilidad Financiera: Prohibición de Servicio a Pérdida y Descuento del 2% por Pronto Pago
+- **Finanzas Sanas para Invertir:** El sector eléctrico no puede operar a pérdida ni a ganancia mínima. La ley fija un **margen operativo de rentabilidad y reinversión del sector no inferior al diez por ciento (10%)** en los pliegos tarifarios, garantizando que CELEC y las distribuidoras tengan fondos para repuestos y expansión.
+- **Estrategia de Liquidez Acelerada (Descuento del 2% por Pronto Pago):**
+  - Se concede un **descuento del 2% en la planilla** si el abonado paga dentro de los primeros 5 días hábiles o mediante débito automático bancario.
+  - **Rentabilidad Financiera de la Medida:** A la empresa distribuidora le cuesta mucho más la cartera vencida, el costo del capital de trabajo y el costo operativo de enviar cuadrillas de corte y reconexión que otorgar un 2% de descuento comercial. La recaudación masiva en los primeros 5 días del mes inyecta liquidez líquida inmediata para pagar a generadores y evitar paradas por falta de combustible.
 
 ---
 

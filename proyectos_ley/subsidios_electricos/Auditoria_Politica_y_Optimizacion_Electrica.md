@@ -161,6 +161,13 @@ Permitir a los usuarios que tengan medidor inteligente (AMI) comprar electricida
 * **Crédito de Emergencia "Luz Segura" (Respaldo SOS):** Para evitar que una familia se quede a oscuras a medianoche o que se descongele la insulina de un diabético, el medidor inteligente nunca cortará la energía entre las 20:00 y las 08:00 del día siguiente, otorgando un margen de reserva de 5 kWh que se descontará de la próxima recarga.
 * **Red de Distribución de Saldo en la Tienda de Barrio:** Utilización de las redes ya existentes de corresponsales no bancarios (Banco del Barrio, Tu Banco Banco, Mi Vecino, Servipagos) y billeteras móviles (Deuna, Peigo).
 
+#### 6.2. Sostenibilidad Financiera: Prohibición de Servicio a Pérdida y Descuento del 2% por Pronto Pago
+* **Diagnóstico de Negocio:** Ninguna empresa pública puede sobrevivir operando a pérdida o con márgenes insignificantes. Cuando el Estado congela tarifas artificialmente por demagogia, la empresa deja de hacer mantenimiento y el resultado inevitable son apagones masivos y termoeléctricas descompuestas.
+* **Margen Mínimo Regulatorio:** La ley consagra la obligación de que la ARCONEL reconozca costos reales más un **margen operativo no inferior al diez por ciento (10%)**, garantizando el flujo de caja para repuestos y expansión.
+* **Incentivo de Recaudación Acelerada (Descuento del 2%):**
+  * Se aplica un **2% de descuento en planilla** para usuarios que paguen en los primeros 5 días hábiles o mantengan débito bancario automático.
+  * **Por qué es un excelente negocio para la distribuidora:** Cobrar en los primeros 5 días elimina el costo de capital de trabajo, erradica los intereses por mora de préstamos operativos y ahorra millones de dólares en logística de cuadrillas de corte y reconexión. El 2% se autofinancia con la eficiencia de recaudación y asegura liquidez inmediata para pagar generación y combustibles.
+
 ---
 
 ## III. BLOQUE DE DISTRIBUCIÓN: ERRADICACIÓN DE PÉRDIDAS Y GESTIÓN
@@ -168,7 +175,7 @@ Permitir a los usuarios que tengan medidor inteligente (AMI) comprar electricida
 ### 7. Alianzas de Gestión Corporativa / Tercerización de CNEL EP
 
 #### A. Diagnóstico Técnico y Económico
-En CNEL EP (empresa pública nacional con 11 unidades de negocio), las pérdidas de energía superan el **20% en promedio**, y en unidades como Los Ríos o Guayas-Los Ríos llegan al **26%**. Esto significa que uno de cada cuatro kilovatios inyectados en la red no se factura ni se cobra, generando pérdidas anuales superiores a **\$300 millones de dólares**.
+En CNEL EP (empresa pública nacional con 11 unidades de negocio), las pérdidas de energía superan el **20% en promedio**, y en unidades como Los Ríos o Guayas-Los Ríos llegan al **26%**. Esto significa que uno de cada cuatro kilovatios inyectados en la red no se factura ni se cobra, generando pérdidas anuales superiores a **$300 millones de dólares**.
 
 #### B. Auditoría de Choque Político, Legal y Sindical
 * **Bloqueo Constitucional a la Privatización:** Los artículos 314 y 315 de la Constitución ecuatoriana determinan que la prestación de servicios públicos domiciliarios corresponde de forma privativa a empresas públicas, reservando la delegación a empresas mixtas o privadas únicamente bajo causales excepcionales.
@@ -201,7 +208,30 @@ Instalación de macro-medidores inteligentes en los transformadores de distribuc
 
 #### D. La Adaptación Realista ("El Cómo Sí")
 * El macro-medidor se ubica a 8 metros de altura en el poste y transmite por telemetría celular/radio. La detección del fraude se realiza en el centro de control sin exponer físicamente al personal.
-* La regularización del barrio no se realiza mediante operativos punitivos aislados, sino a través de un **Plan de Inclusión Eléctrica Barrial**: se cambia la red vieja por cable concéntrico blindado, se entrega a cada hogar su medidor inteligente financiado a 36 meses (\$1.90/mes) y se habilita la luz prepago de \$1 dólar. Se legaliza a todo el barrio de una sola vez, erradicando el negocio de los "chulqueros de la luz" o intermediarios ilegales.
+* La regularización del barrio no se realiza mediante operativos punitivos aislados, sino a través de un **Plan de Inclusión Eléctrica Barrial**: se cambia la red vieja por cable concéntrico blindado, se entrega a cada hogar su medidor inteligente financiado a 36 meses ($1.80/mes) y se habilita la luz prepago de $1 dólar. Se legaliza a todo el barrio de una sola vez, erradicando el negocio de los "chulqueros de la luz" o intermediarios ilegales.
+
+---
+
+### 9. Régimen Legal de Medidores: ¿Por qué Costo + 10% y Cómo Superar la Prohibición de Cobro?
+
+#### A. El Dilema Legal en Ecuador
+En el marco normativo ordinario y resolutivo previo (como resoluciones de la extinta CONELEC/ARCONEL y en interpretaciones del Art. 40 de la Ley Orgánica de Defensa del Consumidor), se ha sostenido que las empresas de servicios públicos domiciliarios deben proveer los medidores sin costo directo para el usuario.
+* **La consecuencia catastrófica:** Como el Estado supuestamente debía regalarlos y no tenía presupuesto, **las distribuidoras simplemente se quedaron sin medidores**. Miles de ecuatorianos esperan hasta dos años para un medidor, recurren a sobornos a inspectores o se conectan ilegalmente. "Lo gratuito terminó siendo inexistente".
+
+#### B. Las Formas Legales de Resolverlo Definitivamente
+
+1. **Derogatoria Expresa por Jerarquía de Ley Orgánica:**
+   * La Ley de Defensa del Consumidor es una ley ordinaria general. La **LOSPEE es una Ley Orgánica Especial**. Por el principio constitucional de jerarquía normativa (*lex posterior derogat priori* y *lex specialis derogat generali*), la nueva Ley Orgánica reforma de raíz el sistema y deroga expresamente cualquier prohibición de cobro de equipos de medición.
+2. **Figura Jurídica de "Depósito de Garantía Patrimonial Reembolsable":**
+   * Legalmente no se configura como una "venta mercantil forzosa de un aparato", sino como un **depósito de garantía por comodato y custodia de un equipo tecnológico público**.
+   * El depósito es del usuario: si se muda o entrega el medidor operativo, **se le devuelve el 100% del dinero**. Esto blinda la ley ante la Corte Constitucional contra alegatos de "cobro indebido".
+
+#### C. ¿Por qué el 10% sobre Costos es Muy Superior al 5%?
+El recargo del **10%** responde a tres realidades operativas ineludibles:
+1. **Costo Financiero del Crédito a 36 Meses:** Financiar a 3 años sin intereses para familias de bajos recursos inmoviliza capital a una tasa de descuento país del 9-10% anual. Un recargo del 5% generaría pérdidas financieras a la empresa; el 10% equilibra el valor presente neto del dinero.
+2. **Mortalidad Técnica por Rayos y Variaciones de Voltaje:** En la Costa y Amazonía, las descargas atmosféricas y fallas de transformadores queman entre el 2% y 3% anual de los módulos electrónicos de telemetría. El 10% crea un seguro técnico de reposición.
+3. **Fondo Rotativo de Stock Permanente:** Asegura que en cada cantón del país existan medidores en bodega para entrega en 48 horas.
+* **Costo para el abonado:** Un medidor de \$60 USD con el 10% (\$66 USD) financiado a 36 meses representa apenas **\$1.83 USD mensuales en la planilla**. Una cifra insignificante frente al beneficio de tener luz legal, segura y sin multas.
 
 ---
 
@@ -211,4 +241,5 @@ Instalación de macro-medidores inteligentes en los transformadores de distribuc
 2. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
 3. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
 4. **Priorizar Solares en Daule-Peripa sobre Mazar:** Evitar los problemas de fluctuación extrema de cota andina en una primera etapa.
-5. **Universalizar Medidores y Luz Prepago:** La combinación del **Depósito de Garantía (Costo + 5%) financiado a 36 meses** junto a la **Luz Prepago Digital** es la reforma más potente, popular y transformadora para sanear las finanzas del sector eléctrico ecuatoriano.
+5. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
+6. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
