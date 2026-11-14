@@ -112,11 +112,80 @@ Donde:
 
 **Resultado Económico:** Se eliminan las transferencias ciegas del Estado que antes subvencionaban a empresas altamente rentables o a viviendas de alto consumo, liberando cientos de millones de dólares anuales en el Presupuesto General del Estado y recapitalizando el flujo de caja del sector eléctrico.
 
+### 5. PARIDAD DE RED Y DETONANTE DE LA ENERGÍA SOLAR DISTRIBUIDA
+
+Uno de los efectos económicos y transformadores más potentes de esta reforma es el alcance inmediato de la **Paridad de Red (Grid Parity)** para la autogeneración solar fotovoltaica en empresas y hogares de alto consumo.
+
+#### 5.1. Comparativa del Retorno de Inversión (ROI) Solar: Con Subsidio vs. Tarifa Real Plena
+
+```
++-----------------------------------------------------------------------------------------------------+
+|                              MODELO ECONÓMICO DE PANELES SOLARES EN TECHO                           |
++-----------------------------------------+----------------------------+------------------------------+
+| PARÁMETRO / INDICADOR                   | CON ESQUEMA SUBSIDIADO     | CON TARIFA A COSTO REAL      |
+|                                         | (ANTERIOR)                 | (NUEVA LEY)                  |
++-----------------------------------------+----------------------------+------------------------------+
+| Tarifa eléctrica de red pagada          | 8.5 a 10.0 ¢USD/kWh        | 16.0 a 22.0 ¢USD/kWh         |
+| Costo nivelado solar (LCOE en cubierta) | 6.0 a 7.5 ¢USD/kWh         | 6.0 a 7.5 ¢USD/kWh           |
+| Ahorro neto por kWh autogenerado        | 1.5 a 2.5 ¢USD/kWh         | 10.0 a 14.5 ¢USD/kWh         |
+| Periodo de Recuperación (Payback)       | **9.5 a 12.0 años**        | **3.2 a 4.5 años**           |
+| Tasa Interna de Retorno (TIR)           | 7.5% - 9.0%                | **24.0% - 31.5%**            |
+| Viabilidad financiera para empresas     | Marginal / Desincentivada  | **Altamente Rentable**       |
++-----------------------------------------+----------------------------+------------------------------+
+```
+
+- **Por qué no despegaba la energía solar:** Cuando el Estado subsidiaba artificialmente la electricidad industrial y comercial a 9 ¢USD/kWh, un empresario que evaluaba invertir \$50.000 en paneles solares obtenía un retorno a más de 10 años, prefiriendo mantener el suministro convencional.
+- **El detonante de la paridad:** Al eliminarse el subsidio y pagar la tarifa a costo real pleno (18 ¢USD/kWh en promedio), el ahorro mensual se cuadruplica. La inversión solar se amortiza en menos de 4 años, generando 20 años adicionales de electricidad prácticamente gratuita para la empresa.
+- **Incentivo para el Consumidor Residencial de Alto Consumo:** Un hogar de clase media-alta que consume 600 kWh/mes pagará los primeros 250 kWh con la tarifa barata preferencial y los 350 kWh restantes a costo real pleno (~18 ¢USD/kWh). Esto incentiva inmediatamente la instalación de un microkit solar de 1.5 a 2.5 kWp (4 a 6 paneles), borrando el exceso y reduciendo la factura al mínimo.
+
+#### 5.2. Régimen Fast-Track y Medición Neta 1:1
+Para que la paridad de red se materialice en megavatios instalados, la ley derriba las barreras burocráticas históricas de las empresas distribuidoras:
+1. **Silencio Administrativo Positivo en 15 días:** Evita que las distribuidoras retengan arbitrariamente los permisos de conexión.
+2. **Net Metering 1 a 1:** Cada kWh solar inyectado a la red al mediodía se descuenta íntegramente de un kWh consumido de la red en la noche.
+
 ---
 
-### 5. RÉGIMEN DE ESTIAJE, SEQUÍAS Y CONTINGENCIA HIDROLÓGICA
+### 6. MITIGACIÓN DEL IMPACTO INFLACIONARIO Y TRANSICIÓN PRODUCTIVA
 
-#### 5.1. Mecánica del Despacho en Cascada ante Sequía
+#### 6.1. Diagnóstico del Riesgo Inflacionario de Segunda Ronda
+Si bien la ley blinda a las familias (hasta 250 kWh/mes) y a los comercios de alimentos básicos (hasta 500 kWh/mes), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
+
+#### 6.2. Estrategia Escalonada en 3 Trimestres (Curva de Adaptación)
+Para evitar un shock inflacionario, el retiro del subsidio a industrias se dosifica en un año:
+- **Trimestre 1:** Absorción de solo el 33% del diferencial real.
+- **Trimestre 2:** Absorción del 66% del diferencial.
+- **Trimestre 3:** 100% Costo Real Pleno.
+
+**Ventana de Inversión:** Este plazo de 9 a 12 meses coincide exactamente con el tiempo necesario para que las empresas contraten e instalen plantas solares en techo o firmen contratos bilaterales PPA con autogeneradores limpios, neutralizando el impacto del costo antes de que llegue al 100%.
+
+#### 6.3. Financiamiento Verde "Techo Solar Productivo"
+El Banco Central del Ecuador, la CFN y BanEcuador dispondrán de líneas de crédito blando al 5% anual a 7 años plazo. Dado que la cuota mensual del crédito solar es inferior al ahorro generado en la factura eléctrica, la inversión genera flujo de caja positivo inmediato para la empresa desde el primer mes.
+
+---
+
+### 7. MODELADO BIOCLIMÁTICO: JUSTICIA TERRITORIAL ENTRE COSTA Y SIERRA
+
+- En la región interandina (Quito, Cuenca, Riobamba, Loja), la temperatura media oscila entre 12°C y 18°C, sin necesidad de climatización mecánica en los hogares. El límite de **250 kWh/mes** cubre holgadamente al 82% de las familias serranas.
+- En la región litoral (Guayaquil, Manta, Machala, Esmeraldas) y Amazonía, durante los meses de alta temperatura y humedad (diciembre a mayo), la temperatura ambiental supera con frecuencia los 32°C a 35°C con sensación térmica superior a 40°C.
+- En estas condiciones, un hogar de ingresos medios o bajos requiere un equipo de aire acondicionado básico o ventiladores continuos durante las horas de descanso nocturno, elevando el consumo biológico indispensable a un rango de **270 a 310 kWh/mes**.
+- **Solución Bioclimática:** La ley eleva de oficio el umbral preferente en Costa y Amazonía a **320 kWh/mes entre diciembre y mayo**, evitando un castigo económico injusto por razones climáticas y garantizando equidad regional.
+
+---
+
+### 8. COMPLEMENTARIEDAD HIDRO-SOLAR EN TEMPORADAS DE ESTIAJE
+
+Existe una sinergia meteorológica crucial en el Ecuador:
+- Durante la temporada seca o de estiaje en los Andes orientales (que alimenta a las cuencas de Paute, Mazar y Coca Codo), la nubosidad disminuye drásticamente, registrándose los niveles más altos del año de irradiancia solar global horizontal (GHI) en la Sierra y Costa ecuatoriana (5.2 a 6.0 kWh/m²/día).
+- Al masificarse la autogeneración solar en empresas y techos residenciales:
+  1. Durante las horas diurnas (08:00 a 16:30), la red se alimenta de energía solar descentralizada;
+  2. Las compuertas de los embalses hidroeléctricos pueden cerrarse durante el día, **ahorrando agua para turbinarla en las horas de máxima demanda nocturna (18:00 a 22:00)**;
+  3. Se minimiza el encendido de plantas térmicas a diésel y la importación de energía cara desde Colombia, reduciendo el monto del Factor de Contingencia Climática ($FCC$) que paga la sociedad.
+
+---
+
+### 9. RÉGIMEN DE ESTIAJE, SEQUÍAS Y CONTINGENCIA HIDROLÓGICA
+
+#### 9.1. Mecánica del Despacho en Cascada ante Sequía
 Cuando la cota de los embalses hidroeléctricos desciende por debajo de los niveles de seguridad operativa (Mazar a menos de 2.115 msnm, Paute a menos de 1.975 msnm):
 1. La disponibilidad de energía hidroeléctrica barata disminuye.
 2. El sistema despacha obligatoriamente la siguiente energía más económica disponible:
@@ -127,23 +196,23 @@ Cuando la cota de los embalses hidroeléctricos desciende por debajo de los nive
    - Como último recurso: turbinas térmicas a diésel e importaciones internacionales.
 3. Para los bloques preferentes (250 kWh y 500 kWh), se asigna contablemente la energía más barata que quede en el despacho en ese momento. Al agotarse la hidroelectricidad, la tarifa de dichos bloques absorberá únicamente el incremento real de la fuente sustituta más económica disponible.
 
-#### 5.2. El Factor de Contingencia Climática por Estiaje ($FCC$)
+#### 9.2. El Factor de Contingencia Climática por Estiaje ($FCC$)
 El incremento del costo de despacho se refleja en un rubro temporal denominado **Factor de Contingencia Climática ($FCC$)**:
 
 $$FCC_m = \frac{\sum_{i} (C_{\text{fuente }, i} - C_{\text{base}}) \times E_i + C_{\text{importaciones}}}{E_{\text{total facturada}}}$$
 
-#### 5.3. Publicidad Previa Obligatoria y Transparencia
+#### 9.3. Publicidad Previa Obligatoria y Transparencia
 - El Ministerio de Energía y la ARCONEL tienen la obligación legal de anunciar el inicio de la temporada de ajuste con al menos **15 días de anticipación**.
 - Se prohíben aumentos retroactivos o sorpresivos.
 - En la planilla mensual del usuario se imprime un gráfico didáctico y el valor exacto del $FCC$, detallando cuántos centavos por kWh corresponden al estiaje y la fecha proyectada de cese.
 
-#### 5.4. Regla de Mantenimiento Temporal y Cero Déficit
+#### 9.4. Regla de Mantenimiento Temporal y Cero Déficit
 - La tarifa ajustada con el $FCC$ se mantendrá en vigencia **de manera continua hasta que se liquide y cancele el 100% de los pasivos generados durante la sequía** (pagos pendientes de combustibles a Petroecuador, liquidaciones comerciales con Colombia y Perú, contratos de generación de emergencia).
 - Una vez que los embalses recuperen sus niveles normales y la cuenta de costos de contingencia llegue a saldo cero, el $FCC$ se desactiva de forma automática por resolución de ARCONEL, retornando las tarifas a sus valores base.
 
 ---
 
-### 6. FONDO ESPECIAL DE REINVERSIÓN Y RESILIENCIA ELÉCTRICA (FERRE)
+### 10. FONDO ESPECIAL DE REINVERSIÓN Y RESILIENCIA ELÉCTRICA (FERRE)
 
 Uno de los aportes cardinales del proyecto es la gestión del excedente económico ("si sobra algo").
 
@@ -178,12 +247,12 @@ Uno de los aportes cardinales del proyecto es la gestión del excedente económi
  Mayor de Centrales]      y Renovables]            Subestaciones SNT]     Resiliencia Galápagos]
 ```
 
-#### 6.1. Blindaje Jurídico contra la Discrecionalidad Fiscal
+#### 10.1. Blindaje Jurídico contra la Discrecionalidad Fiscal
 - En el pasado, los excedentes de las empresas públicas del sector energético eran absorbidos por el Ministerio de Finanzas para financiar gasto corriente, salarios de la burocracia o subsidios políticos.
 - La ley declara a los excedentes del sector eléctrico como **patrimonio autónomo, intangible e intransferible**.
 - Queda prohibida su reversión a la Cuenta Única del Tesoro Nacional.
 
-#### 6.2. Asignación Estratégica del FERRE:
+#### 10.2. Asignación Estratégica del FERRE:
 1. **Mantenimiento Preventivo y Mayor:** Garantizar que turbinas, rodetes, transformadores y generadores térmicos tengan repuestos y mantenimiento a tiempo, evitando que salgan de servicio durante los estiajes.
 2. **Almacenamiento Energético (BESS):** Financiar la instalación de bancos de baterías de ion-litio a gran escala que acumulen los excedentes de energía solar diurna e hidroeléctrica nocturna para inyectarla en horas pico (18:00 a 22:00).
 3. **Reforzamiento del Sistema Nacional de Transmisión (SNT):** Eliminar cuellos de botella en líneas de 230 kV y 500 kV para evacuar energía renovable desde las zonas de generación hacia los grandes centros de consumo.
@@ -191,7 +260,7 @@ Uno de los aportes cardinales del proyecto es la gestión del excedente económi
 
 ---
 
-### 7. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
+### 11. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
 
 1. **Equidad Social Genuina:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes, y se preserva el precio de los alimentos populares hasta 500 kWh/mes en panaderías y tiendas barriales.
 2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno al resto de actividades económicas y a los consumos excesivos, el Estado erradica el déficit tarifario crónico sin necesidad de endeudamiento público ni apagones programados.
