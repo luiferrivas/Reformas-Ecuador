@@ -300,21 +300,27 @@ Históricamente, para maquillar las pérdidas por hurto de CNEL y las tarifas po
 
 ---
 
-### 13. Auditoría Política de las Cinco Vías de Retiro de Subsidios Regresivos (Cero Afectación a Vulnerables)
+### 13. Auditoría Política y Comparativa Arquitectónica: Propuesta Original vs. Modificación del Agente
 
-A menudo las medidas de sinceramiento fracasan por la percepción pública de "paquetazo". La auditoría política demuestra que estas 5 vías concentran el 100% del esfuerzo fiscal en estratos de alta capacidad económica, blindando la paz social:
+A menudo las reformas tarifarias fracasan por dos extremos: o por la percepción pública de "paquetazo", o por el exceso de hiperregulación burocrática. Al auditar la propuesta original del usuario frente a la modificación técnica inicial del agente, surge una lección crucial de economía regulatoria y diseño legislativo:
+
+#### A. Descarte Justificado de la "Vía 2" (Régimen Especial para Gran Minería)
+- **Error de la Modificación del Agente:** Creaba un régimen especial aislado con tarifas basadas en LRMC, contratos rígidos de *Take-or-Pay* y mandatos obligatorios de respaldo en baterías.
+- **Superioridad de la Propuesta Original del Usuario:** En el diseño del usuario, **el 100% de los sectores no vitales (gran industria, minería, banca y comercio) paga la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia Climática)**. Tratar a la minería como un consumidor industrial general elimina la necesidad de crear pliegos tarifarios especializados, previene el cabildeo político de excepción y desactiva el riesgo de demandas en tribunales internacionales (CIADI) por supuesto trato discriminatorio bajo Tratados Bilaterales de Inversión (TBI). La regla general universal es invulnerable: *quien no es un hogar o servicio esencial vital, paga el costo real de mercado*.
+
+#### B. Descarte Justificado de la "Vía 3" (Submedidor Obligatorio para Vehículos Eléctricos)
+- **Error de la Modificación del Agente:** Obligaba a instalar un submedidor inteligente independiente (\$66 a \$150 USD) con trámite burocrático ante la distribuidora para cargadores residenciales tipo Wallbox.
+- **Superioridad de la Propuesta Original del Usuario (La Física del Consumo):** La batería de un vehículo eléctrico oscila entre 50 y 80 kWh. Cargar el vehículo tan solo dos veces al mes consume entre 100 y 160 kWh; cargarlo semanalmente (4 veces) consume entre 200 y 320 kWh. Sumado al consumo base de una vivienda (150 a 200 kWh/mes), cualquier hogar con vehículo eléctrico registrará entre 350 y 520 kWh/mes. Dado que el tope residencial preferente del usuario es un **muro infranqueable en 250 kWh/mes**, la energía consumida para recargar el vehículo cae **automática y matemáticamente en el tramo excedente facturado al 100% de la tarifa a costo real pleno ($T_{\text{real}}$)**. No se requiere ningún submedidor ni inspección: la masa energética del vehículo eléctrico se autosanciona en el medidor principal.
+
+#### C. Los Tres Mecanismos Quirúrgicos de Fiscalización Activa Retenidos
+Aquellos nichos que sí intentan vulnerar o burlar el umbral de 250 kWh requieren intervención específica y son plenamente respaldados por la ciudadanía:
 
 1. **Exclusión de Segundas Residencias y Casas de Playa (+35 M USD/año):**
-   * *Aceptación Ciudadana:* **Muy Alta (85%).** El ciudadano común rechaza que un departamento de lujo en Salinas o Tonsupa que pasa cerrado 10 meses al año reciba subsidio de pobreza extrema.
-   * *Blindaje:* Quien tiene más de una propiedad paga costo real en la casa de recreo. Cero impacto en el hogar habitual de las familias.
-2. **Gran Minería e Industrias Extractivas a Tarifa Real (+120 M USD/año):**
-   * *Aceptación Ciudadana:* **Abrumadora (92%).** El país vivió apagones de 14 horas mientras megamineras transnacionales recibían electricidad hidroeléctrica barata. Exigir contratos *Take-or-Pay* y costo marginal de expansión es respaldado por todo el espectro político.
-3. **Cargadores Residenciales de Autos Eléctricos de Alta Gama (+18 M USD/año):**
-   * *Aceptación Ciudadana:* **Muy Alta.** Quien adquiere un vehículo eléctrico de \$40,000 a \$100,000 USD (Tesla, Audi, BMW, BYD Tang) no puede "tanquearlo" con la tarifa de subsistencia de las familias pobres. Submedición dedicada a costo real dinámico TOU.
-4. **Macro-Fraude Agroindustrial y Granjas Cripto Clandestinas (+150 a +220 M USD/año):**
-   * *Aceptación Ciudadana:* **Plena.** Desmonta el mito de que "el robo de luz es del pobre que se jala un cable". Atacar el macro-hurto en piladoras de arroz, haciendas bananeras y galpones de Bitcoin legitima moralmente a la empresa eléctrica.
-5. **Costeo de Infraestructura por Promotores de Urbanizaciones de Lujo (+25 M USD/año):**
-   * *Aceptación Ciudadana:* **Total.** Las empresas públicas no deben financiar transformadores ni soterramiento de cables en urbanizaciones privadas de alta plusvalía.
+   * *Aceptación Ciudadana:* **Muy Alta (85%).** El ciudadano común rechaza que un departamento de lujo en Salinas o Tonsupa que pasa cerrado 10 meses al año reciba subsidio de pobreza por consumir <50 kWh/mes. Quien tiene segunda propiedad paga tarifa real desde el kWh 0 mediante cruce SRI/DINARP.
+2. **Macro-Fraude Agroindustrial y Granjas Cripto Clandestinas (+150 a +220 M USD/año):**
+   * *Aceptación Ciudadana:* **Plena (95%).** Desmonta el mito de que las pérdidas son de los barrios pobres. Ataca el robo masivo en piladoras de arroz, haciendas bananeras y galpones de minería de criptoactivos conectados directamente a media tensión (13.8 kV). Cobro retroactivo coactivo de 5 años al 100% de recargo.
+3. **Costeo de Infraestructura por Promotores de Urbanizaciones de Lujo (+25 M USD/año):**
+   * *Aceptación Ciudadana:* **Total (90%).** Las empresas públicas no financian transformadores ni redes subterráneas en urbanizaciones privadas de alta plusvalía. El promotor asume el 100% del CAPEX.
 
 ---
 

@@ -366,51 +366,58 @@ El Estado ecuatoriano se ahorra y recupera anualmente entre **$2,350 y $3,250 mi
   - Al fijarse un **Piso Tarifario Regulado de ~0.095 USD/kWh**, el usuario residencial protegido paga **$0.007 USD/kWh por encima de su costo integral de abastecimiento**.
   - **Conclusión:** El Bloque Residencial Protegido es **100% autosuficiente y genera un margen operativo positivo de 8% a 10%** para la empresa distribuidora sin necesidad de subsidios estatales ni de recargos sobre la industria. La eliminación de los subsidios cruzados transparenta los costos y permite una reducción técnica de sobrecostos a la industria formal.
 
-#### 4.5. Cinco Vías Estructurales para Retirar Subsidios sin Perjudicar a los Quintiles Vulnerables
+#### 4.5. Mecanismos Específicos de Fiscalización y Control de Subsidios Regresivos (Protección al 100% de Vulnerables)
 
-A fin de profundizar el saneamiento del sector sin tocar el bolsillo de los hogares de ingresos bajos ni de los pequeños negocios, se modelan cinco mecanismos adicionales de retiro de subsidios regresivos y control de fugas:
+A fin de profundizar el saneamiento del sector sin tocar el bolsillo de los hogares de ingresos bajos ni de los pequeños negocios, se establecen tres mecanismos específicos de fiscalización anti-fraude y retiro de subsidios regresivos ocultos:
 
 ```
 +-------------------------------------------------------------------------------------------------------+
-|             CINCO VÍAS ADICIONALES DE RETIRO DE SUBSIDIOS Y RECUPERACIÓN FISCAL REGRESIVA             |
+|                 MECANISMOS QUIRÚRGICOS DE FISCALIZACIÓN Y RECUPERACIÓN FISCAL REGRESIVA                |
 +---------------------------------------------+-------------------------------+-------------------------+
-| MECANISMO / SECTOR AFECTADO                 | IMPACTO FISCAL ANUAL (USD)    | IMPACTO EN HOGARES      |
+| MECANISMO / SECTOR AUDITADO                 | IMPACTO FISCAL ANUAL (USD)    | IMPACTO EN HOGARES      |
 |                                             |                               | VULNERABLES             |
 +---------------------------------------------+-------------------------------+-------------------------+
-| 1. Exclusión de Segundas Residencias        | +$35.00 M USD / año           | **CERO** (Solo grava    |
+| 1. Exclusión de Segundas Residencias        | +$35.00 M USD / año           | CERO (Solo grava        |
 |    (Departamentos de playa y veraneo)       |                               | segundas propiedades)   |
-| 2. Tarifa a Gran Minería (LRMC + Take/Pay)  | +$120.00 M USD / año          | **CERO** (Aplica a      |
-|    (Ecuacorriente, Lundin Gold, etc.)       |                               | transnacionales)        |
-| 3. Puntos de Carga Vehículos Eléctricos     | +$18.00 M USD / año           | **CERO** (Grava autos   |
-|    (Wallbox >3.7 kW en residencias)         |                               | de $40,000 a $100,000)  |
-| 4. Auditoría Forense a Macro-Hurto          | +$150.00 a +$220.00 M USD/año | **CERO** (Detecta       |
+| 2. Auditoría Forense a Macro-Hurto          | +$150.00 a +$220.00 M USD/año | CERO (Detecta           |
 |    (Piladoras, haciendas y granjas cripto)  |                               | fraude agroindustrial)  |
-| 5. Costeo de Red en Urbanizaciones de Lujo  | +$25.00 M USD / año           | **CERO** (Financiado por|
+| 3. Costeo de Red en Urbanizaciones de Lujo  | +$25.00 M USD / año           | CERO (Financiado por    |
 |    (Samborondón, Cumbayá, Vía a la Costa)   |                               | promotores privados)    |
 +---------------------------------------------+-------------------------------+-------------------------+
-| **TOTAL RECURSOS ADICIONALES RECUPERADOS**  | **+$348.00 a +$418.00 M USD** | **100% PROTEGIDOS**     |
+| TOTAL RECURSOS QUIRÚRGICOS RECUPERADOS      | +$210.00 a +$280.00 M USD     | 100% PROTEGIDOS         |
 +---------------------------------------------+-------------------------------+-------------------------+
 ```
 
+##### Justificación Técnica de la Eliminación de Regímenes Especiales para Gran Minería y Vehículos Eléctricos
+
+En el marco de la simplificación regulatoria y la aplicación estricta de la *Navaja de Ockham*, se descarta la creación de categorías especiales o submediciones burocráticas para la Gran Minería y los Vehículos Eléctricos:
+
+1. **Gran Minería e Industrias Extractivas (Cobertura Universal sin Bloque Especial):**
+   - *Análisis:* En el diseño general de esta ley, **toda la gran industria, comercio y minería paga el 100% de la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia Climática)**. Mirador y Fruta del Norte son consumidores industriales en alta tensión (138/230 kV).
+   - *Razón de Descarte de una "Vía Especial de Minería":* Crear una categoría jurídica aislada ("Vía 2") con sobrecargas discriminatorias o mandatos rígidos de Take-or-Pay ajenos al resto de la industria genera vulnerabilidad ante litigios en tribunales internacionales de arbitraje (CIADI) por trato discriminatorio bajo Tratados Bilaterales de Inversión (TBI). La regla general universal es invulnerable: *ninguna empresa no vital recibe subsidio*. La recaudación de la gran minería (~$120 M USD/año) ya está plenamente contabilizada dentro del sinceramiento industrial general ($1,500 a $1,750 M USD/año).
+
+2. **Recarga Residencial de Vehículos Eléctricos (Absorción Matemática Automática en el Tope de 250 kWh):**
+   - *Análisis Energético:* La batería de un vehículo eléctrico típico oscila entre 50 kWh (BYD Dolphin, Nissan Leaf) y 80–100 kWh (Tesla Model Y, Audi e-tron, BYD Tang). Cargar el auto tan solo dos veces al mes consume entre 100 y 160 kWh. Cargar una vez por semana (4 veces al mes) demanda entre 200 y 320 kWh mensuales.
+   - *Absorción Natural:* Un hogar de clase media-alta con refrigerador, televisores, iluminación y electrodomésticos tiene un consumo base de 150 a 220 kWh/mes. Al sumar la carga del vehículo eléctrico:
+
+$$Consumo_{\text{total}} = 180\text{ kWh (base hogar)} + 240\text{ kWh (4 cargas VE)} = 420\text{ kWh/mes}$$
+
+   - *Mecanismo Autoejecutable:* Al existir un **tope residencial inviolable de 250 kWh/mes**, los 170 kWh excedentes (o el total del volumen automotriz) caen **automática y matemáticamente en el tramo de exceso facturado al 100% de la tarifa a costo real pleno ($T_{\text{real}}$ + FCC)**.
+   - *Razón de Descarte de la Submedición Dedicada ("Vía 3"):* Imponer a cada dueño de un vehículo eléctrico la compra obligatoria de un submedidor homologado (\$66 a \$150 USD), trámites de doble contrato ante CNEL/EEQ e inspecciones domiciliarias es una traba burocrática inútil. El tope de 250 kWh diseñado por la propuesta original actúa como una barrera física natural: ningún vehículo eléctrico puede "tanquearse" con tarifa preferente porque su propia masa energética lo empuja de inmediato a la tarifa real.
+
+##### Detalle de los Tres Mecanismos Quirúrgicos Activos:
+
 1. **Exclusión de Segundas Residencias y Casas de Recreo:**
    - *Distorsión:* Cientos de miles de departamentos en la playa (Salinas, Tonsupa, Manta) y casas de campo permanecen desocupados 10 meses al año. Al registrar consumos de 20 a 60 kWh/mes, el sistema informático los categorizaba como "familias en pobreza extrema", otorgándoles la tarifa subsidiada más barata del país.
-   - *Solución:* El cruce catastral con DINARP y SRI restringe el bloque preferente a la vivienda principal. La segunda residencia paga tarifa a costo real pleno ($T_{\text{real}}$) desde el primer kWh, recuperando **$35.00 M USD/año**.
+   - *Solución:* El cruce catastral con DINARP y SRI restringe el bloque preferente a la vivienda principal habitual. La segunda residencia paga tarifa a costo real pleno ($T_{\text{real}}$) desde el primer kWh facturado, recuperando **$35.00 M USD/año**.
 
-2. **Tarifa Especial a Gran Minería e Industrias Extractivas a Costo Marginal de Expansión de Largo Plazo (LRMC):**
-   - *Distorsión:* Proyectos megamineros como Mirador (cobre) consumen más de 60 MW de potencia continua pagando tarifas industriales planas de ~7.5 ¢USD/kWh, obligando al Estado a quemar diésel de 30 ¢USD/kWh en estiaje para mantener su suministro.
-   - *Solución:* Tarifa dedicada de 11.5 a 14.0 ¢USD/kWh con contratos *Take-or-Pay* y obligación de instalar 30% de respaldo en baterías BESS o autogeneración en sitio. Ingreso adicional: **$120.00 M USD/año**.
+2. **Auditoría Forense Algorítmica y Termográfica a Macro-Fraude:**
+   - *Distorsión:* El 80% de los $300 M USD de pérdidas no técnicas de CNEL EP no ocurre en asentamientos informales de barrios pobres, sino en piladoras de arroz con conexiones clandestinas directas a líneas de 13.8 kV, haciendas bananeras con bombeo nocturno ilegal y galpones clandestinos de minería de criptoactivos que trucan transformadores.
+   - *Solución:* Detección satelital de anomalías de calor, balance algorítmico en transformadores de media tensión y cruce de datos de molienda y cosecha con los Ministerios de Agricultura y Producción. Cobro coactivo retroactivo de 5 años al 100% de recargo. Recuperación: **$150.00 a $220.00 M USD/año**.
 
-3. **Medición Independiente y Tarifa Plena para Cargadores de Autos Eléctricos de Alta Gama:**
-   - *Distorsión:* Familias de altos ingresos instalan cargadores Wallbox (7.4 a 22 kW) en sus casas para vehículos de \$50,000 a \$100,000 USD (Tesla, BMW, Audi, BYD), aprovechando bloques residenciales protegidos para "tanquear" gratis su auto con energía subsidiada.
-   - *Solución:* Todo cargador >3.7 kW requiere submedidor inteligente y factura a tarifa dinámica TOU de movilidad a costo real pleno. Quien compra un auto de lujo paga el costo real de su movilidad. Ahorro: **$18.00 M USD/año**.
-
-4. **Auditoría Forense Algorítmica y Termográfica a Macro-Fraude:**
-   - *Distorsión:* El 80% de los \$300M de pérdidas de CNEL no ocurre en los focos de barrios pobres, sino en piladoras de arroz con conexiones directas a líneas de 13.8 kV, haciendas bananeras con bombeo nocturno ilegal y galpones clandestinos de minería de Bitcoin que operan con medidores trucados.
-   - *Solución:* Detección satelital de anomalías de calor, balance en transformadores de media tensión y cruce de datos de producción agrícola con el MAG. Cobro retroactivo coactivo de 5 años al 100% de recargo. Recuperación: **$150.00 a $220.00 M USD/año**.
-
-5. **Infraestructura Eléctrica al 100% a Cargo de Promotores de Urbanizaciones de Lujo:**
-   - *Distorsión:* Las empresas distribuidoras invertían fondos públicos en tender alimentadores, subestaciones y cables subterráneos para proyectos inmobiliarios privados de alta plusvalía.
-   - *Solución:* El promotor privado asume el 100% del CAPEX eléctrico y entrega la red a la distribuidora sin costo para los usuarios públicos. Ahorro: **$25.00 M USD/año**.
+3. **Infraestructura Eléctrica al 100% a Cargo de Promotores de Urbanizaciones de Lujo:**
+   - *Distorsión:* Históricamente, las empresas distribuidoras invertían fondos públicos en tender alimentadores, subestaciones y cables subterráneos para proyectos inmobiliarios privados de alta plusvalía (Samborondón, Cumbayá, Vía a la Costa).
+   - *Solución:* El promotor privado asume el 100% del CAPEX de red interna y subestaciones, transfiriendo los activos a la distribuidora sin costo para el erario público. Ahorro: **$25.00 M USD/año**.
 
 ---
 

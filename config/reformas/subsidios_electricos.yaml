@@ -65,23 +65,11 @@ umbrales_consumo:
     principio: "Cada segmento tarifario cubre sus propios costos eficientes sin sobretasas intersectoriales"
     autofinanciamiento_residencial_hidro: true
 
-  vias_adicionales_retiro_subsidios_regresivos:
+  mecanismos_quirurgicos_control_regresivo:
     segundas_residencias:
       descripcion: "Exclusión de casas de playa, veraneo y predios no habitados del bloque preferente"
       tarifa_aplicada: "costo_real_pleno_desde_kwh_0"
       ahorro_fiscal_anual_usd: 35000000
-    gran_mineria_e_hidrocarburos:
-      descripcion: "Tarifa basada en costo marginal de expansión de largo plazo (LRMC) con Take-or-Pay"
-      rango_tarifa_usd_kwh:
-        min: 0.115
-        max: 0.140
-      respaldo_propio_bess_obligatorio_pct: 30.0
-      recaudacion_adicional_anual_usd: 120000000
-    recarga_vehiculos_electricos:
-      potencia_minima_cargador_dedicado_kw: 3.7
-      submedicion_inteligente_obligatoria: true
-      esquema_tarifario: "costo_real_tou_movilidad"
-      ahorro_fiscal_anual_usd: 18000000
     auditoria_macro_fraude:
       sectores_auditados: ["Piladoras de arroz", "Haciendas bananeras tecnificadas", "Granjas clandestinas de criptomineria"]
       metodologia: ["Balance algoritmico en transformadores", "Termografia satelital e infrarroja", "Analitica de factor de carga plano"]
@@ -91,6 +79,9 @@ umbrales_consumo:
     urbanizaciones_lujo:
       financiamiento_infraestructura_pct: 100.0 # Promotores privados pagan 100% de la red
       ahorro_distribuidoras_anual_usd: 25000000
+    nota_simplificacion_arquitectura:
+      gran_mineria: "Gravada al 100% en sectores_no_protegidos sin pliego especial"
+      recarga_vehiculos_electricos: "Absorbida directamente en el tramo >250 kWh a costo real pleno sin submedidor"
 
   sectores_no_protegidos:
     descripcion: "Comercio de gran escala, gran industria, minería, banca y sector público"
