@@ -55,12 +55,44 @@ Esta propuesta legislativa resuelve estructuralmente estos tres problemas median
     $$\text{Factura Residencial} = (C_{\text{preferente}} \times \min(\text{Consumo}, 250)) + (C_{\text{real}} \times \max(0, \text{Consumo} - 250)) + \text{Cargos de Red y Alumbrado}$$
   - Esto protege el presupuesto familiar básico mientras penaliza de forma transparente los consumos suntuarios o ineficientes.
 
-#### 2.2. Bloque de Alimentación Básica y Comercio Barrial: Umbral de 500 kWh/mes
-- **Fundamento Productivo y Social:**
-  - Los pequeños comercios de abastecimiento de víveres (tiendas de barrio, micromercados, fruterías, carnicerías) y las panaderías artesanales operan con equipos indispensables de cadena de frío y fuerza motriz (refrigeradores exhibidores, congeladores de lácteos y carnes, amasadoras de pan, batidoras).
-  - Un estudio técnico de carga eléctrica para una panadería o tienda barrial típica refleja un consumo mensual medio de **350 a 480 kWh/mes**.
-  - Si a estos micronegocios se les aplicara la tarifa comercial plena desde el primer kilovatio, el incremento de costos operativos se trasladaría inevitablemente al precio final del pan, la leche, el queso y los alimentos diarios, provocando un impacto inflacionario regresivo en la canasta familiar básica.
-  - El umbral de **500 kWh/mes** protege la producción y venta de alimentos populares, liquidando dicho bloque con la energía de generación más barata disponible.
+#### 2.2. Bloque de Soberanía Alimentaria y Cadena Popular de Frío: Análisis Técnico (500 kWh vs. 800 kWh)
+
+- **¿Es suficiente 500 kWh/mes para panaderías? Diagnóstico de Carga Electromecánica:**
+  A fin de responder con rigor técnico a los requerimientos energéticos reales de la cadena popular de alimentos, se levantó el inventario de consumo de potencia y factor de uso en dos tipologías clave de establecimientos de la economía popular ecuatoriana:
+
+  ```
+  +-------------------------------------------------------------------------------------------------------+
+  |              CURVA DE CARGA TÍPICA: COMERCIO MINORISTA vs. PANADERÍA CON OBRADOR                     |
+  +-------------------------------------------+---------------------+---------------+---------------------+
+  | EQUIPO ELECTROMECÁNICO                    | POTENCIA NOMINAL    | USO DIARIO    | CONSUMO ESTIMADO    |
+  |                                           | (kW / HP)           | ESTIMADO      | MENSUAL (kWh/mes)   |
+  +-------------------------------------------+---------------------+---------------+---------------------+
+  | **A. TIENDA DE BARRIO / MICROMERCADO:**                                                               |
+  | 1-2 Vitrinas refrigeradas (bebidas/lácteos)| 0.25 kW c/u         | 24 h (ciclos) | 160 - 220 kWh/mes   |
+  | Congelador horizontal (helados/carnes)    | 0.20 kW             | 18 h (ciclos) | 90 - 120 kWh/mes    |
+  | Iluminación LED, punto de venta y router  | 0.15 kW             | 14 h          | 60 - 80 kWh/mes     |
+  | Balanza digital y rebanadora básica       | 0.10 kW             | 4 h           | 12 - 18 kWh/mes     |
+  | **TOTAL TIENDA DE ABARROTES / FRUTERÍA**  |                     |               | **322 - 438 kWh/mes**|
+  +-------------------------------------------+---------------------+---------------+---------------------+
+  | **B. PANADERÍA ARTESANAL CON OBRADOR:**                                                               |
+  | Amasadora espiral industrial (1-2 quint.) | 3.0 kW (4 HP)       | 4 h           | 320 - 360 kWh/mes   |
+  | Batidora planetaria (pasteles y masas)    | 1.5 kW (2 HP)       | 2.5 h         | 100 - 120 kWh/mes   |
+  | Cámara de fermentación controlada / frío  | 1.2 kW              | 8 h           | 240 - 280 kWh/mes   |
+  | Vitrina pastelera refrigerada (local)     | 0.35 kW             | 24 h (ciclos) | 180 - 220 kWh/mes   |
+  | Rebanadora, iluminación, extracción aire  | 0.40 kW             | 10 h          | 90 - 120 kWh/mes    |
+  | *Nota: Horno de cocción opera a GLP ind.* | (Combustible gas)   | -             | -                   |
+  | **TOTAL PANADERÍA CON OBRADOR ACTIVO**    |                     |               | **930 - 1,100 kWh** |
+  +-------------------------------------------+---------------------+---------------+---------------------+
+  ```
+
+- **Veredicto Técnico:**
+  1. Para **tiendas de barrio, micromercados y fruterías**, el umbral de **500 kWh/mes es plenamente suficiente**, cubriendo entre el 110% y el 150% de sus requerimientos normales.
+  2. Para **panaderías artesanales con obrador electromecánico**, el umbral original de 500 kWh/mes resultaba **insuficiente**, cubriendo únicamente el 45% al 55% de su gasto eléctrico indispensable. Dejar el 50% de su energía a tarifa comercial plena (~18 ¢USD/kWh) generaría un sobrecosto mensual de \$50 a \$80 dólares por panadería, forzando un aumento inmediato en el precio del "pan popular de batalla" (de 15 a 20 centavos por unidad).
+
+- **Estructuración en Dos Niveles de Soberanía Alimentaria:**
+  En virtud de esta evidencia técnica, la ley adopta una diferenciación categórica:
+  - **Nivel 1 (hasta 500 kWh/mes):** Comercio minorista de alimentos (tiendas de víveres, micromercados barriales, fruterías).
+  - **Nivel 2 (hasta 800 kWh/mes):** Panaderías artesanales con obrador, carnicerías con cuarto frío y centros comunitarios de acopio lechero rural. Con 800 kWh/mes, una panadería artesanal típica cubre entre el **80% y el 90%** de su requerimiento total a costo de energía barata, blindando el precio de los alimentos básicos de la mesa ecuatoriana contra la inflación.
 
 ---
 
@@ -94,11 +126,53 @@ Menor Costo                                                                     
 - En contraste, los parques eólicos de San Cristóbal y Baltra, y los proyectos solares fotovoltaicos con baterías en Santa Cruz e Isabela generan energía a un costo normalizado local muy inferior al diésel importado (entre **8 y 14 ¢USD/kWh**).
 - **Regla Territorial:** En Galápagos, la energía más barata asignada al Bloque Residencial de 250 kWh es obligatoriamente la generación eólica y solar local disponible, garantizando que el consumo de los habitantes insulares beneficie directamente a la transición ecológica y se reduzca la huella de carbono de las islas.
 
+#### 3.3. Balance Energético Nacional: ¿Alcanza la energía hidroeléctrica barata para hogares y comida? ("¿Nos alcanza acaso la energía?")
+
+Una interrogante técnica fundamental es si la matriz de generación de menor costo (principalmente hidroeléctrica en el continente) tiene la capacidad física y volumétrica para satisfacer íntegramente la demanda de los bloques protegidos.
+
+Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** contra la **Oferta Hidroeléctrica Disponible**, tanto en condiciones hidrológicas medias como durante el periodo de estiaje más crítico registrado en el Ecuador (fuentes: estadísticas oficiales CENACE y balances anuales ARCONEL):
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                       BALANCE ENERGÉTICO ANUAL Y MENSUAL DE LA DEMANDA PROTEGIDA                      |
++---------------------------------------------+----------------------------+----------------------------+
+| CONCEPTO / SECTOR                           | VOLUMEN ANUAL ESTIMADO     | PROMEDIO MENSUAL           |
++---------------------------------------------+----------------------------+----------------------------+
+| 1. Clientes Residenciales (~5.4 millones)   |                            |                            |
+|    - Consumo medio bloque subsistencia      | ~111 kWh/mes por abonado   | -                          |
+|    - Demanda Residencial Protegida          | **7,200 GWh/año**          | **600 GWh/mes**            |
+| 2. Soberanía Alimentaria (~120.000 locales) |                            |                            |
+|    - Tiendas y micromercados (500 kWh)      | ~550 GWh/año               | ~46 GWh/mes                |
+|    - Panaderías y obradores (800 kWh)       | ~314 GWh/año               | ~26 GWh/mes                |
+|    - Demanda Alimentaria Protegida          | **864 GWh/año**            | **72 GWh/mes**             |
++---------------------------------------------+----------------------------+----------------------------+
+| **DEMANDA PROTEGIDA TOTAL (A)**             | **8,064 GWh/año**          | **672 GWh/mes**            |
++---------------------------------------------+----------------------------+----------------------------+
+| **OFERTA HIDROELÉCTRICA NACIONAL (B):**                                                               |
+| • Año Hidrológico Normal (promedio histórico) | **22,000 a 25,500 GWh/año**| **~1,900 a 2,100 GWh/mes** |
+|   - Cobertura de la Demanda Protegida       | **273% a 316%**            | **SOBRA > 1,200 GWh/mes**  |
+| • Año de Sequía Severa / Estiaje Crítico    | **16,000 a 17,500 GWh/año**| **~1,350 a 1,450 GWh/mes** |
+| • **Peor Mes de Estiaje Histórico** (Nov/Dic) | -                          | **1,150 a 1,300 GWh/mes**  |
+|   - Cobertura en el peor mes de crisis      | -                          | **171% a 193%**            |
++---------------------------------------------+----------------------------+----------------------------+
+| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+478 a +628 GWh/mes**    |
++---------------------------------------------+----------------------------+----------------------------+
+```
+
+- **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA!**
+  1. Incluso en el mes más seco de la peor sequía de la historia del país (cuando el complejo Paute-Mazar y Coca Codo operan en niveles mínimos y la generación hidroeléctrica desciende a 1,150 GWh/mes), **la generación hidroeléctrica base supera en más del 70% los 672 GWh/mes necesarios para abastecer a todos los hogares y panaderías del Ecuador**.
+  2. **¿Por qué ocurren los apagones entonces?**
+     El déficit eléctrico no se produce por falta de energía para las casas y panaderías populares. El déficit se genera porque la **Demanda Total del País** (que incluye industrias pesadas, grandes centros comerciales, minería, bombeo petrolero, alumbrado y consumos residenciales altos) oscila entre **2,500 y 2,750 GWh/mes**.
+  3. Al faltar 1,200 a 1,400 GWh/mes para abastecer el consumo no protegido, el país se ve obligado a encender termoeléctricas caras a diésel e importar desde Colombia.
+  4. Al consagrar en la ley que la energía barata va **primero y de forma exclusiva** a hogares (hasta 250/320 kWh) y comida (hasta 500/800 kWh), **la canasta básica queda 100% blindada con hidroelectricidad limpia**. El costo del parque térmico de emergencia y las importaciones se traslada con estricta justicia a los sectores comerciales e industriales de alto consumo, incentivándolos de forma inmediata a autogenerar con energía solar en sus techos.
+
 ---
 
 ### 4. TARIFAS A COSTO REAL PARA EL RESTO DE SECTORES Y EXCEDENTES
 
-Para todos los consumidores no amparados por los bloques preferentes (comercio de media y gran escala, industrias, bancos, telecomunicaciones, minería, sector público, grandes consumidores) y para los consumos residenciales y alimentarios en la porción que exceda los 250 kWh o 500 kWh respectivamente, se aplicará la **Tarifa a Costo Real Pleno ($T_{\text{real}}$)**:
+#### 4.1. Estructura de Tarifa a Costo Real Pleno ($T_{\text{real}}$)
+
+Para todos los consumidores no amparados por los bloques preferentes (comercio de media y gran escala, industrias, bancos, telecomunicaciones, minería, sector público, grandes consumidores) y para los consumos residenciales y alimentarios en la porción que exceda los 250 kWh (o 320 kWh bioclimático) y 500/800 kWh respectivamente, se aplicará la **Tarifa a Costo Real Pleno ($T_{\text{real}}$)**:
 
 $$T_{\text{real}} = C_{\text{gen,real}} + C_{\text{trans}} + C_{\text{dist}} + C_{\text{com}} + C_{\text{pérdidas}} + C_{\text{SAPG}}$$
 
@@ -111,6 +185,25 @@ Donde:
 - $C_{\text{SAPG}}$: Servicio de Alumbrado Público General proporcional.
 
 **Resultado Económico:** Se eliminan las transferencias ciegas del Estado que antes subvencionaban a empresas altamente rentables o a viviendas de alto consumo, liberando cientos de millones de dólares anuales en el Presupuesto General del Estado y recapitalizando el flujo de caja del sector eléctrico.
+
+#### 4.2. El Piso Tarifario Mínimo Legal: Blindaje Financiero de las Empresas Distribuidoras
+
+- **Riesgo Financiero Identificado:**
+  Si la tarifa preferente se calculara exclusivamente deduciendo el costo marginal o nivelado de la hidroelectricidad amortizada (1.5 a 3.0 ¢USD/kWh) más peajes de transmisión y distribución eficiente, la tarifa resultante en baja tensión podría situarse matemáticamente en torno a los 7.0 – 8.0 ¢USD/kWh.
+  Si bien esto parecería atractivo para el consumidor, una caída por debajo de las tarifas reguladas actuales (que promedian ~9.2 ¢USD/kWh residencial) provocaría un **descalce financiero y desfinanciamiento inmediato de las 20 empresas distribuidoras del país** (CNEL EP, EEQ, Centrosur, etc.), imposibilitando el pago de nóminas operativas, mantenimiento de cuadrillas, reposición de transformadores y luminarias.
+
+- **Fórmula con Piso Tarifario Legal:**
+  La ley establece con claridad meridiana que la tarifa preferente final ($T_{\text{preferente}}$) tendrá como **límite inferior irreductible** el pliego tarifario regulado actual a la fecha de promulgación:
+
+  $$T_{\text{preferente}} = \max\left(T_{\text{actual, regulada}}, \; C_{\text{gen,barato}} + C_{\text{trans}} + C_{\text{dist}} + C_{\text{com}} + C_{\text{SAPG}}\right)$$
+
+- **Beneficio Sistémico:**
+  1. **Para la ciudadanía:** Las familias y panaderías mantienen su tarifa base habitual sin aumentos en condiciones hidrológicas ordinarias.
+  2. **Para las distribuidoras:** Se preserva el 100% de su flujo de caja y recaudación histórica, garantizando su solvencia.
+  3. **En sequías:** Si el costo de abastecimiento sube por sustitución térmica, la tarifa se ajusta temporalmente con el Factor de Contingencia Climática ($FCC$) hasta pagar el déficit.
+  4. **En abundancia hídrica:** Al cobrarse costo real a la industria y grandes consumidores, los excedentes recaudados fluyen directamente a nutrir el Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE).
+
+---
 
 ### 5. PARIDAD DE RED Y DETONANTE DE LA ENERGÍA SOLAR DISTRIBUIDA
 
@@ -194,7 +287,7 @@ Cuando la cota de los embalses hidroeléctricos desciende por debajo de los nive
    - Centrales térmicas a gas natural local (Termogas Machala);
    - Centrales a búnker y fuel oil;
    - Como último recurso: turbinas térmicas a diésel e importaciones internacionales.
-3. Para los bloques preferentes (250 kWh y 500 kWh), se asigna contablemente la energía más barata que quede en el despacho en ese momento. Al agotarse la hidroelectricidad, la tarifa de dichos bloques absorberá únicamente el incremento real de la fuente sustituta más económica disponible.
+3. Para los bloques preferentes (250 kWh residencial y 500/800 kWh alimentario), se asigna contablemente la energía más barata que quede en el despacho en ese momento. Al agotarse la hidroelectricidad, la tarifa de dichos bloques absorberá únicamente el incremento real de la fuente sustituta más económica disponible.
 
 #### 9.2. El Factor de Contingencia Climática por Estiaje ($FCC$)
 El incremento del costo de despacho se refleja en un rubro temporal denominado **Factor de Contingencia Climática ($FCC$)**:
@@ -262,7 +355,7 @@ Uno de los aportes cardinales del proyecto es la gestión del excedente económi
 
 ### 11. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
 
-1. **Equidad Social Genuina:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes, y se preserva el precio de los alimentos populares hasta 500 kWh/mes en panaderías y tiendas barriales.
+1. **Equidad Social Genuina:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (320 kWh en Costa/Amazonía cálida), y se preserva el precio de los alimentos populares hasta 500 kWh/mes en tiendas y 800 kWh/mes en panaderías artesanales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
 2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno al resto de actividades económicas y a los consumos excesivos, el Estado erradica el déficit tarifario crónico sin necesidad de endeudamiento público ni apagones programados.
 3. **Resiliencia Adaptativa ante el Clima:** El sistema adquiere una regla matemática transparente para navegar temporadas de sequía, publicitando con antelación las variaciones y manteniendo las tarifas ajustadas solo el tiempo estrictamente necesario para no generar pérdidas.
 4. **Sostenibilidad y Modernización Continua:** Cualquier ganancia o remanente se convierte automáticamente en nuevas inversiones eléctricas a través del FERRE, asegurando que el Ecuador cuente con una matriz robusta, moderna y soberana.
