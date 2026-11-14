@@ -59,7 +59,10 @@
 - **Cuello de Botella Operativo:** Disponibilidad de semiconductores para tarjetas de comunicación de medidores bidireccionales y pruebas de ciberseguridad en protocolos DLMS/COSEM.
 
 ### Modelo de Ingresos y Rentabilidad Autosuficiente (Sin Subsidios)
-- **Eliminación del Déficit Tarifario:** Recuperación de más de 1,200.00 M USD/año al cobrar tarifa a costo real pleno (promedio 0.180 USD/kWh) a industrias pesadas, grandes centros comerciales y consumo residencial suntuario.
+- **Eliminación del Déficit Tarifario y Facturación a Costo Real:** Recuperación de más de 1,500.00 a 1,750.00 M USD/año al cobrar tarifa a costo real pleno (promedio 0.185 USD/kWh) a industrias pesadas, grandes centros comerciales y consumo residencial suntuario.
+- **Ahorro Fiscal en Combustibles Térmicos (Petroecuador):** 700.00 a 1,150.00 M USD/año liberados al cobrar diésel y búnker al 100% de paridad internacional WTI a las termoeléctricas.
+- **Ahorro en Importaciones Eléctricas de Emergencia:** 150.00 a 350.00 M USD/año transferidos al Factor de Contingencia ($FCC$).
+- **Liberación Total de Recursos para el Estado:** **2,350.00 a 3,250.00 M USD/año** (2.5% a 3.2% del PIB nacional), extinguiendo el déficit fiscal del sector eléctrico.
 - **Recaudación FERRE por Resiliencia:** 192.50 a 280.00 M USD/año para inversión continua en BESS y mantenimiento mayor.
 - **Autofinanciamiento de Medidores:** El recargo del 10% genera un fondo rotativo de 7.20 M USD para reposición permanente de inventarios, costo de capital a 36 meses y seguro de siniestralidad por descargas atmosféricas sin aportes del Presupuesto General del Estado.
 

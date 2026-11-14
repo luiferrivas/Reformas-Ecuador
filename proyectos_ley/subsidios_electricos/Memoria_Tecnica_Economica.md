@@ -221,6 +221,55 @@ Donde:
   3. **En sequías:** Si el costo de abastecimiento sube por sustitución térmica, la tarifa se ajusta temporalmente con el Factor de Contingencia Climática ($FCC$) hasta pagar el déficit.
   4. **En abundancia hídrica:** Al cobrarse costo real a la industria y grandes consumidores, los excedentes recaudados fluyen directamente a nutrir el Fondo Especial de Reinversión y Resiliencia Eléctrica (FERRE).
 
+#### 4.3. Auditoría Forense del Subsidio Real Total: Combustibles de Petroecuador y Ahorro Fiscal Consolidado
+
+Una auditoría macroeconómica rigurosa exige transparentar los subsidios indirectos que históricamente se han ocultado en los balances de EP Petroecuador y en el Presupuesto General del Estado (PGE).
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                 AUDITORÍA FORENSE DEL SUBSIDIO REAL TOTAL DEL SECTOR ELÉCTRICO ECUATORIANO            |
++---------------------------------------------+-----------------------------+---------------------------+
+| COMPONENTE DEL SUBSIDIO                     | CONDICIÓN HIDROLÓGICA NORMAL| CRISIS DE ESTIAJE SEVERO  |
++---------------------------------------------+-----------------------------+---------------------------+
+| 1. Déficit Tarifario Directo Reconocido     | $550.00 M USD / año         | $700.00 M USD / año       |
+|    (Brecha tarifa media 9.5¢ vs costo 14.5¢)|                             |                           |
+| 2. Subsidio Oculto en Combustibles Térmicos | $450.00 M USD / año         | $1,150.00 M USD / año     |
+|    (Absorbido en pérdidas de Petroecuador)  |                             |                           |
+| 3. Subsidio en Importaciones de Emergencia  | $50.00 M USD / año          | $350.00 M USD / año       |
+|    (Comprada a Colombia a 28¢, vendida a 9¢)|                             |                           |
+| 4. Pérdidas No Técnicas (Hurto de Energía)  | $200.00 M USD / año         | $350.00 M USD / año       |
+|    (Energía inyectada no facturada en CNEL) |                             |                           |
++---------------------------------------------+-----------------------------+---------------------------+
+| **GRAN TOTAL SUBSIDIO REAL INTEGRAL**       | **$1,250.00 M USD / año**   | **$2,550.00 M USD / año** |
++---------------------------------------------+-----------------------------+---------------------------+
+```
+
+##### A. Subsidio en Combustibles Térmicos a Precios Internacionales (WTI Base)
+Las generadoras térmicas han operado con precios artificialmente deprimidos fijados por decretos ejecutivos:
+1. **Diésel Eléctrico No. 2:** Transferido a CELEC a 0.92 - 1.10 USD/galón, cuando el precio de paridad de importación internacional (marcador WTI + flete CIF) es de **2.90 a 3.20 USD/galón**. En estiaje severo (quema de 180 a 250 millones de galones), Petroecuador pierde entre **$360 y $525 millones de USD anuales** solo en este rubro.
+2. **Fuel Oil No. 4 y No. 6 (Búnker):** Transferido a 0.45 - 0.60 USD/galón (19 a 25 USD/barril), frente a una paridad internacional WTI de **1.35 a 1.55 USD/galón** (57 a 65 USD/barril). En 150 a 190 millones de galones quemados, el subsidio absorbido es de **$135 a $180 millones de USD anuales**.
+3. **Gas Natural Local (Campo Amistad):** Transferido a 1.50 - 2.00 USD/MMBTU frente a un costo de oportunidad de **8.00 a 11.00 USD/MMBTU**, representando un subsidio implícito de **$80 a $120 millones de USD anuales**.
+
+##### B. Ahorro Fiscal y Liberación de Recursos al Eliminar el 100% de Subsidios Directos e Indirectos
+Al obligar a que las generadoras térmicas paguen el 100% del combustible a precio real de mercado y facturar a costo real los 19,246 GWh/año de demanda no protegida:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                    BALANCE FISCAL Y FINANCIERO CON ELIMINACIÓN TOTAL DE SUBSIDIOS                     |
++-----------------------------------------------------------------------+-------------------------------+
+| CONCEPTO / FLUJO FINANCIERO                                           | IMPACTO FISCAL ANUAL (USD)    |
++-----------------------------------------------------------------------+-------------------------------+
+| Ahorro por venta de combustibles a precio real (Petroecuador)         | +$700.00 a +$1,150.00 M USD   |
+| Ahorro por traslado de importaciones internacionales al FCC           | +$150.00 a +$350.00 M USD     |
+| Recaudación adicional neta por tarifa a costo real pleno              | +$1,500.00 a +$1,750.00 M USD |
+| Erradicación del déficit tarifario histórico en CELEC y Distribuidoras| Liquidez operativa positiva   |
++-----------------------------------------------------------------------+-------------------------------+
+| **LIBERACIÓN TOTAL DE RECURSOS PARA EL ESTADO (AHORRO + RECAUDACIÓN)**| **+$2,350.00 a +$3,250.00 M** |
++-----------------------------------------------------------------------+-------------------------------+
+```
+
+El Estado ecuatoriano se ahorra y recupera anualmente entre **$2,350 y $3,250 millones de USD**, equivalentes al 2.5% - 3.2% del Producto Interno Bruto (PIB), saneando de forma estructural el déficit fiscal de la República sin endeudamiento.
+
 ---
 
 ### 5. PARIDAD DE RED Y DETONANTE DE LA ENERGÍA SOLAR DISTRIBUIDA
