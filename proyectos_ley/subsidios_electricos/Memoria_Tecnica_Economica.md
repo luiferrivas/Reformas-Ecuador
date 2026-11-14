@@ -236,12 +236,20 @@ Para que la paridad de red se materialice en megavatios instalados, la ley derri
 1. **Silencio Administrativo Positivo en 15 días:** Evita que las distribuidoras retengan arbitrariamente los permisos de conexión.
 2. **Net Metering 1 a 1:** Cada kWh solar inyectado a la red al mediodía se descuenta íntegramente de un kWh consumido de la red en la noche.
 
+#### 5.3. Baterías de Almacenamiento (BESS) y Arbitraje Tarifario (Peak Shaving)
+
+El sinceramiento tarifario y la variabilidad en estiaje detonan la rentabilidad no solo de los paneles solares, sino de la combinación **Solar + Sistemas de Almacenamiento con Baterías (BESS)** para empresas y comercios:
+1. **La Problemática Tradicional:** La energía solar fotovoltaica genera exclusivamente durante el día (08:00 a 16:30). Sin embargo, el pico de máxima demanda y mayor estrés del sistema eléctrico ecuatoriano ocurre entre las 18:00 y las 22:00.
+2. **El Arbitraje Tarifario (Time of Use):** Al cobrarse tarifa a costo real pleno (o tarifas horarias donde la energía en hora punta es sustancialmente más cara), una empresa industrial o comercial puede cargar sus baterías con excedentes solares al mediodía (costo marginal ~6.5 ¢/kWh) y descargar la energía almacenada durante el horario nocturno pico de 18:00 a 22:00 (evitando pagar de 20 a 25 ¢/kWh de la red).
+3. **Respaldo Limpio vs. Generador a Diésel:** Sustituye a los generadores térmicos a diésel (que cuestan >30 ¢USD/kWh entre combustible y mantenimiento), garantizando continuidad operativa con cero emisiones y cero ruido.
+4. **Viabilidad Financiera:** Con la superdeducción del 100% de Impuesto a la Renta y arancel 0%, el retorno de inversión del combo **Solar + BESS industrial** se reduce a **4.0 a 5.2 años**, transformando a las empresas en agentes de estabilidad para la red pública.
+
 ---
 
 ### 6. MITIGACIÓN DEL IMPACTO INFLACIONARIO Y TRANSICIÓN PRODUCTIVA
 
 #### 6.1. Diagnóstico del Riesgo Inflacionario de Segunda Ronda
-Si bien la ley blinda a las familias (hasta 250 kWh/mes) y a los comercios de alimentos básicos (hasta 500 kWh/mes), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
+Si bien la ley blinda a las familias (hasta 250/300 kWh/mes) y a los comercios de alimentos básicos (hasta 500 kWh en tiendas y 800 kWh en panaderías), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
 
 #### 6.2. Estrategia Escalonada en 3 Trimestres (Curva de Adaptación)
 Para evitar un shock inflacionario, el retiro del subsidio a industrias se dosifica en un año:
@@ -249,19 +257,67 @@ Para evitar un shock inflacionario, el retiro del subsidio a industrias se dosif
 - **Trimestre 2:** Absorción del 66% del diferencial.
 - **Trimestre 3:** 100% Costo Real Pleno.
 
-**Ventana de Inversión:** Este plazo de 9 a 12 meses coincide exactamente con el tiempo necesario para que las empresas contraten e instalen plantas solares en techo o firmen contratos bilaterales PPA con autogeneradores limpios, neutralizando el impacto del costo antes de que llegue al 100%.
+**Ventana de Inversión:** Este plazo de 9 a 12 meses coincide exactamente con el tiempo necesario para que las empresas contraten e instalen plantas solares en techo y baterías BESS o firmen contratos bilaterales PPA con autogeneradores limpios, neutralizando el impacto del costo antes de que llegue al 100%.
 
-#### 6.3. Financiamiento Verde "Techo Solar Productivo"
-El Banco Central del Ecuador, la CFN y BanEcuador dispondrán de líneas de crédito blando al 5% anual a 7 años plazo. Dado que la cuota mensual del crédito solar es inferior al ahorro generado en la factura eléctrica, la inversión genera flujo de caja positivo inmediato para la empresa desde el primer mes.
+#### 6.3. Financiamiento Verde "Techo Solar y Baterías Productivas"
+El Banco Central del Ecuador, la CFN y BanEcuador dispondrán de líneas de crédito blando al 5% anual a 7 años plazo. Dado que la cuota mensual del crédito solar/BESS es inferior al ahorro generado en la factura eléctrica, la inversión genera flujo de caja positivo inmediato para la empresa desde el primer mes.
 
 ---
 
-### 7. MODELADO BIOCLIMÁTICO: JUSTICIA TERRITORIAL ENTRE COSTA Y SIERRA
+### 7. MODELADO BIOCLIMÁTICO, ELASTICIDAD PRECIO Y EFECTO SUSTITUCIÓN (VENTILADOR vs. AIRE ACONDICIONADO)
 
-- En la región interandina (Quito, Cuenca, Riobamba, Loja), la temperatura media oscila entre 12°C y 18°C, sin necesidad de climatización mecánica en los hogares. El límite de **250 kWh/mes** cubre holgadamente al 82% de las familias serranas.
-- En la región litoral (Guayaquil, Manta, Machala, Esmeraldas) y Amazonía, durante los meses de alta temperatura y humedad (diciembre a mayo), la temperatura ambiental supera con frecuencia los 32°C a 35°C con sensación térmica superior a 40°C.
-- En estas condiciones, un hogar de ingresos medios o bajos requiere un equipo de aire acondicionado básico o ventiladores continuos durante las horas de descanso nocturno, elevando el consumo biológico indispensable a un rango de **270 a 310 kWh/mes**.
-- **Solución Bioclimática:** La ley eleva de oficio el umbral preferente en Costa y Amazonía a **320 kWh/mes entre diciembre y mayo**, evitando un castigo económico injusto por razones climáticas y garantizando equidad regional.
+#### 7.1. Elasticidad Precio de la Demanda Residencial por Estratos de Ingreso
+La respuesta del consumo residencial ante un sinceramiento tarifario o ante el incremento por estiaje ($FCC$) no es homogénea, sino que se comporta de forma **parcialmente elástica según el nivel de ingresos**:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                    COMPORTAMIENTO DE ELASTICIDAD Y EFECTO SUSTITUCIÓN EN LA COSTA                     |
++------------------------+-------------------+----------------------------+-----------------------------+
+| ESTRATO SOCIOECONÓMICO | ELASTICIDAD PRECIO| REACCIÓN ANTE TARIFA CARA  | IMPACTO EN EL SISTEMA       |
+|                        | DE LA DEMANDA     | (SEÑAL DE PRECIO EN SEQUÍA)|                             |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Quintiles 1, 2 y 3** | **Alta Elasticidad**| **Sustitución Inmediata:**  | **Descongestionamiento:**   |
+| (Ingresos Bajos-Medios)| (ε_p ≈ -0.55)     | Apagan aire acondicionado; | Desploma la demanda pico de |
+| ~75% de la población   | Sensibles a la    | Encienden ventilador de    | noche en 15% a 22%. Ahorro  |
+|                        | planilla mensual  | pedestal/techo eficiente.  | de agua en embalses.        |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Quintiles 4 y 5**    | **Inelástica**    | **Mantienen Confort:**     | **Aporte Financiero Pleno:**|
+| (Altos Ingresos)       | (ε_p ≈ -0.12)     | No apagan aire ni splits;  | Pagan 100% costo real sin   |
+| ~25% de la población   | Priorizan confort | pagan la tarifa real sobre | subsidio. Financian el parque|
+|                        | sobre el costo    | los 400 a 1.200 kWh extras.| térmico de respaldo.        |
++------------------------+-------------------+----------------------------+-----------------------------+
+```
+
+#### 7.2. Comparativa Energética y Económica: Ventilador vs. Aire Acondicionado
+El efecto de sustitución inducido por la tarifa real genera una reducción drástica del consumo eléctrico en los hogares de la Costa:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                 ANÁLISIS COMPARATIVO DE CONSUMO: AIRE ACONDICIONADO vs. VENTILADOR                    |
++------------------------------------+-----------------------------+------------------------------------+
+| PARÁMETRO / INDICADOR              | AIRE ACONDICIONADO SPLIT    | VENTILADOR DE TECHO / PEDESTAL     |
+|                                    | (12,000 BTU convencional)   | (Eficiencia energética motor DC)   |
++------------------------------------+-----------------------------+------------------------------------+
+| Potencia eléctrica de operación    | **1,200 Watts (1.20 kW)**   | **60 Watts (0.06 kW)**             |
+| Uso nocturno estimado (8 horas)    | 9.60 kWh / noche            | 0.48 kWh / noche                   |
+| Consumo mensual acumulado          | **288 kWh / mes**           | **14.4 kWh / mes**                 |
+| Costo mensual a Tarifa Real Plena  |                             |                                    |
+| (estimada en 20 ¢USD/kWh)          | **$57.60 USD / mes**       | **$2.88 USD / mes**               |
+| Costo dentro del Bloque Preferente |                             |                                    |
+| (piso tarifario base ~9.5 ¢/kWh)   | N/A (Excede el umbral base) | **$1.37 USD / mes**               |
++------------------------------------+-----------------------------+------------------------------------+
+| **AHORRO ENERGÉTICO Y MONETARIO**  | **Reducción del 95% en consumo y $54.72 USD de ahorro mensual**   |
++------------------------------------+------------------------------------------------------------------+
+```
+
+- **Por qué ayuda a mitigar la sequía:**
+  Durante los meses críticos de estiaje, miles de familias en la Costa ecuatoriana, al enfrentarse al cobro real de los excedentes, prefieren encender el ventilador en lugar del aire acondicionado. Esto retira de la red aproximadamente **1.14 kW de potencia por cada hogar que modera su consumo**.
+  Multiplicado por 400,000 familias en la cuenca del Guayas, Manabí, El Oro y Esmeraldas, esto representa un **alivio instantáneo de hasta 450 MW de potencia en el pico nocturno**, equivalente a apagar tres barcazas térmicas de generación diésel importada.
+
+#### 7.3. Bonificación por Ahorro Voluntario en Estiaje
+Para potenciar la elasticidad de la demanda de forma proactiva, la ley premia el ahorro:
+- Los hogares y micronegocios que reduzcan su consumo mensual en al menos un **10%** respecto a su historial previo en época seca quedan **100% exonerados del Factor de Contingencia ($FCC$)**.
+- La combinación de tarifa real para el exceso y bonificación por ahorro convierte al ciudadano en un agente activo de la seguridad energética del país.
 
 ---
 
