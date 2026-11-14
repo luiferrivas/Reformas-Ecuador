@@ -330,6 +330,23 @@ Aquellos nichos que sí intentan vulnerar o burlar el umbral de 250 kWh requiere
   * **Agroexportación (Camarón, Banano, Flores, Cacao, Pesca) y Gran Minería:** Son industrias dolarizadas que venden sus bienes en los mercados internacionales a precios de paridad mundial. Subsidiarles la electricidad con agua del Estado ecuatoriano mientras se quema diésel en estiaje es transferir recursos públicos a exportadores privados. Pagar la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia) es técnica y éticamente inobjetable.
   * **Cruce SENAE / SRI:** Cero espacio para que los agroexportadores simulen ser productores locales; toda cuota con Declaración Aduanera de Exportación (DAE) tributa el costo real pleno.
 
+#### E. Priorización de Agua Potable, Riego Campesino y Farmacéutica Nacional vs. Descarte Explícito de Oligopolios Pesados (Cemento, Acero, Textil)
+
+A fin de blindar los servicios de supervivencia y la paz social popular sin reabrir brechas de subsidio desfinanciado, la reforma delimita con precisión quirúrgica qué otras categorías estratégicas se priorizan y cuáles quedan categóricamente descartadas:
+
+1. **Agua Potable Pública y Saneamiento Municipal (~38.0 GWh/mes):**
+   * *Diagnóstico Político:* El agua potable es un derecho humano inalienable (Art. 12 CRE). Si los 221 municipios del Ecuador vieran duplicada la planilla de sus estaciones de bombeo y plantas de cloración a costo real pleno (18 ¢USD/kWh), se desataría una ola de aumentos del 50% al 70% en las planillas de agua potable urbana o el colapso financiero de las empresas municipales (EPMAPS, Interagua/EMAPAG, ETAPA), detonando paros cantonales generalizados.
+   * *La Adaptación de Sostenibilidad:* Se les asigna tarifa base hidroeléctrica eficiente en media tensión (~0.078 USD/kWh), pero con una **condición sine qua non de disciplina financiera inviolable**: se prohíbe la acumulación de deudas históricas; a los 60 días de mora opera el **débito automático centralizado en el Banco Central del Ecuador (BCE) sobre las transferencias constitucionales del GAD**. Además, se les exige bombear a tanques y reservorios en horas valle nocturnas (23:00 a 06:00).
+2. **Juntas de Riego Comunitario Campesino (~16.0 GWh/mes):**
+   * *Diagnóstico Político y Desactivación de Conflictos Indígenas:* Los levantamientos sociales y paros agrarios en el Ecuador (CONAIE, FENOCIN, FEINE) se nutren del encarecimiento de la producción campesina. Las pequeñas juntas de agua comunitaria de la Sierra y valles que bombean agua para regar papas, hortalizas, legumbres y maíz para los mercados populares y ferias libres reciben energía base hidroeléctrica (~0.075 USD/kWh).
+   * *Filtro de Exclusión:* Se excluye taxativamente a las grandes haciendas tecnificadas de agroexportación (banano, camarón, flores, cacao), las cuales cuentan con capacidad de pago en divisas y tributan a costo real pleno.
+3. **Industria Farmacéutica Nacional de Genéricos y Sueros Básicos (~11.0 GWh/mes):**
+   * *Diagnóstico Sanitario:* Garantiza que las plantas nacionales de fabricación y envasado de sueros parenterales, soluciones fisiológicas, antibióticos y analgésicos genéricos que abastecen al Cuadro Nacional de Medicamentos Básicos (CNMB) no sufran un shock de costos que encarezca las compras públicas del MSP e IESS o las farmacias de barrio.
+4. **Descarte Técnico y Político Explícito de Otras Industrias (Cemento, Acero, Textil, Plásticos):**
+   * *Industria Cementera (Holcim, UNACEM):* Descartada de la tarifa preferente. El sector cementero en Ecuador opera bajo una estructura oligopólica de altísima rentabilidad (márgenes EBITDA del 25% al 35%) con hornos de clinker térmicos y molinos masivos. Concederles energía barata equivaldría a subsidiar con fondos del Estado ecuatoriano a corporaciones multinacionales privadas suizas o peruanas. Se les concede de forma equitativa el cronograma de transición escalonada de 12 meses (33% -> 66% -> 100%) para que inviertan en plantas solares en sus extensas canteras.
+   * *Siderurgia y Metalmecánica Pesada (Adelca, Novacero, Andec):* Descartada. Los hornos de arco eléctrico de fundición de chatarra son consumidores intensivos en potencia puntual (hasta 40 MW de golpe). Deben operar bajo contratos bilaterales directos en horas valle o instalar almacenamiento BESS, sin recargar a la red pública.
+   * *Industria Textil y de Plásticos:* Descartada de trato preferente permanente. Son actividades de manufactura general no alimentaria que deben migrar a eficiencia de motores y autogeneración solar mediante las líneas de Crédito Verde CFN/BanEcuador al 5% anual.
+
 ---
 
 ## V. PROPUESTAS DE INGENIERÍA ESTRUCTURAL Y OPTIMIZACIÓN DEL SISTEMA ELÉCTRICO

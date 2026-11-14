@@ -225,28 +225,35 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 | 4. Educación Pública Fiscal                 |                            |                            |
 |    - Escuelas básicas, colegios fiscales y  |                            |                            |
 |      Unidades del Milenio (~12,400 centros) | **240 GWh/año**            | **20.0 GWh/mes**           |
+| 5. Agua Potable Pública y Saneamiento GADs  |                            |                            |
+|    - Estaciones de bombeo y plantas de      |                            |                            |
+|      potabilización cantonal (~221 cantones)| **456 GWh/año**            | **38.0 GWh/mes**           |
+| 6. Juntas de Riego Comunitario Campesino    |                            |                            |
+|    - Bombeo comunal para agricultura local  | **192 GWh/año**            | **16.0 GWh/mes**           |
+| 7. Industria Farmacéutica Nacional Genéricos|                            |                            |
+|    - Producción de medicamentos y sueros    | **132 GWh/año**            | **11.0 GWh/mes**           |
 +---------------------------------------------+----------------------------+----------------------------+
-| **DEMANDA PROTEGIDA TOTAL (A)**             | **9,774 GWh/año**          | **814.5 GWh/mes**          |
+| **DEMANDA PROTEGIDA TOTAL (A)**             | **10,554 GWh/año**         | **879.5 GWh/mes**          |
 +---------------------------------------------+----------------------------+----------------------------+
 | **OFERTA HIDROELÉCTRICA NACIONAL (B):**                                                               |
 | • Año Hidrológico Normal (promedio histórico) | **22,000 a 25,500 GWh/año**| **~1,900 a 2,100 GWh/mes** |
-|   - Cobertura de la Demanda Protegida       | **225% a 261%**            | **SOBRA > 1,085 GWh/mes**  |
+|   - Cobertura de la Demanda Protegida       | **208% a 242%**            | **SOBRA > 1,020 GWh/mes**  |
 | • Año de Sequía Severa / Estiaje Crítico    | **16,000 a 17,500 GWh/año**| **~1,350 a 1,450 GWh/mes** |
 | • **Peor Mes de Estiaje Histórico** (Nov/Dic) | -                          | **1,150 a 1,300 GWh/mes**  |
-|   - Cobertura en el peor mes de crisis      | -                          | **141.2% a 159.6%**        |
+|   - Cobertura en el peor mes de crisis      | -                          | **130.8% a 147.8%**        |
 +---------------------------------------------+----------------------------+----------------------------+
-| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+335.5 a +485.5 GWh/mes**|
+| **MARGEN EXCEDENTE EN EL PEOR MES (B - A)** | -                          | **+270.5 a +420.5 GWh/mes**|
 +---------------------------------------------+----------------------------+----------------------------+
 ```
 
 - **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA EN ENERGÍA!**
-  1. Incluso en el mes más seco de la peor sequía registrada en la historia nacional (con Mazar en cota crítica y Coca Codo en estiaje amazónico generando solo 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 141.2% toda la demanda protegida combinada de familias, panaderías, tiendas, la agroindustria molinera de alimentos internos, hospitales y escuelas públicas**.
-  2. Queda un excedente mensual mínimo garantizado de **+335.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía productiva.
+  1. Incluso en el mes más seco de la peor sequía registrada en la historia nacional (con Mazar en cota crítica y Coca Codo en estiaje amazónico generando solo 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 130.8% toda la demanda protegida combinada de familias, panaderías, tiendas, la agroindustria molinera de alimentos internos, agua potable cantonal, riego campesino, laboratorios de genéricos, hospitales y escuelas públicas**.
+  2. Queda un excedente mensual mínimo garantizado de **+270.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía productiva.
 
 #### 3.4. La Distinción Física y Operativa Crucial: Energía (MWh Acumulados) vs. Potencia Pico (MW Instantáneos a las 19:00 horas)
 
 Uno de los errores más comunes en la política energética ecuatoriana es confundir el volumen de agua/energía mensual con la potencia instantánea de la red:
-* **El problema no es de Energía mensual:** Como demuestra la tabla anterior, el agua que entra a los embalses en el mes entero alcanza para generar 1,150 GWh, superando con creces los 814.5 GWh requeridos por todos los sectores protegidos (familias, red alimentaria y agroindustria básica, hospitales y escuelas).
+* **El problema no es de Energía mensual:** Como demuestra la tabla anterior, el agua que entra a los embalses en el mes entero alcanza para generar 1,150 GWh, superando con creces los 879.5 GWh requeridos por todos los sectores protegidos (familias, red alimentaria y agroindustria básica, agua potable, riego campesino, fármacos, hospitales y escuelas).
 * **El problema real es de Potencia Pico (MW):** Entre las 18:00 y las 22:00 horas, la demanda nacional trepa a **4,800 - 5,000 MW**.
   - Durante el estiaje, al bajar la cota de agua, las hidroeléctricas no pueden operar todas sus turbinas al mismo tiempo sin vaciar el embalse en pocas horas. La potencia hidroeléctrica disponible en punta se reduce a **~2,200 MW**.
   - El sistema requiere **~2,700 MW de potencia térmica e importaciones** para no colapsar.
@@ -325,7 +332,7 @@ Las generadoras térmicas han operado con precios artificialmente deprimidos fij
 3. **Gas Natural Local (Campo Amistad):** Transferido a 1.50 - 2.00 USD/MMBTU frente a un costo de oportunidad de **8.00 a 11.00 USD/MMBTU**, representando un subsidio implícito de **$80 a $120 millones de USD anuales**.
 
 ##### B. Ahorro Fiscal y Liberación de Recursos al Eliminar el 100% de Subsidios Directos e Indirectos
-Al obligar a que las generadoras térmicas paguen el 100% del combustible a precio real de mercado y facturar a costo real los 19,246 GWh/año de demanda no protegida:
+Al obligar a que las generadoras térmicas paguen el 100% del combustible a precio real de mercado (marcador WTI), facturar a costo real los 18,600 GWh/año de demanda no protegida y activar los controles anti-fraude:
 
 ```
 +-------------------------------------------------------------------------------------------------------+
@@ -333,16 +340,47 @@ Al obligar a que las generadoras térmicas paguen el 100% del combustible a prec
 +-----------------------------------------------------------------------+-------------------------------+
 | CONCEPTO / FLUJO FINANCIERO                                           | IMPACTO FISCAL ANUAL (USD)    |
 +-----------------------------------------------------------------------+-------------------------------+
-| Ahorro por venta de combustibles a precio real (Petroecuador)         | +$700.00 a +$1,150.00 M USD   |
+| Ahorro por venta de combustibles a precio real WTI (Petroecuador)     | +$700.00 a +$1,150.00 M USD   |
 | Ahorro por traslado de importaciones internacionales al FCC           | +$150.00 a +$350.00 M USD     |
 | Recaudación adicional neta por tarifa a costo real pleno              | +$1,500.00 a +$1,750.00 M USD |
-| Erradicación del déficit tarifario histórico en CELEC y Distribuidoras| Liquidez operativa positiva   |
+| Racionalización de Subsidio a Tercera Edad (Capping 50 kWh en 1 med.) | +$45.00 M USD                 |
+| Mecanismos Quirúrgicos Anti-Fraude (Playa, Macro-Hurto, Redes Lujo)   | +$210.00 a +$280.00 M USD     |
 +-----------------------------------------------------------------------+-------------------------------+
-| **LIBERACIÓN TOTAL DE RECURSOS PARA EL ESTADO (AHORRO + RECAUDACIÓN)**| **+$2,350.00 a +$3,250.00 M** |
+| **LIBERACIÓN TOTAL DE RECURSOS PARA EL ESTADO (AHORRO + RECAUDACIÓN)**| **+$2,605.00 a +$3,575.00 M** |
 +-----------------------------------------------------------------------+-------------------------------+
 ```
 
-El Estado ecuatoriano se ahorra y recupera anualmente entre **$2,350 y $3,250 millones de USD**, equivalentes al 2.5% - 3.2% del Producto Interno Bruto (PIB), saneando de forma estructural el déficit fiscal de la República sin endeudamiento.
+El Estado ecuatoriano se ahorra y recupera anualmente entre **$2,605 y $3,575 millones de USD**, equivalentes al 2.7% - 3.4% del Producto Interno Bruto (PIB), saneando de forma estructural el déficit fiscal de la República sin endeudamiento.
+
+##### C. Evaluación Empírica del Subsidio Real y Ahorro Fiscal Trianual (Series 2023, 2024 y Proyección 2025)
+
+Para contrastar el modelo teórico con la realidad económica de los últimos tres ejercicios fiscales, se reconstruye el costo total de los subsidios eléctricos directos e indirectos asumidos por el Estado ecuatoriano en **2023**, **2024** y la proyección **2025**:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|               SERIE HISTÓRICA EMPÍRICA DE SUBSIDIOS ELÉCTRICOS EN ECUADOR (2023 - 2025)               |
++---------------------------------------------+-------------------+-------------------+-----------------+
+| COMPONENTE DEL SUBSIDIO O DÉFICIT           | EJERCICIO 2023    | EJERCICIO 2024    | PROYECCIÓN 2025 |
+|                                             | (Valores en USD)  | (Crisis Estiaje)  | (Presupuestado) |
++---------------------------------------------+-------------------+-------------------+-----------------+
+| 1. Subsidio Combustibles Térmicos WTI       | $580.00 M USD     | $1,280.00 M USD   | $920.00 M USD   |
+|    (Diésel No. 2, Fuel Oil y Gas Natural)   | (130M gal diésel) | (240M gal diésel) | (Estiaje medio) |
+| 2. Déficit Tarifario Operativo              | $890.00 M USD     | $1,520.00 M USD   | $1,420.00 M USD |
+|    (Brecha costo real vs. tarifa cobrada)   | (CELEC y Dist.)   | (Térmica 30¢/kWh) | (Sin reforma)   |
+| 3. Importaciones Colombia / Generación Barcaza| $210.00 M USD   | $380.00 M USD     | $260.00 M USD   |
+|    (Karpowership, Soenergy y contratos emer)| (Tarifas 30-40¢)  | (Punta crítica)   | (Contratos)     |
+| 4. Pérdidas No Técnicas (Macro-Hurto Redes) | $260.00 M USD     | $310.00 M USD     | $280.00 M USD   |
+| 5. Fuga Subsidio Tercera Edad (Fraude LOPAM)| $42.00 M USD      | $45.00 M USD      | $45.00 M USD    |
++---------------------------------------------+-------------------+-------------------+-----------------+
+| **TOTAL SUBSIDIOS DIRECTOS E INDIRECTOS**   | **$1,982.00 M**   | **$3,535.00 M**   | **$2,925.00 M** |
+| Impacto sobre el PIB Nacional (%)           | **1.9% del PIB**  | **3.4% del PIB**  | **2.8% del PIB**|
++---------------------------------------------+-------------------+-------------------+-----------------+
+```
+
+- **Lección del Año 2024 (El Colapso del Modelo Subsidiado):**
+  1. Durante 2024, el Estado ecuatoriano quemó más de **$3,535 millones de USD** en mantener el sistema eléctrico a flote a punta de subsidios de combustibles importados, contratos térmicos de emergencia y déficit tarifario, al tiempo que sometía al país a apagones de hasta 14 horas diarias.
+  2. Ese monto ($3,535 millones) representó el **78% de todo el déficit fiscal del Presupuesto General del Estado de 2024** (~$4,500 millones).
+  3. **Conclusión Forense:** Si la presente reforma de sinceramiento tarifario y eliminación total de subsidios hubiese estado vigente en 2024, **el Ecuador habría eliminado prácticamente el 80% de su déficit fiscal anual**, evitando la contratación caótica de barcazas y apagones mediante el incentivo oportuno a la inversión privada en baterías BESS y techos solares.
 
 #### 4.4. Erradicación de Subsidios Cruzados Intersectoriales y Regulación por Costo de Servicio (Cost-of-Service)
 
@@ -847,30 +885,38 @@ A fin de erradicar de forma definitiva los problemas de racionamiento, déficit 
 
 ### 13. MODELO DE SIMULACIÓN TARIFARIA Y ESTUDIOS DE CASO REALES (ANTES VS. DESPUÉS)
 
-A fin de comprobar el comportamiento microeconómico y el impacto financiero real en las planillas de los distintos usuarios de la economía ecuatoriana, se modelan ocho casos representativos comparando el régimen subsidiado histórico frente al régimen de la presente Ley:
+A fin de comprobar el comportamiento microeconómico y el impacto financiero real en las planillas de los distintos usuarios de la economía ecuatoriana, se modelan doce (12) casos representativos comparando el régimen subsidiado histórico frente al régimen de la presente Ley:
 
 ```
-+-------------------------------------------------------------------------------------------------------------+
-|               MATRIZ DE SIMULACIÓN TARIFARIA: IMPACTO EN PLANILLA ANTES VS. DESPUÉS                         |
-+----------------------------------------+----------------+--------------+---------------+------------+-------+
-| CASO / CATEGORÍA DE USUARIO            | CONSUMO MENSUAL| ANTES (USD)  | DESPUÉS (USD) | VARIACIÓN  | IMPACTO
-+----------------------------------------+----------------+--------------+---------------+------------+-------+
-| 1. Hogar Vulnerable / Clase Media      | 180 kWh/mes    | 17.10 USD    | 17.10 USD     | +0.0%      | BLINDADO
-|    (Con pronto pago 2% / débito)       | 180 kWh/mes    | 17.10 USD    | 16.76 USD     | -2.0%      | AHORRO
-| 2. Hogar Confort / Auto Eléctrico (VE) | 420 kWh/mes    | 44.10 USD    | 55.20 USD     | +25.2%     | REAL  
-|    (Modulando recarga a Horas Valle)   | 420 kWh/mes    | 44.10 USD    | 34.80 USD     | -21.1%     | EFICIENTE
-| 3. Panadería Artesanal de Barrio       | 750 kWh/mes    | 75.00 USD    | 73.50 USD     | -2.0%      | PROTEGIDO
-| 4. Molino de Harina (Consumo Interno)  | 1,500,000 kWh  | 117,000 USD  | 144,000 USD   | +23.1%     | SECTORIAL
-|    (70% harina local / 30% exportación)| (1.5 GWh/mes)  | (Plana subv.)| (Desagregada) | (Solo exp.)| EXTERNO
-| 5. Agroexportadora Camaronera (100%)   | 350,000 kWh    | 28,700 USD   | 39,200 USD    | +36.6%     | COSTO 
-|    (120 hectáreas electrificadas MT)   | (350 MWh/mes)  | (Subvencion.)| (Costo real MT| (Ahorra vs.| REAL  
-|                                        |                |              | diésel $23.8k)| diésel)    | DIVISAS
-| 6. Gran Minería Metálica (Mirador)     | 45,000,000 kWh | 3,150,000 USD| 6,750,000 USD | +114.3%    | RENTA 
-|    (62 MW continuos en 230 kV)         | (45 GWh/mes)   | (7.0 ¢/kWh)  | (15.0 ¢ en AT)| (+$43.2M/a)| EXTRACT.
-| 7. Adulto Mayor Vulnerable (1 medidor) | 48 kWh/mes     | 2.28 USD     | 2.28 USD      | +0.0%      | VITAL 
-| 8. Mansión con Fraude 3ra Edad         | 450 kWh/mes    | 21.38 USD    | 58.38 USD     | +173.1%    | FIN AL
-|    (Sauna, piscina, aire acondicionado)| (450 kWh/mes)  | (Fraude LOPAM| (Fin de trampa| (+$37/mes) | FRAUDE
-+----------------------------------------+----------------+--------------+---------------+------------+-------+
++-------------------------------------------------------------------------------------------------------------------+
+|               MATRIZ DE SIMULACIÓN TARIFARIA: IMPACTO EN PLANILLA ANTES VS. DESPUÉS (12 CASOS)                    |
++----------------------------------------+----------------+--------------+---------------+------------+-------------+
+| CASO / CATEGORÍA DE USUARIO            | CONSUMO MENSUAL| ANTES (USD)  | DESPUÉS (USD) | VARIACIÓN  | IMPACTO     |
++----------------------------------------+----------------+--------------+---------------+------------+-------------+
+| 1. Hogar Vulnerable / Clase Media      | 180 kWh/mes    | 17.10 USD    | 17.10 USD     | +0.0%      | BLINDADO    |
+|    (Con pronto pago 2% / débito)       | 180 kWh/mes    | 17.10 USD    | 16.76 USD     | -2.0%      | AHORRO      |
+| 2. Hogar Confort / Auto Eléctrico (VE) | 420 kWh/mes    | 44.10 USD    | 55.20 USD     | +25.2%     | REAL        |
+|    (Modulando recarga a Horas Valle)   | 420 kWh/mes    | 44.10 USD    | 34.80 USD     | -21.1%     | EFICIENTE   |
+| 3. Panadería Artesanal de Barrio       | 750 kWh/mes    | 75.00 USD    | 73.50 USD     | -2.0%      | PROTEGIDO   |
+| 4. Molino Harina/Trigo (Consumo Local) | 1,500,000 kWh  | 117,000 USD  | 144,000 USD   | +23.1%     | SECTORIAL   |
+|    (70% harina local / 30% exportación)| (1.5 GWh/mes)  | (Plana subv.)| (Desagregada) | (Solo exp.)| EXTERNO     |
+| 5. Agroexportadora Camaronera (100%)   | 350,000 kWh    | 28,700 USD   | 39,200 USD    | +36.6%     | COSTO REAL  |
+|    (120 hectáreas electrificadas MT)   | (350 MWh/mes)  | (Subvencion.)| (Costo real MT| (Ahorra vs.| EN DIVISAS  |
+|                                        |                |              | diésel $23.8k)| diésel)    |             |
+| 6. Gran Minería Metálica (Mirador)     | 45,000,000 kWh | 3,150,000 USD| 6,750,000 USD | +114.3%    | RENTA       |
+|    (62 MW continuos en 230 kV)         | (45 GWh/mes)   | (7.0 ¢/kWh)  | (15.0 ¢ en AT)| (+$43.2M/a)| EXTRACTIVA  |
+| 7. Adulto Mayor Vulnerable (1 medidor) | 48 kWh/mes     | 2.28 USD     | 2.28 USD      | +0.0%      | VITAL       |
+| 8. Mansión con Fraude 3ra Edad         | 450 kWh/mes    | 21.38 USD    | 58.38 USD     | +173.1%    | FIN AL      |
+|    (Sauna, piscina, aire acondicionado)| (450 kWh/mes)  | (Fraude LOPAM| (Fin de trampa| (+$37/mes) | FRAUDE      |
+| 9. Agua Potable y Saneamiento (GAD)    | 450,000 kWh    | 36,900 USD   | 35,100 USD    | -4.9%      | PRIORITARIO |
+|    (Bombeo cantonal y cloración MT)    | (450 MWh/mes)  | (8.2 ¢/kWh)  | (7.8 ¢ hidro) | (Débito)   | CERO MORA   |
+| 10. Junta Riego Campesino Comunitario  | 25,000 kWh     | 1,950 USD    | 1,875 USD     | -3.8%      | SOBERANÍA   |
+|    (Bombeo comunal hortalizas/papas)   | (25 MWh/mes)   | (7.8 ¢/kWh)  | (7.5 ¢ hidro) | (Campesino)| POPULAR     |
+| 11. Farmacéutica Nacional de Genéricos | 120,000 kWh    | 9,600 USD     | 9,360 USD     | -2.5%      | SALUD       |
+|    (Sueros parenterales y CNMB)        | (120 MWh/mes)  | (8.0 ¢/kWh)  | (7.8 ¢ hidro) | (Básico)   | PROTEGIDA   |
+| 12. Cemento / Siderurgia No Protegida  | 8,000,000 kWh  | 600,000 USD   | 1,160,000 USD  | +93.3%     | TRANSICIÓN  |
+|    (Planta cementera horno clinker MT) | (8 GWh/mes)    | (7.5 ¢/kWh)  | (14.5 ¢ en AT) | (12 meses) | COBERTURA   |
++----------------------------------------+----------------+--------------+---------------+------------+-------------+
 ```
 
 #### Análisis Detallado de los Estudios de Caso:
@@ -905,6 +951,27 @@ A fin de comprobar el comportamiento microeconómico y el impacto financiero rea
 8. **Caso 8: Mansión Suntuaria con Fraude de 3era Edad (450 kWh/mes):**
    - *Comportamiento:* Residencia de alto estrato con sauna, piscina y climatización.
    - *Liquidación:* 0-50 kWh a descuento vital (2.38 USD); 51-250 kWh a tarifa ordinaria (19.00 USD); 251-450 kWh a costo real pleno (37.00 USD). Factura final: 58.38 USD/mes (+173.1% de incremento), eliminando el abuso histórico de la Ley del Anciano.
+
+9. **Caso 9: Planta Cantonal de Agua Potable y Saneamiento Municipal (450 MWh/mes):**
+   - *Comportamiento:* Sistema de captación y bombeo electromecánico de agua potable cantonal.
+   - *Liquidación:* Despacho con hidroelectricidad base eficiente en media tensión a 0.078 USD/kWh (35,100 USD/mes frente a los 36,900 USD anteriores).
+   - *Condición Sine Qua Non de Sostenibilidad:* Se prohíbe la acumulación de mora. Al vencerse 60 días sin pago, el Ministerio de Finanzas y el Banco Central del Ecuador ejecutan el **débito automático sobre las alícuotas constitucionales del GAD**, garantizando que la empresa eléctrica cobre el 100% sin deudas incobrables.
+   - *Modulación de Carga:* El GAD llena sus reservorios en horas valle nocturnas (23:00 a 06:00), descongestionando el sistema en horas pico.
+
+10. **Caso 10: Junta de Riego Comunitario Campesino (25 MWh/mes):**
+    - *Comportamiento:* Estación de bombeo comunitario de 35 HP operada por una asociación de pequeños agricultores registrada en MAATE para irrigación de papas, hortalizas y legumbres.
+    - *Liquidación:* Tarifa base hidroeléctrica eficiente a 0.075 USD/kWh (1,875 USD/mes frente a 1,950 USD anteriores).
+    - *Impacto Social:* Cero shock inflacionario en la producción agrícola campesina de la canasta básica familiar, neutralizando focos de descontento rural e indígena.
+
+11. **Caso 11: Industria Farmacéutica Nacional de Genéricos y Sueros Básicos (120 MWh/mes):**
+    - *Comportamiento:* Laboratorio nacional con autoclave, reactores y sistemas de purificación de agua para medicamentos genéricos del Cuadro Nacional de Medicamentos Básicos (CNMB).
+    - *Liquidación:* Tarifa base eficiente en media tensión a 0.078 USD/kWh (9,360 USD/mes frente a 9,600 USD previos).
+    - *Impacto Social:* Protege el costo de fabricación de sueros parenterales y analgésicos genéricos para los hospitales públicos y farmacias comunitarias.
+
+12. **Caso 12: Gran Industria Pesada No Protegida / Cemento y Siderurgia (8 GWh/mes):**
+    - *Comportamiento:* Planta cementera con hornos de clinker y trituradoras de alto consumo en 138 kV.
+    - *Liquidación:* Pasa de una tarifa artificialmente deprimida de 0.075 USD/kWh a la tarifa a costo real pleno en alta tensión de 0.145 USD/kWh (de 600,000 USD a 1,160,000 USD/mes).
+    - *Mecanismo de Absorción Anti-Inflacionario:* Se le aplica el cronograma de transición de 12 meses (33% en trimestre 1, 66% en trimestre 2 y 100% a partir del mes 7), respaldado con créditos verdes CFN/BCE al 5% para montar parques solares en terrenos propios y almacenamiento BESS. Dado el carácter oligopólico de alto margen de las cementeras multinacionales, absorben el costo sin interrumpir operaciones.
 
 ---
 

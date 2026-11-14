@@ -57,6 +57,29 @@ umbrales_consumo:
       exclusion_expresa: ["Bebidas alcoholicas", "Cerveceras", "Bebidas azucaradas", "Snacks", "Tabaco"]
       modulacion_horaria: "Operacion de molienda pesada en horas valle y llanas (23:00 a 17:00); pico 18:00-22:00 a tarifa termica marginal"
 
+  agua_potable_y_saneamiento_municipal:
+    descripcion: "Estaciones de captación, potabilización y bombeo de agua potable y plantas de tratamiento de aguas residuales operadas por GADs municipales"
+    demanda_estimada_gwh_mes: 38.0
+    demanda_estimada_gwh_ano: 456.0
+    tarifa_base_eficiente_usd_kwh: 0.078
+    condicion_inviolable_pago: "Cero tolerancia a la mora; débito automático centralizado en MEF/BCE sobre alícuotas del Modelo de Equidad Territorial a los 60 días"
+    modulacion_operativa: "Bombeo nocturno preferente a tanques y reservorios en horas valle (23:00 a 06:00)"
+
+  juntas_riego_campesino_comunitario:
+    descripcion: "Sistemas comunales de bombeo de agua para riego agrícola operados por juntas comunitarias registradas en MAATE"
+    demanda_estimada_gwh_mes: 16.0
+    demanda_estimada_gwh_ano: 192.0
+    tarifa_base_eficiente_usd_kwh: 0.075
+    destino_productivo: "Cultivos de hortalizas, tubérculos, legumbres y cereales de agricultura familiar para consumo interno"
+    exclusion_expresa: ["Haciendas agroexportadoras de banano", "Camaroneras", "Florícolas", "Plantaciones de cacao"]
+
+  industria_farmaceutica_nacional_genericos:
+    descripcion: "Plantas de fabricación y envasado de medicamentos genéricos y sueros parenterales del Cuadro Nacional de Medicamentos Básicos (CNMB)"
+    demanda_estimada_gwh_mes: 11.0
+    demanda_estimada_gwh_ano: 132.0
+    tarifa_base_eficiente_usd_kwh: 0.078
+    exclusion_expresa: ["Cosméticos", "Suplementos dietéticos suntuarios", "Fármacos no esenciales"]
+
   adultos_mayores_3ra_edad:
     descripcion: "Focalización equitativa y capping del subsidio para adultos mayores (LOPAM Art. 14)"
     descuento_tarifa_pct: 50.0
@@ -91,6 +114,22 @@ umbrales_consumo:
     nota_simplificacion_arquitectura:
       gran_mineria: "Gravada al 100% en sectores_no_protegidos sin pliego especial"
       recarga_vehiculos_electricos: "Absorbida directamente en el tramo >250 kWh a costo real pleno sin submedidor"
+
+  industrias_expresamente_descartadas_tarifa_preferente:
+    cemento:
+      empresas_referencia: ["Holcim Ecuador", "UNACEM", "Cementos Chimborazo"]
+      justificacion_descarte: "Estructura oligopólica altamente rentable con hornos de clinker; costo de energía trasladable al mercado; se concede exclusivamente la transición escalonada de 12 meses."
+    siderurgia_y_metalmecanica:
+      empresas_referencia: ["Adelca", "Novacero", "Andec"]
+      justificacion_descarte: "Hornos de arco eléctrico intensivos en potencia; deben migrar a contratos bilaterales privados, eficiencia de chatarra y techos solares."
+    textil_y_plasticos:
+      justificacion_descarte: "Manufacturas no alimentarias; no califican a tarifa preferente permanente para evitar distorsiones de competencia; amparadas por crédito verde CFN."
+    gran_mineria:
+      empresas_referencia: ["Mirador (Ecuacorriente)", "Fruta del Norte (Lundin Gold)"]
+      justificacion_descarte: "Operaciones dolarizadas con altos márgenes en mercados mundiales de metales (cobre/oro); pagan 100% costo real pleno."
+    agroexportacion:
+      sectores_referencia: ["Camaroneras intensivas", "Haciendas bananeras de exportación", "Florícolas", "Cacao fino de aroma"]
+      justificacion_descarte: "Ventas 100% en divisas; la energía de la red ya les representa ahorro masivo frente al diésel internacional; pagan tarifa real plena."
 
   sectores_no_protegidos:
     descripcion: "Comercio de gran escala, agroexportación intensiva (camarón, banano, flores, cacao), gran minería metálica e hidrocarburos, manufacturas generales, banca y sector público"
@@ -144,25 +183,68 @@ balance_energetico_nacional:
   demanda_protegida:
     residencial_abonados_aprox: 5400000
     residencial_consumo_medio_bloque_kwh: 111
-    residencial_demanda_gwh_mes: 600
-    residencial_demanda_gwh_ano: 7200
+    residencial_demanda_gwh_mes: 600.0
+    residencial_demanda_gwh_ano: 7200.0
     alimentaria_locales_aprox: 120000
-    alimentaria_demanda_gwh_mes: 72
-    alimentaria_demanda_gwh_ano: 864
-    demanda_protegida_total_gwh_mes: 672
-    demanda_protegida_total_gwh_ano: 8064
+    alimentaria_demanda_gwh_mes: 72.0
+    alimentaria_demanda_gwh_ano: 864.0
+    agroindustria_consumo_nacional_gwh_mes: 85.0
+    agroindustria_consumo_nacional_gwh_ano: 1020.0
+    salud_publica_rpis_gwh_mes: 37.5
+    salud_publica_rpis_gwh_ano: 450.0
+    educacion_publica_fiscal_gwh_mes: 20.0
+    educacion_publica_fiscal_gwh_ano: 240.0
+    agua_potable_y_saneamiento_gads_gwh_mes: 38.0
+    agua_potable_y_saneamiento_gads_gwh_ano: 456.0
+    juntas_riego_campesino_comunitario_gwh_mes: 16.0
+    juntas_riego_campesino_comunitario_gwh_ano: 192.0
+    industria_farmaceutica_genericos_gwh_mes: 11.0
+    industria_farmaceutica_genericos_gwh_ano: 132.0
+    demanda_protegida_total_gwh_mes: 879.5
+    demanda_protegida_total_gwh_ano: 10554.0
 
   oferta_hidroelectrica_nacional:
     ano_hidrologico_normal_gwh_ano: 23500
     promedio_mensual_normal_gwh_mes: 1950
-    cobertura_normal_pct: 290 # Oferta normal cubre 290% de la demanda prioritaria
+    cobertura_normal_pct: 221.7 # Oferta normal cubre 221.7% de la demanda prioritaria
     ano_sequia_critica_gwh_ano: 16500
     promedio_mensual_sequia_gwh_mes: 1400
     peor_mes_estiaje_historico_gwh_mes: 1150
-    cobertura_peor_mes_pct: 171 # Incluso en el peor mes histórico, sobra el 71% de energía barata
-    margen_excedente_peor_mes_gwh_mes: 478
+    cobertura_peor_mes_pct: 130.8 # En sequía extrema cubre 130.8% de la demanda prioritaria
+    margen_excedente_peor_mes_gwh_mes: 270.5
 
-  demanda_nacional_total_gwh_mes: 2600 # Incluye industrias, minería y consumo suntuario
+  demanda_nacional_total_gwh_mes: 2600.0 # Demanda nacional total del Ecuador (31,200 GWh/año)
+
+  serie_historica_subsidios_2023_2025:
+    ejercicio_2023:
+      subsidio_combustibles_termicos_wti_usd: 580000000
+      deficit_tarifario_operativo_usd: 890000000
+      importaciones_colombia_emergencia_usd: 210000000
+      perdidas_no_tecnicas_macro_hurto_usd: 260000000
+      fuga_subsidio_tercera_edad_usd: 42000000
+      total_subsidios_directos_indirectos_usd: 1982000000
+      impacto_pib_pct: 1.9
+    ejercicio_2024:
+      subsidio_combustibles_termicos_wti_usd: 1280000000
+      deficit_tarifario_operativo_usd: 1520000000
+      importaciones_colombia_barcaza_karpowership_usd: 380000000
+      perdidas_no_tecnicas_macro_hurto_usd: 310000000
+      fuga_subsidio_tercera_edad_usd: 45000000
+      total_subsidios_directos_indirectos_usd: 3535000000
+      impacto_pib_pct: 3.4
+      proporcion_deficit_presupuesto_general_estado_pct: 78.5
+    proyeccion_2025_sin_reforma:
+      subsidio_combustibles_termicos_wti_usd: 920000000
+      deficit_tarifario_operativo_usd: 1420000000
+      contingencia_termica_contratos_usd: 260000000
+      perdidas_no_tecnicas_macro_hurto_usd: 280000000
+      fuga_subsidio_tercera_edad_usd: 45000000
+      total_subsidios_directos_indirectos_usd: 2925000000
+      impacto_pib_pct: 2.8
+    ahorro_fiscal_anual_recurrente_reforma:
+      rango_min_usd: 2605000000
+      rango_max_usd: 3575000000
+      promedio_anual_usd: 3090000000
 
 # ------------------------------------------------------------------------------
 # 4. MODELO TARIFARIO Y REGLAS DE CÁLCULO
