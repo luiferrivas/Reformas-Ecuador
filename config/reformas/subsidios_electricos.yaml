@@ -363,12 +363,31 @@ autogeneracion_solar:
     tarifa_aplicada: "tarifa_marginal_horaria_pico"
     objetivo: "Aplanar el pico nacional de 18:00 a 22:00 horas"
   tope_capacidad_sgda_kwp: 2000 # Ampliable a 5000 kWp previa validación de alimentador
-  mandato_inyeccion_excedentes: true # Todo el sistema industrial inyecta excedentes diurnos al SNI
-  indicadores_economicos:
-    payback_solar_techo_anos: 3.5 # Reducido desde 11 años con subsidio distorsionado
-    tir_solar_techo_pct: 28.5
-    payback_solar_con_bess_anos: 4.5
-    lcoe_solar_estimado_usd_kwh: 0.050
+  manejo_dinamico_red:
+    sistema_supervision: "DERMS (CENACE y Distribuidoras)"
+    norma_inversores_obligatoria: "IEEE 1547-2018 / UL 1741 SB (Smart Inverters Grid-Forming)"
+    funciones_autonomas_inversor: ["Volt-VAr", "Volt-Watt"]
+    umbral_alerta_saturacion_alimentador_pct: 80.0
+    jerarquia_despacho:
+      - "1. Autoconsumo en sitio"
+      - "2. Carga banco baterías BESS"
+      - "3. Inyección dinámica regulada (70% reconocimiento)"
+      - "4. Limitación activa de potencia (Curtailment) o Inyección Cero (Zero Export)"
+    via_rapida_zero_export: true # Permite conexión inmediata sin inyección en circuitos saturados
+
+  incentivo_bess_via_70_30:
+    mecanismo: "La deducción del 30% en inyección diurna penaliza el vertido ciego y fuerza el almacenamiento BESS para consumo nocturno o inyección en punta al 100%"
+    rentabilidad_largo_plazo:
+      lcoe_solar_25_anos_usd_kwh: 0.050
+      tarifa_historica_subsidiada_usd_kwh: 0.095
+      reduccion_costo_estructural_industria_pct: 47.4
+
+  brecha_remanente_deficit_estado:
+    subsidio_diesel_transporte_pesado_usd: 1000000000
+    subsidio_glp_domestico_15kg_usd: 750000000
+    deficit_pensiones_salud_iess_usd: 1350000000
+    total_brecha_remanente_deficit_cero_usd: 3100000000
+    leccion_estrategica: "La reforma eléctrica cubre hasta el 78.5% del déficit; el remanente requiere reformar subsidios fósiles automotrices e IESS"
 
 # ------------------------------------------------------------------------------
 # 9. GOBERNANZA DEL FONDO ESPECIAL (FERRE)

@@ -595,6 +595,32 @@ Para que la paridad de red se traduzca de inmediato en cientos de megavatios lim
 4. **Bonificación del 100% por Inyección en Horas Punta Nocturnas (Peak Injection):**
    - Cuando las industrias incorporan baterías BESS y descargan potencia a la red en el bloque crítico de 18:00 a 22:00 horas, la distribuidora **reconoce el 100% de la tarifa marginal horaria de pico (~0.26 USD/kWh)** sin retención del 30%, desatando la inversión privada en almacenamiento y aplanando el pico nacional.
 
+#### 5.2.1. Gestión Dinámica de Capacidad de Aceptación de Red (Dynamic Hosting Capacity) y Protocolo Anti-Saturación DERMS
+
+La inyección simultánea de cientos de megavatios solares descentralizados impone un desafío de física de redes: **los alimentadores de distribución y las subestaciones transformadoras no pueden absorber una cantidad infinita de potencia sin riesgo de colapso por sobretensión o sobrecarga térmica**.
+
+A fin de hacer técnicamente imposible inyectar más energía de la que la red local puede admitir con seguridad, se institucionaliza el **Sistema de Gestión Dinámica de Recursos Energéticos Distribuidos (DERMS)** operado coordinadamente entre el CENACE y las distribuidoras:
+
+1. **La Restricción Física de los Circuitos de Media Tensión (13.8 kV / 22 kV):**
+   - Cuando la generación solar fotovoltaica excedentaria en un circuito excede la demanda local de ese mismo ramal, la potencia invierte su sentido de flujo hacia la subestación transformadora (*reverse power flow*).
+   - Este flujo inverso provoca elevaciones locales de voltaje que pueden violar los límites admisibles (+5% / -5%), dañar electrodomésticos vecinos y sobrecalentar los devanados del transformador de potencia 69/13.8 kV.
+
+2. **Protocolo DERMS y Curvas de Control en Inversores Inteligentes (Smart Inverters):**
+   - Es obligatorio que todo inversor comercial e industrial cumpla la norma **IEEE 1547-2018 y UL 1741 SB** (*Grid-Forming / Smart Inverters*).
+   - Los inversores ajustan de forma autónoma su potencia reactiva mediante curvas **Volt-VAr** (absorbiendo reactivos inductivos para mitigar sobrevoltajes locales) y modulan potencia activa mediante curvas **Volt-Watt** cuando el voltaje de la barra se aproxima a los límites normativos.
+
+3. **Algoritmo de Modulación y Jerarquía de Flujo en Tiempo Real:**
+   - Mediante telemetría AMI y protocolos digitales estandarizados (IEEE 2030.5 / OpenADR / IEC 61850), las distribuidoras monitorean la carga en cabeza de circuito.
+   - **Umbral de Alerta Temprana (80% de Capacidad Térmica):** Cuando la inyección solar agregada alcanza el 80% del límite térmico del alimentador o de la capacidad admisible del transformador, el sistema DERMS emite consignas dinámicas de modulación automática.
+   - **Jerarquía Obligatoria de Despacho en Sitio:**
+     * *Prioridad 1 (Autoconsumo):* Cobertura de la carga productiva interna de la fábrica u oficina;
+     * *Prioridad 2 (Carga de Baterías BESS):* Desvío automático de excedentes para cargar el banco de baterías local;
+     * *Prioridad 3 (Inyección Regulada al SNI):* Inyección a la red pública dentro de la cuota dinámica autorizada por la distribuidora bajo la Regla del 70/30;
+     * *Prioridad 4 (Limitación Activa de Potencia / Curtailment):* Si el circuito alcanza el 100% de su capacidad admisible, el inversor reduce automáticamente su generación fotovoltaica (*Active Power Curtailment*) para preservar la estabilidad de la red barrial.
+
+4. **Vía Rápida de Conexión con Inyección Cero Dinámica (*Zero Export*):**
+   - En alimentadores provisionalmente congestionados, la distribuidora no podrá bloquear el trámite de conexión: se otorgará autorización inmediata bajo modalidad **Zero Export**. La empresa genera el 100% de la energía solar para sus propios motores y baterías, bloqueando electrónicamente la salida a la red pública mediante limitadores de inyección en borne de acometida, hasta que la distribuidora repotencie el circuito.
+
 #### 5.3. Baterías de Almacenamiento (BESS) y Arbitraje Tarifario (Peak Shaving)
 
 El sinceramiento tarifario y la variabilidad en estiaje detonan la rentabilidad no solo de los paneles solares, sino de la combinación **Solar + Sistemas de Almacenamiento con Baterías (BESS)** para empresas y comercios:
@@ -602,6 +628,36 @@ El sinceramiento tarifario y la variabilidad en estiaje detonan la rentabilidad 
 2. **El Arbitraje Tarifario (Time of Use):** Al cobrarse tarifa a costo real pleno (o tarifas horarias donde la energía en hora punta es sustancialmente más cara), una empresa industrial o comercial puede cargar sus baterías con excedentes solares al mediodía (costo marginal ~6.5 ¢/kWh) y descargar la energía almacenada durante el horario nocturno pico de 18:00 a 22:00 (evitando pagar de 20 a 25 ¢/kWh de la red).
 3. **Respaldo Limpio vs. Generador a Diésel:** Sustituye a los generadores térmicos a diésel (que cuestan >30 ¢USD/kWh entre combustible y mantenimiento), garantizando continuidad operativa con cero emisiones y cero ruido.
 4. **Viabilidad Financiera:** Con la superdeducción del 100% de Impuesto a la Renta y arancel 0%, el retorno de inversión del combo **Solar + BESS industrial** se reduce a **4.0 a 5.2 años**, transformando a las empresas en agentes de estabilidad para la red pública.
+
+#### 5.3.1. La Regla del 70/30 como Vector Catalizador de Baterías BESS: Horario de Oficina vs. Plantas Continuas 24/7
+
+La decisión de reconocer únicamente el 70% de la energía inyectada al mediodía no es solo un mecanismo de recaudación de peajes, sino **la señal de precio más potente para forzar la adopción masiva de almacenamiento BESS en el sector privado**:
+
+1. **Empresas Comerciales y Horarios de Oficina (08:00 a 17:00):**
+   - *El Fenómeno:* Su curva de demanda productiva coincide en un 80% a 90% con la campana de generación solar matutina y diurna. Durante el horario laboral consumen prácticamente toda la energía solar generada en sitio.
+   - *El Desafío de los Excedentes:* Los excedentes masivos se suscitan los fines de semana (sábados y domingos), feriados y horas de máxima irradiancia (11:30 a 14:00).
+   - *El Incentivo de Baterías:* Si la empresa inyecta esos excedentes a la red el fin de semana, el Estado le retiene el 30%. En cambio, si la empresa instala un sistema de baterías BESS, almacena esa energía solar excedentaria a costo cero y:
+     * La utiliza el lunes por la mañana antes de que salga el sol, o
+     * La inyecta a la red pública durante las Horas Pico (18:00 a 22:00) recibiendo el **100% de la tarifa marginal nocturna sin retención alguna**.
+   - La Regla del 70/30 convierte a la batería en el instrumento idóneo para no "desperdiciar" el 30% retenido.
+
+2. **Plantas Industriales de Operación Continua (24 Horas / 3 Turnos):**
+   - *El Fenómeno:* Industrias plásticas, papeleras, metalmecánicas, farmacéuticas y textileras operan con turnos nocturnos intensivos de 19:00 a 07:00 horas, donde la tarifa de red con TOU alcanza su nivel más elevado (18 a 26 ¢USD/kWh).
+   - *El Desplazamiento de Demanda:* Al acumular su excedente solar diurno en BESS, la fábrica alimenta su segundo y tercer turno nocturno con energía limpia generada en su propio techo, abatiendo el costo de punta nocturna.
+
+#### 5.3.2. La Paradoja Virtuosa a Largo Plazo: Por qué Forzar a la Industria Reduce sus Costos Estructurales
+
+Existe una paradoja económica y de competitividad fundamental: **retirar el subsidio eléctrico y forzar a las empresas a autogenerar reduce drásticamente los costos de producción a largo plazo**.
+
+1. **La Trampa de la Inercia del Subsidio Barato:**
+   - Con tarifas subsidiadas a 9.5 ¢USD/kWh, los directorios corporativos consideraban que invertir en paneles solares era innecesario ("la luz ya es barata").
+   - Sin embargo, esa tarifa subsidiada era una ilusión: el sistema colapsaba cada año por sequía, obligando a las industrias a pagar **más de 32 ¢USD/kWh operando generadores térmicos a diésel** o afrontando pérdidas catastróficas por interrupción de líneas de producción.
+2. **La Ecuación Nivelada a 25 Años:**
+   - Al sincerar la tarifa a 16 - 18.5 ¢USD/kWh, el Estado obliga a las fábricas a salir de la inercia e invertir en solar fotovoltaica con crédito verde CFN al 5% anual.
+   - En un plazo de **3.5 a 4.5 años**, el ahorro en planillas paga el 100% del capital e intereses del crédito bancario.
+   - A partir del año 5, los paneles solares (cuya vida útil garantizada supera los 25 a 30 años) generan electricidad con un costo operativo marginal de solo **$0.015 a $0.020 USD/kWh** (limpieza e inspección de inversores).
+   - En el ciclo de vida completo del activo, el costo promedio nivelado (*LCOE*) de la energía de la empresa es de **~$0.050 USD/kWh**, es decir, **¡la mitad de lo que pagaban bajo la tarifa subsidiada histórica de 9.5 centavos!**
+3. **Veredicto:** Forzar a la industria a instalar energía solar mediante la eliminación del subsidio es la política de competitividad más transformadora del Ecuador: no solo salva al Estado del déficit fiscal, sino que dota a las empresas de energía más barata y limpia que la de sus competidores de la región.
 
 ---
 
