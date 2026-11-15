@@ -352,12 +352,23 @@ medicion_inteligente_ami:
 # ------------------------------------------------------------------------------
 autogeneracion_solar:
   fast_track_conexion_dias_habiles: 15 # Silencio administrativo positivo
-  esquema_net_metering: "1_a_1" # kWh solar inyectado descuenta 1 kWh de red
+  esquema_compensacion: "net_billing_asimetrico_70_30"
+  factor_reconocimiento_inyeccion_industrial: 0.70
+  desglose_retencion_30pct:
+    perdidas_tecnicas_red_pct: 10.0
+    peaje_transmision_distribucion_snt_vad_pct: 10.0
+    margen_resiliencia_ferre_pct: 10.0
+  inyeccion_bess_pico_nocturno:
+    reconocimiento_pct: 100.0
+    tarifa_aplicada: "tarifa_marginal_horaria_pico"
+    objetivo: "Aplanar el pico nacional de 18:00 a 22:00 horas"
+  tope_capacidad_sgda_kwp: 2000 # Ampliable a 5000 kWp previa validación de alimentador
+  mandato_inyeccion_excedentes: true # Todo el sistema industrial inyecta excedentes diurnos al SNI
   indicadores_economicos:
     payback_solar_techo_anos: 3.5 # Reducido desde 11 años con subsidio distorsionado
     tir_solar_techo_pct: 28.5
     payback_solar_con_bess_anos: 4.5
-    lcoe_solar_estimado_usd_kwh: 0.065
+    lcoe_solar_estimado_usd_kwh: 0.050
 
 # ------------------------------------------------------------------------------
 # 9. GOBERNANZA DEL FONDO ESPECIAL (FERRE)

@@ -347,6 +347,26 @@ A fin de blindar los servicios de supervivencia y la paz social popular sin reab
    * *Siderurgia y Metalmecánica Pesada (Adelca, Novacero, Andec):* Descartada. Los hornos de arco eléctrico de fundición de chatarra son consumidores intensivos en potencia puntual (hasta 40 MW de golpe). Deben operar bajo contratos bilaterales directos en horas valle o instalar almacenamiento BESS, sin recargar a la red pública.
    * *Industria Textil y de Plásticos:* Descartada de trato preferente permanente. Son actividades de manufactura general no alimentaria que deben migrar a eficiencia de motores y autogeneración solar mediante las líneas de Crédito Verde CFN/BanEcuador al 5% anual.
 
+#### F. Net Billing Asimétrico (Regla del 70/30) y Mandato de Inyección Solar Industrial: Auditoría de Choque Regulatorio
+
+1. **La Trampa del Net Metering 1 a 1 a Escala Industrial:**
+   * Las cámaras industriales tradicionalmente reclaman el esquema de *Net Metering 1:1* (intercambio puro kilovatio por kilovatio). 
+   * **El Diagnóstico Crítico Kronos:** El Net Metering 1:1 a escala industrial es un **subsidio implícito injustificado**. La red de transporte del Sistema Nacional Interconectado (SNT) y las redes de media tensión no son un acumulador gratuito. Mover electrones genera disipación de calor por efecto Joule (pérdidas técnicas de 8.5% a 10%), congestión de transformadores y costos fijos de operación y mantenimiento. Permitir que una fábrica inyecte al mediodía y retire gratis en la noche a costo cero traslada el costo de los cables a los usuarios residenciales vulnerables.
+2. **El Equilibrio Económico de la Regla del 70/30:**
+   * La ley impone la **Regla del 70/30**: se reconoce a la industria el **70% de la energía inyectada ($F_{\text{rec}} = 0.70$)** y el Estado retiene el **30%**:
+     - 10% para cobertura de pérdidas técnicas de transmisión y distribución;
+     - 10% para el peaje de acceso a la red de CELEC Transelectric y distribuidoras (SNT y VAD);
+     - 10% para alimentar la caja fiduciaria del Fondo FERRE para resiliencia y baterías BESS públicas.
+   * **Por qué la industria sigue ganando masivamente:**
+     - El costo de generación solar industrial en techo (*LCOE*) es de apenas **$0.045 a $0.055 USD/kWh**.
+     - Por cada kWh consumido en fábrica, la empresa evita pagar la tarifa de red de **$0.145 a $0.185 USD/kWh** (ahorro directo de ~12 centavos por kWh).
+     - Por los excedentes inyectados a la red, el 70% reconocido representa entre **$0.105 y $0.130 USD/kWh**, lo que genera una **ganancia neta superior al 100% sobre su costo de generación solar**. La industria amortiza sus techos solares en 3.5 a 4.5 años.
+3. **El Mandato Sistémico: Por qué es Vital que Todo el Sistema Industrial Inyecte:**
+   * En el Ecuador, la matriz energética es hidrotérmica con grandes embalses de regulación estacional (Mazar, Amaluza).
+   * **La Sinergia Hidro-Solar Diurna:** Cada megavatio-hora solar que las industrias inyectan a la red entre las 09:00 y las 16:00 horas permite **cerrar las compuertas de los embalses hidroeléctricos durante el día**. Esa agua no turbinada en la mañana queda almacenada para ser turbinada a máxima potencia durante el pico nocturno crítico (18:00 a 22:00), desplazando el encendido de barcazas y termoeléctricas contaminantes.
+4. **La Bonificación del 100% en Horas Pico (Peak Injection):**
+   * Para incentivar que las industrias no solo inyecten de día sino que aporten potencia en la noche, las inyecciones efectuadas desde sistemas de baterías BESS entre las 18:00 y las 22:00 horas se liquidan al **100% de la tarifa marginal horaria de pico (~0.26 USD/kWh)**, convirtiendo a los parques industriales en plantas virtuales de generación y respaldo (VPP).
+
 ---
 
 ## V. PROPUESTAS DE INGENIERÍA ESTRUCTURAL Y OPTIMIZACIÓN DEL SISTEMA ELÉCTRICO
@@ -391,3 +411,23 @@ A fin de blindar los servicios de supervivencia y la paz social popular sin reab
 7. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
 8. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
 9. **Rubro de Resiliencia de hasta 1 Centavo/kWh ($0.01 USD/kWh):** Genera entre \$190 y \$280 millones anuales en liquidez directa para el FERRE, financiando baterías BESS para aplanar el pico nocturno de 18:00 a 22:00 y terminar con los apagones.
+10. **Net Billing Asimétrico (Regla del 70/30):** Retención del 30% en inyección solar industrial para pérdidas y peajes del SNI, obligando a inyectar excedentes diurnos para embalsar agua hidroeléctrica, con 100% de reconocimiento tarifario en punta nocturna para baterías BESS.
+
+---
+
+## VII. EVALUACIÓN FORENSE: DÉFICIT DEL ESTADO VS. ALIVIO ELÉCTRICO Y VEREDICTO DE SUFICIENCIA
+
+### 15. Comparativa del Déficit Fiscal del Estado (2023 - 2025)
+
+Al contrastar las cuentas fiscales del Presupuesto General del Estado (PGE) frente al costo real de los subsidios eléctricos:
+- **En 2023:** El déficit fiscal del Estado fue de **-$5,450 M USD**. La reforma eléctrica habría liberado **$1,982 M USD**, cubriendo el **36.4%** de la brecha fiscal. La brecha restante de -$3,468 M USD correspondía a subsidios de combustibles de transporte terrestre (~$2,200M) y déficit previsional del IESS (~$1,300M).
+- **En 2024 (El colapso del estiaje):** El déficit fiscal del Estado cerró en **-$4,500 M USD**. La reforma eléctrica habría liberado **$3,535 M USD**, cubriendo el **78.5% de todo el déficit fiscal de la República**. La brecha remanente para alcanzar Déficit Cero era de apenas **-$965 M USD**.
+- **En 2025 (Proyección sin reforma):** El déficit presupuestado ronda **-$3,950 M USD**. La reforma eléctrica libera **$2,925 M USD**, cubriendo el **74.1%** del déficit, dejando una brecha residual de solo **-$1,025 M USD**.
+
+### 16. Veredicto: ¿El plan es lo suficientemente bueno para quitar completamente los subsidios eléctricos?
+
+**SÍ, ES TÉCNICA Y ECONÓMICAMENTE SUFICIENTE.**  
+El plan no depende de supuestos optimistas ni de financiamiento externo:
+1. **La física lo avala:** La demanda protegida (879.5 GWh/mes) representa el 76% de la capacidad hidroeléctrica del país en el peor mes histórico de estiaje (1,150 GWh/mes), garantizando un colchón de seguridad de +270.5 GWh/mes sin quemar diésel.
+2. **Las finanzas lo avalan:** El piso regulado (~9.5 ¢/kWh) supera el costo de servir a los hogares ($0.088/kWh); la gran minería, agroexportación e industria pagan el 100% de la tarifa a costo real ($0.150 a $0.185/kWh); y la retención del 30% en inyección solar fondea la red.
+3. **Condición Crítica de Éxito:** El plan es invulnerable siempre y cuando el gobierno aplique con mano de hierro las cuatro salvaguardas operativas: inversores inteligentes con función de soporte de red, mantenimiento de la regla general sin excepciones a lobbies, tarifas TOU en punta nocturna ($0.26/kWh) para forzar la instalación de baterías BESS, y cobro coercitivo inmediato de tasas municipales en planilla para blindar la caja de las distribuidoras.
