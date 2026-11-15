@@ -248,7 +248,7 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 
 - **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA EN ENERGÍA!**
   1. Incluso en el mes más seco de la peor sequía registrada en la historia nacional (con Mazar en cota crítica y Coca Codo en estiaje amazónico generando solo 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 130.8% toda la demanda protegida combinada de familias, panaderías, tiendas, la agroindustria molinera de alimentos internos, agua potable cantonal, riego campesino, laboratorios de genéricos, hospitales y escuelas públicas**.
-  2. Queda un excedente mensual mínimo garantizado de **+270.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía productiva.
+  2. Queda un excedente mensual mínimo comprobado de **+270.5 GWh/mes** de energía hidroeléctrica barata correspondiente al límite inferior histórico registrado, disponible para inyectar al resto de la economía productiva.
 
 #### 3.4. La Distinción Física y Operativa Crucial: Energía (MWh Acumulados) vs. Potencia Pico (MW Instantáneos a las 19:00 horas)
 
@@ -458,11 +458,11 @@ A fin de blindar la soberanía alimentaria nacional y evitar que el sinceramient
 |    balanceado avícola/porcino, lácteos)     | USD/kWh) en MT. Cero subsidio.| Evita inflación en pan, |
 |    Volumen: ~85.0 GWh/mes (1,020 GWh/año)   | Modulación horaria fuera pico.| arroz, pollo y huevos.  |
 | 2. Agroexportación Intensiva                | Tarifa a Costo Real Pleno     | Facturan en USD en      |
-|    (Camarón, banano, flores, cacao, pesca)  | ($T_{\text{real}}$ + TOU +    | mercados mundiales.     |
+|    (Camarón, banano, flores, cacao, pesca)  | (T_real + TOU +               | mercados mundiales.     |
 |    Volumen: ~180.0 GWh/mes (2,160 GWh/año)  | FCC en estiaje). 14 a 22 ¢/kWh| Tienen alta capacidad de|
 |                                             |                               | pago y cobertura de red.|
 | 3. Gran Minería Metálica e Hidrocarburos    | Tarifa a Costo Real Pleno     | Actividades extractivas |
-|    (Mirador, Fruta del Norte, bombeo crudo) | ($T_{\text{real}}$ + TOU +    | de gran escala. Cero    |
+|    (Mirador, Fruta del Norte, bombeo crudo) | (T_real + TOU +               | de gran escala. Cero    |
 |    Volumen: ~100.0 GWh/mes (1,200 GWh/año)  | FCC en estiaje). 13 a 20 ¢/kWh| subsidio del Estado.    |
 +---------------------------------------------+-------------------------------+-------------------------+
 ```
@@ -747,7 +747,7 @@ Existe una sinergia meteorológica crucial en el Ecuador:
 
 ---
 
-### 9. TARIFAS HORARIAS DINÁMICAS (TIME-OF-USE), MEDICIÓN INTELIGENTE (AMI) Y RÉGIMEN DE GARANTÍA AUTOFINANCIADA (COSTO + 5%)
+### 9. TARIFAS HORARIAS DINÁMICAS (TIME-OF-USE), MEDICIÓN INTELIGENTE (AMI) Y RÉGIMEN DE GARANTÍA AUTOFINANCIADA (COSTO + 10%)
 
 #### 9.1. La Curva de Carga Horaria y el Aplanamiento del Pico Nacional
 La demanda eléctrica en el Ecuador experimenta tres fases horarias claramente diferenciadas durante el ciclo diario de 24 horas:

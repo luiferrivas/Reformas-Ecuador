@@ -337,13 +337,13 @@ medicion_inteligente_ami:
   principio: "No gratuidad con depósito de garantía recuperable y fondo de rotación permanente"
   modelo_costo_garantia:
     costo_adquisicion_escala_usd: 60.00 # Rango: $55.00 a $65.00 USD
-    recargo_operativo_garantia_pct: 5.0 # Nutre el fondo rotativo para stock permanente y calibración
-    recargo_operativo_monto_usd: 3.00
-    deposito_garantia_total_usd: 63.00
+    recargo_operativo_garantia_pct: 10.0 # Nutre el fondo rotativo para stock permanente y calibración
+    recargo_operativo_monto_usd: 6.00
+    deposito_garantia_total_usd: 66.00
   amortizacion_usuario:
     plazo_cuotas_meses: 36 # Diferido en planilla mensual
     tasa_interes_pct: 0.0
-    cuota_mensual_planilla_usd: 1.75
+    cuota_mensual_planilla_usd: 1.83
   devolucion_garantia:
     condicion: "Devolución íntegra del depósito si el usuario entrega el medidor al terminar el contrato o traspaso a nuevo titular"
 

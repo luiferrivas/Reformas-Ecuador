@@ -119,7 +119,7 @@ El potencial geotérmico de Ecuador supera los 1.000 MW en campos volcánicos (C
 * **ALTA**, siempre que se mitigue el riesgo geológico de exploración.
 
 #### D. La Adaptación Realista ("El Cómo Sí")
-* Incorporar en la ley un régimen de **Riesgo Compartido Exploratorio Multilateral:** Fondos no reembolsables de la cooperación internacional cubren el riesgo geológico de los primeros pozos, y una vez probado el reservorio de vapor, se entrega la explotación a consorcios privados especializados mediante contrato PPA garantizado.
+* Incorporar en la ley un régimen de **Riesgo Compartido Exploratorio Multilateral:** Fondos no reembolsables de la cooperación internacional cubren el riesgo geológico de los primeros pozos, y una vez probado el reservorio de vapor, se entrega la explotación a consorcios privados especializados mediante contrato PPA indexado sujeto a disponibilidad de vapor auditada.
 
 ---
 
