@@ -29,7 +29,7 @@
 
 ## 3. Parámetros Técnicos Críticos Congelados
 
-1. **Umbral Residencial Familiar Base:** 250 kWh/mes (Ajuste estacional en Costa/Amazonía: hasta 300 kWh/mes en meses cálidos).
+1. **Umbral Residencial Familiar Base:** 250 kWh/mes a nivel nacional (unificado en Costa, Sierra y Amazonía; el aire acondicionado en Costa y la calefacción/duchas de alta resistencia en Sierra son considerados consumos suntuarios de confort que pagan tarifa real plena más recargo estacional de 2 centavos en estiaje).
 2. **Soberanía Alimentaria y Agroindustria Interna:**
    - *Nivel 1 (hasta 500 kWh/mes):* Tiendas de barrio y micromercados populares.
    - *Nivel 2 (hasta 800 kWh/mes):* Panaderías artesanales con obrador y carnicerías.
@@ -128,6 +128,7 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Tarifa Plana o Subsidio Ciego a Vehículos Eléctricos en Cualquier Horario** | **Descartada** | Fomenta adopción vehicular nominal | Sobrecarga transformadores barriales en horas pico (18:00 a 22:00); fuerza despacho térmico a diésel a 30 centavos de USD/kWh | Viola el Mandamiento 7. La movilidad eléctrica solo accede a tarifa económica si recarga en ventanas de superávit (Valle 23:00-06:00 y solar 10:00-14:00); en horas pico paga costo real pleno TOU. |
 | **Caja Descentralizada en Distribuidoras sin Prelación Legal** | **Descartada** | Autonomía administrativa aparente | Distribuidoras desvían ingresos a nómina sindical y dejan a CELEC y Transelectric con deudas de cientos de millones | Descartada por quebrar la cadena de pagos. Se aprobó la Cuenta Fiduciaria Maestra Única en el BCE con orden de prelación forzoso (Generación -> Transmisión -> FERRE -> Distribución). |
 | **Reconocimiento Total de Pérdidas de Distribución en Tarifas (>18%)** | **Descartada** | Evitaba pérdidas contables a CNEL | Premia la ineficiencia y el descontrol del hurto; traslada el costo del fraude a usuarios honestos | Descartada por distorsión moral y regulatoria. Se impuso un capping del 8.5% en el VAD: el exceso es pérdida patrimonial directa de la empresa. |
+| **Excepción Bioclimática de 300 kWh para Costa vs. 250 kWh para Sierra** | **Descartada** | Compensaba calor ambiental en la Costa | Asimetría territorial y ceguera termodinámica: en la Sierra la calefacción resistiva (2,000 W) y duchas eléctricas (5,000 W) consumen igual o más que un split (1,200 W) | Descartada por inequidad regional. Se unifica el techo en 250 kWh/mes nacional: todo confort térmico excedente paga costo real pleno más recargo de 2 centavos en estiaje. |
 
 ---
 

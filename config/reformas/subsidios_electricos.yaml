@@ -18,14 +18,16 @@ umbrales_consumo:
   residencial:
     sierra:
       limite_preferente_kwh_mes: 250
-      criterio: "Cubre iluminación, refrigeración eficiente y computación del 78% de hogares"
+      criterio: "Cubre iluminación, refrigeración y consumos básicos; calefacción y duchas de alta potencia son suntuarias"
       consumo_promedio_estimado_kwh_mes: 140
     costa_amazonia:
       limite_preferente_base_kwh_mes: 250
-      limite_preferente_temporada_calida_kwh_mes: 300
-      limite_maximo_excepcion_bioclimatica_kwh_mes: 320
-      criterio: "Ajuste estacional para refrigeración y ventilación/climatización moderada"
-      consumo_promedio_estimado_kwh_mes: 205
+      limite_preferente_temporada_calida_kwh_mes: 250 # Unificado a 250 kWh nacional; aire acondicionado es suntuario
+      limite_maximo_excepcion_bioclimatica_kwh_mes: 250
+      criterio: "Unificado a 250 kWh: cubre ventiladores continuos de 60 W; splits de aire acondicionado (1,200 W) pagan tarifa real"
+      consumo_promedio_estimado_kwh_mes: 185
+    recargo_estacional_sequia_excedente_usd_kwh: 0.020 # Aplica sobre todo consumo >250 kWh en meses de estiaje
+    bonificacion_ahorro_estiaje_pct: 10.0 # Reducción >=10% exonera el recargo de 2 centavos
     regla_cobro_excedente: "marginal_por_tramos" # (T_preferente * min(C, U)) + (T_real * max(0, C - U))
 
   soberania_alimentaria:

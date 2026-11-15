@@ -271,7 +271,7 @@ Uno de los errores más comunes en la política energética ecuatoriana es confu
 
 #### 4.1. Estructura de Tarifa a Costo Real Pleno ($T_{\text{real}}$)
 
-Para todos los consumidores no amparados por los bloques preferentes (comercio de media y gran escala, industrias, bancos, telecomunicaciones, minería, sector público, grandes consumidores) y para los consumos residenciales y alimentarios en la porción que exceda los 250 kWh (o 320 kWh bioclimático) y 500/800 kWh respectivamente, se aplicará la **Tarifa a Costo Real Pleno ($T_{\text{real}}$)**:
+Para todos los consumidores no amparados por los bloques preferentes (comercio de media y gran escala, industrias, bancos, telecomunicaciones, minería, sector público, grandes consumidores) y para los consumos residenciales y alimentarios en la porción que exceda los 250 kWh y 500/800 kWh respectivamente, se aplicará la **Tarifa a Costo Real Pleno ($T_{\text{real}}$)**:
 
 $$T_{\text{real}} = C_{\text{gen,real}} + C_{\text{trans}} + C_{\text{dist}} + C_{\text{com}} + C_{\text{pérdidas}} + C_{\text{SAPG}}$$
 
@@ -676,7 +676,7 @@ Existe una paradoja económica y de competitividad fundamental: **retirar el sub
 ### 6. MITIGACIÓN DEL IMPACTO INFLACIONARIO Y TRANSICIÓN PRODUCTIVA
 
 #### 6.1. Diagnóstico del Riesgo Inflacionario de Segunda Ronda
-Si bien la ley blinda a las familias (hasta 250/300 kWh/mes) y a los comercios de alimentos básicos (hasta 500 kWh en tiendas y 800 kWh en panaderías), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
+Si bien la ley blinda a las familias (hasta 250 kWh/mes a nivel nacional) y a los comercios de alimentos básicos (hasta 500 kWh en tiendas y 800 kWh en panaderías), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
 
 #### 6.2. Estrategia Escalonada en 3 Trimestres (Curva de Adaptación)
 Para evitar un shock inflacionario, el retiro del subsidio a industrias se dosifica en un año:
@@ -691,60 +691,97 @@ El Banco Central del Ecuador, la CFN y BanEcuador dispondrán de líneas de cré
 
 ---
 
-### 7. MODELADO BIOCLIMÁTICO, ELASTICIDAD PRECIO Y EFECTO SUSTITUCIÓN (VENTILADOR vs. AIRE ACONDICIONADO)
+### 7. MODELADO DE ELASTICIDAD PRECIO, CONFORT TÉRMICO Y EFECTO SUSTITUCIÓN (COSTA Y SIERRA)
 
-#### 7.1. Elasticidad Precio de la Demanda Residencial por Estratos de Ingreso
-La respuesta del consumo residencial ante un sinceramiento tarifario o ante el incremento por estiaje ($FCC$) no es homogénea, sino que se comporta de forma **parcialmente elástica según el nivel de ingresos**:
-
-```
-+-------------------------------------------------------------------------------------------------------+
-|                    COMPORTAMIENTO DE ELASTICIDAD Y EFECTO SUSTITUCIÓN EN LA COSTA                     |
-+------------------------+-------------------+----------------------------+-----------------------------+
-| ESTRATO SOCIOECONÓMICO | ELASTICIDAD PRECIO| REACCIÓN ANTE TARIFA CARA  | IMPACTO EN EL SISTEMA       |
-|                        | DE LA DEMANDA     | (SEÑAL DE PRECIO EN SEQUÍA)|                             |
-+------------------------+-------------------+----------------------------+-----------------------------+
-| **Quintiles 1, 2 y 3** | **Alta Elasticidad**| **Sustitución Inmediata:**  | **Descongestionamiento:**   |
-| (Ingresos Bajos-Medios)| (ε_p ≈ -0.55)     | Apagan aire acondicionado; | Desploma la demanda pico de |
-| ~75% de la población   | Sensibles a la    | Encienden ventilador de    | noche en 15% a 22%. Ahorro  |
-|                        | planilla mensual  | pedestal/techo eficiente.  | de agua en embalses.        |
-+------------------------+-------------------+----------------------------+-----------------------------+
-| **Quintiles 4 y 5**    | **Inelástica**    | **Mantienen Confort:**     | **Aporte Financiero Pleno:**|
-| (Altos Ingresos)       | (ε_p ≈ -0.12)     | No apagan aire ni splits;  | Pagan 100% costo real sin   |
-| ~25% de la población   | Priorizan confort | pagan la tarifa real sobre | subsidio. Financian el parque|
-|                        | sobre el costo    | los 400 a 1.200 kWh extras.| térmico de respaldo.        |
-+------------------------+-------------------+----------------------------+-----------------------------+
-```
-
-#### 7.2. Comparativa Energética y Económica: Ventilador vs. Aire Acondicionado
-El efecto de sustitución inducido por la tarifa real genera una reducción drástica del consumo eléctrico en los hogares de la Costa:
+#### 7.1. Elasticidad Precio y Confort Suntuario: Aire Acondicionado (Costa) vs. Calefacción y Duchas Resistivas (Sierra)
+La respuesta del consumo residencial ante un sinceramiento tarifario o ante el incremento estacional por sequía (Factor de Contingencia Climática, $FCC = +0.02\text{ USD/kWh}$) no es homogénea, pero activa una potente elasticidad de sustitución tanto en la Costa cálida como en la Sierra fría:
 
 ```
 +-------------------------------------------------------------------------------------------------------+
-|                 ANÁLISIS COMPARATIVO DE CONSUMO: AIRE ACONDICIONADO vs. VENTILADOR                    |
+|                    COMPORTAMIENTO DE ELASTICIDAD Y EFECTO SUSTITUCIÓN EN COSTA Y SIERRA               |
++------------------------+-------------------+----------------------------+-----------------------------+
+| REGIÓN / ESTRATO       | EQUIPO SUNTUARIO  | REACCIÓN ANTE SEÑAL DE     | IMPACTO EN EL SISTEMA       |
+|                        | DE ALTO CONSUMO   | PRECIO EN SEQUÍA (+2 ¢/kWh)| ELÉCTRICO NACIONAL          |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Costa (Clima Cálido)**| Aire Acondicionado| **Sustitución Eficiente:** | Descongestiona el pico      |
+| Quintiles 1, 2 y 3     | Split convencional| Apagan split; encienden    | nocturno en 350 a 400 MW.   |
+| (Sensibles al precio)  | (1,200 W a 19 °C) | ventilador de 60 W y       | Reduce importación térmica  |
+|                        |                   | regulan termostato a 24 °C.| a diésel en estiaje.        |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Sierra (Clima Frío)**| Calefactor mica   | **Sustitución Eficiente:** | Descongestiona picos de red |
+| Quintiles 1, 2 y 3     | (1,500 a 2,000 W);| Apagan calefactor; usan    | matutino (06:30) y nocturno |
+| (Sensibles al precio)  | Ducha eléctrica   | frazadas/ropa térmica;     | (19:30). Ahorra agua en     |
+|                        | (4,500 a 5,500 W) | migran a gas GLP o solar.  | embalses de Paute y Mazar.  |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Quintiles 4 y 5**    | Confort pleno     | **Inelástica:** Mantienen  | **Financiamiento Pleno:**   |
+| (Altos Ingresos en     | ininterrumpido en | climatización y calefacción| Pagan 100% costo real más   |
+| ambas regiones)        | ambas regiones    | pagando el costo real + FCC| recargo 2¢, fondeando el FCC|
++------------------------+-------------------+----------------------------+-----------------------------+
+```
+
+#### 7.2. Termodinámica Comparativa de la Costa: Aire Acondicionado vs. Ventilador Eficiente
+En las provincias del Litoral (Guayas, Manabí, El Oro, Los Ríos, Santa Elena), los meses de estiaje amazónico (noviembre a abril) coinciden con la época de mayor temperatura y humedad ambiental (32 °C a 36 °C). El uso irracional del aire acondicionado split a 18 °C o 19 °C dispara la demanda a niveles insostenibles:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                 ANÁLISIS COMPARATIVO DE CONSUMO EN LA COSTA: AIRE ACONDICIONADO vs. VENTILADOR         |
 +------------------------------------+-----------------------------+------------------------------------+
 | PARÁMETRO / INDICADOR              | AIRE ACONDICIONADO SPLIT    | VENTILADOR DE TECHO / PEDESTAL     |
 |                                    | (12,000 BTU convencional)   | (Eficiencia energética motor DC)   |
 +------------------------------------+-----------------------------+------------------------------------+
-| Potencia eléctrica de operación    | **1,200 Watts (1.20 kW)**   | **60 Watts (0.06 kW)**             |
+| Potencia eléctrica de operación    | 1,200 Watts (1.20 kW)       | 60 Watts (0.06 kW)                 |
 | Uso nocturno estimado (8 horas)    | 9.60 kWh / noche            | 0.48 kWh / noche                   |
-| Consumo mensual acumulado          | **288 kWh / mes**           | **14.4 kWh / mes**                 |
+| Consumo mensual acumulado          | 288 kWh / mes               | 14.4 kWh / mes                     |
 | Costo mensual a Tarifa Real Plena  |                             |                                    |
-| (estimada en 20 ¢USD/kWh)          | **$57.60 USD / mes**       | **$2.88 USD / mes**               |
-| Costo dentro del Bloque Preferente |                             |                                    |
-| (piso tarifario base ~9.5 ¢/kWh)   | N/A (Excede el umbral base) | **$1.37 USD / mes**               |
+| con Recargo Sequía (20.5 ¢USD/kWh) | 59.04 USD / mes             | 2.95 USD / mes                     |
+| Costo dentro del Bloque Base       |                             |                                    |
+| (piso tarifario base ~9.5 ¢/kWh)   | N/A (Excede umbral de 250k) | 1.37 USD / mes                     |
 +------------------------------------+-----------------------------+------------------------------------+
-| **AHORRO ENERGÉTICO Y MONETARIO**  | **Reducción del 95% en consumo y $54.72 USD de ahorro mensual**   |
+| AHORRO ENERGÉTICO Y MONETARIO      | Reducción del 95% en consumo y 56.09 USD de ahorro mensual        |
 +------------------------------------+------------------------------------------------------------------+
 ```
 
-- **Por qué ayuda a mitigar la sequía:**
-  Durante los meses críticos de estiaje, miles de familias en la Costa ecuatoriana, al enfrentarse al cobro real de los excedentes, prefieren encender el ventilador en lugar del aire acondicionado. Esto retira de la red aproximadamente **1.14 kW de potencia por cada hogar que modera su consumo**.
-  Multiplicado por 400,000 familias en la cuenca del Guayas, Manabí, El Oro y Esmeraldas, esto representa un **alivio instantáneo de hasta 450 MW de potencia en el pico nocturno**, equivalente a apagar tres barcazas térmicas de generación diésel importada.
+#### 7.3. Termodinámica Comparativa de la Sierra: Calefacción Resistiva y Duchas Eléctricas vs. Eficiencia Térmica
+En los Andes ecuatorianos (Pichincha, Azuay, Tungurahua, Chimborazo, Imbabura, Loja), la creencia popular de que "en la Sierra no se consume energía térmica suntuaria" es físicamente falsa. El uso del "efecto Joule" (resistencia eléctrica pura para calentar aire o agua) representa el vector más ineficiente de la termodinámica:
 
-#### 7.3. Bonificación por Ahorro Voluntario en Estiaje
-Para potenciar la elasticidad de la demanda de forma proactiva, la ley premia el ahorro:
-- Los hogares y micronegocios que reduzcan su consumo mensual en al menos un **10%** respecto a su historial previo en época seca quedan **100% exonerados del Factor de Contingencia ($FCC$)**.
-- La combinación de tarifa real para el exceso y bonificación por ahorro convierte al ciudadano en un agente activo de la seguridad energética del país.
+1. **Duchas Eléctricas Tipo Lorenzetti / Corona (4,500 a 5,500 W):**
+   - Una ducha eléctrica demanda **la misma potencia instantánea que cuatro aires acondicionados split operando simultáneamente** (5.0 kW vs. 4 x 1.2 kW).
+   - En una familia de cuatro personas con duchas de 12 minutos diarios:
+     $$4 \times (5.0\text{ kW} \times 0.20\text{ h}) \times 30\text{ días} = \mathbf{120\text{ kWh/mes}}$$
+   - Estas cargas se concentran de forma destructiva en el pico matutino (06:00 a 07:30) y en el pico nocturno (18:30 a 20:30), sobrecargando las subestaciones de Quito y Cuenca.
+2. **Calefactores Eléctricos Portátiles (1,500 a 2,000 W):**
+   - Un calefactor de resistencia o mica de 1.8 kW encendido 6 horas en noches frías consume:
+     $$1.8\text{ kW} \times 6\text{ h/noche} \times 30\text{ días} = \mathbf{324\text{ kWh/mes}}$$
+   - Solo este equipo supera por sí solo todo el umbral básico residencial de 250 kWh.
+
+```
++-------------------------------------------------------------------------------------------------------+
+|            ANÁLISIS COMPARATIVO EN LA SIERRA: RESISTENCIA ELÉCTRICA vs. ALTERNATIVAS EFICIENTES       |
++------------------------------------+-----------------------------+------------------------------------+
+| PARÁMETRO / INDICADOR              | CALEFACCIÓN Y DUCHA RESISTIVA| AISLAMIENTO PASIVO Y SOLAR/GAS GLP|
+|                                    | (Resistencias eléctricas)   | (Termotanque solar / Calefón gas)  |
++------------------------------------+-----------------------------+------------------------------------+
+| Potencia eléctrica demandada       | 1,800 W (calefactor) +      | 0 W (Calefón GLP / Termotanque     |
+|                                    | 5,000 W (ducha eléctrica)   | solar térmico al vacío en techo)   |
+| Consumo mensual acumulado          | 324 kWh (calefactor) +      | 0 kWh eléctricos                   |
+|                                    | 120 kWh (duchas) = 444 kWh  |                                    |
+| Costo a Tarifa Real + Recargo      |                             |                                    |
+| Sequía (20.5 ¢USD/kWh sobre exceso)| 91.02 USD / mes             | 3.20 USD / mes (1 cilindro GLP)    |
++------------------------------------+-----------------------------+------------------------------------+
+| AHORRO ENERGÉTICO Y MONETARIO      | Reducción de 444 kWh de red eléctrica y ahorro de 87.82 USD/mes   |
++------------------------------------+------------------------------------------------------------------+
+```
+
+#### 7.4. Justificación del Techo Nacional Unificado en 250 kWh/mes (Sin Excepciones Geográficas)
+La fijación estricta de **250 kWh/mes como umbral único nacional** (eliminando cualquier excepción de 300 kWh en la Costa) se fundamenta en tres verdades de física y equidad:
+1. **Tratamiento Equitativo del Confort:** Tanto el enfriamiento por aire acondicionado en Guayaquil como el calentamiento por calefactores o duchas de alta resistencia en Quito constituyen consumos suntuarios de confort térmico que deben pagar su costo real si exceden el límite de subsistencia.
+2. **Suficiencia Vital Demostrada:** 250 kWh/mes cubren holgadamente refrigeración eficiente, iluminación LED, televisión, conectividad y hasta tres ventiladores de 60 W encendidos 12 horas al día en la Costa (64.8 kWh/mes), o duchas moderadas y electrodomésticos en la Sierra.
+3. **Señal Económica Universal en Estiaje:** Al unificar el techo en 250 kWh, se envía una señal idéntica a todo el país: durante la sequía, quien use la red para climatizar o calentar por encima de lo básico, asume el costo real pleno ($0.185 USD/kWh) más el recargo estacional de 2 centavos ($FCC = 0.020 USD/kWh).
+
+#### 7.5. El Recargo Estacional de Sequía (+0.02 USD/kWh) y la Bonificación por Ahorro del 10%
+- Durante los meses de estiaje declarados por CENACE, todo kWh excedente (>250 kWh) paga **0.205 USD/kWh** en horas llanas y hasta **0.280 USD/kWh** en horas pico (18:00 a 22:00).
+- **Gatillo de Exoneración Total (Premio al Ahorro):** Si el hogar reduce su consumo mensual en al menos un **10%** frente al mismo periodo del año previo, queda **100% exonerado del recargo de 2 centavos**, pagando únicamente la tarifa base sobre el volumen reducido.
+- **Resultado en Planilla:** Un hogar que sustituye split por ventilador en la Costa, o apaga el calefactor y optimiza duchas en la Sierra, reduce su consumo de 440 kWh a 240 kWh/mes, quedando por debajo de los 250 kWh y viendo caer su factura mensual de **$55 - $75 USD a solo $22.80 USD/mes (-58% a -69% de reducción en planilla)**.
 
 ---
 
@@ -1160,7 +1197,7 @@ A fin de comprobar el comportamiento microeconómico y el impacto financiero rea
 
 ### 14. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
 
-1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a la agroindustria de alimentos internos (~85 GWh/mes a 7.5 ¢/kWh), a los adultos mayores (50% de descuento vital hasta 50 kWh/mes en 1 solo medidor nacional), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
+1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes a nivel nacional, a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a la agroindustria de alimentos internos (~85 GWh/mes a 7.5 ¢/kWh), a los adultos mayores (50% de descuento vital hasta 50 kWh/mes en 1 solo medidor nacional), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
 2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno a la gran industria, agroexportación, minería y consumos suntuarios, erradicar los subsidios al combustible térmico en Petroecuador y activar los mecanismos anti-fraude, el Estado recupera entre **$2,605 y $3,575 millones de USD anuales** (2.7% a 3.4% del PIB), saneando de raíz el déficit fiscal nacional sin recurrir a endeudamiento externo.
 3. **Erradicación de Subsidios Cruzados y Justicia Productiva:** Se prohíben las sobretasas artificiales a la industria; cada segmento responde a su costo real de servicio (*Cost-of-Service*), demostrándose que los bloques protegidos se autofinancian con la hidroelectricidad amortizada del Estado sin gravar al sector productivo.
 4. **Descarbonización Insular Acelerada en Galápagos:** Bajo el amparo de los Arts. 258 y 396 de la CRE y la LOREG, cobrar el costo real de 35 a 42 ¢USD/kWh al turismo y consumo suntuario desploma el Payback de techos solares con baterías BESS a menos de 2 años, logrando la transición limpia financiada íntegramente por el capital privado sin gasto público.
