@@ -659,6 +659,18 @@ Existe una paradoja económica y de competitividad fundamental: **retirar el sub
    - En el ciclo de vida completo del activo, el costo promedio nivelado (*LCOE*) de la energía de la empresa es de **~$0.050 USD/kWh**, es decir, **¡la mitad de lo que pagaban bajo la tarifa subsidiada histórica de 9.5 centavos!**
 3. **Veredicto:** Forzar a la industria a instalar energía solar mediante la eliminación del subsidio es la política de competitividad más transformadora del Ecuador: no solo salva al Estado del déficit fiscal, sino que dota a las empresas de energía más barata y limpia que la de sus competidores de la región.
 
+#### 5.4. Regulación Horaria Condicionada al Superávit para Movilidad Eléctrica (Vehículos Eléctricos)
+- **El Principio Físico Inviolable:**
+  La electricidad de bajo costo para la recarga de vehículos eléctricos (VE) no puede ser un derecho irrestricto ni un subsidio ciego permanente aplicable a cualquier hora. Físicamente, un vehículo eléctrico es una batería móvil de gran capacidad (50 a 100 kWh).
+  Si miles de usuarios conectan sus vehículos eléctricos simultáneamente entre las 18:00 y las 22:00 horas (al regresar del trabajo en plena hora pico nacional), o durante el día en época de estiaje, se fuerzan sobre el sistema dos efectos destructivos:
+  1. Sobrecarga crítica de transformadores de distribución residenciales en zonas urbanas.
+  2. Despacho forzado de termoeléctricas fósiles a diésel a costos marginales de 25 a 35 ¢USD/kWh, obligando al Estado a quemar combustible caro para mover autos particulares.
+- **La Solución Económica por Bloques Horarios (Horas Valle vs. Horas Ordinarias y Pico):**
+  1. *Horas Valle Nocturnas de Superávit (23:00 a 06:00):* La matriz eléctrica cuenta con energía hidroeléctrica base y eólica que de otro modo se vertería o tiene costo marginal casi cero. En este horario exclusivo, la recarga de vehículos eléctricos accede a la tarifa preferencial económica de Valle (~0.065 USD/kWh), incentivando al usuario a programar el cargador inteligente de su vehículo para activarse de madrugada.
+  2. *Horas de Superávit Solar Diurno (10:00 a 14:00):* En centros de trabajo o parqueaderos con autogeneración solar o superávit del SNI, se habilitan recargas a tarifa valle solar.
+  3. *Horas Llanas y Pico (06:00 a 22:00, especialmente 18:00 a 22:00):* Quien decida recargar su auto eléctrico en estos horarios de estrés de la red debe pagar la **tarifa ordinaria de red o la tarifa a costo real pleno (Time-of-Use en horas pico ~0.260 USD/kWh + Factor de Contingencia Climática)**.
+- **Conclusión Técnica:** La movilidad eléctrica solo se abarata cuando ayuda a estabilizar la red nacional consumiendo los excedentes nocturnos o solares; si se recarga en horarios de pico, paga el costo marginal real que le cuesta al país.
+
 ---
 
 ### 6. MITIGACIÓN DEL IMPACTO INFLACIONARIO Y TRANSICIÓN PRODUCTIVA
@@ -967,6 +979,26 @@ Para transformar el sector eléctrico de un sistema crónicamente quebrado a uno
   1. Diseñen, financien y construyan directamente subestaciones (138/69 kV) y alimentadores trifásicos de media tensión bajo normas de homologación de ARCONEL.
   2. Cumplida la fiscalización y entrega de la obra a la distribuidora pública, el SRI les entrega Notas de Crédito Tributarias para compensar el 100% de su Impuesto a la Renta corporativo a lo largo de 3 a 5 años.
   3. Resultado: Se salta la traba burocrática del SERCOP, el Estado no desembolsa caja directa y la red pública de distribución se expande y moderniza a costo eficiente auditado.
+
+#### 11.6. Fideicomiso Maestro Centralizado de Recaudación en el BCE y Prelación Forzosa de Pagos
+- **Diagnóstico de la Cadena de Pagos Quebrada:**
+  Históricamente, las empresas eléctricas de distribución cobraban las planillas de los abonados y utilizaban dichos recursos con discrecionalidad como su "caja chica", priorizando el pago de nómina burocrática, horas extras sindicales y gasto corriente seccional, mientras postergaban o acumulaban deudas de cientos de millones de dólares con la empresa pública generadora (CELEC EP) y la empresa transmisora (Transelectric).
+- **La Solución Estructural Fiduciaria:**
+  La ley establece que el **100% de los valores cobrados por planillas eléctricas a nivel nacional ingrese de forma automática e inmediata a una Cuenta Fiduciaria Maestra Única en el Banco Central del Ecuador (BCE)**.
+- **Orden de Prelación Legal Forzoso:**
+  La administración fiduciaria del BCE liquida y desembolsa diariamente los recursos bajo el siguiente orden de prelación inalterable:
+  1. *Generación:* Pago íntegro de la energía y potencia despachada a favor de CELEC EP y generadores privados;
+  2. *Transmisión:* Pago de peajes del Sistema Nacional de Transmisión (Transelectric);
+  3. *Inversión Intangible:* Transferencia obligatoria de los excedentes y del rubro de resiliencia (0.01 USD/kWh) hacia la cuenta del Fondo FERRE;
+  4. *Distribución (Remanente):* Solo tras haber honrado las tres obligaciones anteriores, el saldo remanente se transfiere a las empresas distribuidoras para cubrir su Valor Agregado de Distribución (VAD) y costos operativos eficientes.
+
+#### 11.7. Capping Regulatorio de Pérdidas de Distribución en el VAD (Eficiencia por Desempeño a 8.5%)
+- **Diagnóstico del Traslado de Ineficiencias:**
+  Diversas unidades de negocio de CNEL EP registran pérdidas totales de energía de entre el 16% y el 22% (explicadas primordialmente por hurto masivo, tomas clandestinas en zonas urbanomarginales e ineficiencia en cuadrillas de fiscalización). Históricamente, las empresas presionaban para que el pliego tarifario reconociera estas mermas como "costo del sistema", castigando a los usuarios honestos o generando déficit estatal.
+- **La Regulación de Desempeño ARCONEL:**
+  Se impone un **límite máximo legal de pérdidas técnicas reconocibles del ocho coma cinco por ciento (8.5%)** en la fijación del VAD.
+- **Consecuencia Financiera y Patrimonial:**
+  Cualquier pérdida energética que sobrepase el 8.5% no podrá bajo ningún concepto ser trasladada a la tarifa de los usuarios ni asumida por el Presupuesto General del Estado. Dicho quebranto debe ser absorbido directamente como **pérdida patrimonial en el balance contable de la distribuidora**, con causal expresa de remoción para sus directores y gerentes si no reducen las pérdidas al umbral normativo mediante telemetría AMI y blindaje de acometidas.
 
 ---
 

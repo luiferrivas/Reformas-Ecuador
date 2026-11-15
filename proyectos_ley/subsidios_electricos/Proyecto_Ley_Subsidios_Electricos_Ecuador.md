@@ -225,7 +225,9 @@ En ejercicio de las facultades legislativas consagradas en el artículo 120, num
 > 2. **Horas Llanas (06:00 a 18:00 y 22:00 a 23:00):** Se aplicará la tarifa base de despacho ordinario.
 > 3. **Horas Pico o de Máxima Demanda (18:00 a 22:00 o momentos críticos de estiaje):** Se aplicará una tarifa horaria superior que refleje el costo marginal del despacho térmico de punta, desincentivando el encendido de cargas prescindibles y motivando la descarga de baterías BESS corporativas para aplanar la curva de carga nacional.
 >
-> Los usuarios de los bloques preferentes residenciales y alimentarios mantendrán su protección base, pero podrán beneficiarse voluntariamente de ahorros adicionales si modulan sus consumos hacia horas valle mediante medidores inteligentes."
+> Los usuarios de los bloques preferentes residenciales y alimentarios mantendrán su protección base, pero podrán beneficiarse voluntariamente de ahorros adicionales si modulan sus consumos hacia horas valle mediante medidores inteligentes.
+>
+> **Condición de Horario de Superávit para Movilidad Eléctrica:** La tarifa reducida o preferente para la recarga de vehículos eléctricos aplicará con carácter estrictamente condicional y exclusivo dentro de las ventanas de **Horas Valle y Supervalle (23:00 a 06:00 y momentos de superávit de generación solar diurna de 10:00 a 14:00)** en que el Sistema Nacional Interconectado cuente con excedentes de energía hidráulica o renovable no gestionable. Toda recarga efectuada fuera de dichos horarios (horas llanas o pico de 18:00 a 22:00) o que exceda el bloque residencial básico de 250 kWh se facturará obligatoriamente a la tarifa ordinaria o a la tarifa a costo real pleno (Time-of-Use con recargo por Factor de Contingencia Climática). Queda expresamente prohibido subsidiar la recarga de vehículos eléctricos durante horarios de estrés o despacho térmico de punta."
 
 **Artículo 8.- Agréguese a continuación del Artículo 57 de la Ley Orgánica del Servicio Público de Energía Eléctrica los siguientes artículos innumerados:**
 
@@ -247,6 +249,20 @@ En ejercicio de las facultades legislativas consagradas en el artículo 120, num
 > "**Art. (...).- Mecanismo de Obras por Impuestos para Infraestructura Eléctrica de Transmisión y Distribución.-** Las personas jurídicas privadas nacionales o extranjeras, individualmente o en consorcio, podrán formular, financiar y ejecutar de forma directa proyectos de ingeniería, procura y construcción (EPC) de subestaciones transformadoras, líneas de transmisión, alimentadores de distribución y bancos de compensación reactiva de uso público calificados como prioritarios en el Plan Maestro de Electricidad por ARCONEL y CENACE.
 >
 > Cumplida la entrega formal de la obra a entera satisfacción de la empresa pública operadora y fiscalizado el costo eficiente por la ARCONEL, el Servicio de Rentas Internas (SRI) emitirá a favor de la empresa financista notas de crédito tributarias desmaterializadas aplicables para el pago del Impuesto a la Renta corporativo de los siguientes ejercicios fiscales, hasta por un plazo máximo de cinco (5) años. Las obras ejecutadas se transferirán de pleno derecho e irrevocablemente al patrimonio del Estado sin costo fiscal directo."
+
+> "**Art. (...).- Fideicomiso Maestro Centralizado de Recaudación en el Banco Central del Ecuador (BCE) y Prelación Forzosa de Pagos.-** Con el objeto de erradicar el desvío de ingresos por recaudación eléctrica y blindar la liquidez de toda la cadena productiva del sector, el cien por ciento (100%) de los recursos cobrados por las empresas distribuidoras a través de las planillas de servicio eléctrico ingresará de forma automática y obligatoria en una Cuenta Fiduciaria Maestra Única constituida en el Banco Central del Ecuador (BCE).
+>
+> La administración fiduciaria del BCE ejecutará la liquidación y desembolso diario y mensual de los fondos bajo el siguiente orden de prelación legal forzoso e inalterable:
+> 1. Pago íntegro por compra de energía en bloque y potencia firme despachada a favor de la CELEC EP y de los generadores privados habilitados;
+> 2. Pago de peajes de transmisión a favor de la Empresa Pública de Transmisión (Transelectric);
+> 3. Transferencia intangible de los excedentes y rubros de resiliencia destinados al Fondo FERRE; y,
+> 4. Transferencia del remanente para la cobertura del Valor Agregado de Distribución (VAD) y gastos operativos y administrativos eficientes de las empresas eléctricas distribuidoras.
+>
+> Prohíbese a las empresas distribuidoras retener, pignorar o desviar fondos recaudados para el pago de gasto corriente propio o nómina antes de honrar las obligaciones de generación, transmisión y aportes al FERRE."
+
+> "**Art. (...).- Capping Regulatorio de Pérdidas de Distribución en el VAD (Eficiencia por Desempeño).-** La ARCONEL reconocerá en la metodología de fijación del Valor Agregado de Distribución (VAD) un nivel máximo de pérdidas técnicas totales de hasta el ocho coma cinco por ciento (8.5%).
+>
+> Toda pérdida de energía que supere dicho porcentaje, atribuible a ineficiencia operativa, obsolescencia de redes o falta de control del hurto y conexiones clandestinas, no podrá bajo ninguna circunstancia ser trasladada a la tarifa de los usuarios finales ni compensada por el Presupuesto General del Estado. Dicho exceso será asumido íntegramente como pérdida económica contra el patrimonio y balance de resultados de la empresa eléctrica distribuidora responsable, constituyendo causal de remoción para su Directorio y gerencia general."
 
 **Artículo 9.- Sustitúyase el Artículo 58 de la Ley Orgánica del Servicio Público de Energía Eléctrica por el siguiente texto:**
 

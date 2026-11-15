@@ -308,6 +308,16 @@ tarifas_horarias_tou:
         - "18:00 - 22:00"
       costo_marginal_estimado_usd_kwh: 0.260
       objetivo: "Desplazar demanda fuera del horario crítico; incentivo a descarga de baterías BESS"
+    movilidad_electrica_vehiculos_electricos:
+      principio_rector: "Recarga de bajo costo condicionada exclusivamente a la disponibilidad de superávit en red"
+      ventanas_superavit_permitidas_tarifa_valle:
+        - "23:00 - 06:00 (Superávit hidroeléctrico de pasada / eólico nocturno)"
+        - "10:00 - 14:00 (Superávit de generación solar fotovoltaica)"
+      tarifa_valle_recarga_usd_kwh: 0.065
+      recarga_fuera_de_valle:
+        tratamiento: "Tarifa plana ordinaria o costo real pleno TOU con Factor de Contingencia Climática (FCC)"
+        tarifa_pico_nocturno_usd_kwh: 0.260
+        objetivo: "Prohibición absoluta de subsidiar recarga de VE en horarios de estrés o despacho térmico"
 
 # ------------------------------------------------------------------------------
 # 6. TRANSICIÓN PRODUCTIVA INDUSTRIAL (ANTI-INFLACIONARIA)
@@ -461,3 +471,25 @@ hoja_ruta_hidroelectrica:
         bombeo_diurno: "Consume excedentes solares industriales de costo marginal cero (10:00 a 14:00)"
         turbinado_nocturno: "Genera potencia pico firme limpia de 18:00 a 22:00 sin quemar diésel"
       vida_util_anos: 50
+
+# ------------------------------------------------------------------------------
+# 12. FIDEICOMISO MAESTRO CENTRALIZADO DE RECAUDACIÓN EN EL BANCO CENTRAL (BCE)
+# ------------------------------------------------------------------------------
+fideicomiso_maestro_recaudacion_bce:
+  entidad_depositaria: "Banco Central del Ecuador (BCE)"
+  cobertura_recaudacion_pct: 100.0
+  orden_prelacion_legal_forzoso:
+    - "1. Compra de energía en bloque y potencia firme a CELEC EP y generadores privados habilitados"
+    - "2. Peaje de transporte del Sistema Nacional de Transmisión (Transelectric)"
+    - "3. Transferencia intangible de excedentes y rubros de resiliencia (0.01 USD/kWh) al Fondo FERRE"
+    - "4. Transferencia de remanente para VAD y costos operativos eficientes a empresas distribuidoras"
+  prohibicion_expresa: "Prohibido a distribuidoras retener fondos para gasto corriente o nómina antes de honrar generación y transmisión"
+
+# ------------------------------------------------------------------------------
+# 13. CAPPING REGULATORIO DE PÉRDIDAS DE DISTRIBUCIÓN EN EL VAD
+# ------------------------------------------------------------------------------
+capping_perdidas_distribucion_vad:
+  limite_maximo_perdidas_reconocidas_pct: 8.5
+  entidad_reguladora: "ARCONEL"
+  tratamiento_perdidas_excedentes: "Pérdida patrimonial directa contra balance contable de la distribuidora; prohibido trasladar a tarifa de abonados o Presupuesto del Estado"
+  sancion_administrativa: "Causal de remoción para Directorio y Gerencia General de la empresa eléctrica distribuidora"
