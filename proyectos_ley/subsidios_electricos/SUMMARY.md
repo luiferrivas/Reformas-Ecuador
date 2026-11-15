@@ -29,7 +29,7 @@
 
 ## 3. Parámetros Técnicos Críticos Congelados
 
-1. **Umbral Residencial Familiar Base:** 250 kWh/mes a nivel nacional (unificado en Costa, Sierra y Amazonía; el aire acondicionado en Costa y la calefacción/duchas de alta resistencia en Sierra son considerados consumos suntuarios de confort que pagan tarifa real plena más recargo estacional de 2 centavos en estiaje).
+1. **Umbral Residencial Familiar Base:** 200 kWh/mes para hogares estándar (que cocinan con gas GLP) y hasta 250 kWh/mes para hogares con cocina de inducción acreditada (+50 kWh de cupo de cocción limpia sustitutiva de GLP importado). Todo consumo excedente (>200 kWh o >250 kWh con inducción) es considerado suntuario/confort (aire acondicionado en Costa; calefactores resistivos y duchas eléctricas en Sierra) y tributa a costo real pleno más recargo estacional de 2 centavos en estiaje.
 2. **Soberanía Alimentaria y Agroindustria Interna:**
    - *Nivel 1 (hasta 500 kWh/mes):* Tiendas de barrio y micromercados populares.
    - *Nivel 2 (hasta 800 kWh/mes):* Panaderías artesanales con obrador y carnicerías.
@@ -129,6 +129,7 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Caja Descentralizada en Distribuidoras sin Prelación Legal** | **Descartada** | Autonomía administrativa aparente | Distribuidoras desvían ingresos a nómina sindical y dejan a CELEC y Transelectric con deudas de cientos de millones | Descartada por quebrar la cadena de pagos. Se aprobó la Cuenta Fiduciaria Maestra Única en el BCE con orden de prelación forzoso (Generación -> Transmisión -> FERRE -> Distribución). |
 | **Reconocimiento Total de Pérdidas de Distribución en Tarifas (>18%)** | **Descartada** | Evitaba pérdidas contables a CNEL | Premia la ineficiencia y el descontrol del hurto; traslada el costo del fraude a usuarios honestos | Descartada por distorsión moral y regulatoria. Se impuso un capping del 8.5% en el VAD: el exceso es pérdida patrimonial directa de la empresa. |
 | **Excepción Bioclimática de 300 kWh para Costa vs. 250 kWh para Sierra** | **Descartada** | Compensaba calor ambiental en la Costa | Asimetría territorial y ceguera termodinámica: en la Sierra la calefacción resistiva (2,000 W) y duchas eléctricas (5,000 W) consumen igual o más que un split (1,200 W) | Descartada por inequidad regional. Se unifica el techo en 250 kWh/mes nacional: todo confort térmico excedente paga costo real pleno más recargo de 2 centavos en estiaje. |
+| **Umbral Plano de 250 kWh sin Distinción de Cocina a Inducción** | **Descartada** | Simplicidad aparente de número único | Subsidia 50 kWh de confort suntuario a quienes usan GLP importado subsidiado; no crea incentivo para abandonar el gas | Se aprobó el umbral dual: 200 kWh/mes base y 250 kWh/mes con cocina de inducción (+50 kWh para cocción limpia), ahorrando divisas de GLP en Petroecuador y recaudando 64.8 M USD/año adicionales en distribución. |
 
 ---
 

@@ -29,10 +29,14 @@ Esta propuesta legislativa resuelve estructuralmente estos tres problemas median
 +------------------------------------+--------------------------------------------------------------+
 | CATEGORÍA                          | TRATAMIENTO TARIFARIO                                        |
 +------------------------------------+--------------------------------------------------------------+
-| Residencial (0 a 250 kWh/mes)      | Tarifa Más Barata Posible (Asignación prioritaria de hidro/  |
-|                                    | eólica/solar de menor costo según región)                    |
+| Residencial Base (0 a 200 kWh/mes) | Tarifa Más Barata Posible (Asignación prioritaria hidroeléctrica/|
+| (Hogares con cocción a gas GLP)    | renovable base a costo eficiente)                            |
 +------------------------------------+--------------------------------------------------------------+
-| Residencial (> 250 kWh/mes)        | Tarifa a Costo Real Pleno sobre el excedente consumido       |
+| Residencial con Cocina de Inducción| Tarifa Más Barata Posible hasta 250 kWh/mes (Cupón de +50 kWh|
+| (0 a 250 kWh/mes acreditado 220V)  | preferente para cocción eléctrica limpia sustituyendo GLP)   |
++------------------------------------+--------------------------------------------------------------+
+| Residencial Excedente              | Tarifa a Costo Real Pleno sobre el exceso consumido          |
+| (> 200 kWh sin inducción o > 250k) | (+ Recargo Estacional de Sequía de 2 ¢/kWh en estiaje)       |
 +------------------------------------+--------------------------------------------------------------+
 | Alimentación Popular y Tiendas     | Tarifa Más Barata Posible (Asignación prioritaria)           |
 | (0 a 500 kWh/mes)                  |                                                              |
@@ -45,15 +49,19 @@ Esta propuesta legislativa resuelve estructuralmente estos tres problemas median
 +------------------------------------+--------------------------------------------------------------+
 ```
 
-#### 2.1. Bloque Residencial Familiar: Umbral de 250 kWh/mes
-- **Fundamento Demográfico y Estadístico:**
-  - El consumo promedio de un hogar ecuatoriano de 4 habitantes en la región Sierra (Quito, Cuenca, Ambato) se sitúa entre **120 y 160 kWh/mes**, destinado principalmente a iluminación LED, refrigeradora eficiente, televisión, pequeños electrodomésticos y computación.
-  - En la región Costa y Amazonía (Guayaquil, Manta, Machala, Lago Agrio), el uso estacional de ventilación o un equipo de aire acondicionado de bajo consumo (inverter) eleva el promedio de los hogares típicos a un rango de **180 a 230 kWh/mes**.
-  - Por ende, el umbral de **250 kWh/mes** cubre holgadamente el consumo vital y de confort básico de aproximadamente el **78% de la población residencial ecuatoriana**.
+#### 2.1. Bloque Residencial Familiar: Umbral de 200 kWh/mes Base y 250 kWh/mes con Cocina a Inducción
+- **Fundamento Demográfico, Estadístico y Energético:**
+  - El consumo promedio real de un hogar ecuatoriano de 4 habitantes que cocina con cilindro de gas GLP se ubica entre **120 y 160 kWh/mes** a nivel nacional, cubriendo iluminación LED, refrigeradora eficiente de 10-12 pies cúbicos (30 a 40 kWh/mes), lavadora, conectividad, TV y hasta 3 ventiladores continuos de 60 W en la Costa o electrodomésticos en la Sierra.
+  - Por lo tanto, el umbral base de **200 kWh/mes** protege con holgura absoluta las necesidades vitales del **72% al 75% de las familias ecuatorianas**.
+- **El Cupo Estratégico de Cocción Limpia (+50 kWh/mes para Inducción hasta 250 kWh/mes):**
+  - Preparar el almuerzo y la cena diaria para 4 personas en una cocina de inducción de alta eficiencia magnética consume entre **40 y 60 kWh/mes** (promedio: ~50 kWh/mes).
+  - Al otorgar un umbral ampliado a **250 kWh/mes** exclusivamente a los hogares con cocina de inducción acreditada (circuito bifásico de 220V o telemetría AMI):
+    1. Se elimina la penalización eléctrica a quienes apoyan la transición energética.
+    2. Se crea un incentivo potente para abandonar el Gas Licuado de Petróleo (GLP) importado subsidiado, ahorrándole a Petroecuador más de **$15 a $20 millones de USD anuales por cada 100,000 familias** que migran de gas a inducción.
+    3. Se recaudan más de **$64.8 millones de USD anuales adicionales** en el sector eléctrico de los hogares que consumen entre 200 y 250 kWh sin tener inducción (pagando costo real pleno sobre ese exceso).
 - **Mecánica del Cobro Excedente:**
-  - A diferencia de esquemas punitivos de corte abrupto (donde pasarse de 1 kWh eliminaba todo el subsidio hacia atrás), la reforma establece un cobro marginal por tramos:
-    $$\text{Factura Residencial} = (C_{\text{preferente}} \times \min(\text{Consumo}, 250)) + (C_{\text{real}} \times \max(0, \text{Consumo} - 250)) + \text{Cargos de Red y Alumbrado}$$
-  - Esto protege el presupuesto familiar básico mientras penaliza de forma transparente los consumos suntuarios o ineficientes.
+  - La liquidación se efectúa por tramos marginales, donde el límite $U$ es 200 kWh (o 250 kWh con inducción):
+    $$\text{Factura Residencial} = (C_{\text{preferente}} \times \min(\text{Consumo}, U)) + (C_{\text{real}} \times \max(0, \text{Consumo} - U)) + \text{Cargos de Red y Alumbrado}$$
 
 #### 2.2. Bloque de Soberanía Alimentaria y Cadena Popular de Frío: Análisis Técnico (500 kWh vs. 800 kWh)
 
