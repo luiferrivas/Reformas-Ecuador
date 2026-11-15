@@ -1,200 +1,180 @@
 # MEMORIA TÉCNICA Y ECONÓMICA DE SOPORTE
 
-## REFORMA AL RÉGIMEN DE SUBSIDIOS EN COMBUSTIBLES FÓSILES NO ELÉCTRICOS Y SINCERAMIENTO FISCAL DEL ECUADOR
+## REFORMA MODULAR POR ETAPAS AL RÉGIMEN DE SUBSIDIOS A COMBUSTIBLES
+### ETAPA 1: REMOCIÓN TOTAL DEL DIÉSEL CAMARONERO Y ELECTRIFICACIÓN
+### ETAPA 2: SENDERO SUAVE DEL 10% ANUAL EN GAS DOMÉSTICO (GLP)
 
 > **Consorcio Industrial Kronos — División de Economía de la Energía y Finanzas Públicas**  
 > *Documento técnico oficial de sustento cuantitativo, legal y macroeconómico.*
 
 ---
 
-## 1. Diagnóstico Macroeconómico: Déficit Fiscal del Estado Ecuatoriano (2023 - 2026)
+## 1. Fundamento Estratégico: La Doctrina "Divide y Conquista"
 
-### 1.1. Contexto Histórico y Estructura del Desequilibrio Fiscal
+### 1.1. Anatomía Política de los Paros Históricos (2019, 2022 y 2025)
+Los fracasos de los gobiernos anteriores al intentar ajustar los subsidios a los combustibles radicaron en cometer el error estratégico de aplicar **shocks simultáneos y masivos** sobre todos los combustibles a la vez (diésel de transporte pesado, buses urbanos, gasolinas y GLP). Esta torpeza táctica provocó la unificación inmediata de actores heterogéneos en un solo frente de resistencia: el movimiento indígena (CONAIE), los gremios de transportistas de carga pesada, los choferes de buses urbanos y las familias de estratos populares.
 
-La República del Ecuador ha padecido durante las últimas dos décadas un descalabro fiscal crónico derivado fundamentalmente de la indexación artificial de los precios internos de los combustibles fósiles a niveles congelados, disociados por completo de las leyes del mercado internacional y de los costos reales de importación y refinación.
+### 1.2. La Solución Modular en Dos Frentes Aislados
+Para quebrar la capacidad de veto de los grupos corporativos y blindar la estabilidad democrática, la presente reforma implementa la estrategia de **desacople secuencial**:
 
-A fin de contextualizar la magnitud del problema, se analiza la trayectoria del déficit fiscal del **Presupuesto General del Estado (PGE / Gobierno Central)** y del **Sector Público No Financiero (SPNF)** entre los ejercicios 2023 y 2026, contrastándolo con el peso financiero del subsidio a los combustibles (excluyendo de manera estricta los combustibles asignados a la generación eléctrica térmica, los cuales fueron abordados en la reforma del sector eléctrico).
-
-### 1.2. Balance Macroeconómico Consolidado (2023 - 2026)
-
-| Variable Macroeconómica / Fiscal | Ejercicio 2023 (Real Ejecutado) | Ejercicio 2024 (Real Ejecutado) | Ejercicio 2025 (Cierre Preliminar) | Ejercicio 2026 (Proforma Oficial) |
-| :--- | :--- | :--- | :--- | :--- |
-| **PIB Nominal Nacional (M USD)** | 118,800.00 | 121,500.00 | 125,500.00 | 129,018.50 |
-| **Déficit Presupuesto General (PGE)** | -5,450.00 M USD | -4,500.00 M USD | -3,950.00 M USD | -3,150.00 M USD |
-| **Déficit PGE como % del PIB** | -4.59% | -3.70% | -3.15% | -2.44% |
-| **Déficit Consolidado SPNF** | -3,850.00 M USD | -3,200.00 M USD | -2,450.00 M USD | -1,850.00 M USD |
-| **Déficit SPNF como % del PIB** | -3.24% | -2.63% | -1.95% | -1.43% |
-| **Subsidio Total a Combustibles (Bruto)** | 3,386.90 M USD | 3,535.00 M USD | 2,550.00 M USD | 1,750.00 M USD |
-| **Combustibles Térmicos Eléctricos** | 1,982.00 M USD | 1,850.00 M USD | 1,100.00 M USD | 590.40 M USD |
-| **Subsidios a Combustibles NO Eléctricos** | **1,404.90 M USD** | **1,685.00 M USD** | **1,450.00 M USD** | **1,159.60 M USD** |
-| **Peso Subsidio No Eléctrico en Déficit PGE** | **25.8%** | **37.4%** | **36.7%** | **36.8%** |
-
-### 1.3. Veredicto Forense del Déficit Fiscal
-
-1. **Persistencia del Descalabro:** A pesar de las reformas parciales implementadas entre 2024 y 2025 (como el Decreto 308 de junio de 2024 para las gasolinas Extra y Ecopaís, y los ajustes al diésel del Decreto 126 en septiembre de 2025), los subsidios a los combustibles no eléctricos continúan explicando **más de un tercio (36.8%) de todo el déficit presupuestario del Ecuador en 2026** (1,159.60 M USD de un déficit de 3,150.00 M USD).
-2. **Causa del Agotamiento Fiscal:** El Estado ecuatoriano carece de ingresos permanentes para fondear esta subvención ciega a la oferta. La importación de derivados se financia contablemente mediante la entrega de crudo nacional en dación de pago (convenios de canje y contratos de preventa spot con traders internacionales), cercenando los ingresos netos que deberían alimentar el Presupuesto General del Estado para salud, seguridad y obra pública.
+1. **Etapa 1 (Quirúrgica e Inmediata): Remoción del 100% del Diésel Camaronero.**
+   - El sector camaronero es un sector exportador privado de gran escala (exporta más de 7,500 M USD anuales en divisas).
+   - No tiene legitimidad social ni capacidad de movilización para paralizar carreteras en la Sierra ni aliarse con la CONAIE.
+   - La medida blinda al camarón ecuatoriano de sanciones internacionales por subsidios prohibidos ante la Organización Mundial del Comercio (OMC) y el Departamento de Comercio de los EE.UU. (aranceles compensatorios *anti-dumping*).
+   - Crea el incentivo de mercado perfecto para su **transición a la red eléctrica industrial sin subsidios**, la cual reduce sus costos operativos en un 50.2%.
+2. **Etapa 2 (Suave, Progresiva e Indefectible): Incremento Anual del 10% en el GLP Doméstico.**
+   - En lugar de un shock traumático de 1.65 a 13.50 USD, se establece por ley un incremento anual del **10% compuesto cada 1 de enero**.
+   - En el Año 1, el cilindro sube apenas **16.5 centavos de dólar** (de 1.65 a 1.815 USD), lo que equivale a un impacto de solo **1.3 centavos al mes por familia**.
+   - Ninguna organización política o sindical puede justificar un paro nacional indefinido por un ajuste de 16 centavos en un año.
+   - La reforma se complementa con el **desacople inmediato del 100% del subsidio en actividades comerciales e industriales** (restaurantes, hoteles, avícolas y saunas), generando liquidez fiscal inmediata.
 
 ---
 
-## 2. Inventario Forense: ¿Qué Subsidios a los Combustibles le Restan a Ecuador? (Excluyendo Generación Eléctrica)
+## 2. Modelado Cuantitativo: Etapa 1 — Remoción del 100% del Diésel Camaronero
 
-Descontando el componente de termoeléctricas y barcazas de emergencia, en el Ecuador subsisten cinco categorías críticas de subsidios a los hidrocarburos:
+### 2.1. Diagnóstico del Sector y Fraude de las 30 Hectáreas
+En el Ecuador existen aproximadamente **220,000 hectáreas** dedicadas a la acuacultura de camarón. En diciembre de 2022, el Decreto Ejecutivo No. 675 eliminó el subsidio al diésel para fincas con predios superiores a 30 hectáreas, las cuales representaban cerca del 80% del área total.
 
-```
-+--------------------------------------------------------------------------------------------------+
-|            INVENTARIO DE SUBSIDIOS A COMBUSTIBLES NO ELÉCTRICOS EN ECUADOR (PROFORMA 2026)       |
-+------------------------------------+--------------------+--------------------+-------------------+
-| Categoría de Subsidio              | Monto Asignado     | Participación (%)  | Mecanismo Actual  |
-+------------------------------------+--------------------+--------------------+-------------------+
-| 1. Gas Licuado de Petróleo (GLP)   | 719.00 M USD       | 62.01%             | Congelado ciego   |
-| 2. Diésel Transporte / Pesca       | 340.00 M USD       | 29.32%             | Semi-regulado/WTI |
-| 3. Compensación Gasolinas (D.308)  | 80.00 M USD        | 6.90%              | Transferencia m2m |
-| 4. Derivados Menores y Fletes      | 20.60 M USD        | 1.77%              | Absorción estatal |
-+------------------------------------+--------------------+--------------------+-------------------+
-| TOTAL SUBSIDIOS NO ELÉCTRICOS      | 1,159.60 M USD     | 100.00%            | Carga al Tesoro   |
-+------------------------------------+--------------------+--------------------+-------------------+
-```
+Sin embargo, esta disposición creó una distorsión perversa:
+- El segmento restante de "menos de 30 hectáreas" abarca unas **45,000 hectáreas**.
+- Gran parte de este segmento corresponde a **parcelaciones jurídicas ficticias**: empresas camaroneras de 200 a 500 hectáreas que se subdividieron en contratos de arrendamiento y personerías jurídicas de papel de 29.5 hectáreas para seguir consumiendo diésel a precio subsidiado.
+- Este segmento residual consume anualmente **40 millones de galones de diésel**.
 
-### 2.1. Subsidio 1: Gas Licuado de Petróleo (GLP - Cilindro Doméstico de 15 kg)
-- **El Núcleo del Problema Fiscal:** El GLP absorbe **719.00 M USD**, equivalente al **62.0% del total de subsidios a los combustibles en 2026**.
-- **Dependencia de Importaciones:** Ecuador importa aproximadamente el **85%** de todo el GLP que consume, a través de buques cisterna refrigerados descargados en el Terminal Marítimo de Monteverde (Santa Elena) y El Salitral (Guayas).
-- **Estructura de Precios y Brecha Internacional:**
-  * Precio oficial regulado en depósito: **1.65 USD por cilindro de 15 kg** (fijado en 0.11 USD/kg).
-  * Costo real de importación cifrado en paridad Mont Belvieu / WTI + flete marítimo + almacenamiento + envasado y distribución: **13.50 a 15.50 USD por cilindro** (promedio de 0.90 a 1.03 USD/kg).
-  * **Tasa de Cobertura Estatal:** El Presupuesto General del Estado subsidia entre el **87.8% y el 89.4%** del costo de cada cilindro.
-- **Vectores de Desvío Criminal y Fuga de Capitales:**
-  1. *Contrabando Transfronterizo:* En las zonas de frontera con Perú (Tumbes, Piura), un cilindro se comercializa en el mercado abierto entre **18.00 y 28.00 USD**. En Colombia (Ipiales, Pasto), se cotiza entre **15.00 y 22.00 USD**. Esto genera incentivos económicos masivos para el trasvase clandestino de hasta 2.5 millones de cilindros al año por pasos informales marítimos y terrestres.
-  2. *Canibalismo Industrial y Comercial:* Decenas de miles de restaurantes, panaderías, saunas, avícolas (calefacción intensiva de galpones de pollos) y secadoras artesanales conectan en batería cilindros domésticos de 15 kg pintados de azul en lugar de adquirir GLP a granel industrial a precio de mercado.
-  3. *Taxis Informales:* Adaptación casera de bombonas de gas en maleteros sin normas de seguridad INEN.
+### 2.2. Ahorro Fiscal Inmediato de la Etapa 1
 
-### 2.2. Subsidio 2: Diésel Automotriz y Pesado (Transporte de Carga y Pasajeros)
-- **Situación Regulatoria Actual:** Históricamente congelado en 1.797 USD/galón hasta que las reformas de finales de 2025 ajustaron su precio a la franja de 2.70 a 2.80 USD/galón bajo tensiones sociales.
-- **Brecha de Importación Remanente:** Ecuador importa el **87%** del diésel automotriz consumido debido a la baja capacidad de conversión de las refinerías locales (alta producción residual de fuel oil pesado). Con precios internacionales del crudo WTI oscilando entre 70.00 y 85.00 USD/barril y crack spreads de destilados medios en el Golfo de México de 22.00 a 28.00 USD/barril, el costo de paridad de importación puesto en terminales ecuatorianas supera los **3.15 a 3.40 USD/galón**.
-- **Subsidio Remanente (340.00 M USD en 2026):** Absorbe la diferencia de volatilidad internacional, los fletes marítimos de cabotaje y las compensaciones operativas para el transporte público urbano e interprovincial de pasajeros y el transporte institucional.
-
-### 2.3. Subsidio 3: Acuacultura (Camaroneras) y Pesca
-- **La Trampa de las 30 Hectáreas (Decreto 675 de 2022):** La norma eliminó el subsidio al diésel para camaroneras con predios superiores a 30 hectáreas. Esto provocó una respuesta adaptativa fraudulenta: las grandes concesiones camaroneras se fragmentaron jurídicamente en personerías jurídicas de papel y parcelas de 29.5 hectáreas para seguir recibiendo diésel a precio preferencial.
-- **Pesca Artesanal:** Mantiene subsidio en gasolina de pesca artesanal y diésel marítimo. Si bien protege al pescador de subsistencia, la ausencia de chips AIS o telemetría satelital facilita el desvío de combustible en alta mar a buques de gran calado o lanchas de narcotráfico internacional.
-
-### 2.4. Subsidio 4: Gasolinas Extra y Ecopaís (Remanente del Decreto 308 de Junio de 2024)
-- **Esquema Vigente:** Eliminó el subsidio ciego e instauró bandas de estabilización de precios con un techo de incremento mensual de hasta **+5%** y un piso de reducción de hasta **-10%** respecto a la paridad internacional de la Costa del Golfo de EE.UU.
-- **El Costo Remanente (80.00 M USD en 2026):**
-  1. *Compensación Monetaria Directa:* Transferencia mensual bancaria a más de 84,000 transportistas legalizados (taxistas, camionetas mixtas rurales y tricimotos) que cubre el diferencial de galones consumidos.
-  2. *Contingencia de Banda:* Cuando el precio internacional sufre un shock alcista que supera el 5% mensual, el Estado absorbe la diferencia no transferida al consumidor, reabriendo una ventana de pérdida fiscal.
-
----
-
-## 3. Arquitectura de Optimización Quirúrgica (La Doctrina Kronos)
-
-### 3.1. ¿Por qué Fracasaron los Intentos Históricos? (Lecciones de 2019, 2022 y 2025)
-
-El análisis forense de los paros nacionales convocados por la CONAIE y gremios del transporte (octubre de 2019 con Lenín Moreno, junio de 2022 con Guillermo Lasso y septiembre de 2025 con Daniel Noboa) revela tres fallas estructurales de diseño de política pública:
-
-1. **El "Shock Ciego a la Oferta":** Subir el precio del combustible de la noche a la mañana sin haber implementado previamente el mecanismo tecnológico y financiero de compensación a los sectores vulnerables.
-2. **Ignorar el Rol Vital del GLP Doméstico:** Pretender eliminar de golpe el subsidio al gas doméstico elevándolo a 15 USD sin una transferencia monetaria previa es inviable. El gas es el medio para cocinar los alimentos del 90% de los hogares ecuatorianos.
-3. **El Fraude de los Cupos en Galones:** Tratar de regular el diésel mediante cupos físicos de galones crea inmediatamente un mercado negro de "ordeño" y falsificación de facturas.
-
-### 3.2. Las Cinco Palancas de Optimización Quirúrgica
-
-#### Palanca 1: El Voucher Social Directo al GLP ("Tarjeta Cédula GLP") y Sinceramiento en Bodega
-- **Principio Fundamental:** Subsidio a la demanda vulnerable, nunca a la oferta del producto.
-- **Mecanismo Operativo:**
-  1. El precio en los depósitos y bodegas de distribución se sincera al costo real internacional de importación y envasado: **13.50 USD por cilindro de 15 kg**.
-  2. Se instituye el **Voucher Social GLP**: una transferencia monetaria mensual de **11.00 USD por cilindro** transferida directamente a la cuenta básica bancaria o billetera digital vinculada a la cédula de identidad del jefe o jefa de hogar.
-  3. **Padrón Protegido:** 1.8 millones de hogares registrados en los Deciles 1, 2, 3 y 4 del Registro Social (pobreza y extrema pobreza).
-  4. **Cupo Máximo Protegido:** 1 cilindro mensual por familia (hogares certificados con más de 5 miembros pueden solicitar hasta 2 cilindros/mes previa auditoría del MIES).
-  5. Al momento de comprar en el depósito, la familia vulnerable presenta su cédula; el lector digital debita los 11.00 USD del subsidio y el usuario abona únicamente la diferencia en efectivo (**2.50 USD**, equivalente al costo histórico en tienda barrial).
-- **Resultado Fiscal y Erradicación del Desvío:**
-  * Quien compra el cilindro a 13.50 USD para saunas, restaurantes, avícolas o contrabando paga el 100% del costo real. El contrabando a Perú y Colombia colapsa automáticamente a cero porque deja de ser negocio.
-  * Modelado del flujo financiero:
-
-$$C_{\text{voucher}} = 1,800,000 \text{ hogares} \times 1.0 \frac{\text{cilindro}}{\text{mes}} \times 11.00 \frac{\text{USD}}{\text{cilindro}} \times 12 \text{ meses} = 237.60 \text{ M USD/año}$$
-
-$$A_{\text{neto GLP}} = 719.00 \text{ M USD} - 237.60 \text{ M USD} = 481.40 \text{ M USD/año}$$
-
-#### Palanca 2: Paridad WTI Pura en Diésel Pesado y Desregulación de Fletes Comerciales
-- **Principio Fundamental:** El Estado no debe subsidiar la logística privada de corporaciones multinacionales, cadenas de supermercados, mineras ni exportadores.
-- **Mecanismo:** El diésel para transporte de carga pesada se descongela por completo, transando al 100% de paridad WTI de importación en todos los surtidores del país.
-- **Ajuste de Fletes:** Las empresas de logística y camiones trasladan la variación del combustible a la tarifa comercial del flete de carga, desregulada por ley. Se prohíbe cualquier subsidio cruzado estatal a fletes corporativos.
-- **Línea de Transición CFN / GNV:** Apertura de líneas de financiamiento blando a través de la Corporación Financiera Nacional (CFN) y BanEcuador para la instalación de kits de conversión dual a Gas Natural Vehicular (GNV) y biometano, reduciendo el costo por kilómetro recorrido en más de un 45%.
-
-#### Palanca 3: Transporte Público de Pasajeros: Subsidio a la Demanda Estudiantil y Tarifa Técnica Municipal
-- **Principio:** Erradicar la compensación en bloque a cooperativas de buses urbanos e interprovinciales.
-- **Mecanismo:**
-  1. Los Gobiernos Autónomos Descentralizados (GADs municipales) asumen plenamente su competencia constitucional de fijar la **tarifa técnica real del transporte público**.
-  2. El Estado central elimina el subsidio al combustible para los buses.
-  3. A cambio, el Estado transfiere de forma directa el subsidio del 50% del pasaje a los estudiantes, personas de la tercera edad y personas con discapacidad mediante la **Billetera Electrónica Estudiantil y Social** integrada a la tarjeta de transporte urbano o cédula.
-
-#### Palanca 4: Erradicación del Fraude Camaronero mediante Cruce SENAE (DAE)
-- **Principio:** Cero combustible barato para bienes de exportación cotizados en dólares en mercados globales.
-- **Mecanismo:** Se deroga la excepción de las "30 hectáreas". Todo predio camaronero que figure en las Declaraciones Aduaneras de Exportación (DAE) del Servicio Nacional de Aduana del Ecuador (SENAE) o que venda materia prima a plantas empacadoras de exportación, queda clasificado obligatoriamente en régimen de **100% tarifa a costo real pleno de diésel**.
-
-#### Palanca 5: Control Electrónico RFID en Fronteras y Puertos
-- **Principio:** Blindaje físico contra el contrabando de extracción.
-- **Mecanismo:** Instalación mandatoria de transpondedores RFID en boca de tanque y sistemas automáticos de lectura en boquillas despachadoras de las estaciones de servicio ubicadas en las provincias fronterizas (Carchi, Esmeraldas, Sucumbíos, El Oro, Loja, Zamora Chinchipe). Los vehículos extranjeros o no registrados abonan el precio internacional con un recargo arancelario del 20%.
-
----
-
-## 4. Cuantificación del Ahorro Fiscal y Cobertura del Déficit
-
-### 4.1. Balance Fiscal del Programa de Optimización (Ejercicio 2026)
-
-| Componente del Programa | Gasto Actual (M USD) | Gasto Optimizado (M USD) | Ahorro Fiscal Neto (M USD/año) |
+| Parámetro Técnico / Económico | Valor Numérico | Unidad de Medida | Fuente / Justificación |
 | :--- | :--- | :--- | :--- |
-| **Voucher Social Focalizado GLP** | 719.00 | 237.60 | +481.40 |
-| **Sinceramiento Diésel Pesado y Carga** | 220.00 | 0.00 | +220.00 |
-| **Extinción Subsidio Camaronero Exportador** | 65.00 | 0.00 | +65.00 |
-| **Control RFID y Trazabilidad Fronteriza** | 55.00 | 0.00 | +55.00 |
-| **Capping Decreciente Compensación Gasolina** | 80.00 | 40.00 | +40.00 |
-| **TOTAL CONSOLIDADO** | **1,139.00 M USD** | **277.60 M USD** | **+861.40 M USD/año** |
+| **Volumen de Diésel Consumido (<30 ha)** | 40,000,000 | galones/año | Reportes ARCH / Petroecuador |
+| **Precio Regulado Subsidiado Histórico** | 1.450 | USD/galón | Tarifa preferente camaronera |
+| **Precio Paridad Internacional WTI** | 3.325 | USD/galón | WTI + Crack Spread destilados Golfo |
+| **Subsidio Promedio por Galón** | 1.875 | USD/galón | Absorción del Estado ecuatoriano |
+| **AHORRO FISCAL ANUAL INMEDIATO** | **75.00 M USD/año** | USD/año | Fondos liberados al Presupuesto General |
 
-*(Nota: En un escenario conservador de resistencia y retrasos de implementación, el ahorro neto garantizado para el primer año se tasa en **801.40 M USD**).*
+### 2.3. Termodinámica y Economía de la Electrificación Camaronera (Caso Típico: 25 Hectáreas)
+Las camaroneras utilizan diésel primordialmente para accionar **estaciones de bombeo de agua marina** (grandes bombas axiales de flujo continuo) y **aireadores mecánicos de paletas** en piscinas para mantener los niveles de oxígeno disuelto.
 
-### 4.2. Impacto sobre el Déficit Global del Presupuesto General del Estado (2026)
+Demostración de que la electricidad sin subsidios es **50.2% más barata** que el diésel para el acuicultor:
 
-$$D_{\text{remanente}} = D_{\text{PGE}} + A_{\text{ahorro}}$$
+- **Operación Anual Estándar:** 20,000 horas-máquina agregadas en estación de bombeo y aireación.
+- **Alternativa A: Motores Diésel a Costo Real (Sin Subsidio):**
+  * Consumo específico: 0.8 galones por hora por estación.
+  * Costo del combustible WTI: 3.20 USD/galón.
+  * Costo operativo anual:
 
-$$\text{Sustituyendo cifras para 2026:}$$
+$$C_{\text{diésel}} = 20,000 \text{ h} \times 0.8 \frac{\text{gal}}{\text{h}} \times 3.20 \frac{\text{USD}}{\text{gal}} = 51,200.00 \text{ USD/año}$$
 
-$$D_{\text{remanente}} = -3,150.00 \text{ M USD} + 801.40 \text{ M USD} = -2,348.60 \text{ M USD}$$
+- **Alternativa B: Motores Eléctricos Trifásicos a Tarifa Industrial Kronos (Sin Subsidio):**
+  * Potencia equivalente requerida: 15 kW.
+  * Consumo energético: 15 kWh por hora de funcionamiento.
+  * Tarifa industrial regulada por Costo de Servicio (LOSPEE): 0.085 USD/kWh.
+  * Costo operativo anual:
 
-$$\text{Cobertura del Déficit Fiscal por la Reforma} = \frac{801.40 \text{ M USD}}{3,150.00 \text{ M USD}} \times 100\% = 25.44\%$$
+$$C_{\text{eléctrico}} = 20,000 \text{ h} \times 15 \text{ kW} \times 0.085 \frac{\text{USD}}{\text{kWh}} = 25,500.00 \text{ USD/año}$$
 
-### 4.3. Sinergia Total con la Reforma al Sector Eléctrico (Senda Hacia el Superávit Fiscal)
+- **Ahorro Operativo Neto para la Finca Camaronera:**
 
-Cuando esta reforma de subsidios a los combustibles se implementa en conjunto con la **Reforma Tarifaria Eléctrica de Kronos** (que libera entre **2,605.00 y 3,575.00 M USD/año** al erradicar el déficit tarifario y los combustibles térmicos importados), el resultado fiscal del Ecuador cambia radicalmente:
+$$A_{\text{camaronera}} = 51,200.00 \text{ USD} - 25,500.00 \text{ USD} = 25,700.00 \text{ USD/año}$$
 
-| Ejercicio Fiscal | Déficit Original PGE (M USD) | Alivio Sector Eléctrico (M USD) | Alivio Combustibles No Eléctricos (M USD) | Resultado Fiscal Consolidado (M USD) | Estado Fiscal del Ecuador |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2023 (Forense)** | -5,450.00 | +1,982.00 | +800.00 | -2,668.00 | Déficit Reducido a la Mitad |
-| **2024 (Forense)** | -4,500.00 | +3,535.00 | +850.00 | -115.00 | Prácticamente Déficit Cero |
-| **2025 (Estimado)**| -3,950.00 | +2,925.00 | +820.00 | -205.00 | Equilibrio Fiscal Técnico |
-| **2026 (Proyectado)**| -3,150.00 | +2,605.00 | +801.40 | **+256.40 M USD** | **SUPERÁVIT FISCAL PRIMARIO** |
+$$\text{Porcentaje de Ahorro en OPEX} = \frac{25,700.00}{51,200.00} \times 100\% = 50.20\%$$
+
+**Conclusión:** Quitar el subsidio al diésel camaronero no destruye la rentabilidad de las fincas; crea el incentivo financiero ineludible para que el sector privado invierta en líneas de media tensión (13.8 kV) y transformadores, recuperando su inversión en menos de 3 años y operando a mitad de costo.
 
 ---
 
-## 5. Doble Métrica Obligatoria de Payback (Hardware de Trazabilidad y Conversión a GNV)
+## 3. Modelado Cuantitativo: Etapa 2 — Sendero Suave del 10% Anual en GLP Doméstico
+
+### 3.1. Formulación Matemática de la Trayectoria Suave
+La ley fija la fórmula de indexación automática anual que la Agencia de Regulación y Control Hidrocarburífero (ARCH) aplicará el primer día de cada año calendario:
+
+$$P(t) = P_0 \times (1 + r)^t$$
+
+Donde:
+- $P_0 = 1.65 \text{ USD}$ (precio oficial base por cilindro de 15 kg).
+- $r = 0.10$ (tasa de incremento anual compuesta del 10%).
+- $t$: año de vigencia a partir de la promulgación de la Ley ($t = 1, 2, \dots, 22$).
+- Meta de paridad internacional: $P_{\text{objetivo}} = 13.50 \text{ USD}$.
+
+Tiempo exacto requerido para alcanzar la paridad internacional sin subsidio:
+
+$$t_{\text{convergencia}} = \frac{\ln\left(\frac{P_{\text{objetivo}}}{P_0}\right)}{\ln(1 + r)} = \frac{\ln\left(\frac{13.50}{1.65}\right)}{\ln(1.10)} = \frac{\ln(8.1818)}{0.09531} = \frac{2.1019}{0.09531} = 22.05 \text{ años}$$
+
+### 3.2. Proyección Anual de Precios y Ahorro Fiscal (Consumo Nacional: 93 Millones de Cilindros/Año)
+
+| Año de Vigencia | Precio Oficial Cilindro (USD) | Incremento en el Año (USD) | Ahorro Fiscal en el Año (M USD) | Ahorro Acumulado Anual (M USD) | Subsidio Residencial Remanente (M USD) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Año 0 (Base Actual)**| 1.65 | 0.00 | 0.00 | 0.00 | 719.00 |
+| **Año 1** | 1.815 | +0.165 | +15.35 | 15.35 | 703.65 |
+| **Año 2** | 1.996 | +0.181 | +16.87 | 32.22 | 686.78 |
+| **Año 3** | 2.196 | +0.200 | +18.57 | 50.79 | 668.21 |
+| **Año 4** | 2.416 | +0.220 | +20.43 | 71.22 | 647.78 |
+| **Año 5** | 2.657 | +0.241 | +22.46 | 93.68 | 625.32 |
+| **Año 6** | 2.923 | +0.266 | +24.72 | 118.40 | 600.60 |
+| **Año 7** | 3.215 | +0.292 | +27.18 | 145.58 | 573.42 |
+| **Año 8** | 3.537 | +0.322 | +29.90 | 175.48 | 543.52 |
+| **Año 9** | 3.891 | +0.354 | +32.90 | 208.38 | 510.62 |
+| **Año 10** | 4.280 | +0.389 | +36.18 | 244.56 | 474.44 |
+| **Año 15** | 6.892 | +0.627 | +58.31 | 487.48 | 231.52 |
+| **Año 20** | 11.100 | +1.009 | +93.85 | 878.85 | 0.00 |
+| **Año 22.05** | **13.500** | -- | -- | **719.00** | **0.00 (Extinción Total)** |
+
+### 3.3. Medida Complementaria de Choque Fiscal Inmediato: Desacople del GLP Comercial e Industrial
+Para compensar la lentitud natural del sendero suave del 10% en los hogares y capturar liquidez inmediata sin fricción social:
+- Se prohíbe taxativamente la venta de cilindros de GLP doméstico a precio preferencial para:
+  1. Restaurantes, comedores y servicios de catering.
+  2. Hoteles, hostales, saunas y piscinas temperadas.
+  3. Granjas avícolas intensivas y secadoras agrícolas.
+  4. Panaderías industriales y calderas comerciales.
+- Estos establecimientos representan aproximadamente el **25% de la demanda nacional de cilindros** (~23 millones de cilindros al año).
+- Al forzar su facturación al 100% de paridad internacional (**13.50 USD/cilindro**), el Estado recupera de manera inmediata:
+
+$$A_{\text{comercial GLP}} = 23,250,000 \text{ cilindros} \times (13.50 - 1.65) \frac{\text{USD}}{\text{cilindro}} = 275.51 \text{ M USD/año}$$
+
+*(Bajo un supuesto conservador de elusión inicial del 35%, el ahorro fiscal neto garantizado para el Año 1 es de **180.00 M USD/año**).*
+
+---
+
+## 4. Balance Consolidado de Ahorro Fiscal (Años 1 al 5)
+
+Sumando los efectos de la **Etapa 1 (Diésel Camaronero)** y la **Etapa 2 (GLP 10% Suave + Desmonte Comercial)**:
+
+| Concepto de Ahorro Fiscal | Año 1 (M USD) | Año 2 (M USD) | Año 3 (M USD) | Año 4 (M USD) | Año 5 (M USD) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Etapa 1: Diésel Camaronero 100%** | +75.00 | +75.00 | +75.00 | +75.00 | +75.00 |
+| **Etapa 2: GLP Comercial e Industrial** | +180.00 | +180.00 | +180.00 | +180.00 | +180.00 |
+| **Etapa 2: GLP Doméstico (+10% Anual)** | +15.35 | +32.22 | +50.79 | +71.22 | +93.68 |
+| **ALIVIO FISCAL ANUAL CONSOLIDADO** | **+270.35** | **+287.22** | **+305.79** | **+326.22** | **+348.68** |
+
+### 4.1. Impacto en el Déficit del Presupuesto General del Estado (2026)
+Con un déficit proyectado del PGE para 2026 de **-3,150.00 M USD**, la implementación de esta reforma modular por etapas genera un alivio inmediato de **+270.35 M USD** en el primer año (cubriendo el 8.6% del déficit total), expandiéndose a **+348.68 M USD** en el quinto año, con **cero costo político de paralizaciones o violencia social**.
+
+---
+
+## 5. Doble Métrica Obligatoria de Payback (Electrificación Camaronera)
 
 $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Después de Impuestos}}$$
 
-### 5.1. Payback Crudo de Resistencia (*Unshielded Payback*) para Talleres de Conversión y Estaciones GNV
-- **CAPEX de Estación de Carga GNV / Compresores:** 650,000 USD por estación.
-- **Flujo de Caja Operativo Anual (EBITDA):** 210,000 USD/año.
-- **Tasa Fiscal Aplicada:** 15% utilidades a trabajadores + 25% Impuesto a la Renta = 36.25% tasa efectiva agregada.
-- **Flujo de Caja Neto Después de Impuestos:** 133,875 USD/año.
-- **Resultado:** **4.85 años** *(Modelo solvente y bancable en mercado abierto sin subsidios estatales)*.
+### 5.1. Payback Crudo / Real de Resistencia (*Unshielded Payback*)
+- **Finca Camaronera Evaluada:** Predio típico de 25 hectáreas en Golfo de Guayaquil / El Oro.
+- **CAPEX Requerido:** 65,000 USD (construcción de 1.8 km de línea de media tensión 13.8 kV, banco de transformación de 75 kVA, tableros de control y 4 motores eléctricos trifásicos de 15 kW).
+- **Ahorro Operativo Anual Bruto (OPEX diésel vs electricidad):** 25,700 USD/año.
+- **Cargas Fiscales Reales en Ecuador (36.25% tasa agregada):**
+  * Participación laboral a trabajadores (15%): 3,855.00 USD.
+  * Impuesto a la Renta corporativo (25% sobre utilidad antes de IR): 5,461.25 USD.
+  * Flujo neto de caja anual después de impuestos: 16,383.75 USD/año.
+- **Resultado:** **3.97 años** *(Proyecto de inversión solvente en mercado abierto sin subsidios)*.
 
 ### 5.2. Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*)
-- **Incentivos:** Arancel 0% para importación de kits e inyectores GNV, exoneración de ISD para bienes de capital de compresión de gas y depreciación acelerada en 3 años.
-- **Flujo Neto Acelerado:** 190,000 USD/año.
-- **Resultado:** **3.42 años**.
+- **Mecanismos Aplicados:** Deducción adicional del 100% en conciliación tributaria para adquisición de maquinaria de eficiencia energética (Art. 10 LORTI), arancel 0% para transformadores y crédito verde blando CFN al 6.5%.
+- **Flujo Neto Acelerado:** 23,500 USD/año.
+- **Resultado:** **2.77 años**.
 
 ---
 
-## 6. Bitácora de Decisiones y Descartes Clave
+## 6. Bitácora Forense de Decisiones y Descartes (Mandamiento 6)
 
-| Propuesta Analizada | Decisión | Fundamento Técnico y Político | Motivo Riguroso del Descarte |
-| :--- | :--- | :--- | :--- |
-| **Cupos de Galones de Diésel por Cooperativa de Buses** | **Descartada** | Aparentaba controlar el consumo del transporte urbano. | Genera de inmediato "ordeño", adulteración de odómetros y venta clandestina a la minería ilegal. Solo el precio de paridad en surtidor erradica el arbitraje. |
-| **Cilindros de Gas de Diferente Color para Negocios y Hogares** | **Descartada** | Se intentó pintar cilindros de color blanco para restaurantes y azul para hogares. | Fracaso empírico total: los talleres clandestinos repintaban los tanques o trasvasaban gas de cilindro a cilindro con mangueras artesanales, causando explosiones fatales. |
-| **Voucher Social Digital Directo por Cédula / Registro Social** | **Aprobada** | Focaliza la ayuda directamente en la billetera de la madre o jefe de familia en pobreza; el gas en bodega se vende a precio real de mercado. | Aprobada por cumplir el Mandamiento 7 de Kronos: cero subsidio a la oferta del producto y blindaje contra el contrabando fronterizo. |
+| Alternativa Evaluada | Decisión | Ventajas Identificadas | Riesgos y Contras Críticos | Justificación Técnica del Descarte |
+| :--- | :--- | :--- | :--- | :--- |
+| **Shock Frontal Simultáneo (GLP a 13.50 USD y Diésel Carga a Paridad)** | **Descartada** | Ahorro fiscal bruto inmediato de más de 800 M USD. | Unifica a la CONAIE, choferes de buses y transportistas en un solo paro nacional que derroca gobiernos. | Viola el principio de realismo político. Los ahorros en papel que son derogados a los 10 días tras un paro violento tienen valor cero. |
+| **Mantener la Excepción de 30 Hectáreas en Camaroneras** | **Descartada** | Falsa protección al pequeño acuicultor. | Genera parcelación fraudulenta de macro-fincas camaroneras en lotes de 29.5 ha con testaferros. | Viola el Mandamiento 2 (Cero maquillaje). Si el camarón se exporta en dólares a China y EE.UU., no debe consumir diésel subsidiado por el erario nacional. |
+| **Remoción del 100% del Diésel Camaronero (Etapa 1)** | **Aprobada** | Ahorro de 75 M USD/año inmediato; cero riesgo de paro popular; blinda contra aranceles compensatorios en la OMC. | Exige inversión en electrificación de piscinas. | Aprobada. La electricidad industrial es 50.2% más barata que el diésel real; la reforma crea la señal económica perfecta para la modernización. |
+| **Sendero Suave del 10% Anual Compuesto en GLP Doméstico (Etapa 2)** | **Aprobada** | Ajuste imperceptible (+16 centavos/cilindro en año 1); desactiva el conflicto social; blindaje legal automático. | Convergencia lenta (22 años para paridad plena). | Aprobada como solución pragmática e irreversible. Se complementa con el desmonte inmediato al GLP comercial/industrial (+180 M USD/año). |

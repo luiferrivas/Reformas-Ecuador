@@ -47,29 +47,28 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 
 ---
 
-## 🛢️ Iniciativa Legislativa Destacada: Reforma al Régimen de Subsidios en Combustibles No Eléctricos
+## 🛢️ Iniciativa Legislativa Destacada: Reforma Modular por Etapas a los Subsidios en Combustibles
 
 ### Denominación del Proyecto de Ley
-**"Ley Orgánica para la Eficiencia en la Comercialización de Hidrocarburos, Erradicación del Contrabando y Focalización Quirúrgica de Subsidios a los Combustibles Fósiles"**
+**"Ley Orgánica para la Eficiencia Energética en el Sector Acuícola, Sinceramiento Gradual del Gas Licuado de Petróleo y Erradicación de Distorsiones Fiscales en Derivados de Hidrocarburos"**
 
 ### Documentos del Proyecto
 1. **[L1 Cache Contractual y Resumen Ejecutivo (SUMMARY.md)](./proyectos_ley/subsidios_combustibles/SUMMARY.md)**: Interfaz primaria, parámetros congelados, balance de ahorro fiscal y doble payback.
 2. **[Proyecto de Ley Completo (Formato Legislativo Oficial)](./proyectos_ley/subsidios_combustibles/Proyecto_Ley_Subsidios_Combustibles.md)**: Texto legal estructurado con Exposición de Motivos, Considerandos, Articulado Reformatorio, Disposiciones Generales, Transitorias, Derogatorias y Final.
-3. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_combustibles/Memoria_Tecnica_Economica_Combustibles.md)**: Análisis macroeconómico del déficit estatal 2023-2026, desglose de los 1,159.60 M USD no eléctricos (GLP, diésel, gasolinas), modelo del Voucher Social GLP y control fronterizo RFID.
+3. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_combustibles/Memoria_Tecnica_Economica_Combustibles.md)**: Análisis macroeconómico del déficit estatal 2023-2026, modelado de termodinámica de bombeo camaronero, proyección a 22 años del GLP al 10% anual y desmonte comercial inmediato.
 
 ---
 
-### Ejes Cardinales de la Propuesta de Combustibles
+### Ejes Cardinales de la Propuesta Modular ("Divide y Conquista")
 
 | Eje | Descripción | Impacto |
 | :--- | :--- | :--- |
-| **Voucher Social Directo al GLP (15 kg)** | Sinceramiento del precio en bodega a paridad internacional (13.50 USD) y transferencia mensual directa de **11.00 USD/mes** a 1.8 millones de hogares vulnerables (Deciles 1 a 4 del Registro Social). | Protege la economía familiar humilde (pagan ~2.50 USD), erradica el contrabando hacia Perú/Colombia y suprime el desvío fraudulento en industrias y saunas. Ahorro fiscal neto de **481.40 M USD/año**. |
-| **Paridad WTI Pura en Diésel Pesado y Carga** | Cobro al 100% de paridad internacional de importación WTI para transporte pesado de carga y desregulación de tarifas comerciales de fletes. | Las grandes corporaciones y exportadores asumen su logística real. Cero subsidio a fletes corporativos. Ahorro fiscal de **220.00 M USD/año**. |
-| **Subsidio a la Demanda en Transporte Público** | Fijación de tarifas técnicas municipales en transporte urbano y sustitución del subsidio al combustible por la **Billetera Estudiantil y Social** (50% de descuento directo en tarjeta/cédula). | Elimina el mercado negro de diésel en cooperativas de buses y transparenta las finanzas municipales sin perjudicar a usuarios prioritarios. |
-| **Erradicación del Fraude Camaronero (<30 ha)** | Eliminación de la excepción de 30 hectáreas para camaroneras. Toda empresa vinculada a Declaraciones Aduaneras de Exportación (DAE) paga 100% costo real pleno. | Erradica el parcelamiento ficticio de macro-fincas camaroneras. Recuperación de **65.00 M USD/año** para el erario público. |
-| **Trazabilidad RFID en Zonas de Frontera** | Transpondedores RFID en boca de tanque y boquillas automáticas en estaciones a menos de 100 km de Colombia y Perú. Recargo arancelario del 20% a placas foráneas. | Bloquea de raíz el trasvase ilegal y contrabando de extracción. Ahorro fiscal de **55.00 M USD/año**. |
-| **Transición a GNV y Biometano Nacional** | Líneas de crédito preferente CFN/BanEcuador para conversión vehicular dual y extinción gradual en 24 meses de la compensación del Decreto 308. | Ahorro operativo del 45% en combustible para taxistas y furgonetas, y ahorro fiscal adicional de **40.00 M USD/año**. |
-| **Ahorro Fiscal Consolidado (2026)** | Desmonte de subsidios a la oferta no eléctricos con protección social focalizada. | Libera **801.40 M USD/año** netos para el Presupuesto General del Estado, cubriendo el 25.4% del déficit de 2026. En sinergia con la reforma eléctrica, **alcanza el superávit fiscal primario (+256 M USD)**. |
+| **Etapa 1: Remoción 100% Diésel Camaronero** | Derogatoria expresa de la excepción de 30 hectáreas (Decreto 675) y cruce con DAEs del SENAE. Diésel a 100% paridad internacional WTI para toda la acuacultura. | Ahorro fiscal inmediato de **75.00 M USD/año**. Cero riesgo de paro social popular y blindaje contra sanciones por dumping/subsidios prohibidos en EE.UU. y la UE. |
+| **Etapa 1: Electrificación Camaronera sin Subsidios** | Conexión simplificada (15 días) a media tensión (13.8/34.5 kV) y tarifa industrial por Costo de Servicio (~8.5 ¢/kWh). | La electricidad es un **50.2% más barata que el diésel real** para bombeo y aireación. Fomenta inversión privada en electrificación con Payback de 2.8 a 4 años. |
+| **Etapa 2: Sendero Suave del 10% Anual en GLP** | Incremento automático legal del 10% compuesto cada 1 de enero en el cilindro de 15 kg residencial ($1.65 $\rightarrow$ $1.815 en Año 1, $1.996 en Año 2). | Ajuste imperceptible para los hogares (+16 centavos/cilindro en Año 1 = 1.3 ¢/mes), desactivando el conflicto social. Convergencia a paridad en 22 años (+15.3M en Año 1, +93.7M en Año 5). |
+| **Etapa 2: Desmonte Inmediato en GLP Comercial** | Prohibición absoluta de cilindros subsidiados en restaurantes, hoteles, saunas, polleras y calderas (pagan 100% paridad: 13.50 USD/cilindro). | Genera liquidez fiscal inmediata de **180.00 M USD/año** desde el Día 1, sin tocar la economía del ama de casa humilde. |
+| **Control y Cupos de Frontera** | Trazabilidad con códigos QR y límite de 1 cilindro mensual por hogar registrado a precio preferencial en cantones a <50 km de Colombia y Perú. | Bloquea de raíz el contrabando de extracción hacia Ipiales y Tumbes sin generar escasez interna. |
+| **Ahorro Fiscal Consolidado (Años 1 al 5)** | Suma de diésel camaronero, desmonte de GLP comercial y sendero residencial del 10%. | Libera **270.35 M USD en el Año 1**, escalando a **348.68 M USD en el Año 5**, garantizando paz social y consolidación fiscal continua. |
 
 ---
 

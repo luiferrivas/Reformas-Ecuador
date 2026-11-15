@@ -1,4 +1,4 @@
-# SUMMARY — Reforma al Régimen de Subsidios en Combustibles No Eléctricos
+# SUMMARY — Reforma por Etapas al Régimen de Subsidios en Combustibles
 > **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Kronos**  
 > *Fuente primaria obligatoria de consulta para agentes y modelos en el subproyecto de Subsidios a los Combustibles. Sujeta a la Regla de Cero Deriva.*
 
@@ -7,7 +7,7 @@
 ## 1. Misión y Estado Operativo Actual
 
 - **Identificador del Subproyecto:** `reforma_subsidios_combustibles`
-- **Objetivo Concreto:** Erradicación del subsidio ciego a la oferta en combustibles fósiles no eléctricos (GLP doméstico, diésel automotriz/pesado y compensaciones de gasolinas), reemplazándolo por un sistema de paridad internacional WTI, digitalización y trazabilidad por RFID/QR, y compensación directa a la demanda mediante Voucher Social a hogares vulnerables (Deciles 1 a 4) y Billetera Estudiantil/Social, suprimiendo el contrabando fronterizo y cerrando la brecha fiscal del Estado.
+- **Objetivo Concreto:** Estrategia legislativa modular ("divide y conquista") para la erradicación del subsidio a los combustibles fósiles en dos etapas: (1) Remoción inmediata del 100% del subsidio al diésel camaronero de exportación forzando su transición a la red eléctrica industrial no subsidiada; y (2) Sinceramiento suave, progresivo e indexado por ley del Gas Licuado de Petróleo (GLP) doméstico mediante un incremento anual del 10% compuesto hasta converger con la paridad internacional WTI/Mont Belvieu, complementado con el desmonte inmediato del subsidio en usos comerciales/industriales y control fronterizo.
 - **Fase de Desarrollo:** `Auditado Red Team`
 - **Última Actualización:** 2026-11-14
 
@@ -16,25 +16,30 @@
 ## 2. Contrato de Interfaces (Simbiosis Industrial)
 
 ### Insumos Requeridos (Entradas al Sistema)
-- **Crudo y Refinación Nacional:** 175,000 barriles/día procesados en Refinería Esmeraldas, Complejo Industrial Shushufindi y Refinería La Libertad $\rightarrow$ *Origen:* `EP Petroecuador`.
-- **Importación de Derivados (Déficit de Refinación):** ~36.5 millones de barriles/semestre de derivados (GLP paridad Mont Belvieu/WTI, Diésel Oil y Naftas de alto octanaje) $\rightarrow$ *Origen:* `Mercado Spot Internacional / Traders / Terminales Monteverde y Salitral`.
-- **Padrón Social Integrado:** Base de datos georreferenciada de familias vulnerables en pobreza y extrema pobreza (1.8 millones de hogares) $\rightarrow$ *Origen:* `Unidad del Registro Social / MIES`.
-- **Matrícula Vehicular y Trazabilidad:** Base de datos activa de vehículos de carga pesada, transporte público y comercial con DAEs de exportación $\rightarrow$ *Origen:* `Agencia Nacional de Tránsito (ANT) / SENAE / SRI`.
+- **Producción y Concesiones Camaroneras:** ~220,000 hectáreas en producción acuícola, de las cuales ~45,000 hectáreas (segmento <30 ha o parcelaciones ficticias) consumen ~40 millones de galones de diésel subsidiado al año $\rightarrow$ *Origen:* `Ministerio de Producción, Comercio Exterior, Inversiones y Pesca / Cámara Nacional de Acuacultura (CNA)`.
+- **Despacho Eléctrico Industrial sin Subsidios:** Capacidad de red de media tensión (13.8 kV / 34.5 kV) y tarifa industrial por Costo de Servicio (~0.075 a 0.085 USD/kWh) proveniente del Sistema Nacional Interconectado $\rightarrow$ *Origen:* `Subproyecto 07 (Reforma Subsidios Eléctricos) / CNEL EP / CELEC EP`.
+- **Importación de Derivados (GLP y Diésel):** ~36.5 millones de barriles/semestre de derivados importados a precio WTI/Mont Belvieu $\rightarrow$ *Origen:* `EP Petroecuador / Terminales Monteverde y Salitral`.
 
 ### Entregables y Salidas (Hacia el Sistema y Mercado)
-- **Ahorro Fiscal Neto Consolidado:** Liberación directa de **801.40 M USD/año** en 2026 (y más de **1,450.00 M USD/año** frente al esquema histórico no reformado), extinguiendo hasta el 36.8% del déficit remanente del Presupuesto General del Estado $\rightarrow$ *Destino:* `Tesoro Nacional / Ministerio de Economía y Finanzas (MEF)`.
-- **Extinción del Contrabando Transfronterizo:** Retención en territorio nacional de más de 300 M USD/año en GLP y diésel que se fugaban ilegalmente hacia Colombia y Perú $\rightarrow$ *Destino:* `Soberanía Económica y Fronteras Seguras (FFAA / Policía Nacional)`.
-- **Fondo de Transición Energética y Gas Natural Vehicular (GNV):** Canalización de recursos recuperados hacia líneas de crédito preferente para kits de conversión vehicular a GNV y biometano nacional $\rightarrow$ *Destino:* `Corporación Financiera Nacional (CFN) / BanEcuador`.
+- **Ahorro Fiscal Etapa 1 (Diésel Camaronero):** Liberación inmediata de **75.00 M USD/año** para el Presupuesto General del Estado sin riesgo de conflictividad social ni paros populares $\rightarrow$ *Destino:* `Tesoro Nacional / MEF`.
+- **Ahorro Fiscal Etapa 2 (GLP Doméstico + Comercial/Industrial):** Recaudación adicional inicial de **195.35 M USD/año** (180.00 M USD por desmonte comercial inmediato + 15.35 M USD por el primer tramo del 10% residencial), alcanzando **273.68 M USD/año** acumulados al año 5 $\rightarrow$ *Destino:* `Fondo de Infraestructura Rural y Saneamiento / MEF`.
+- **Electrificación y Descarbonización Acuícola:** Reducción del 50.2% en el costo operativo de bombeo y aireación en piscinas camaroneras electrificadas, erradicando el uso de motores diésel contaminantes $\rightarrow$ *Destino:* `Sector Camaronero Ecuatoriano / Mercados Verdes Internacionales`.
 
 ---
 
 ## 3. Parámetros Técnicos Críticos Congelados
 
-1. **Voucher Social Directo al GLP Doméstico (15 kg):** Asignación mensual directa de **11.00 USD por cilindro** transferida electrónicamente a la cuenta básica/cédula de 1.8 millones de hogares vulnerables (Deciles 1 a 4 del Registro Social). Consumo protegido: hasta **1 cilindro/mes por familia** (hogares >5 miembros: hasta 2 cilindros/mes previa verificación de campo). Precio oficial en bodega/depósito sincerado a costo real internacional (**13.50 USD/cilindro**).
-2. **Paridad de Importación Diésel WTI Universal:** Diésel automotriz y pesado liquidado al 100% de paridad internacional de importación WTI (benchmark base con crack spread real de refinación en el Golfo de México). Derogatoria de congelamientos ciegos y techos artificiales.
-3. **Erradicación de la Trampa de las 30 Hectáreas en Acuacultura y Pesca:** Todo operador camaronero o pesquero que registre Declaraciones Aduaneras de Exportación (DAE) ante el SENAE pierde automáticamente cualquier beneficio de combustible subsidiado, sin importar el tamaño de su predio o concesión (cero parcelamiento fraudulento).
-4. **Trazabilidad Electrónica Obligatoria en Frontera:** Sistema de control por telemetría RFID en boca de tanque y boquillas despachadoras en gasolineras ubicadas a menos de 100 km de las fronteras con Colombia y Perú. Bloqueo automático para vehículos con placa internacional o con frecuencia de recarga anómala.
-5. **Capping Temporal de Compensación a Gasolinas (Extra/Ecopaís):** Reducción escalonada y finita de la transferencia del Decreto 308 a taxistas y camionetas en un periodo improrrogable de **24 meses** (-25% semestral), condicionada al financiamiento de kits de conversión a GNV y biometano.
+1. **Remoción del 100% del Diésel Camaronero:** Diésel liquidado al 100% de paridad internacional WTI para todas las fincas camaroneras del país. Derogatoria expresa de la excepción de predios de menos de 30 hectáreas (Decreto 675). Cruce obligatorio con Declaraciones Aduaneras de Exportación (DAE) del SENAE.
+2. **Costo de Energía Camaronera (Paridad Eléctrica vs. Diésel):**
+   - Costo de diésel sin subsidio: ~3.20 USD/galón (0.8 gal/h por bomba = 2.56 USD/hora).
+   - Costo de electricidad industrial sin subsidio: 0.085 USD/kWh (motor 15 kW = 1.28 USD/hora).
+   - **Ahorro operativo por electrificación:** **50.2%** a favor de la energía eléctrica.
+3. **Sendero Suave del GLP Doméstico (Fórmula del 10% Anual Compuesto):**
+   - Precio inicial base: **1.65 USD por cilindro de 15 kg**.
+   - Factor de ajuste anual automático: **1.10** aplicado cada 1 de enero por ministerio de la ley.
+   - Meta de paridad internacional: **13.50 USD por cilindro** (Plazo de convergencia: **22.05 años**).
+4. **Desacople Inmediato del GLP Comercial e Industrial:** El beneficio del sendero suave del 10% aplica exclusivamente a hogares residenciales. Restaurantes, hoteles, saunas, avícolas, panaderías industriales y calderas abonan el 100% de paridad internacional (**13.50 USD/cilindro**) desde el Día 1.
+5. **Cupo Máximo Residencial Protegido:** 1 cilindro mensual por familia con precio suave en zonas de frontera para evitar el contrabando hacia Perú y Colombia.
 
 ---
 
@@ -45,37 +50,36 @@
 
 | Fase de Implementación | Alcance Técnico / Hito Regulatorio | Plazo | CAPEX Estimado (USD) |
 | :--- | :--- | :--- | :--- |
-| **Fase 1: Transición Regulatoria y Voucher Social GLP** | Sanción legal, plataforma informática interoperable Registro Social-BCE-Distribuidores, enrolamiento de depósitos de GLP | 3 meses | 3.80 M USD |
-| **Fase 2: Despliegue de Trazabilidad RFID y QR** | Instalación de lectores RFID en 1,280 estaciones de servicio y precintos QR/chip en parque de cilindros metálicos de GLP | 12 meses | 18.50 M USD |
-| **Fase 3: Programa Nacional de Conversión a GNV** | Línea de crédito y talleres certificados para conversión de 35,000 unidades de taxis, buses y camionetas | 24 meses | 42.00 M USD |
-| **TOTAL CAPEX DEL PROGRAMA** | Infraestructura digital, control fronterizo y transición vehicular | 24 meses | 64.30 M USD |
+| **Fase 1: Etapa 1 - Diésel Camaronero y DAEs** | Derogatoria de excepción de 30 ha, cruce SENAE-Petroecuador y auditoría satelital de fincas | Inmediato (1 mes) | 0.80 M USD |
+| **Fase 2: Red Eléctrica Camaronera** | Tendido de 1,200 km de líneas de media tensión (13.8/34.5 kV) y subestaciones privadas | 24 meses | 85.00 M USD |
+| **Fase 3: Etapa 2 - Indexación GLP y Fiscalización** | Automatización de pliegos de ajuste ARCH (+10% anual) y fiscalización de uso comercial de cilindros | 3 meses | 2.50 M USD |
+| **TOTAL CAPEX DEL PROGRAMA** | Infraestructura de red eléctrica y modernización de fiscalización | 24 meses | 88.30 M USD |
 
 ### Estructura de OPEX
-- **Costo Operativo y Plataforma Transaccional Anual:** 2.80 M USD/año (mantenimiento de servidores en la nube, ciberseguridad, soporte a depósitos y conciliación financiera en tiempo real con el Banco Central del Ecuador).
-- **Cuello de Botella Operativo:** Resistencia política de intermediarios informales de gas y transportistas pesados agremiados; conectividad de telecomunicaciones en bodegas rurales de GLP.
+- **Costo Operativo de Fiscalización y Telemetría:** 1.50 M USD/año (operativos conjuntos ARCH-SENAE-Policía Nacional en zonas camaroneras y depósitos de gas).
+- **Cuello de Botella Operativo:** Disponibilidad de transformadores trifásicos y permisos ambientales para tendidos eléctricos en áreas de manglar y estuarios.
 
 ### Modelo de Ingresos y Rentabilidad Autosuficiente (Sin Subsidios)
-- **Ahorro en Subsidio al GLP Doméstico (Proforma 2026: 719.00 M USD):**
-  * Costo del Voucher Social Focalizado (1.8M familias * 11 USD/mes * 12 meses): 237.60 M USD/año.
-  * Ahorro neto directo al Estado: **481.40 M USD/año**.
-- **Ahorro en Diésel de Transporte Pesado y Camaroneras Fraudulentas:**
-  * Sinceramiento a paridad WTI y desmonte de excepción <30 ha en camaroneras exportadoras: **280.00 M USD/año**.
-- **Ahorro en Compensación de Gasolinas Extra/Ecopaís (Transición a GNV):**
-  * Reducción y extinción de transferencias directas del Decreto 308: **40.00 M USD/año**.
-- **Liberación Neta Consolidada de Recursos para el Estado:** **801.40 M USD/año**.
+- **Ahorro Fiscal Año 1 por Diésel Camaronero:** **75.00 M USD/año**.
+- **Ahorro Fiscal Año 1 por Desmonte Comercial de GLP:** **180.00 M USD/año**.
+- **Ahorro Fiscal Año 1 por Primer Tramo GLP 10% (1.65 $\rightarrow$ 1.81 USD):** **15.35 M USD/año**.
+- **Alivio Fiscal Consolidado Año 1:** **270.35 M USD/año**.
+- **Alivio Fiscal Consolidado Año 5 (GLP en 2.66 USD):** **348.68 M USD/año**.
 
-### Doble Métrica Obligatoria de Payback (Infraestructura de Control y Trazabilidad)
+### Doble Métrica Obligatoria de Payback (Electrificación de Finca Camaronera Típica de 25 Hectáreas)
 
 $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Después de Impuestos}}$$
 
-1. **Payback Crudo / Real de Resistencia (*Unshielded Payback*) para la Red Privada de Estaciones y Distribuidores:**
-   - **Tasa Fiscal Aplicada:** 15% utilidades laborales + 25% Impuesto a la Renta corporativo (Tasa efectiva agregada: 36.25% en Ecuador).
-   - **Flujo Neto Generado por Venta a Precio Real y Comisión Formal:** La formalización y cobro de margen regulado transparente genera un flujo incremental neto de ~22.00 M USD/año.
-   - **Resultado:** **1.8 años** *(Inversión en hardware RFID y sistemas de control altamente rentable para el sector privado distribuidor)*.
+1. **Payback Crudo / Real de Resistencia (*Unshielded Payback*):**
+   - **CAPEX de Electrificación (Línea dedicada, transformador y motores eléctricos):** 65,000 USD.
+   - **Ahorro Operativo Anual Bruto (OPEX diésel vs electricidad):** 25,700 USD/año.
+   - **Cargas Fiscales Reales (15% trabajadores + 25% IR = 36.25% tasa agregada):** Flujo de caja neto anual después de impuestos = 16,383.75 USD/año.
+   - **Resultado:** **3.97 años** *(Inversión altamente rentable para el empresario camaronero frente al diésel real)*.
 
 2. **Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*):**
-   - **Mecanismos Aplicados:** Crédito tributario del 100% en IVA e Impuesto a la Renta para la compra de equipamiento RFID y cilindros inteligentes en los primeros 12 meses.
-   - **Resultado:** **1.1 años**.
+   - **Mecanismos Aplicados:** Deducción adicional del 100% en conciliación tributaria para maquinaria de eficiencia energética (Art. 10 LORTI), arancel 0% para transformadores y motores, y crédito verde blando CFN al 6.5%.
+   - **Flujo Neto Acelerado:** 23,500 USD/año.
+   - **Resultado:** **2.77 años**.
 
 ---
 
@@ -83,11 +87,10 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 
 | Alternativa Evaluada | Decisión | Pros Identificados | Contras y Trade-offs | Justificación Técnica Exacta del Descarte |
 | :--- | :--- | :--- | :--- | :--- |
-| **Eliminación Ciega del Subsidio al GLP a 15 USD sin Compensación** | **Descartada** | Ahorro fiscal bruto inmediato de 719 M USD/año | Impacto inflacionario demoledor en las familias más pobres; estallido social y derrocamiento de gobiernos (Lecciones 2019/2022) | Inviable social y políticamente. El gas doméstico es el alimento del pueblo; retirar el subsidio a la oferta sin un voucher directo a la demanda condena la reforma al fracaso. |
-| **Subsidio al Diésel mediante Tarjeta con Cupos en Galones** | **Descartada** | Aparentaba controlar el volumen por camión | Mercado negro inmediato de tarjetas y venta clandestina de cupos ("ordeño" y reventa a minería ilegal) | La experiencia empírica demostró que los cupos de combustible en galones son fácilmente adulterados por redes criminales. La única solución es precio real en surtidor y tarifa técnica en fletes. |
-| **Voucher Social Directo al GLP en Cuenta Básica/Cédula + Precio Real en Bodega** | **Aprobada** | Elimina de raíz el contrabando fronterizo y el desvío a industrias/restaurantes; protege al 100% a los 1.8 millones de hogares vulnerables | Exige enrolamiento digital y bancarización básica | Aprobada por cumplir el Mandamiento 7 (Cero subsidios a la oferta) y generar un ahorro neto de 481.40 M USD/año blindando la paz social. |
-| **Mantenimiento del Subsidio al Diésel para Camaroneras de Menos de 30 Hectáreas** | **Descartada** | Pretendía proteger a supuestos pequeños productores | Incentivó la parcelación ficticia de macro-fincas en lotes de 29 hectáreas registradas a nombre de testaferros | Viola el Mandamiento 2 (Cero maquillaje). Si el producto final es camarón de exportación que se liquida en dólares en el mercado global, no debe consumir diésel subsidiado. |
-| **Paridad Internacional WTI Pura con Desregulación de Fletes Comerciales** | **Aprobada** | Las grandes corporaciones y exportadores asumen su logística real; incentiva eficiencia de rutas y camiones modernos | Requiere fiscalización antimonopolio para evitar colusión de tarifas | Aprobada. El Estado no debe subsidiar la logística de multinacionales ni de mineras privadas. |
+| **Eliminación del Diésel Pesado y GLP en Shock Simultáneo** | **Descartada** | Ahorro fiscal bruto inmediato de más de 800 M USD | Agrupa a la CONAIE, transportistas y distribuidores en un solo frente; alto riesgo de paro nacional violento | Descartada por la estrategia "divide y conquista". El costo político y social de un shock múltiple pone en riesgo la estabilidad del país. |
+| **Remoción del 100% del Diésel Camaronero (Etapa 1)** | **Aprobada** | Ahorro de 75 M USD/año inmediato; cero riesgo de paro social; blinda al camarón contra sanciones de dumping en EE.UU./UE | Exige inversión en tendidos eléctricos de media tensión | Aprobada. Los camaroneros son exportadores en dólares que ya reciben una señal de ahorro del 50% al electrificarse. |
+| **Aumento Gradual del 10% Anual Compuesto en GLP Doméstico (Etapa 2)** | **Aprobada** | Incremento imperceptible para las familias (+16 centavos/cilindro en año 1); desactiva el conflicto social; ruta irreversible | Tarda 22 años en cerrar la brecha total | Aprobada como compromiso de realismo político. Es preferible un avance predecible y blindado por ley que shocks fallidos que se derogan a los 10 días. |
+| **Mantener Subsidio a Camaroneras de Menos de 30 Hectáreas** | **Descartada** | Supuesta protección a micro-acuicultores | Provocó el fraccionamiento ficticio de fincas en lotes de 29.5 ha a nombre de testaferros | Viola el Mandamiento 2 (Cero maquillaje). Si el producto final es camarón de exportación, no debe recibir diésel financiado por el pueblo ecuatoriano. |
 
 ---
 
@@ -95,4 +98,4 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 
 - **Memoria Técnica y Económica:** [`Memoria_Tecnica_Economica_Combustibles.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Memoria_Tecnica_Economica_Combustibles.md)
 - **Proyecto de Ley Completo (Formato Legislativo Oficial):** [`Proyecto_Ley_Subsidios_Combustibles.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Proyecto_Ley_Subsidios_Combustibles.md)
-- **Archivo Histórico de Versiones:** Directorio [`historico/`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/historico/)
+- **Archivo Histórico de Versiones Descartadas:** Directorio [`historico/`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/historico/)

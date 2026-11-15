@@ -1,32 +1,31 @@
-# PROYECTO DE LEY ORGÁNICA PARA LA EFICIENCIA EN LA COMERCIALIZACIÓN DE HIDROCARBUROS, ERRADICACIÓN DEL CONTRABANDO Y FOCALIZACIÓN QUIRÚRGICA DE SUBSIDIOS A LOS COMBUSTIBLES FÓSILES
+# PROYECTO DE LEY ORGÁNICA PARA LA EFICIENCIA ENERGÉTICA EN EL SECTOR ACUÍCOLA, SINCERAMIENTO GRADUAL DEL GAS LICUADO DE PETRÓLEO Y ERRADICACIÓN DE DISTORSIONES FISCALES EN DERIVADOS DE HIDROCARBUROS
 
 ---
 
 ### EXPOSICIÓN DE MOTIVOS
 
-#### 1. Diagnóstico Crítico: El Colapso del Modelo de Subsidios Ciegos a la Oferta
-Durante más de cuatro décadas, la República del Ecuador ha mantenido una política de subsidios generalizados e indiscriminados a los combustibles derivados del petróleo, esquema concebido en los años setenta bajo la ilusión de un país petrolero autosuficiente. Sin embargo, la realidad geológica y de infraestructura energética del país desmintió categóricamente dicha premisa: hoy en día, el Ecuador es un importador neto de derivados, comprando en el exterior más del **85% del Gas Licuado de Petróleo (GLP)** y más del **87% del diésel** que consume a precios de paridad internacional, para comercializarlos internamente a una fracción mínima de su costo real.
+#### 1. Diagnóstico y Estrategia: La Doctrina del Ajuste Modular por Etapas ("Divide y Conquista")
+La historia económica contemporánea de la República del Ecuador ha demostrado de forma fehaciente que los intentos de eliminar de manera simultánea e indiscriminada los subsidios a todos los combustibles fósiles (diésel de transporte pesado, buses de pasajeros, gasolinas y gas doméstico) provocan el colapso de la gobernabilidad democrática. Al aplicar "shocks múltiples y ciegos", las administraciones pasadas terminaron unificando a gremios de transportistas, movimientos indígenas y clases medias urbanas en paros nacionales violentos que obligaron a derogar las medidas a los pocos días, destruyendo la credibilidad de las finanzas públicas.
 
-Esta política distorsiva ha tenido consecuencias devastadoras para el Estado y la sociedad:
-1. **Drenaje Fiscal Crónico:** Tan solo en el año 2026, el subsidio a los combustibles fósiles no destinados a la generación eléctrica representa **1,159.60 millones de dólares de los Estados Unidos (USD)**, lo que equivale a más del **36.8% de todo el déficit del Presupuesto General del Estado**. En los ejercicios 2023, 2024 y 2025, esta carga superó los 1,400 a 1,680 millones de dólares anuales, compitiendo directamente con los presupuestos de salud, educación y seguridad pública.
-2. **Financiamiento Involuntario del Contrabando y el Crimen Organizado:** Debido al diferencial abismal de precios con Colombia y Perú —donde un cilindro de GLP de 15 kg se vende entre 15.00 y 28.00 USD frente a los 1.65 USD en Ecuador—, el erario nacional ha subsidiado durante años el combustible de redes ilegales de contrabando transfronterizo, minería ilegal y narcotráfico en alta mar.
-3. **Canibalismo Comercial e Inequidad Social:** El subsidio ciego beneficia en un 70% a los estratos de mayores ingresos y a actividades comerciales e industriales no autorizadas (como calderas, saunas, avícolas y restaurantes) que conectan cilindros domésticos en batería, en perjuicio del hogar verdaderamente pobre.
+Para superar este círculo vicioso, la presente iniciativa legislativa adopta una estrategia de **reforma modular y secuencial por etapas**, construida sobre dos pilares de incuestionable viabilidad política, económica y constitucional:
 
-#### 2. La Solución Estructural: Subsidio a la Demanda Vulnerable y Cero Subsidio a la Oferta
-La experiencia acumulada tras las crisis y paralizaciones sociales de 2019, 2022 y 2025 evidencia que el error histórico de las políticas de ajuste fue aplicar "shocks ciegos" sin una red tecnológica de protección social previa. 
+1. **Etapa 1: Remoción Inmediata del 100% del Diésel Camaronero y Electrificación Industrial.**
+   - El sector camaronero ecuatoriano constituye el principal rubro de exportación no petrolera del país, facturando más de **7,500 millones de dólares anuales** en divisas en los mercados de China, Estados Unidos y la Unión Europea.
+   - En diciembre de 2022, el Decreto Ejecutivo No. 675 eliminó el subsidio al diésel para fincas de más de 30 hectáreas; no obstante, mantuvo el subsidio para predios de menor tamaño. Esta excepción artificial incentivó una práctica fraudulenta: grandes empresas acuícolas subdividieron ficticiamente sus concesiones en predios de 29.5 hectáreas para seguir recibiendo diésel barato a costa del Presupuesto General del Estado, drenando más de **75 millones de dólares anuales** en subsidios no justificados.
+   - Resulta inaceptable que el erario público financie el combustible de un sector privado altamente rentable y dolarizado. Además, mantener subsidios energéticos fósiles a un producto de exportación expone al camarón ecuatoriano a graves contingencias y aranceles compensatorios (*anti-dumping / countervailing duties*) ante la Organización Mundial del Comercio (OMC) y el Departamento de Comercio de los Estados Unidos.
+   - La remoción del subsidio no quebrará a las camaroneras: el modelado técnico demuestra que bombear y airear piscinas con **energía eléctrica industrial sin subsidio es un 50.2% más barato** que operar motores diésel a precio de mercado. Por lo tanto, eliminar el subsidio genera la señal económica limpia para electrificar el sector acuícola.
 
-La presente Ley Orgánica transforma radicalmente el paradigma:
-- **Cero Subsidio a la Oferta del Producto:** Los combustibles (GLP, diésel, gasolinas y derivados) se comercializan en bodegas y surtidores a precios reales que reflejan los costos de importación y refinación bajo el benchmark internacional **West Texas Intermediate (WTI)** y paridad de mercado.
-- **Creación del Voucher Social GLP:** Se garantiza la protección absoluta de 1.8 millones de familias en situación de pobreza y extrema pobreza (Deciles 1 a 4 del Registro Social) mediante una transferencia monetaria mensual directa de **11.00 USD por cilindro** a su cuenta básica o billetera digital, protegiendo hasta un cilindro mensual por hogar. La familia vulnerable no ve alterado su presupuesto familiar, mientras que el contrabando y el fraude industrial quedan erradicados al eliminarse el diferencial de precios en bodega.
-- **Paridad WTI en Transporte Pesado y Desregulación de Fletes:** Las corporaciones comerciales, supermercados y mineras asumen el costo real de su logística de carga. Se prohíbe el subsidio a fletes corporativos.
-- **Protección al Transporte Público mediante Subsidio a la Demanda Estudiantil y Social:** Los municipios asumen su rol de fijar tarifas técnicas para el transporte urbano, y el Estado subsidia el 50% del pasaje directamente en la tarjeta o billetera digital de los estudiantes, personas con discapacidad y adultos mayores.
-- **Erradicación del Fraude en Acuacultura:** Se elimina la excepción de "30 hectáreas" para camaroneras. Toda empresa que registre Declaraciones Aduaneras de Exportación (DAE) adquiere su combustible al 100% de costo real pleno.
+2. **Etapa 2: Sendero Suave, Progresivo e Indefectible del 10% Anual en el GLP Doméstico.**
+   - El Gas Licuado de Petróleo (GLP) en cilindro de 15 kg representa el **62% de todos los subsidios a combustibles no eléctricos en 2026** (719 M USD anuales), del cual el 85% es importado.
+   - Sin embargo, pretender subir de golpe el gas de 1.65 a 13.50 USD desataría un conflicto social generalizado, pues el gas es el insumo insustituible para la preparación diaria de los alimentos de las familias más humildes.
+   - La solución de prudencia y realismo es fijar por ley un **incremento automático anual del 10% compuesto cada 1 de enero**. En el Año 1, el cilindro sube apenas **16.5 centavos de dólar** (de 1.65 a 1.815 USD), lo que equivale a un impacto imperceptible de **1.3 centavos al mes por hogar**. Ningún sector político puede justificar un paro nacional por 16 centavos al año.
+   - Este sendero suave se complementa con una medida de justicia distributiva inmediata: el **corte del 100% del subsidio en actividades comerciales e industriales** (restaurantes, hoteles, saunas, avícolas y secadoras agrícolas), las cuales deberán pagar paridad internacional plena desde el primer día, liberando más de **180 millones de dólares anuales** inmediatos para el Estado.
 
-#### 3. Sustento Constitucional
+#### 2. Sustento Constitucional
 La presente iniciativa legislativa se fundamenta de manera estricta en la Constitución de la República del Ecuador:
-- **Artículo 285:** Señala como objetivos de la política fiscal el financiamiento de servicios y bienes públicos, así como la redistribución del ingreso mediante transferencias y subsidios transparentes y focalizados.
-- **Artículo 286:** Preceptúa que las finanzas públicas se conducirán de forma sostenible, responsable y transparente, procurando la estabilidad económica.
-- **Artículo 313 y 314:** Reconoce la rectoría del Estado sobre los hidrocarburos y la provisión eficiente de los servicios públicos bajo criterios de equidad y sustentabilidad financiera.
+- **Artículo 285:** Señala como objetivos de la política fiscal el financiamiento de servicios y bienes públicos, así como la redistribución del ingreso por medio de transferencias y subsidios transparentes, adecuados y focalizados.
+- **Artículo 286:** Preceptúa que las finanzas públicas se conducirán de forma sostenible, responsable y transparente.
+- **Artículo 313 y 314:** Reconoce la administración estatal sobre los recursos estratégicos hidrocarburíferos y la prestación eficiente de servicios públicos bajo criterios de sustentabilidad financiera.
 - **Artículo 315:** Exige que las empresas públicas operen bajo principios de eficiencia, calidad y responsabilidad económica.
 
 ---
@@ -35,104 +34,95 @@ La presente iniciativa legislativa se fundamenta de manera estricta en la Consti
 
 ### CONSIDERANDO:
 
-**Que**, el artículo 285 de la Constitución de la República establece que la política fiscal tendrá como objetivos el financiamiento de servicios, inversión y bienes públicos, así como la redistribución del ingreso por medio de transferencias, tributos y subsidios adecuados;
+**Que**, el artículo 285 de la Constitución de la República establece que la política fiscal tendrá como objetivos el financiamiento de servicios, inversión y bienes públicos, así como la redistribución equitativa del ingreso mediante subsidios focalizados;
 
-**Que**, el artículo 286 de la Norma Suprema determina que las finanzas públicas, en todos los niveles de gobierno, se conducirán de forma sostenible, responsable y transparente;
+**Que**, el artículo 286 de la Norma Suprema determina que las finanzas públicas se conducirán de forma sostenible, responsable y transparente, procurando la estabilidad económica y la suficiencia de recursos;
 
-**Que**, el artículo 313 de la Carta Fundamental declara que los recursos naturales no renovables y los hidrocarburos constituyen sectores estratégicos administrados y gestionados por el Estado;
+**Que**, el artículo 313 de la Carta Fundamental declara que los hidrocarburos y la energía en todas sus formas constituyen sectores estratégicos administrados y gestionados por el Estado;
 
-**Que**, el artículo 314 constitucional dispone que los precios y tarifas públicas deben ser equitativos, transparentes y financieramente sustentables;
+**Que**, el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 eliminó el subsidio al diésel para camaroneras de más de 30 hectáreas, pero mantuvo una distorsión regulatoria que propició la parcelación ficticia de predios y el desvío fraudulento de combustible subsidiado en actividades de exportación;
 
-**Que**, el Presupuesto General del Estado destina anualmente más de mil millones de dólares a sostener precios artificiales de combustibles fósiles no eléctricos, fomentando el contrabando fronterizo y el uso ilícito en actividades comerciales no autorizadas;
+**Que**, el sector camaronero representa una de las industrias exportadoras más tecnificadas y solventes del país, con ingresos íntegramente dolarizados, y que la sustitución de motores diésel por electrificación industrial reduce sus costos de operación en más de un 50%;
 
-**Que**, las normas vigentes de comercialización de hidrocarburos no garantizan la trazabilidad tecnológica del producto ni la protección directa y no condicionada a los hogares en condición de vulnerabilidad; y,
+**Que**, el subsidio ciego al Gas Licuado de Petróleo (GLP) representa una carga de más de setecientos millones de dólares anuales sobre el Presupuesto General del Estado, fomentando el contrabando hacia países limítrofes y el uso indebido en actividades industriales y comerciales de alto lucro;
+
+**Que**, las normas de técnica legislativa aconsejan un esquema predecible y gradual que permita a los hogares ecuatorianos una adaptación suave y continua a los costos reales de la energía; y,
 
 En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el artículo 133 de la Constitución de la República, expide la siguiente:
 
 ---
 
-## LEY ORGÁNICA PARA LA EFICIENCIA EN LA COMERCIALIZACIÓN DE HIDROCARBUROS, ERRADICACIÓN DEL CONTRABANDO Y FOCALIZACIÓN QUIRÚRGICA DE SUBSIDIOS A LOS COMBUSTIBLES FÓSILES
+## LEY ORGÁNICA PARA LA EFICIENCIA ENERGÉTICA EN EL SECTOR ACUÍCOLA, SINCERAMIENTO GRADUAL DEL GAS LICUADO DE PETRÓLEO Y ERRADICACIÓN DE DISTORSIONES FISCALES EN DERIVADOS DE HIDROCARBUROS
 
 ### CAPÍTULO I
-### DISPOSICIONES GENERALES Y PRINCIPIOS RECTORES
+### OBJETO, ÁMBITO Y ESTRATEGIA MODULAR
 
-**Artículo 1.- Objeto y Ámbito de Aplicación.-** La presente Ley tiene por objeto establecer el régimen de sinceramiento, comercialización eficiente y desmonte de subsidios generalizados a la oferta de combustibles fósiles derivados de hidrocarburos en el territorio nacional, excluyendo la generación termoeléctrica regulada por la legislación eléctrica. Crea el mecanismo de Voucher Social Directo a la demanda para la adquisición de Gas Licuado de Petróleo (GLP) doméstico, el sistema de paridad internacional de precios para el transporte pesado y sectores productivos, y los instrumentos de trazabilidad digital obligatoria para erradicar el contrabando y el fraude tributario.
-
-**Artículo 2.- Principio de Subsidio Exclusivo a la Demanda Vulnerable.-** Queda terminantemente prohibida la fijación de precios subsidiados a la oferta comercial de combustibles en refinerías, terminales de almacenamiento, estaciones de servicio y depósitos de distribución. Todo apoyo estatal o transferencia de recursos públicos se otorgará única y exclusivamente de manera directa y bancarizada a los ciudadanos y hogares calificados en situación de vulnerabilidad económica, sin alterar el precio de venta al público en el mercado libre y formal.
+**Artículo 1.- Objeto y Ámbito de Aplicación.-** La presente Ley tiene por objeto establecer el régimen de sinceramiento de precios y erradicación de subsidios en derivados de hidrocarburos mediante dos etapas regulatorias independientes:
+1. **Etapa 1:** La remoción total del subsidio al diésel para todo el sector camaronero y acuícola de exportación, con incentivos para su inmediata electrificación industrial sin subsidios.
+2. **Etapa 2:** El sinceramiento gradual, predecible e indexado por ley del Gas Licuado de Petróleo (GLP) para consumo doméstico residencial a una tasa del diez por ciento (10%) anual compuesto, acompañado del retiro inmediato del subsidio en usos comerciales e industriales.
 
 ---
 
 ### CAPÍTULO II
-### RÉGIMEN DEL GAS LICUADO DE PETRÓLEO (GLP) Y VOUCHER SOCIAL DIRECTO
+### ETAPA 1: REMOCIÓN TOTAL DEL SUBSIDIO AL DIÉSEL CAMARONERO Y ELECTRIFICACIÓN
 
-**Artículo 3.- Sinceramiento del Precio del GLP en Depósitos y Bodegas.-** El precio de venta al público del cilindro de Gas Licuado de Petróleo (GLP) de quince kilogramos (15 kg) en todos los depósitos, bodegas y centros de distribución del territorio nacional se fijará y publicará mensualmente por la Agencia de Regulación y Control Hidrocarburífero (ARCH) sobre la base del costo real consolidado de importación, flete marítimo, almacenamiento, envasado y margen comercial eficiente, referenciado al marcador internacional Mont Belvieu y crudo West Texas Intermediate (WTI).
+**Artículo 2.- Derogatoria de Excepciones y Paridad Plena para Acuacultura.-** Derógase de manera expresa cualquier exención, cupo preferente o tarifa subsidiada de diésel para fincas camaroneras de menos de 30 hectáreas. A partir de la vigencia de la presente Ley, el cien por ciento (100%) del diésel despachado para la producción, bombeo, aireación y transporte de la industria camaronera y acuícola en el territorio nacional se facturará al precio de paridad internacional de importación WTI y margen comercial pleno, fijado por la Agencia de Regulación y Control Hidrocarburífero (ARCH).
 
-**Artículo 4.- Creación del Voucher Social GLP.-** Créase el mecanismo de transferencia monetaria directa e intangible denominado "Voucher Social GLP", administrado por el Ministerio de Inclusión Económica y Social (MIES) en coordinación con el Banco Central del Ecuador (BCE) y el Ministerio de Economía y Finanzas (MEF).
-1. **Beneficiarios:** Familias y hogares ecuatorianos o residentes regularizados que se encuentren clasificados en los Deciles 1, 2, 3 y 4 del Registro Social.
-2. **Monto y Cobertura:** El Voucher Social GLP consistirá en una acreditación mensual directa de once dólares de los Estados Unidos (11.00 USD) por cilindro, transferida a la cuenta básica, cédula de identidad o billetera digital del jefe de hogar.
-3. **Cupo Máximo:** El subsidio amparará hasta un (1) cilindro mensual de 15 kg por hogar. Para núcleos familiares superiores a cinco (5) miembros debidamente auditados, el cupo podrá ampliarse hasta dos (2) cilindros mensuales.
-4. **Operación en Bodega:** Al momento de adquirir el cilindro en el depósito autorizado, el beneficiario presentará su documento de identidad ante el dispositivo de cobro interoperable; el sistema debitará el valor del Voucher Social y el beneficiario abonará únicamente la diferencia no subsidiada.
+**Artículo 3.- Filtro de Exportación por Declaraciones Aduaneras (DAE).-** El Servicio Nacional de Aduana del Ecuador (SENAE) remitirá mensualmente a EP Petroecuador y a la ARCH la nómina de personas naturales y jurídicas registradas como exportadoras de camarón, así como las empresas empacadoras que adquieran materia prima acuícola. Queda prohibida la entrega de combustible subsidiado a cualquier predio o productor vinculado de forma directa o indirecta a la cadena de exportación.
 
-**Artículo 5.- Prohibición de Uso Industrial y Trazabilidad de Cilindros.-** Los cilindros metálicos de GLP doméstico incorporarán obligatoriamente un código bidimensional QR indeleble o microchip RFID con información de lote, año de fabricación y trazabilidad de envasado. Queda expresamente prohibido el acopio, conexión en batería o utilización de cilindros de GLP doméstico en establecimientos industriales, calderas, secadoras comerciales, granjas avícolas intensivas, complejos hoteleros, piscinas y saunas, los cuales deberán abastecerse exclusivamente de tanques estacionarios a granel a precio de mercado.
+**Artículo 4.- Incentivo a la Electrificación Camaronera Industrial sin Subsidios.-**
+1. Las empresas eléctricas distribuidoras (CNEL EP) facilitarán de manera expedita y con trámite simplificado (máximo 15 días hábiles) la conexión de fincas camaroneras a las redes de media tensión (13.8 kV o 34.5 kV).
+2. El suministro de energía eléctrica para las estaciones de bombeo y aireadores camaroneros se facturará estrictamente a la tarifa industrial regulada por Costo de Servicio (*Cost-of-Service*), garantizando que las empresas eléctricas cubran sus costos eficientes sin otorgar subsidios estatales.
+3. La Corporación Financiera Nacional (CFN) y BanEcuador abrirán líneas de crédito preferente para financiar la compra de transformadores trifásicos, tendidos de líneas de media tensión y motores eléctricos de alta eficiencia.
 
 ---
 
 ### CAPÍTULO III
-### RÉGIMEN DEL DIÉSEL AUTOMOTRIZ, TRANSPORTE PESADO Y SECTORES PRODUCTIVOS
+### ETAPA 2: SINCERAMIENTO GRADUAL DEL GLP DOMÉSTICO (10% ANUAL COMPUESTO)
 
-**Artículo 6.- Paridad Internacional WTI para Diésel Automotriz y de Carga.-** El precio del diésel automotriz y diésel premium para el segmento de transporte pesado de carga nacional e internacional se comercializará en todas las terminales y estaciones de servicio al cien por ciento (100%) de paridad internacional de importación basada en el benchmark West Texas Intermediate (WTI) y el crack spread de refinación en la Costa del Golfo de los Estados Unidos de América.
+**Artículo 5.- Sendero Suave de Ajuste Anual del GLP Residencial.-** A fin de garantizar la estabilidad económica de los hogares y evitar traumatismos sociales, el precio oficial de venta al público en depósito del cilindro de Gas Licuado de Petróleo (GLP) de quince kilogramos (15 kg) para uso doméstico residencial se incrementará automáticamente el día primero de enero de cada año calendario en un diez por ciento (10%) compuesto respecto al precio del año inmediatamente anterior, hasta alcanzar el precio de paridad internacional de importación WTI / Mont Belvieu.
 
-**Artículo 7.- Libertad Tarifaria en Fletes Comerciales de Carga.-** Deróganse las tablas de tarifas referenciales obligatorias impuestas por el Estado para el transporte pesado de carga. Las tarifas comerciales de flete terrestre se pactarán libremente entre las empresas de logística, transportistas y contratantes comerciales, trasladando los costos operativos reales de combustible. Queda prohibido cualquier tipo de compensación estatal o subsidio cruzado a favor de corporaciones privadas de transporte de carga.
+**Artículo 6.- Fórmula de Indexación Automática Legal.-** La Agencia de Regulación y Control Hidrocarburífero (ARCH) calculará y publicará de oficio el pliego tarifario anual conforme a la siguiente formulación matemática vinculante:
+1. **Año 1:** El precio base de un dólar con sesenta y cinco centavos (1.65 USD) se incrementará a un dólar con ochenta y un centavos y medio (1.815 USD).
+2. **Año 2:** El precio se incrementará a un dólar con noventa y nueve centavos y seis milésimas (1.996 USD).
+3. **Años Posteriores:** El precio se calculará multiplicando el valor del año previo por el factor uno punto diez (1.10) hasta la extinción matemática de la brecha de subsidio.
 
-**Artículo 8.- Transporte Público Urbano e Interprovincial de Pasajeros.-**
-1. Los Gobiernos Autónomos Descentralizados cantonales y metropolitanos fijarán y revisarán anualmente la tarifa técnica del servicio de transporte público urbano con base en metodologías actuariales transparentes que reconozcan el costo real del diésel a precio de mercado.
-2. El Estado Central no mantendrá subsidios de combustible a favor de las unidades de transporte público. 
-3. El descuento legal del cincuenta por ciento (50%) en las tarifas de pasaje para estudiantes, niñas, niños y adolescentes, personas adultas mayores y personas con discapacidad será compensado de manera directa y focalizada a los usuarios mediante la **Billetera Estudiantil y Social**, debitada a través de las tarjetas de transporte metropolitano o mecanismos biométricos de recaudo.
-
-**Artículo 9.- Cero Subsidio a la Agroexportación y Acuacultura.-** Derógase de manera expresa cualquier beneficio o tarifa reducida de combustibles para el sector camaronero o pesquero. Toda persona natural o jurídica que figure como titular de Declaraciones Aduaneras de Exportación (DAE) ante el SENAE, o que venda su producción a plantas de procesamiento destinadas al comercio exterior, adquirirá el cien por ciento (100%) de sus combustibles a tarifa de paridad internacional plena.
+**Artículo 7.- Aplicación de Oficio sin Trámite Discrecional.-** El ajuste anual del diez por ciento (10%) opera por imperio de la ley, no requerirá de decretos ejecutivos ni acuerdos ministeriales anuales para su entrada en vigor, y su incumplimiento por parte de depósitos autorizados constituirá causal de clausura inmediata del establecimiento.
 
 ---
 
 ### CAPÍTULO IV
-### CONTROL DIGITAL FRONTERIZO Y ERRADICACIÓN DEL CONTRABANDO
+### DESACOPLE INMEDIATO DEL GLP COMERCIAL E INDUSTRIAL Y CONTROL DE FRONTERA
 
-**Artículo 10.- Trazabilidad Obligatoria en Zona de Frontera.-** En todas las estaciones de servicio y comercializadoras de combustibles ubicadas dentro de la franja fronteriza de hasta cien kilómetros (100 km) respecto a los límites políticos con Colombia y Perú, será obligatoria la instalación de transpondedores RFID en boca de tanque de los automotores matriculados en el país y antenas lectoras en las pistolas de despacho de los surtidores.
-1. Los surtidores despacharán combustible únicamente previa lectura y validación telemática del chip RFID y cotejo de matrícula con la Agencia Nacional de Tránsito.
-2. Los automotores con matrícula extranjera abonarán obligatoriamente la tarifa de precio internacional sin subsidio, adicionada de un recargo arancelario de control aduanero del veinte por ciento (20%).
-3. Se sancionará con la clausura definitiva y pérdida de la concesión a las estaciones de servicio que expendan combustible a vehículos con chip adulterado, tanques suplementarios no homologados o en bidones clandestinos.
+**Artículo 8.- Retiro Inmediato del Subsidio en Actividades Comerciales e Industriales.-** Prohíbese de forma absoluta la venta o suministro de cilindros de GLP doméstico de 15 kg a precio preferencial a restaurantes, cadenas de comida rápida, comedores, hoteles, hostales, balnearios, saunas, granjas avícolas o porcinas, secadoras agrícolas, panaderías industriales, calderas y fábricas. Dichos establecimientos deberán abastecerse exclusivamente de cilindros industriales autorizados o tanques estacionarios de GLP a granel al cien por ciento (100%) de paridad internacional.
 
----
-
-### CAPÍTULO V
-### TRANSICIÓN ENERGÉTICA A GAS NATURAL VEHICULAR (GNV) Y BIOMETANO
-
-**Artículo 11.- Fondo de Conversión Vehicular a GNV.-** Créase en la Corporación Financiera Nacional (CFN) y BanEcuador una línea especial de financiamiento blando y preferente para la adquisición e instalación de kits de inyección y conversión dual a Gas Natural Vehicular (GNV) y biometano nacional para unidades de taxis, transporte mixto rural, camionetas de servicio público y transporte comercial.
-
-**Artículo 12.- Desmonte Escalonado de la Compensación del Decreto 308.-** La compensación monetaria temporal establecida mediante el Decreto Ejecutivo No. 308 de 26 de junio de 2024 para las gasolinas Extra y Ecopaís a favor de taxis y camionetas comerciales se extinguirá de forma gradual e improrrogable en un plazo de veinticuatro (24) meses, reduciéndose en un veinticinco por ciento (25%) semestral, periodo en el cual los transportistas accederán a las líneas de conversión a GNV y tecnologías de mayor eficiencia.
+**Artículo 9.- Trazabilidad por Códigos QR y Límite Fronterizo.-**
+1. Todos los cilindros metálicos de GLP envasados en el país contarán con un código QR indeleble o chip electrónico que identifique la planta envasadora, el distribuidor y el destino final.
+2. En las provincias y cantones fronterizos ubicados a menos de cincuenta kilómetros (50 km) de las líneas de frontera con Colombia y Perú, la venta de cilindros domésticos a precio regulado preferencial estará restringida a un cupo máximo de un (1) cilindro mensual por hogar registrado ante el Registro Civil, comercializándose los cilindros excedentes a precio internacional pleno para erradicar el contrabando de extracción.
 
 ---
 
 ### DISPOSICIONES GENERALES
 
-**PRIMERA.-** Las asignaciones y recursos financieros liberados en el Presupuesto General del Estado por la erradicación del subsidio a la oferta de combustibles se destinarán de manera intangible y prioritaria al fondeo del Voucher Social GLP, al pago de la deuda histórica con el Fondo de Pensiones del IESS y al fortalecimiento del equipamiento y capacidad operativa de las Fuerzas Armadas y Policía Nacional.
+**PRIMERA.-** Los recursos fiscales liberados por la remoción del diésel camaronero (estimados en 75 millones de dólares anuales) y por el desmonte del GLP comercial (estimados en 180 millones de dólares anuales) se destinarán de manera intangible y prioritaria a obras de electrificación rural, infraestructura de agua potable y saneamiento en las zonas costeras y campesinas, y al equipamiento operativo de la Policía Nacional y Fuerzas Armadas.
 
-**SEGUNDA.-** Las Fuerzas Armadas y la Policía Nacional asumirán el control estricto de los oleoductos, poliductos, centros de envasado de GLP y terminales marítimos de despacho, aplicando el régimen penal de seguridad nacional frente a cualquier intento de sabotaje o trasvase ilegal de hidrocarburos.
+**SEGUNDA.-** Las Fuerzas Armadas y la Policía Nacional realizarán inspecciones periódicas inopinadas en instalaciones acuícolas y centros comerciales para decomisar combustible o cilindros de gas desviados ilícitamente, remitiendo los informes a la Fiscalía General del Estado para el inicio de las acciones penales por contrabando y enriquecimiento ilícito.
 
 ---
 
 ### DISPOSICIONES TRANSITORIAS
 
-**PRIMERA.-** En un plazo no mayor a sesenta (60) días calendario a partir de la publicación de esta Ley en el Registro Oficial, el Ministerio de Inclusión Económica y Social (MIES), la Dirección General del Registro Civil y el Banco Central del Ecuador (BCE) pondrán en marcha la plataforma transaccional unificada para el funcionamiento del Voucher Social GLP.
+**PRIMERA.-** En un plazo no mayor a treinta (30) días calendario a partir de la publicación de esta Ley, EP Petroecuador y las comercializadoras privadas autorizadas ajustarán sus sistemas informáticos para facturar el diésel al sector camaronero al cien por ciento (100%) de precio de paridad internacional.
 
-**SEGUNDA.-** En un plazo máximo de noventa (90) días calendario, la Agencia de Regulación y Control Hidrocarburífero (ARCH) notificará los nuevos pliegos de precios de paridad en bodega para el GLP y el diésel automotriz, iniciando simultáneamente el cobro de paridad internacional y la acreditación bancaria del Voucher Social.
+**SEGUNDA.-** En un plazo no superior a sesenta (60) días calendario, la ARCH expedirá el reglamento técnico de homologación de cilindros de GLP comercial e industrial e iniciará el censo obligatorio de establecimientos comerciales para verificar el cumplimiento del Artículo 8 de esta Ley.
 
-**TERCERA.-** En un plazo no superior a ciento ochenta (180) días, las estaciones de servicio ubicadas en las provincias fronterizas deberán contar con el sistema de trazabilidad por telemetría RFID plenamente operativo bajo apercibimiento de revocatoria del permiso de operación.
+**TERCERA.-** El primer ajuste anual del diez por ciento (10%) al precio del GLP doméstico residencial entrará en vigencia el día 1 de enero inmediato posterior a la publicación de la presente Ley en el Registro Oficial.
 
 ---
 
 ### DISPOSICIONES DEROGATORIAS
 
-**ÚNICA.-** Deróganse expresamente el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 en lo relativo a la excepción de subsidios a camaroneras de menos de 30 hectáreas, así como todas las disposiciones reglamentarias, resoluciones ministeriales y de la ARCH que fijen precios congelados, subsidios a la oferta o tarifas planas contrarias a la paridad internacional y al principio de subsidio exclusivo a la demanda consagrado en esta Ley.
+**ÚNICA.-** Deróganse expresamente el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 en lo referente a la exención para camaroneras de menos de 30 hectáreas, y todas las normas reglamentarias y resoluciones que reconozcan precios subsidiados a la acuacultura de exportación o que impidan la aplicación del sendero anual del 10% en el GLP doméstico.
 
 ---
 
