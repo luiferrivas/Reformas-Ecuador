@@ -94,7 +94,16 @@ pesca_artesanal_subsidio_directo:
   precio_surtidor_marino: "100% paridad internacional WTI (~3.20 - 3.40 USD/galón)"
   subsidio_fisico_en_agua: 0.0 # Cero subsidio físico para neutralizar desvío a narco-lanchas
   mecanismo_compensacion: "Acreditación directa en Tarjeta Prepago BanEcuador al registrar zarpe legal DIRNEA"
-  seguridad_maritima: "Dotación gratuita obligatoria de transpondedores satelitales AIS sellados y botones de pánico"
+  periodo_gracia_anos: 1 # Año 1 con 100% de compensación
+  tasa_desescalamiento_anual: 0.10 # -10% anual a partir del Año 2
+  ahorro_ano_1_m_usd: 0.00
+  ahorro_ano_2_m_usd: 5.00
+  ahorro_ano_3_m_usd: 10.00
+  ahorro_ano_4_m_usd: 15.00
+  ahorro_ano_5_m_usd: 20.00
+  ahorro_ano_11_extincion_total_m_usd: 50.00
+  sustitucion_tecnologica: "Líneas de crédito blando CFN/BanEcuador a 60 meses para recambio de motores 2T por 4T EFI (ahorro 45% a 50% de consumo)"
+  seguridad_maritima: "Dotación gratuita obligatoria de transpondedores satelitales AIS sellados, geocercas telemáticas y botones de pánico"
   combate_gdos: "Neutralización de extorsiones (vacunas) y robo armado de motores fuera de borda"
 
 sendero_gradual_industrial_36_meses:
@@ -131,10 +140,11 @@ colchon_contraciclico_estabilizacion:
 balance_consolidado_5_anos:
   ano_1_alivio_fiscal_caja_garantizado_m_usd: 401.51
   ano_1_alivio_fiscal_caja_nominal_m_usd: 405.35
-  ano_2_alivio_fiscal_m_usd: 442.13
-  ano_3_alivio_fiscal_m_usd: 485.08
-  ano_4_alivio_fiscal_m_usd: 526.43
-  ano_5_alivio_fiscal_m_usd: 564.22
-  ano_6_alivio_fiscal_permanente_m_usd: 598.00
+  ano_2_alivio_fiscal_m_usd: 447.13
+  ano_3_alivio_fiscal_m_usd: 495.08
+  ano_4_alivio_fiscal_m_usd: 541.43
+  ano_5_alivio_fiscal_m_usd: 584.22
+  ano_6_alivio_fiscal_permanente_m_usd: 623.00
   alivio_al_deficit_pge_ano_1_pct: 12.75
-  alivio_al_deficit_pge_ano_5_pct: 17.91
+  alivio_al_deficit_pge_ano_5_pct: 18.55
+  alivio_al_deficit_pge_ano_6_pct: 19.78

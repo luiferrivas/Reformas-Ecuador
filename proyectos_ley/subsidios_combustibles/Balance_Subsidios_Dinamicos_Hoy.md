@@ -115,7 +115,7 @@ $$\text{Alivio al Déficit Estatal} = \frac{401.51 \text{ M USD}}{3,150.00 \text
 
 ---
 
-## 5. Proyección Dinámica a 5 Años con Capping Vehicular y Sendero Industrial
+## 5. Proyección Dinámica a 5 Años con Capping Vehicular, Sendero Industrial y Pesca Artesanal
 
 ```
 +---------------------------------------------------------------------------------------------------------+
@@ -124,15 +124,16 @@ $$\text{Alivio al Déficit Estatal} = \frac{401.51 \text{ M USD}}{3,150.00 \text
 | Periodo                  | Subsidio Restante  | Alivio Acumulado   | Hitos de la Reforma                |
 +--------------------------+--------------------+--------------------+------------------------------------+
 | **Año 1 (HOY)**          | 893.09 M USD       | +401.51 M USD      | GLP en 1.815 USD; Cero camaronero; |
-|                          |                    |                    | IVA no deducible; precio pleno mar |
-| **Año 2**                | 848.22 M USD       | +442.13 M USD      | GLP en 1.996 USD; Capping 80% (-16M|
-|                          |                    |                    | Sendero industrial 1.5%m (+12M)    |
-| **Año 3**                | 796.65 M USD       | +485.08 M USD      | GLP en 2.196 USD; Capping 60% (-32M|
-|                          |                    |                    | Sendero industrial (+25M)          |
-| **Año 4**                | 742.22 M USD       | +526.43 M USD      | GLP en 2.416 USD; Capping 40% (-48M|
-|                          |                    |                    | Industrial a paridad (+35M)        |
-| **Año 5**                | **686.76 M USD**   | **+564.22 M USD**  | GLP en 2.657 USD; Capping 20% (-64M|
-|                          |                    |                    | Industrial 100% paridad (+40M)     |
-| **Año 6+**               | **605.00 M USD**   | **+598.00 M USD**  | CERO compensación Extra (+80M perm)|
+|                          |                    |                    | IVA no deducible; gracia pesca 100%|
+| **Año 2**                | 843.22 M USD       | +447.13 M USD      | GLP en 1.996 USD; Capping 80% (-16M|
+|                          |                    |                    | Industrial (+12M); Pesca -10% (+5M)|
+| **Año 3**                | 786.65 M USD       | +495.08 M USD      | GLP en 2.196 USD; Capping 60% (-32M|
+|                          |                    |                    | Industrial (+25M); Pesca -20%(+10M)|
+| **Año 4**                | 727.22 M USD       | +541.43 M USD      | GLP en 2.416 USD; Capping 40% (-48M|
+|                          |                    |                    | Industrial paridad; Pesca -30%(+15M|
+| **Año 5**                | **666.76 M USD**   | **+584.22 M USD**  | GLP en 2.657 USD; Capping 20% (-64M|
+|                          |                    |                    | Industria 100%; Pesca -40% (+20M)  |
+| **Año 6+**               | **580.00 M USD**   | **+623.00 M USD**  | CERO compensación Extra (+80M perm)|
+|                          |                    |                    | Pesca -50% (+25M, hacia +50M a11)  |
 +--------------------------+--------------------+--------------------+------------------------------------+
 ```

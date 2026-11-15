@@ -258,8 +258,26 @@ $$S_{\text{directo}} = 60 \text{ gal} \times (3.30 - 1.10) \frac{\text{USD}}{\te
 
 El pescador llega al muelle, cancela sus 66.00 USD habituales en efectivo o débito, aplica los 132.00 USD de su tarjeta prepago de subsidio, y la gasolinera marina factura los 198.00 USD íntegros sin subsidio físico en producto.
 
-### 7.4. Escudo Satelital AIS y Botón de Pánico Georreferenciado
-El Estado financia e instala transpondedores satelitales AIS sellados y botones de pánico indetectables en el casco de las fibras de vidrio. Si la embarcación es atacada o desviada hacia rutas del narcotráfico, el Comando de Guardacostas recibe alerta telemática en tiempo real para intercepción aeronaval.
+### 7.4. Periodo de Gracia de Un Año y Desescalamiento Anual del Diez por Ciento (10%)
+Para permitir la plena adaptación organizativa de las caletas, pescadores artesanales y cooperativas del perfil costero:
+1. **Año 1 (Periodo de Gracia Integral):** Se mantiene el cien por ciento (100%) de la cobertura del subsidio directo por zarpe DIRNEA acreditado en la Tarjeta Prepago BanEcuador. El pescador formalizado no sufre ningún incremento de costos en sus faenas de pesca mientras se instala el sistema satelital AIS y se depura el padrón pesquero.
+2. **Años 2 al 11 (Desescalamiento Reglado del 10% Anual):** A partir del 1 de enero del segundo año, el subsidio monetario unitario por galón/zarpe se reduce a razón de un 10% anual compuesto:
+
+$$S_{\text{directo zarpe}}(t) = S_{\text{directo base}} \times [1 - 0.10 \times (t - 1)], \quad t \in [1, 11]$$
+
+Donde $t=1$ es el año de gracia (100%), $t=2$ es el año 2 (90%), $t=3$ es el año 3 (80%), hasta extinguirse totalmente en el año 11 ($t=11$).
+- **Ahorro Fiscal Incremental:** Con una base histórica del subsidio pesquero artesanal de ~50.00 M USD/año, el desescalamiento libera **+5.00 M USD** en el Año 2, **+10.00 M USD** en el Año 3, **+15.00 M USD** en el Año 4, **+20.00 M USD** en el Año 5, y **+50.00 M USD/año** permanentes a partir del Año 11.
+
+### 7.5. Renovación Tecnológica: Sustitución de Motores 2T por 4T EFI (Ahorro del 45% al 50% de Combustible)
+Para garantizar que la reducción del 10% anual del subsidio no erosione los ingresos netos de las familias pescadoras, el Estado articula a través de la CFN y BanEcuador el "Programa Mar Limpio y Eficiente" de financiamiento preferente (crédito blando a 60 meses con tasa pasiva) para el recambio de motores fuera de borda:
+- **Termodinámica del Motor 2 Tiempos Carburado (Actual):** El motor tradicional Yamaha Enduro 75 HP opera con carburador y mezcla gasolina-aceite 2T. Su rendimiento térmico es deficiente, con un consumo específico de 0.55 a 0.65 L/(hp-h) y un descarte por barrido de entre el 25% y 30% del combustible no quemado directamente al mar.
+- **Termodinámica del Motor 4 Tiempos Inyección Electrónica (EFI):** Los motores modernos de 4 tiempos (ej. Yamaha F70 / Suzuki DF70 EFI) optimizan la inyección estequiométrica, registrando un consumo específico de solo 0.30 a 0.35 L/(hp-h).
+- **Ahorro Operativo Real en Faena:** Para una travesía típica de 48 horas que demandaba 60 galones con motor 2T, el motor 4T requiere únicamente entre **32 y 35 galones de combustible**.
+- **Impacto Neto para el Pescador:** Al reducir su consumo físico entre un 40% y un 50%, el gasto total en combustible del pescador se reduce de inmediato, superando ampliamente la reducción anual del 10% del subsidio. La faena se vuelve más rentable, el motor no requiere costosos aceites 2T y se erradica la contaminación marina por hidrocarburos aromáticos.
+
+### 7.6. Escudo Satelital AIS, Botón de Pánico y Geocercas Antinarcotráfico
+1. **Transpondedor AIS Sellado:** El Estado financia e instala transpondedores satelitales AIS sellados y botones de pánico indetectables en el casco de las fibras de vidrio. Si la embarcación es asaltada por piratas o bandas extorsivas, el pescador activa el botón y la Armada despliega helicópteros y lanchas interceptoras.
+2. **Geocercas Telemáticas (*Geofencing*):** La DIRNEA implementa perímetros de navegación automática. Si una embarcación artesanal con cupo de 20 millas se aleja a más de 80 millas hacia aguas internacionales, permanece estacionaria junto a naves no identificadas (posible transbordo de droga) o apaga la baliza, el sistema bloquea inmediatamente la recarga del subsidio en la tarjeta BanEcuador e inicia una investigación penal.
 
 ---
 
@@ -320,12 +338,13 @@ Sumando todos los componentes del paquete integral (combustibles directos + refo
 | **4. IVA en Combustibles (LORTI Art. 66)** | +135.00 | +135.00 | +135.00 | +135.00 | +135.00 | +135.00 |
 | **5. Capping Gasolinas Decreto 308 (5 Años)**| 0.00 | +16.00 | +32.00 | +48.00 | +64.00 | +80.00 |
 | **6. Sendero Industrial Gradual (36 Meses)** | 0.00 | +12.00 | +25.00 | +35.00 | +40.00 | +40.00 |
-| **ALIVIO FISCAL ANUAL CONSOLIDADO** | **+401.51** | **+442.13** | **+485.08** | **+526.43** | **+564.22** | **+598.00** |
+| **7. Desescalamiento Pesca Artesanal (10%a)** | 0.00 | +5.00 | +10.00 | +15.00 | +20.00 | +25.00 |
+| **ALIVIO FISCAL ANUAL CONSOLIDADO** | **+401.51** | **+447.13** | **+495.08** | **+541.43** | **+584.22** | **+623.00** |
 
 *(Nota: En el Año 1, bajo cómputo nominal bruto de GLP doméstico sobre 93 M cilindros, el alivio fiscal inicial alcanza **+405.35 M USD/año**).*
 
 ### 10.1. Impacto en el Déficit del Presupuesto General del Estado
-Con un déficit presupuestario proyectado para 2026 de **-3,150.00 M USD**, la reforma modular estructurada cubre el **12.75% del déficit fiscal total en el Año 1**, expandiéndose a **564.22 M USD en el Año 5 (17.91% del déficit)**, y rozando los **600 M USD anuales permanentes a partir del Año 6**, con **cero conflictividad social, blindaje total a la economía campesina y desarticulación de las mafias criminales del combustible**.
+Con un déficit presupuestario proyectado para 2026 de **-3,150.00 M USD**, la reforma modular estructurada cubre el **12.75% del déficit fiscal total en el Año 1**, expandiéndose a **584.22 M USD en el Año 5 (18.55% del déficit)**, y superando los **623.00 M USD anuales permanentes a partir del Año 6** (convergencia a +648 M USD al completarse el desmonte pesquero en el año 11), con **cero conflictividad social, blindaje total a la economía campesina y desarticulación de las mafias criminales del combustible**.
 
 ---
 
@@ -359,7 +378,7 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Sendero Suave del 10% Anual en GLP Doméstico** | **Aprobada** | Ajuste imperceptible (+16 centavos/cilindro en año 1); desactiva el conflicto social; blindaje legal automático. | Convergencia lenta (22 años para paridad plena). | Aprobada como solución pragmática e irreversible. Se complementa con el desmonte inmediato al GLP comercial/industrial (+180 M USD/año). |
 | **Capping a 24 Meses vs Capping a 5 Años en Gasolinas** | **Aprobada (5 Años)** | Desescalamiento del 20% anual (-8.60 USD/mes por taxi cada año); permite pagar el kit GNV con el propio ahorro. | Mayor tiempo para extinguir los 80 M USD. | Aprobada a 5 años. Desactiva paros urbanos al dar holgura financiera para el cambio vehicular. |
 | **Subsidio Físico en Muelle a la Pesca Artesanal** | **Descartada** | Facilidad aparente de despacho en caleta. | Alimenta directamente a las lanchas *go-fast* del narcotráfico; expone al pescador a vacunas y piratería de GDOs. | Descartada por razones de seguridad nacional. El combustible en producto físico es capturado por el crimen organizado. |
-| **Subsidio Directo Bancario por Zarpe y AIS Satelital** | **Aprobada** | Precio pleno en muelle erradica el narcotráfico; pescador recibe subsidio en tarjeta prepago; AIS protege ante piratas. | Requiere coordinación telemática DIRNEA-BanEcuador. | Aprobada. Resuelve el desvío ilícito y protege la vida de los pescadores artesanales. |
+| **Subsidio Directo por Zarpe, 1 Año de Gracia y Desescalamiento 10% con Motores 4T EFI** | **Aprobada** | Precio pleno en muelle erradica el narcotráfico; 1 año de gracia y crédito para motores 4T EFI (ahorro 45% combustible) neutralizan el desmonte del 10% anual; AIS y geocercas protegen ante piratas. | Requiere coordinación telemática DIRNEA-BanEcuador y crédito CFN. | Aprobada. Resuelve el desvío ilícito, reduce consumo físico de combustible a la mitad y protege la vida de los pescadores artesanales. |
 | **Shock Inmediato en Combustible Industrial** | **Descartada** | Recaudación fiscal inmediata. | Quiebra a empresas manufactureras con márgenes estrechos e induce inflación en productos básicos. | Descartada. Se aprueba sendero gradual del 1.5% mensual a 36 meses con incentivos para GNL y biomasa. |
 | **Tarifa Intermedia para Metro y Transporte Eléctrico** | **Aprobada** | Incentiva la sustitución masiva de diésel por tracción eléctrica limpia; protege la tarifa de pasaje popular. | Exige medidores dedicados y contratos de servicio. | Aprobada. Tarifa por Costo de Servicio (~8 ¢/kWh) mayor que hospital pero menor que minería/exportación. |
 | **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor. | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl. | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |

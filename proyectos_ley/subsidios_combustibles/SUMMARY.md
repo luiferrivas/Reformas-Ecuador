@@ -34,7 +34,7 @@
 - **Ahorro Fiscal Etapa 2 (GLP Comercial + Residencial 10%):** Recaudación inicial de **191.51 M USD/año** netos (180.00 M USD comercial + 11.51 M USD residencial en base neta; o 195.35 M USD en base bruta nominal) $\rightarrow$ *Destino:* `Fondo de Infraestructura Rural y Saneamiento / MEF`.
 - **Recaudación Tributaria IVA Combustibles:** Captura inmediata de **135.00 M USD/año** netos por prohibición de crédito fiscal de IVA $\rightarrow$ *Destino:* `Caja Fiscal del Presupuesto General del Estado / SRI`.
 - **Alivio Fiscal Consolidado Año 1:** **+401.51 M USD/año** netos garantizados (o **+405.35 M USD/año** nominal bruto) $\rightarrow$ *Destino:* `Reducción del Déficit Fiscal del PGE`.
-- **Alivio Fiscal Consolidado Año 5:** **+564.22 M USD/año**, escalando a **+598.00 M USD/año** a partir del Año 6 con la extinción total del Decreto 308 $\rightarrow$ *Destino:* `Consolidación Fiscal del Estado`.
+- **Alivio Fiscal Consolidado Año 5:** **+584.22 M USD/año**, escalando a **+623.00 M USD/año** a partir del Año 6 con la extinción total del Decreto 308 y desescalamiento pesquero (convergencia a **+648.00 M USD/año** en Año 11) $\rightarrow$ *Destino:* `Consolidación Fiscal del Estado`.
 - **Desarticulación del Abastecimiento Narco en Altamar:** Extinción del combustible subsidiado físico en muelles marinos, privando a los GDOs de combustible barato para lanchas *go-fast* $\rightarrow$ *Destino:* `Seguridad Nacional y Neutralización Criminal`.
 
 ---
@@ -53,7 +53,7 @@
 4. **Desacople Inmediato del GLP Comercial e Industrial:** El beneficio del sendero suave del 10% aplica exclusivamente a hogares residenciales. Restaurantes, hoteles, saunas, avícolas, panaderías industriales y calderas abonan el 100% de paridad internacional (**13.50 USD/cilindro**) desde el Día 1.
 5. **No Deducibilidad de IVA en Combustibles (Art. 66 LORTI):** El IVA pagado en combustibles no genera crédito fiscal para compensar ventas; solo se deduce como gasto en Impuesto a la Renta. Cero variación del precio en surtidor al consumidor.
 6. **Capping Suave a 5 Años del Decreto 308 (20% Anual):** Desescalamiento del 20% anual en compensación a taxis, camionetas mixtas rurales y tricimotos, con financiamiento preferente de CFN para kits de GNV y biometano.
-7. **Precio Pleno en Muelle Pesquero y Subsidio por Zarpe DIRNEA:** Cobro a paridad 100% en surtidor marino, compensación anticipada en Tarjeta Prepago BanEcuador al registrar zarpe legal, y transpondedores satelitales AIS obligatorios y gratuitos contra GDOs.
+7. **Precio Pleno en Muelle Pesquero, Subsidio por Zarpe, 1 Año de Gracia y Desescalamiento del 10% Anual:** Cobro a paridad 100% en surtidor marino, compensación anticipada en Tarjeta Prepago BanEcuador al registrar zarpe legal con 1 año de gracia, seguido de reducción del 10% anual compuesto, apalancado con crédito CFN para motores 4T EFI (ahorro 45% combustible), y transpondedores satelitales AIS obligatorios y gratuitos contra GDOs.
 8. **Sendero Gradual Industrial:** Incremento del 1.5% mensual a 36 meses hasta paridad plena.
 9. **Tarifa Preferente de Electromovilidad Masiva:** Tarifa por Costo de Servicio (~0.075 a 0.088 USD/kWh) para Metro de Quito, Tranvía de Cuenca y electro-corredores, superior a hospitales pero inferior a industrias exportadoras.
 10. **Banda Dinámica con Colchón Contracíclico (5% - 10%) y Cuenta CFEC:** Margen regulatorio del 5% al 10% sobre la paridad técnica internacional de importación WTI / Costa del Golfo ($P_{\text{techo}} = P_{\text{paridad}} \times (1 + \alpha)$) en gasolinas y diésel automotriz. Los excedentes en periodos estables se depositan en la Cuenta CFEC del Banco Central. En periodos de alzas extraordinarias (WTI > 85-90 USD/barril), la CFEC amortigua el precio al consumidor con sus propios saldos acumulados. Si se agotan, flota a paridad. El subsidio neto del Estado para estos combustibles es permanentemente 0.00 USD.
@@ -81,11 +81,11 @@
 
 ### Modelo de Ingresos y Alivio Fiscal Consolidado (Años 1 al 6)
 - **Año 1 (Inmediato):** **+401.51 M USD/año** garantizados (o **+405.35 M USD/año** nominal bruto).
-- **Año 2:** **+442.13 M USD/año** (incorporando +16 M de capping vehicular y +12 M del sendero industrial).
-- **Año 3:** **+485.08 M USD/año** (capping vehicular al 60% y sendero industrial al 50%).
-- **Año 4:** **+526.43 M USD/año** (capping vehicular al 40% e industria a paridad).
-- **Año 5:** **+564.22 M USD/año** (capping vehicular al 20% e industria 100% paridad).
-- **Año 6 en adelante:** **+598.00 M USD/año permanentes** (extinción definitiva de compensaciones vehiculares).
+- **Año 2:** **+447.13 M USD/año** (incorporando +16 M de capping vehicular, +12 M del sendero industrial y +5 M del desescalamiento pesquero).
+- **Año 3:** **+495.08 M USD/año** (capping vehicular al 60%, sendero industrial al 50% y pesca artesanal al 80%).
+- **Año 4:** **+541.43 M USD/año** (capping vehicular al 40%, industria a paridad y pesca artesanal al 70%).
+- **Año 5:** **+584.22 M USD/año** (capping vehicular al 20%, industria 100% paridad y pesca artesanal al 60%).
+- **Año 6 en adelante:** **+623.00 M USD/año** (extinción definitiva de compensaciones vehiculares y pesca al 50%, convergiendo a **+648.00 M USD/año** permanentes en el año 11).
 
 ### Doble Métrica Obligatoria de Payback (Electrificación Camaronera Típica de 25 Hectáreas)
 
@@ -113,7 +113,7 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Aumento Gradual del 10% Anual Compuesto en GLP Doméstico (Etapa 2)** | **Aprobada** | Incremento imperceptible para las familias (+16 centavos/cilindro en año 1); desactiva el conflicto social; ruta irreversible | Tarda 22 años en cerrar la brecha total | Aprobada como compromiso de realismo político. Es preferible un avance predecible y blindado por ley que shocks fallidos que se derogan a los 10 días. |
 | **Capping a 24 Meses vs Capping a 5 Años en Gasolinas (Decreto 308)** | **Aprobada (5 Años)** | Desescalamiento del 20% anual (-8.60 USD/mes por taxi cada año); permite pagar el kit GNV con el propio ahorro de combustible | Mayor tiempo para extinguir los 80 M USD | Aprobada a 5 años. Desactiva paros urbanos al dar holgura financiera para el cambio vehicular. |
 | **Subsidio Físico en Surtidor a la Pesca Artesanal** | **Descartada** | Supuesta simplicidad operativa en caleta | Alimenta a lanchas *go-fast* del narcotráfico; somete al pescador a extorsiones de GDOs y robo armado de motores | Descartada por seguridad nacional. El combustible barato físico en agua es capturado por el crimen organizado. |
-| **Subsidio Directo Bancario por Zarpe DIRNEA y Transpondedor AIS** | **Aprobada** | Precio pleno en muelle quiebra el arbitraje narco; subsidio directo protege liquidez; AIS protege ante piratas | Requiere coordinación telemática DIRNEA-BanEcuador | Aprobada. Resuelve el desvío ilícito y protege la vida de los pescadores artesanales. |
+| **Subsidio Directo por Zarpe, 1 Año de Gracia y Desescalamiento 10% con Motores 4T EFI** | **Aprobada** | Precio pleno en muelle erradica el narcotráfico; 1 año de gracia y crédito para motores 4T EFI (ahorro 45% combustible) neutralizan el desmonte del 10% anual; AIS y geocercas protegen ante piratas | Requiere coordinación telemática DIRNEA-BanEcuador y crédito CFN | Aprobada. Resuelve el desvío ilícito, reduce consumo físico de combustible a la mitad y protege la vida de los pescadores artesanales. |
 | **Shock Inmediato en Combustible Industrial** | **Descartada** | Recaudación fiscal inmediata | Quiebra a empresas manufactureras con márgenes estrechos e induce inflación en productos básicos | Descartada. Se aprueba sendero gradual del 1.5% mensual a 36 meses con incentivos para GNL y biomasa. |
 | **Tarifa Intermedia para Metro y Transporte Público Eléctrico** | **Aprobada** | Incentiva la sustitución masiva de diésel por tracción eléctrica limpia; protege la tarifa de pasaje popular | Exige medidores dedicados y contratos de servicio | Aprobada. Tarifa por Costo de Servicio (~8 ¢/kWh) mayor que hospital pero menor que minería/exportación. |
 | **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |
