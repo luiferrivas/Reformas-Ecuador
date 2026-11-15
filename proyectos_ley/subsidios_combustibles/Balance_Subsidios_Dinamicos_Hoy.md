@@ -43,11 +43,18 @@ $$P_{\text{techo}} = P_{\text{paridad}} \times (1 + \alpha), \quad \alpha \in [0
 2. **Absorción de Picos sin Cargo al Estado:** Ante rallies alcistas (WTI > 85-90 USD/barril), la CFEC amortigua las variaciones pagando el diferencial desde sus propios fondos fiduciarios acumulados.
 3. **Subsidio Neto Estatal Garantizado en Cero (0.00 USD):** El Ministerio de Economía y Finanzas no realiza aportes ni inyecciones de liquidez. Si en un evento geopolítico extremo la reserva fiduciaria se agotara, el precio en surtidor flota cubriendo la paridad real, erradicando cualquier fuga fiscal.
 
-### 1.3. Cupo Máximo Telemático por Medidor Residencial Eléctrico (CUEN)
+### 1.3. Cupo Máximo Telemático por Medidor Residencial Eléctrico (CUEN) y 4 Candados Anti-Fraude
 Para blindar el universo residencial y evitar la filtración clandestina hacia el sector comercial o contrabando:
 1. **Cupo de 15 Cilindros/Año:** Cada Código Único Eléctrico Nacional (CUEN) con Tarifa Residencial (~5.3 millones de medidores) tiene un cupo anual protegido de hasta 15 cilindros de 15 kg (cubriendo 148% de la demanda de cocción familiar, calculada en 10.1 cilindros/año bajo eficiencia de quemador del 55%).
 2. **Facturación a Paridad de Excedentes:** A partir del cilindro número 16, o para usuarios con Tarifa Comercial/Industrial (RUC), el sistema factura obligatoriamente el precio internacional de 13.50 USD.
 3. **Validación Telemática:** Bodegas y camiones repartidores validan el CUEN en tiempo real mediante aplicativo móvil homologado por ARCH y SRI. Hogares rurales sin red cuentan con CUEN Virtual emitido por MIES y GADs Parroquiales.
+4. **Cuatro Candados Anti-Fraude:** (1) Cadencia temporal de 20 días mínimo entre cilindros; (2) Canje 1:1 de envase con notificación transaccional SMS inmediata al dueño del medidor; (3) Filtro de consumo eléctrico activo mínimo de 15 kWh/mes; y (4) Geocercas GPS con bloqueo de descargas múltiples en coordenadas con RUC comercial.
+
+### 1.4. Sendero Suave del 10% Anual en Diésel de Carga Pesada Comercial
+A fin de resolver la mayor sangría fiscal del diésel automotriz sin detonar paros nacionales:
+1. **Ajuste Suave del 10% Anual:** El Diésel Premium para camiones y tractocamiones (C2 a C3S3) pasa de 1.750 a 1.925 USD/galón en el Año 1 (+17.5 centavos), liberando **+220.50 M USD/año** netos.
+2. **Cláusula Obligatoria de Pase de Flete:** Las grandes corporaciones cargadoras absorben el costo del combustible (+10.50 USD por viaje de 30 toneladas en la ruta Guayaquil-Quito = 1.6 centavos por quintal de víveres), protegiendo íntegramente el margen del transportista.
+3. **Arancel 0% en Neumáticos y Frenos:** Genera un ahorro de 1,800 a 2,400 USD anuales por unidad, amortiguando más del 65% del sobrecosto de combustible del primer año.
 
 ---
 
@@ -60,12 +67,11 @@ Para blindar el universo residencial y evitar la filtración clandestina hacia e
 | **GLP Doméstico Residencial (15 kg)** | 539.00 M USD | -11.51 M USD | 527.49 M USD | -2.14% |
 | **GLP Comercial e Industrial** | 180.00 M USD | -180.00 M USD | **0.00 M USD** | **-100.00%** |
 | **Diésel Camaronero (<30 ha y DAEs)** | 75.00 M USD | -75.00 M USD | **0.00 M USD** | **-100.00%** |
-| **Diésel Transporte Pesado / Buses / Pesca** | 265.00 M USD | 0.00 M USD | 265.00 M USD | 0.00% |
+| **Diésel Carga Pesada (Sendero 10%a)** | 1,260.00 M USD | -220.50 M USD | 1,039.50 M USD | -17.50% |
+| **Diésel Transporte Pasajeros / Pesca** | 265.00 M USD | 0.00 M USD | 265.00 M USD | 0.00% |
 | **Gasolinas Extra / Ecopaís (Compensación D.308)** | 80.00 M USD | 0.00 M USD | 80.00 M USD | 0.00% |
 | **Fletes Especiales (Galápagos y Amazonía)** | 20.60 M USD | 0.00 M USD | 20.60 M USD | 0.00% |
-| **TOTAL FACTURA SUBSIDIOS COMBUSTIBLES** | **1,159.60 M USD** | **-266.51 M USD** | **893.09 M USD** | **-22.98%** |
-
-*(Nota: Con cálculo nominal de GLP residencial sobre 93 M cilindros, el ahorro directo es de **-270.35 M USD**, dejando **889.25 M USD** de subsidio remanente).*
+| **TOTAL SUBSIDIOS DIRECTOS COMBUSTIBLES** | **2,419.60 M USD** | **-487.01 M USD** | **1,932.59 M USD** | **-20.13%** |
 
 ---
 
@@ -81,11 +87,13 @@ De forma complementaria y con efecto inmediato en caja, la ley suprime la deduci
 
 | Fuente de Recursos Liberados | Monto Liberado Año 1 (M USD) | % sobre Total Alivio |
 | :--- | :--- | :--- |
-| **Ahorro Directo por Diésel Camaronero (100% Paridad)** | +75.00 M USD | 18.68% |
-| **Ahorro Directo por Desmonte GLP Comercial/Industrial** | +180.00 M USD | 44.83% |
-| **Ahorro Directo por GLP Doméstico (+10% Suave)** | +11.51 M USD | 2.87% |
-| **Recuperación Tributaria de IVA en Combustibles (SRI)** | +135.00 M USD | 33.62% |
-| **ALIVIO FISCAL TOTAL EN CAJA ESTATAL (AÑO 1)** | **+401.51 M USD/año** | **100.00%** |
+| **Ahorro Directo por Diésel Camaronero (100% Paridad)** | +75.00 M USD | 12.06% |
+| **Ahorro Directo por Desmonte GLP Comercial/Industrial** | +180.00 M USD | 28.94% |
+| **Ahorro Directo por GLP Doméstico (+10% Suave)** | +11.51 M USD | 1.85% |
+| **Recuperación Tributaria de IVA en Combustibles (SRI)** | +135.00 M USD | 21.70% |
+| **SUBTOTAL ALIVIO PAQUETE BASE MODULAR** | **+401.51 M USD/año** | **64.55%** |
+| **Ahorro Directo por Diésel Carga Pesada (10% Suave)** | +220.50 M USD | 35.45% |
+| **ALIVIO FISCAL TOTAL CONSOLIDADO EN CAJA (AÑO 1)** | **+622.01 M USD/año** | **100.00%** |
 
 *(Con cómputo nominal bruto de GLP: **+405.35 M USD/año**).*
 

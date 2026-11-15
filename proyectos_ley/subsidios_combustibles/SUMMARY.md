@@ -50,17 +50,19 @@
    - Precio inicial base: **1.65 USD por cilindro de 15 kg**.
    - Factor de ajuste anual automático: **1.10** aplicado cada 1 de enero por ministerio de la ley.
    - Meta de paridad internacional: **13.50 USD por cilindro** (Plazo de convergencia: **22.05 años**).
-4. **Cupo Máximo de 15 Cilindros/Año por Medidor Residencial (CUEN) y Desacople Comercial:**
+4. **Cupo Máximo de 15 Cilindros/Año por Medidor Residencial (CUEN), Desacople Comercial y Cuatro Candados Anti-Fraude:**
    - El beneficio del GLP subsidiado se topa a **15 cilindros de 15 kg por año calendario por cada Código Único Eléctrico Nacional (CUEN)** con Tarifa Residencial (~5.3M de medidores, cubriendo el 148% de la demanda de cocción familiar).
    - Todo cilindro excedente (a partir del #16) o compra de usuarios comerciales/industriales abona el 100% de paridad internacional (**13.50 USD/cilindro**) desde el Día 1.
    - Validación telemática en tiempo real vía app ARCH-SRI-ARCONEL en bodegas y camiones repartidores (con modo offline criptográfico).
    - Emisión de **CUEN Virtual / Código Social Rural** georreferenciado por vivienda física para familias rurales off-grid sin conexión a la red.
+   - **Cuatro Candados Inviolables:** (1) Cadencia temporal no acumulable (máximo 1 cilindro cada 20 días); (2) Canje físico 1:1 y alerta transaccional SMS inmediata al titular del medidor; (3) Consumo eléctrico activo mínimo no menor a 15 kWh/mes; y (4) Geocercas satelitales GPS con bloqueo automático de descargas múltiples en establecimientos con RUC comercial.
 5. **No Deducibilidad de IVA en Combustibles (Art. 66 LORTI):** El IVA pagado en combustibles no genera crédito fiscal para compensar ventas; solo se deduce como gasto en Impuesto a la Renta. Cero variación del precio en surtidor al consumidor.
 6. **Capping Suave a 5 Años del Decreto 308 (20% Anual):** Desescalamiento del 20% anual en compensación a taxis, camionetas mixtas rurales y tricimotos, con financiamiento preferente de CFN para kits de GNV y biometano.
 7. **Precio Pleno en Muelle Pesquero, Subsidio por Zarpe, 1 Año de Gracia y Desescalamiento del 10% Anual:** Cobro a paridad 100% en surtidor marino, compensación anticipada en Tarjeta Prepago BanEcuador al registrar zarpe legal con 1 año de gracia, seguido de reducción del 10% anual compuesto, apalancado con crédito CFN para motores 4T EFI (ahorro 45% combustible), y transpondedores satelitales AIS obligatorios y gratuitos contra GDOs.
 8. **Sendero Gradual Industrial:** Incremento del 1.5% mensual a 36 meses hasta paridad plena.
 9. **Tarifa Preferente de Electromovilidad Masiva:** Tarifa por Costo de Servicio (~0.075 a 0.088 USD/kWh) para Metro de Quito, Tranvía de Cuenca y electro-corredores, superior a hospitales pero inferior a industrias exportadoras.
 10. **Banda Dinámica con Colchón Contracíclico (5% - 10%) y Cuenta CFEC:** Margen regulatorio del 5% al 10% sobre la paridad técnica internacional de importación WTI / Costa del Golfo ($P_{\text{techo}} = P_{\text{paridad}} \times (1 + \alpha)$) en gasolinas y diésel automotriz. Los excedentes en periodos estables se depositan en la Cuenta CFEC del Banco Central. En periodos de alzas extraordinarias (WTI > 85-90 USD/barril), la CFEC amortigua el precio al consumidor con sus propios saldos acumulados. Si se agotan, flota a paridad. El subsidio neto del Estado para estos combustibles es permanentemente 0.00 USD.
+11. **Sendero Suave del 10% Anual en Diésel de Carga Pesada Comercial:** Ajuste reglado del 10% anual compuesto cada 1 de enero en Diésel Premium para camiones y tractocamiones (categorías C2 a C3S3), desacoplado del transporte de pasajeros. Incluye Cláusula Obligatoria de Pase de Flete (*Fuel Surcharge Clause*) a las empresas cargadoras (impacto de 1.6 centavos por quintal transportado) y desgravación arancelaria al 0% en neumáticos radiales pesados y filtros. Genera **+220.50 M USD en el Año 1**, convergiendo a paridad plena en 6.5 años (+1,701.00 M USD/año permanentes).
 
 ---
 
@@ -83,13 +85,21 @@
 - **Costo Operativo de Fiscalización y Telemetría:** 2.20 M USD/año (operativos conjuntos ARCH-SENAE-SRI-Policía Nacional y monitoreo satelital Guardacostas).
 - **Cuello de Botella Operativo:** Logística de instalación de dispositivos AIS en caletas dispersas y disponibilidad de kits de inyección secuencial GNV.
 
-### Modelo de Ingresos y Alivio Fiscal Consolidado (Años 1 al 6)
-- **Año 1 (Inmediato):** **+401.51 M USD/año** garantizados (o **+405.35 M USD/año** nominal bruto).
-- **Año 2:** **+447.13 M USD/año** (incorporando +16 M de capping vehicular, +12 M del sendero industrial y +5 M del desescalamiento pesquero).
-- **Año 3:** **+495.08 M USD/año** (capping vehicular al 60%, sendero industrial al 50% y pesca artesanal al 80%).
-- **Año 4:** **+541.43 M USD/año** (capping vehicular al 40%, industria a paridad y pesca artesanal al 70%).
-- **Año 5:** **+584.22 M USD/año** (capping vehicular al 20%, industria 100% paridad y pesca artesanal al 60%).
-- **Año 6 en adelante:** **+623.00 M USD/año** (extinción definitiva de compensaciones vehiculares y pesca al 50%, convergiendo a **+648.00 M USD/año** permanentes en el año 11).
+### Modelo de Ingresos y Alivio Fiscal Consolidado (Años 1 al 6+)
+- **Paquete Base Modular (Camaronero + GLP Comercial + GLP 10% + IVA + Capping Vehicular + Industria + Pesca):**
+  * Año 1: **+401.51 M USD/año** garantizados (12.75% del déficit PGE de -3,150 M USD).
+  * Año 2: **+447.13 M USD/año**.
+  * Año 3: **+495.08 M USD/año**.
+  * Año 4: **+541.43 M USD/año**.
+  * Año 5: **+584.22 M USD/año** (18.55% del déficit).
+  * Año 6 en adelante: **+623.00 M USD/año** (convergencia a +648 M USD al año 11).
+- **Paquete Consolidado Ampliado (Incorporando Sendero Gradual 10% en Diésel Carga Pesada):**
+  * Año 1: **+622.01 M USD/año** (19.75% del déficit PGE liquidado desde el primer año).
+  * Año 2: **+910.81 M USD/año** (28.91% del déficit).
+  * Año 3: **+1,224.62 M USD/año** (38.88% del déficit).
+  * Año 4: **+1,564.55 M USD/año** (49.67% del déficit).
+  * Año 5: **+1,929.90 M USD/año** (61.27% del déficit).
+  * Año 6 en adelante: **+2,324.00 M USD/año permanentes** (elimina el **73.78% del déficit fiscal total del Ecuador**).
 
 ### Doble Métrica Obligatoria de Payback (Electrificación Camaronera Típica de 25 Hectáreas)
 
@@ -124,6 +134,8 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Colchón Contracíclico del 5% al 10% y Cuenta CFEC** | **Aprobada** | Sistema 100% autofinanciado; absorbe picos de WTI con saldos propios acumulados; garantiza subsidio fiscal neto de 0.00 USD | Exige administración fiduciaria transparente en el BCE | Aprobada. Convierte la fórmula de precios en un estabilizador automático sin costo para el Presupuesto del Estado. |
 | **Prohibición de Crédito Fiscal de IVA en Combustibles (Art. 66 LORTI)** | **Aprobada** | Recupera +135 M USD/año netos; combate la defraudación por facturas fantasmas; no altera el precio en surtidor al consumidor | Oposición de cámaras empresariales que utilizaban el crédito tributario | Aprobada. Erradica el subsidio tributario encubierto sin impacto inflacionario en surtidor. |
 | **Cupo de GLP por Cédula vs. Medidor Residencial (CUEN)** | **Aprobada (CUEN)** | CUEN ancla el subsidio a la vivienda física (5.3M medidores = 79.5M cilindros techo); erradica el tráfico de cédulas alquiladas; 15 cilindros/año cubren 148% de la demanda de cocción familiar | Requiere interconexión ARCH-ARCONEL y app telemática en camiones repartidores | Aprobada por medidor eléctrico. El esquema por cédula crea 107M de cupos teóricos, incentiva mafias de acopio de cédulas y no coincide con la termodinámica de cocción por hogar. |
+| **Cuatro Candados Anti-Fraude en Cupo CUEN (Cadencia, SMS, Consumo Mínimo, GPS)** | **Aprobada** | Cadencia de 20 días impide compras en bloque; alerta SMS evita suplantación; consumo mínimo de 15 kWh/mes desactiva medidores fantasma; GPS bloquea descargas masivas en comercios | Requiere desarrollo informático e integración de bases de datos | Aprobada. Convierte el cupo en un sistema blindado con menos del 2% de elusión residual. |
+| **Sendero Suave del 10% Anual en Transporte Pesado con Pase de Flete y Arancel 0% Llantas** | **Aprobada** | Libera +220.50 M USD en Año 1; impacto inflacionario nulo (1.6 centavos por quintal); arancel 0% en llantas y cláusula de flete anulan el paro de FENATRAPE | Requiere coordinación regulatoria con MTOP y COMEX | Aprobada. Permite liquidar el subsidio al diésel de carga comercial sin traumatismo social ni paralización de carreteras. |
 
 ---
 

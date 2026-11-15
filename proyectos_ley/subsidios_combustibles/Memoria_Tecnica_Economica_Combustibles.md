@@ -247,6 +247,18 @@ Aproximadamente el 2.7% de las viviendas en zonas rurales remotas (Amazonía pro
 #### 4.5.5. Facturación de Excedentes a Paridad Plena (13.50 USD)
 El sistema no impone racionamiento físico: cualquier usuario puede comprar cilindros adicionales si los requiere (para calefones intensivos, eventos familiares o talleres), pero a partir del cilindro número dieciséis (16), abona el costo real sin subsidio estatal (13.50 USD). Esto elimina las distorsiones de escasez y garantiza que el Presupuesto General del Estado no financie consumos suntuarios ni desvíos clandestinos.
 
+#### 4.5.6. Arquitectura Forense Anti-Evasión: Los Cuatro Candados de Seguridad Tecnológica y Operativa
+Para responder al riesgo de evasión o desvío clandestino del cupo de 15 cilindros anuales, el sistema incorpora cuatro candados inviolables de control telemático y operativo:
+
+1. **Candado 1: Cadencia Temporal No Acumulable (Tope de Despacho Cada 20 Días):**  
+   Se prohíbe el retiro en bloque de la cuota anual. El sistema telemático impone un intervalo mínimo de veinte (20) días entre compras por medidor (autorizando hasta 2 cilindros/mes exclusivamente en cantones con temperaturas medias inferiores a 12 °C o temporadas de estiaje previo informe técnico de la ARCH). Si un comercio clandestino intenta acumular cilindros con CUENs ajenos, se estrella contra la barrera temporal: necesitaría coordinar con decenas de personas cada semana, destruyendo la viabilidad logística del arbitraje.
+2. **Candado 2: Canje Físico Uno a Uno (1:1) y Notificación Transaccional Inmediata (SMS/WhatsApp):**  
+   Nadie puede adquirir un cilindro lleno sin entregar un cilindro metálico vacío homologado con troquelado nacional. En el segundo en que el despachador digita o escanea el CUEN, el servidor central de ARCONEL-ARCH envía una alerta gratuita por SMS o mensaje de datos al celular del titular registrado en la planilla eléctrica (*"Se registró compra de cilindro X/15 en su medidor CUEN 1002345"*). Si el titular no realizó la compra, puede bloquear su cupo al instante con una respuesta, desencadenando la fiscalización inmediata del vehículo repartidor.
+3. **Candado 3: Consumo Eléctrico Activo Mínimo (≥ 15 kWh/mes):**  
+   Para tener derecho al cupo de gas doméstico, el medidor debe registrar un consumo eléctrico residencial real y continuo no menor a 15 kWh/mes en el último trimestre. Esto inhabilita automáticamente predios baldíos, galpones desocupados, suites deshabitadas o medidores fantasmas creados para defraudar al fisco.
+4. **Candado 4: Geocercas Telemáticas y Bloqueo de Descarga Múltiple en Coordenadas Comerciales (RUC):**  
+   Los camiones repartidores cuentan con rastreo satelital GPS obligatorio. El software centralizado prohíbe y alerta la descarga sucesiva de múltiples cilindros asociados a diferentes CUENs residenciales en una misma coordenada geográfica correspondiente a un establecimiento comercial, restaurante o pollería con RUC activo, procediéndose al decomiso de la carga y a la revocatoria del permiso de operación del transportista.
+
 ---
 
 ## 5. Reforma Tributaria al IVA en Combustibles (LORTI Art. 66)
@@ -399,12 +411,65 @@ Donde:
 
 ---
 
-## 10. Balance Consolidado de Alivio Fiscal (Años 1 al 5)
+### 10. Transporte Pesado de Carga Comercial: Sendero Suave del 10% Anual, Cláusula de Pase de Flete y Desgravación de Neumáticos
 
-Sumando todos los componentes del paquete integral (combustibles directos + reforma tributaria IVA + capping a 5 años de gasolinas + sendero industrial):
+### 10.1. Parque Automotor, Demanda y Consumo de Diésel Pesado
+El transporte pesado de carga en el Ecuador constituye la columna vertebral del comercio interno y de exportación:
+- **Flota de Carga Pesada en Operación (C2, C3, C3S2, C3S3):** ~75,000 tractocamiones y camiones rígidos matriculados ante la ANT.
+- **Recorrido Promedio Nacional:** 9,500 km/mes por unidad en rutas interprovinciales e intercantonales.
+- **Rendimiento Térmico en Topografía Andina:** 6.5 a 7.2 km/galón (promedio ponderado: 6.8 km/galón).
+- **Consumo Mensual por Unidad:** ~1,400 galones de Diésel Premium al mes.
+- **Volumen Total Anual de Diésel Pesado:** ~1,260 millones de galones anuales (~4.77 millones de metros cúbicos).
+- **Precio Base Actual en Surtidor:** 1.75 USD/galón.
+- **Precio Técnico de Paridad WTI / Costa del Golfo:** 3.25 USD/galón (subsidio estatal ciego de 1.50 USD/galón).
+
+### 10.2. Trayectoria Suave del 10% Anual Compuesto (Convergencia a 6.5 Años)
+El precio en surtidor para vehículos de carga pesada se incrementa automáticamente cada 1 de enero en un 10% compuesto:
+
+$$P_{\text{diésel carga}}(t) = P_0 \times (1 + r)^t = 1.75 \times (1.10)^t$$
+
+- **Año 1:** 1.925 USD/gal (+0.175 USD) $\rightarrow$ Ahorro fiscal anual: **+220.50 M USD/año**.
+- **Año 2:** 2.118 USD/gal (+0.193 USD) $\rightarrow$ Ahorro fiscal acumulado: **+463.68 M USD/año**.
+- **Año 3:** 2.329 USD/gal (+0.211 USD) $\rightarrow$ Ahorro fiscal acumulado: **+729.54 M USD/año**.
+- **Año 4:** 2.562 USD/gal (+0.233 USD) $\rightarrow$ Ahorro fiscal acumulado: **+1,023.12 M USD/año**.
+- **Año 5:** 2.818 USD/gal (+0.256 USD) $\rightarrow$ Ahorro fiscal acumulado: **+1,345.68 M USD/año**.
+- **Año 6.5 (Paridad Plena):** 3.250 USD/gal $\rightarrow$ Extinción total del subsidio (**+1,701.00 M USD/año permanentes**).
+
+### 10.3. Microeconomía del Flete: Demostración Matemática del Nulo Impacto Inflacionario
+Para desmontar la narrativa de que el ajuste del diésel encarece de forma agresiva la alimentación popular, se modela el trayecto troncal más representativo del país:
+- **Ruta:** Guayaquil — Quito (420 km, ascenso de 0 a 2,850 msnm).
+- **Vehículo:** Tractocamión de 3 ejes con semirremolque (tráiler de 48 toneladas de peso bruto vehicular).
+- **Carga Útil Transportada:** 30 toneladas métricas de víveres (**30,000 kg** o 661 quintales de arroz, papa o harina).
+- **Consumo de Diésel en el Trayecto:** 60 galones.
+
+Sobrecosto del viaje en el Año 1 (+17.5 centavos por galón):
+
+$$\Delta_{\text{viaje}} = 60 \text{ gal} \times 0.175 \frac{\text{USD}}{\text{gal}} = 10.50 \text{ USD por viaje completo}$$
+
+Sobrecosto unitario por kilogramo transportado:
+
+$$\Delta_{\text{kilo}} = \frac{10.50 \text{ USD}}{30,000 \text{ kg}} = 0.00035 \frac{\text{USD}}{\text{kg}} = 0.035 \text{ centavos de dólar/kg}$$
+
+Sobrecosto por quintal de 100 libras (45.36 kg):
+
+$$\Delta_{\text{quintal}} = 45.36 \text{ kg} \times 0.00035 \frac{\text{USD}}{\text{kg}} = 0.0158 \text{ USD} \approx 1.6 \text{ centavos de dólar por quintal}$$
+
+El impacto inflacionario en un quintal de arroz de 42.00 USD es de apenas el 0.038%, desmontando cualquier justificación técnica para paralizaciones o especulación de precios.
+
+### 10.4. Las Cuatro Palancas Estratégicas para Neutralizar el Veto Sindical
+1. **Desacople Quirúrgico Carga (B2B) vs. Pasajeros (B2C):** El ajuste aplica estrictamente a camiones de carga de empresas privadas. Los buses urbanos e interprovinciales de pasajeros no entran en este sendero, evitando protestas ciudadanas por el valor del pasaje popular.
+2. **Cláusula Obligatoria de Pase de Flete (*Fuel Surcharge Clause*):** Por mandato legal, las empresas generadoras de carga (cadenas de retail, agroindustrias, exportadores) absorben obligatoriamente el sobrecosto de 10.50 USD por viaje en la tarifa del flete. El camionero no pierde un solo centavo de su margen operativo.
+3. **Desgravación Arancelaria de Neumáticos y Frenos (Arancel 0%):** El Estado suprime aranceles a neumáticos radiales pesados, generando un ahorro operativo directo de 1,800 a 2,400 USD anuales por unidad, compensando más del 65% del sobrecosto de combustible del primer año.
+4. **Fecha Única Anual (1 de Enero):** Se elimina el desgaste de revisiones mensuales, alineando el ajuste con la renovación contractual anual de la logística nacional.
+
+---
+
+## 11. Balance Consolidado de Alivio Fiscal (Años 1 al 6+)
+
+Sumando todos los componentes del paquete integral (combustibles directos + reforma tributaria IVA + capping a 5 años de gasolinas + sendero industrial + pesca artesanal + sendero gradual de carga pesada):
 
 | Componente de Reforma Fiscal | Año 1 (M USD) | Año 2 (M USD) | Año 3 (M USD) | Año 4 (M USD) | Año 5 (M USD) | Año 6+ (M USD) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Diésel Camaronero (100% Paridad)** | +75.00 | +75.00 | +75.00 | +75.00 | +75.00 | +75.00 |
 | **2. GLP Comercial e Industrial (Desacople)**| +180.00 | +180.00 | +180.00 | +180.00 | +180.00 | +180.00 |
 | **3. GLP Doméstico (+10% Anual Suave)** | +11.51 | +24.13 | +38.08 | +53.43 | +70.22 | +88.00 |
@@ -412,20 +477,22 @@ Sumando todos los componentes del paquete integral (combustibles directos + refo
 | **5. Capping Gasolinas Decreto 308 (5 Años)**| 0.00 | +16.00 | +32.00 | +48.00 | +64.00 | +80.00 |
 | **6. Sendero Industrial Gradual (36 Meses)** | 0.00 | +12.00 | +25.00 | +35.00 | +40.00 | +40.00 |
 | **7. Desescalamiento Pesca Artesanal (10%a)** | 0.00 | +5.00 | +10.00 | +15.00 | +20.00 | +25.00 |
-| **ALIVIO FISCAL ANUAL CONSOLIDADO** | **+401.51** | **+447.13** | **+495.08** | **+541.43** | **+584.22** | **+623.00** |
+| **SUBTOTAL ALIVIO FISCAL MODULAR BASE** | **+401.51** | **+447.13** | **+495.08** | **+541.43** | **+584.22** | **+623.00** |
+| **8. Sendero Diésel Carga Pesada (10%a)** | +220.50 | +463.68 | +729.54 | +1,023.12 | +1,345.68 | +1,701.00 |
+| **TOTAL ALIVIO FISCAL CON TRANSPORTE PESADO**| **+622.01** | **+910.81** | **+1,224.62**| **+1,564.55**| **+1,929.90**| **+2,324.00** |
 
-*(Nota: En el Año 1, bajo cómputo nominal bruto de GLP doméstico sobre 93 M cilindros, el alivio fiscal inicial alcanza **+405.35 M USD/año**).*
-
-### 10.1. Impacto en el Déficit del Presupuesto General del Estado
-Con un déficit presupuestario proyectado para 2026 de **-3,150.00 M USD**, la reforma modular estructurada cubre el **12.75% del déficit fiscal total en el Año 1**, expandiéndose a **584.22 M USD en el Año 5 (18.55% del déficit)**, y superando los **623.00 M USD anuales permanentes a partir del Año 6** (convergencia a +648 M USD al completarse el desmonte pesquero en el año 11), con **cero conflictividad social, blindaje total a la economía campesina y desarticulación de las mafias criminales del combustible**.
+### 11.1. Impacto en el Déficit del Presupuesto General del Estado
+Con un déficit presupuestario proyectado para 2026 de **-3,150.00 M USD**:
+- **Bajo el Paquete Base Modular:** Se cubre el **12.75% del déficit en el Año 1 (+401.51 M USD)** y el **18.55% en el Año 5 (+584.22 M USD)**.
+- **Incorporando el Sendero de Carga Pesada:** Se liquida de golpe el **19.75% del déficit nacional en el Año 1 (+622.01 M USD)**, alcanzando el **61.27% en el Año 5 (+1,929.90 M USD)** y extinguiendo el **73.78% del déficit en el Año 6 (+2,324.00 M USD/año permanentes)**, sin generar paros nacionales ni traumatismos sociales.
 
 ---
 
-## 11. Doble Métrica Obligatoria de Payback (Electrificación Camaronera de 25 Hectáreas)
+## 12. Doble Métrica Obligatoria de Payback (Electrificación Camaronera de 25 Hectáreas)
 
 $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Después de Impuestos}}$$
 
-### 11.1. Payback Crudo / Real de Resistencia (*Unshielded Payback*)
+### 12.1. Payback Crudo / Real de Resistencia (*Unshielded Payback*)
 - **Finca Camaronera Evaluada:** Predio típico de 25 hectáreas en Golfo de Guayaquil / El Oro.
 - **CAPEX Requerido:** 65,000 USD (construcción de 1.8 km de línea de media tensión 13.8 kV, banco de transformación de 75 kVA, tableros de control y 4 motores eléctricos trifásicos de 15 kW).
 - **Ahorro Operativo Anual Bruto (OPEX diésel vs electricidad):** 25,700 USD/año.
@@ -435,20 +502,23 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
   * Flujo neto de caja anual después de impuestos: 16,383.75 USD/año.
 - **Resultado:** **3.97 años** *(Proyecto de inversión solvente en mercado abierto sin subsidios)*.
 
-### 11.2. Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*)
+### 12.2. Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*)
 - **Mecanismos Aplicados:** Deducción adicional del 100% en conciliación tributaria para adquisición de maquinaria de eficiencia energética (Art. 10 LORTI), arancel 0% para transformadores y motores trifásicos, y crédito verde blando CFN al 6.5%.
 - **Flujo Neto Acelerado:** 23,500 USD/año.
 - **Resultado:** **2.77 años**.
 
 ---
 
-## 12. Bitácora Forense de Decisiones y Descartes (Mandamiento 6)
+## 13. Bitácora Forense de Decisiones y Descartes (Mandamiento 6)
 
 | Alternativa Evaluada | Decisión | Ventajas Identificadas | Riesgos y Contras Críticos | Justificación Técnica del Descarte |
 | :--- | :--- | :--- | :--- | :--- |
 | **Shock Frontal Simultáneo en Diésel y GLP** | **Descartada** | Ahorro fiscal bruto inmediato de más de 800 M USD. | Unifica a la CONAIE, transportistas y distribuidores en un solo paro nacional violento. | Viola el principio de realismo político. Los ahorros en papel que son derogados a los 10 días tras un paro tienen valor cero. |
 | **Remoción del 100% del Diésel Camaronero** | **Aprobada** | Ahorro de 75 M USD/año inmediato; cero riesgo de paro popular; blinda contra aranceles compensatorios en la OMC. | Exige inversión en electrificación de piscinas. | Aprobada. La electricidad industrial es 50.2% más barata que el diésel real; la reforma crea la señal económica perfecta para la modernización. |
 | **Sendero Suave del 10% Anual en GLP Doméstico** | **Aprobada** | Ajuste imperceptible (+16 centavos/cilindro en año 1); desactiva el conflicto social; blindaje legal automático. | Convergencia lenta (22 años para paridad plena). | Aprobada como solución pragmática e irreversible. Se complementa con el desmonte inmediato al GLP comercial/industrial (+180 M USD/año). |
+| **Cupo de GLP por Cédula vs. Medidor Residencial (CUEN)** | **Aprobada (CUEN)** | CUEN ancla el subsidio a la vivienda física (5.3M medidores = 79.5M cilindros techo); erradica el tráfico de cédulas alquiladas; 15 cilindros/año cubren 148% de la demanda de cocción familiar. | Requiere interconexión ARCH-ARCONEL y app telemática en camiones repartidores. | Aprobada por medidor eléctrico. El esquema por cédula crea 107M de cupos teóricos, incentiva mafias de acopio de cédulas y no coincide con la termodinámica de cocción por hogar. |
+| **Cuatro Candados Anti-Fraude en Cupo CUEN (Cadencia, SMS, Consumo Mínimo, GPS)** | **Aprobada** | Cadencia de 20 días impide compras en bloque; alerta SMS evita suplantación; consumo mínimo de 15 kWh/mes desactiva medidores fantasma; GPS bloquea descargas masivas en comercios. | Requiere desarrollo informático e integración de bases de datos. | Aprobada. Convierte el cupo en un sistema blindado con menos del 2% de elusión residual. |
+| **Sendero Suave del 10% Anual en Transporte Pesado con Pase de Flete y Arancel 0% Llantas** | **Aprobada** | Libera +220.50 M USD en Año 1; impacto inflacionario nulo (1.6 centavos por quintal); arancel 0% en llantas y cláusula de flete anulan el paro de FENATRAPE. | Requiere coordinación regulatoria con MTOP y COMEX. | Aprobada. Permite liquidar el subsidio al diésel de carga comercial sin traumatismo social ni paralización de carreteras. |
 | **Capping a 24 Meses vs Capping a 5 Años en Gasolinas** | **Aprobada (5 Años)** | Desescalamiento del 20% anual (-8.60 USD/mes por taxi cada año); permite pagar el kit GNV con el propio ahorro. | Mayor tiempo para extinguir los 80 M USD. | Aprobada a 5 años. Desactiva paros urbanos al dar holgura financiera para el cambio vehicular. |
 | **Subsidio Físico en Muelle a la Pesca Artesanal** | **Descartada** | Facilidad aparente de despacho en caleta. | Alimenta directamente a las lanchas *go-fast* del narcotráfico; expone al pescador a vacunas y piratería de GDOs. | Descartada por razones de seguridad nacional. El combustible en producto físico es capturado por el crimen organizado. |
 | **Subsidio Directo por Zarpe, 1 Año de Gracia y Desescalamiento 10% con Motores 4T EFI** | **Aprobada** | Precio pleno en muelle erradica el narcotráfico; 1 año de gracia y crédito para motores 4T EFI (ahorro 45% combustible) neutralizan el desmonte del 10% anual; AIS y geocercas protegen ante piratas. | Requiere coordinación telemática DIRNEA-BanEcuador y crédito CFN. | Aprobada. Resuelve el desvío ilícito, reduce consumo físico de combustible a la mitad y protege la vida de los pescadores artesanales. |
@@ -457,4 +527,3 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor. | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl. | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |
 | **Colchón Contracíclico del 5% al 10% y Cuenta CFEC** | **Aprobada** | Sistema 100% autofinanciado; absorbe picos de WTI con saldos propios acumulados; garantiza subsidio fiscal neto de 0.00 USD. | Exige administración fiduciaria transparente en el BCE. | Aprobada. Convierte la fórmula de precios en un estabilizador automático sin costo para el Presupuesto del Estado. |
 | **Eliminación de Deducibilidad de IVA en Combustibles** | **Aprobada** | Captura +135 M USD/año; erradica facturas fantasmas; no afecta el precio de venta en surtidor al público. | Resistencia de cámaras empresariales. | Aprobada. El combustible no debe ser un escudo de evasión de IVA. Si es gasto productivo, se deduce en Impuesto a la Renta. |
-| **Cupo de GLP por Cédula vs. Medidor Residencial (CUEN)** | **Aprobada (CUEN)** | CUEN ancla el subsidio a la vivienda física (5.3M medidores = 79.5M cilindros techo); erradica el tráfico de cédulas alquiladas; 15 cilindros/año cubren 148% de la demanda de cocción familiar. | Requiere interconexión ARCH-ARCONEL y app telemática en camiones repartidores. | Aprobada por medidor eléctrico. El esquema por cédula crea 107M de cupos teóricos, incentiva mafias de acopio de cédulas y no coincide con la termodinámica de cocción por hogar. |

@@ -53,6 +53,13 @@ etapa_2_glp_domestico_residencial:
   precio_cilindro_excedente_usd: 13.500 # A partir del cilindro #16 o compras no residenciales
   sistema_validacion_distribucion: "CUEN - Código Único Eléctrico Nacional vía app móvil ARCH/ARCONEL/SRI en bodegas y camiones repartidores"
   regimen_rural_offgrid: "CUEN Virtual / Código Social Rural georreferenciado por vivienda física con MIES y GADs Parroquiales"
+  candados_seguridad_antifraude:
+    cadencia_temporal_minima_dias: 20
+    despacho_maximo_mensual_cilindros: 2 # Zonas frías Sierra / estiaje
+    canje_fisico_uno_a_uno_envase_troquelado: true
+    alerta_sms_transaccional_doble_factor: true
+    consumo_electrico_activo_minimo_kwh_mes: 15
+    geocerca_bloqueo_descarga_multiple_ruc_gps: true
   plazo_convergencia_anos: 22.05
   demanda_nacional_cilindros_ano: 93000000
   demanda_residencial_protegida_cilindros_ano: 69750000
@@ -144,14 +151,51 @@ colchon_contraciclico_estabilizacion:
   regla_cierre_riesgo_extremo: "Flotación plena hasta cubrir costos de paridad real sin aportes del PGE"
   subsidio_fiscal_neto_estatal_usd: 0.00 # Garantía estricta de subsidio cero para el erario público
 
+transporte_pesado_carga_diesel_10_pct:
+  estatus_reforma: "Sendero suave 10% anual compuesto cada 1 de enero"
+  parque_automotor_unidades: 75000
+  categorias_afectadas: ["C2", "C3", "C3S2", "C3S3"]
+  consumo_promedio_mensual_galones_unidad: 1400
+  volumen_anual_nacional_galones: 1260000000
+  precio_base_inicial_usd_galon: 1.750
+  tasa_ajuste_anual_compuesta: 0.10
+  precio_ano_1_usd: 1.925
+  precio_ano_2_usd: 2.118
+  precio_ano_3_usd: 2.329
+  precio_ano_4_usd: 2.562
+  precio_ano_5_usd: 2.818
+  precio_paridad_internacional_wti_usd: 3.250
+  plazo_convergencia_anos: 6.5
+  clausula_pase_flete_cargador_obligatoria: true
+  desgravacion_arancelaria_neumaticos_filtros_pct: 0.0 # Arancel 0%
+  ahorro_opex_neumaticos_anual_unidad_usd: 2100.00
+  impacto_flete_quintal_arroz_centavos_usd: 1.6
+  ahorro_fiscal_ano_1_m_usd: 220.50
+  ahorro_fiscal_ano_2_m_usd: 463.68
+  ahorro_fiscal_ano_3_m_usd: 729.54
+  ahorro_fiscal_ano_4_m_usd: 1023.12
+  ahorro_fiscal_ano_5_m_usd: 1345.68
+  ahorro_fiscal_ano_6_extincion_total_m_usd: 1701.00
+
 balance_consolidado_5_anos:
-  ano_1_alivio_fiscal_caja_garantizado_m_usd: 401.51
-  ano_1_alivio_fiscal_caja_nominal_m_usd: 405.35
-  ano_2_alivio_fiscal_m_usd: 447.13
-  ano_3_alivio_fiscal_m_usd: 495.08
-  ano_4_alivio_fiscal_m_usd: 541.43
-  ano_5_alivio_fiscal_m_usd: 584.22
-  ano_6_alivio_fiscal_permanente_m_usd: 623.00
-  alivio_al_deficit_pge_ano_1_pct: 12.75
-  alivio_al_deficit_pge_ano_5_pct: 18.55
-  alivio_al_deficit_pge_ano_6_pct: 19.78
+  paquete_base_modular:
+    ano_1_alivio_fiscal_caja_garantizado_m_usd: 401.51
+    ano_1_alivio_fiscal_caja_nominal_m_usd: 405.35
+    ano_2_alivio_fiscal_m_usd: 447.13
+    ano_3_alivio_fiscal_m_usd: 495.08
+    ano_4_alivio_fiscal_m_usd: 541.43
+    ano_5_alivio_fiscal_m_usd: 584.22
+    ano_6_alivio_fiscal_permanente_m_usd: 623.00
+    alivio_al_deficit_pge_ano_1_pct: 12.75
+    alivio_al_deficit_pge_ano_5_pct: 18.55
+    alivio_al_deficit_pge_ano_6_pct: 19.78
+  paquete_ampliado_con_transporte_pesado:
+    ano_1_alivio_fiscal_consolidado_m_usd: 622.01
+    ano_2_alivio_fiscal_consolidado_m_usd: 910.81
+    ano_3_alivio_fiscal_consolidado_m_usd: 1224.62
+    ano_4_alivio_fiscal_consolidado_m_usd: 1564.55
+    ano_5_alivio_fiscal_consolidado_m_usd: 1929.90
+    ano_6_alivio_fiscal_permanente_m_usd: 2324.00
+    alivio_al_deficit_pge_ano_1_pct: 19.75
+    alivio_al_deficit_pge_ano_5_pct: 61.27
+    alivio_al_deficit_pge_ano_6_pct: 73.78
