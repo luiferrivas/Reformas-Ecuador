@@ -1,5 +1,5 @@
 # 🛑 BITÁCORA FORENSE DE DECISIÓN Y DESCARTE — ARCHIVO HISTÓRICO
-> **Regla de Oro del Consorcio Industrial Kronos (Mandamiento 12):**  
+> **Regla de Oro del Consorcio Industrial Olimpo (Mandamiento 12):**  
 > *Este documento ha sido superado, auditado o descartado. Se conserva exclusivamente para memoria histórica, lecciones aprendidas y prevención de amnesia operativa.*
 
 ---
@@ -9,7 +9,7 @@
 - **Archivo Actual (Histórico):** 
 - **Versión Canónica Vigente Oficial:** 
 - **Fecha de Descarte:** 2026-11-14
-- **Agente / Auditor Responsable:** Kronos Forensic Policy Unit
+- **Agente / Auditor Responsable:** Olimpo Forensic Policy Unit
 - **Estado del Documento:** 
 
 ---

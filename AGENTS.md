@@ -1,6 +1,6 @@
 # 🏛️ AGENTS.md — DOCTRINA MANDATORIA DE OPERACIÓN DE AGENTES Y REQUERIMIENTOS TÉCNICOS
 
-> **Consorcio Industrial Kronos — Reglas Inviolables de Ejecución aplicadas al Proyecto Reformas Ecuador**  
+> **Consorcio Industrial Olimpo — Reglas Inviolables de Ejecución aplicadas al Proyecto Reformas Ecuador**  
 > *Este documento es de cumplimiento estricto e ininterrumpido para todos los agentes IA, subagentes, analistas técnicos y modelos que operen en este repositorio.*
 
 ---
@@ -32,15 +32,15 @@ Toda notación matemática, fórmula, ecuación o expresión formateada en LaTeX
 Todo documento, especificación técnica, informe o propuesta arquitectónica creada dentro de cualquier proyecto DEBE incluir una sección/bitácora explícita que documente el fundamento de las decisiones adoptadas (pros, contras y trade-offs) y la justificación técnica exacta del porqué ciertas alternativas o ideas fueron rechazadas o descartadas. El objetivo es preservar la memoria histórica, evitar la pérdida de información crítica y prevenir el retrabajo de evaluar nuevamente opciones que ya fueron auditadas y desestimadas con sustento real.
 
 ### 7. Cero Dependencia de Subsidios e Independencia Financiera Radical (Captura de Subsidios Externos Exclusivamente como Upside Marginal)
-Queda estrictamente prohibido fundamentar la rentabilidad, viabilidad financiera o escalabilidad de cualquier proyecto, proceso industrial o "propuesta ecologista" en subsidios estatales, subvenciones gubernamentales, créditos blandos a fondo perdido o transferencias públicas (Kronos no subsidia a nadie internamente, ni el Estado ecuatoriano o gobiernos locales nos subsidiarán nada).
-* **Descarte de "Ideología Verde Subvencionada":** Si un proyecto o idea ecologista requiere subsidios estatales para funcionar o ser rentable, es irrealizable para Kronos y DEBE ser declarado como no viable y descartado en la Bitácora de Decisiones.
+Queda estrictamente prohibido fundamentar la rentabilidad, viabilidad financiera o escalabilidad de cualquier proyecto, proceso industrial o "propuesta ecologista" en subsidios estatales, subvenciones gubernamentales, créditos blandos a fondo perdido o transferencias públicas (Olimpo no subsidia a nadie internamente, ni el Estado ecuatoriano o gobiernos locales nos subsidiarán nada).
+* **Descarte de "Ideología Verde Subvencionada":** Si un proyecto o idea ecologista requiere subsidios estatales para funcionar o ser rentable, es irrealizable para Olimpo y DEBE ser declarado como no viable y descartado en la Bitácora de Decisiones.
 * **Aprovechamiento Asimétrico de Subsidios Externos ("Bonos de Carbono"):** Se autoriza capturar e integrar esquemas de subsidio exógenos o incentivos internacionales de terceros (ej. bonos de carbono, créditos verdes de la UE, CBAM, tax credits extranjeros), ÚNICAMENTE bajo la condición estricta de que NUNCA sean puestos como ingreso principal, base del flujo de caja o condición de viabilidad del proyecto. Deben modelarse exclusivamente como un ingreso marginal secundario ("upside bonus") agregado a un modelo de negocio que ya es 100% rentable y autosostenible por sí solo en el mercado real.
 
 ### 8. Formato Obligatorio de Monedas y Valores Financieros (Dólares como Base + Moneda Local en Paréntesis)
 En toda respuesta, informe, tabla, análisis económico o presupuesto, todo valor monetario o cifra financiera DEBE ser presentado primordialmente en **Dólares de los Estados Unidos (USD)**. Cuando la transacción, costo o mercado involucrado utilice una moneda local o extranjera distinta al dólar (ej. Euros, Pesos Colombianos, Soles Peruanos, Yenes, Reales Brasileños, Francos Suizos, etc.), dicha moneda local DEBE colocarse obligatoriamente entre paréntesis a continuación del valor en dólares (ej. `3.50 USD (3.20 EUR)`, `150 USD (600,000 COP)`, `100 USD (370 PEN)`).
 
 ### 9. Archivo SUMMARY.md Obligatorio por Subproyecto (L1 Cache Contractual, Técnico y Financiero)
-Cada subproyecto dentro del Consorcio Kronos debe mantener de forma obligatoria un archivo `SUMMARY.md` en su directorio raíz como fuente primaria e inicial de consulta:
+Cada subproyecto dentro del Consorcio Olimpo debe mantener de forma obligatoria un archivo `SUMMARY.md` en su directorio raíz como fuente primaria e inicial de consulta:
 * **Propósito Contractual (L1 Cache):** Cuando un subproyecto, analista o subagente requiera consultar dependencias, especificaciones o generalidades de otro subproyecto, consultará primero `SUMMARY.md`, evitando la lectura innecesaria de documentos extensos y reduciendo el consumo de tokens.
 * **Contenido Mínimo Estandarizado:** Debe contener obligatoriamente:
   1. **Misión y Estado Operativo Actual:** Objetivo concreto y fase de desarrollo (En diseño / Auditado Red Team / Congelado / Descartado).
@@ -62,7 +62,7 @@ Todo análisis de retorno de inversión (Payback) debe calcularse bajo estricta 
   2. **Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*):** Información estratégica complementaria considerando figuras legítimas de negociación soberana (ej. Contratos de Inversión con exención temporal de ISD/aranceles, esquemas de *Obras por Impuestos* para cruzar CAPEX contra tributos futuros, depreciación acelerada o diferimiento temporal de regalías preoperativas). Esta métrica se utiliza como instrumento estratégico de negociación con los Estados para pactar repagos rápidos en los primeros años críticos de la obra y mitigar el riesgo percibido por los inversionistas, sin comprometer jamás la viabilidad del proyecto si dicha negociación no se concreta.
 
 ### 11. Benchmark Obligatorio de Petróleo (WTI como Referencia Base + Spread Brent Comparativo)
-En toda formulación técnica, contrato de *tolling*, análisis de sensibilidad, proyección financiera o balance económico que dependa del precio del petróleo crudo dentro del Consorcio Kronos:
+En toda formulación técnica, contrato de *tolling*, análisis de sensibilidad, proyección financiera o balance económico que dependa del precio del petróleo crudo dentro del Consorcio Olimpo:
 * **Marcador Primario Obligatorio (WTI):** El referente mandatorio es el **West Texas Intermediate (WTI)**, cotizado en USD por barril (`USD/bbl`), por constituir el estándar físico de precios en el continente americano y el marcador natural de paridad para los crudos de Ecuador (Oriente/Napo) y Colombia (Castilla/Vasconia).
 * **Mención Comparativa de Brent (Solo para Spread):** Se permite una mención secundaria y concisa al marcador **Brent** exclusivamente como referencia de mercado global para indicar el diferencial o *spread* (ej. `Brent +X.XX USD/bbl`), pero la base de cálculo de tarifas, modelos de ingresos y sensibilidades financieras debe formularse estrictamente sobre WTI.
 

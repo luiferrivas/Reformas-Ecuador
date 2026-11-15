@@ -10,7 +10,7 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 **"Ley Orgánica Reformatoria a la Ley Orgánica del Servicio Público de Energía Eléctrica (LOSPEE) para la Asignación Prioritaria de Energía de Menor Costo, Focalización Tarifaria Equitativa y Sostenibilidad Financiera ante Contingencias Climáticas"**
 
 ### Documentos del Proyecto
-1. **[L1 Cache Contractual y Resumen Ejecutivo (SUMMARY.md)](./proyectos_ley/subsidios_electricos/SUMMARY.md)**: Interfaz primaria y parámetros críticos del proyecto bajo la doctrina Kronos.
+1. **[L1 Cache Contractual y Resumen Ejecutivo (SUMMARY.md)](./proyectos_ley/subsidios_electricos/SUMMARY.md)**: Interfaz primaria y parámetros críticos del proyecto bajo la doctrina Olimpo.
 2. **[Proyecto de Ley Completo (Formato Legislativo Oficial)](./proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md)**: Texto legal estructurado con Exposición de Motivos, Considerandos, Articulado Reformatorio, Disposiciones Generales, Transitorias, Derogatorias y Final.
 3. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md)**: Análisis cuantitativo de demanda, modelado de los umbrales de 250 kWh, 500 kWh y 800 kWh, regla de despacho por orden de mérito regional, tarifas horarias TOU, formulación del $FCC$, gobernanza del FERRE y régimen de medidores con garantía (Costo + 10%).
 4. **[Auditoría de Viabilidad Política y Optimización del Sistema Eléctrico](./proyectos_ley/subsidios_electricos/Auditoria_Politica_y_Optimizacion_Electrica.md)**: Análisis de realismo político y límites constitucionales sobre mecheros petroleros, autonomía municipal en cobranzas, sindicatos de CNEL, hidroeléctricas de bombeo, solares flotantes y el modelo de luz prepago digital.
@@ -92,7 +92,7 @@ Este proyecto ha sido redactado observando las normas de la técnica legislativa
 
 ## 🤖 Doctrina y Gobernanza de Agentes IA
 
-El desarrollo, modelado cuantitativo y redacción técnica en este repositorio se rigen obligatoriamente bajo los **12 Mandamientos Inviolables de Ejecución del Consorcio Industrial Kronos**:
+El desarrollo, modelado cuantitativo y redacción técnica en este repositorio se rigen obligatoriamente bajo los **12 Mandamientos Inviolables de Ejecución del Consorcio Industrial Olimpo**:
 - **Documento Maestro:** [`AGENTS.md`](./AGENTS.md)
 - **Módulo de Configuración y Prompts:** Directorio [`config/agentes/`](./config/agentes/)
   - [`doctrina.yaml`](./config/agentes/doctrina.yaml): Especificación estructurada y reglas de validación.

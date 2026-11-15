@@ -2,7 +2,7 @@
 """
 Script Pericial de Verificación Matemática y Forense
 Proyecto de Ley Reformatoria al Sector Eléctrico del Ecuador
-Consorcio Industrial Kronos - Cumplimiento Mandatorio AGENTS.md y kronos-auditor-documentos
+Consorcio Industrial Olimpo - Cumplimiento Mandatorio AGENTS.md y olimpo-auditor-documentos
 """
 
 import math

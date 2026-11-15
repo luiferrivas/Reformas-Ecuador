@@ -1,19 +1,19 @@
 ---
-name: kronos-geoengine-mapas
+name: olimpo-geoengine-mapas
 description: >-
   Generador cartográfico forense e interactivo para proyectos hidroeléctricos,
-  presas, túneles, viaductos ferroviarios y cuencas territoriales de Kronos.
+  presas, túneles, viaductos ferroviarios y cuencas territoriales de Olimpo.
   Especializado en topografía montañosa andina: snapping obligatorio a cauce real OSM (0.00m),
   verificación de monotonicidad hidráulica descendente, confinamiento de embalses a cañones en 'V',
   cálculo de estaciones batimétricas cada 500m, visores web Leaflet con OpenTopoMap (curvas de nivel)
   y modelos georreferenciados 3D KML con auditoría Red Team integrada.
 ---
 
-# Kronos GeoEngine: Generador Cartográfico Forense e Interactivo (`kronos-geoengine-mapas`)
+# Olimpo GeoEngine: Generador Cartográfico Forense e Interactivo (`olimpo-geoengine-mapas`)
 
 ## 1. Filosofía de Ingeniería y Mandato Base para Topografía Montañosa
 
-Queda terminantemente prohibido en el ecosistema Kronos presentar mapas con trazas fluviales simplificadas o sintéticas que corten cordilleras, coordenadas nominales aproximadas que coloquen presas sobre laderas montañosas, o basar la visualización exclusivamente en imágenes satelitales planas donde la vegetación selvática oculta cañones, pendientes y fallas estructurales.
+Queda terminantemente prohibido en el ecosistema Olimpo presentar mapas con trazas fluviales simplificadas o sintéticas que corten cordilleras, coordenadas nominales aproximadas que coloquen presas sobre laderas montañosas, o basar la visualización exclusivamente en imágenes satelitales planas donde la vegetación selvática oculta cañones, pendientes y fallas estructurales.
 
 En el relieve montañoso de los Andes (valles intramontañosos, cañones en "V" de la Formación Macuchi, batolitos graníticos y gargantas fluviales meándricas), una discrepancia de apenas $100\text{ a }300\text{ metros}$ en coordenadas proyecta una presa sobre una cresta rocosa a $150\text{ m}$ de altura sobre el río, o transfiere la infraestructura a una subcuenca vecina con vector de flujo opuesto.
 
@@ -59,10 +59,10 @@ Todo visor debe incluir OpenTopoMap como capa base predeterminada con curvas de 
 
 ## 3. Herramientas Automatizadas del Skill
 
-Ubicadas en `.agents/skills/kronos-geoengine-mapas/scripts/`:
+Ubicadas en `.agents/skills/olimpo-geoengine-mapas/scripts/`:
 
 ```
-.agents/skills/kronos-geoengine-mapas/
+.agents/skills/olimpo-geoengine-mapas/
 ├── SKILL.md
 └── scripts/
     ├── extract_osm_hydrography.py         # Extractor multi-servidor OSM por Nombre o BBox
@@ -95,13 +95,13 @@ Ubicadas en `.agents/skills/kronos-geoengine-mapas/scripts/`:
 ### Fase 1: Extracción de Hidrografía Real
 Por nombre oficial de río (recomendado en cuencas andinas):
 ```bash
-python .agents/skills/kronos-geoengine-mapas/scripts/extract_osm_hydrography.py \
+python .agents/skills/olimpo-geoengine-mapas/scripts/extract_osm_hydrography.py \
   --main-river "Guayllabamba" \
   --output scratch/guayllabamba_rivers.json
 ```
 O por caja geográfica:
 ```bash
-python .agents/skills/kronos-geoengine-mapas/scripts/extract_osm_hydrography.py \
+python .agents/skills/olimpo-geoengine-mapas/scripts/extract_osm_hydrography.py \
   --bbox -0.12,-79.05,0.35,-78.30 \
   --main-river "Guayllabamba" \
   --output scratch/guayllabamba_rivers.json
@@ -110,7 +110,7 @@ python .agents/skills/kronos-geoengine-mapas/scripts/extract_osm_hydrography.py 
 ### Fase 2: Batimetría y Snapping de Infraestructura
 Calcula estaciones cada 500 metros y bloquea matemáticamente las presas al río:
 ```bash
-python .agents/skills/kronos-geoengine-mapas/scripts/compute_stations_and_bathymetry.py \
+python .agents/skills/olimpo-geoengine-mapas/scripts/compute_stations_and_bathymetry.py \
   --input scratch/guayllabamba_rivers.json \
   --interval 500.0 \
   --cota-start 1648.0 \
@@ -123,12 +123,12 @@ python .agents/skills/kronos-geoengine-mapas/scripts/compute_stations_and_bathym
 ### Fase 3 y 4: Compilación Cartográfica (HTML + KML)
 Estructurar `project_config.json` con los nodos bloqueados al cauce y ejecutar el compilador:
 ```bash
-python .agents/skills/kronos-geoengine-mapas/scripts/build_interactive_map.py --config project_config.json
+python .agents/skills/olimpo-geoengine-mapas/scripts/build_interactive_map.py --config project_config.json
 ```
 
 ---
 
-## 5. Auditoría Red Team y Cumplimiento Normativo Kronos
+## 5. Auditoría Red Team y Cumplimiento Normativo Olimpo
 
 1. **KaTeX Puro y Aislamiento de Fórmulas (Regla 6):**  
    Queda prohibido usar delimitadores `$` dentro de tablas Markdown. Fórmulas siempre en bloques independientes `$$ ... $$` con unidades en `\text{...}`.

@@ -49,7 +49,7 @@ Define los valores cuantitativos y reglas del Proyecto de Ley Reformatoria a la 
 Esquema formal JSON Schema (Draft 7/2020-12 compatible) para asegurar que cualquier modificación a los parámetros mantenga integridad referencial, tipos numéricos correctos, rangos válidos y campos obligatorios.
 
 ### 4. `agentes/`
-Módulo operativo que implementa la **Doctrina Mandatoria de Operación de Agentes** (12 Mandamientos Inviolables del Consorcio Industrial Kronos):
+Módulo operativo que implementa la **Doctrina Mandatoria de Operación de Agentes** (12 Mandamientos Inviolables del Consorcio Industrial Olimpo):
 - **[`doctrina.yaml`](./agentes/doctrina.yaml):** Reglas estructuradas para validación programática.
 - **[`system_prompt_base.md`](./agentes/system_prompt_base.md):** Directiva base inyectable en subagentes y modelos.
 - **[`SUMMARY_TEMPLATE.md`](./agentes/SUMMARY_TEMPLATE.md):** Plantilla de interfaz L1 Cache por subproyecto (Mandamiento 9).

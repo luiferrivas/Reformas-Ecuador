@@ -1,6 +1,6 @@
 # BALANCE Y RADIOGRAFÍA DE LOS SUBSIDIOS A COMBUSTIBLES EN EL ECUADOR HOY
 
-> **Consorcio Industrial Kronos — División de Economía de la Energía y Finanzas Públicas**  
+> **Consorcio Industrial Olimpo — División de Economía de la Energía y Finanzas Públicas**  
 > *Informe de Estado de Situación: Impacto Inmediato de la Reforma Modular, Pesca Artesanal sin Desvío a GDOs, Capping a 5 Años y Tabla Dinámica.*  
 > *Nota Metodológica: Excluye de forma estricta los combustibles térmicos destinados al sector eléctrico (tratados en el Subproyecto 07).*
 

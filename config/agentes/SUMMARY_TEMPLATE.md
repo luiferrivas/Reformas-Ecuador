@@ -1,5 +1,5 @@
 # SUMMARY — [NOMBRE DEL SUBPROYECTO O MÓDULO]
-> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Kronos**  
+> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Olimpo**  
 > *Fuente primaria obligatoria de consulta para agentes y modelos. Sujeta a la Regla de Cero Deriva.*
 
 ---

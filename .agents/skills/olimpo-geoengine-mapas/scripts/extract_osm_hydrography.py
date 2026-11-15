@@ -1,5 +1,5 @@
 """
-Kronos GeoEngine - Script 1: Extractor de Hidrografía Vectorial Real OSM (Versión Montañosa / Alta Resiliencia)
+Olimpo GeoEngine - Script 1: Extractor de Hidrografía Vectorial Real OSM (Versión Montañosa / Alta Resiliencia)
 Descarga geometrías vectoriales reales de ríos y quebradas desde OpenStreetMap (Overpass API).
 Concatena segmentos de ways y relaciones en polilíneas continuas ordenadas sin roturas topológicas.
 Incluye soporte multi-servidor (fallback automático) y consulta por BBox o por Nombre Oficial de Río.
@@ -25,7 +25,7 @@ def execute_overpass_query(query, timeout_sec=90):
     for ep in OVERPASS_ENDPOINTS:
         try:
             print(f"[GeoEngine] Consultando Overpass endpoint: {ep}...")
-            req = urllib.request.Request(ep, data=data, headers={'User-Agent': 'KronosGeoEngine/2.0'})
+            req = urllib.request.Request(ep, data=data, headers={'User-Agent': 'OlimpoGeoEngine/2.0'})
             with urllib.request.urlopen(req, timeout=timeout_sec) as response:
                 res_json = json.loads(response.read().decode('utf-8'))
                 print(f"[GeoEngine] Respuesta exitosa recibida de: {ep}")
@@ -201,7 +201,7 @@ def stitch_connected_ways(parsed_rivers, main_keyword=None, relations=None, ways
     return flat_main, other_segments
 
 def main():
-    parser = argparse.ArgumentParser(description="Extractor Hidrográfico OSM Kronos GeoEngine")
+    parser = argparse.ArgumentParser(description="Extractor Hidrográfico OSM Olimpo GeoEngine")
     parser.add_argument("--bbox", required=False, default=None, help="lat_min,lon_min,lat_max,lon_max")
     parser.add_argument("--main-river", required=False, default=None, help="Nombre o palabra clave del río principal (ej. 'Guayllabamba', 'Paute', 'Mira')")
     parser.add_argument("--output", required=True, help="Ruta del archivo JSON de salida")

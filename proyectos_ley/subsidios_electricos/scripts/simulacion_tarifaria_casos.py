@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Simulador de Casos Tarifarios Reales - Reforma del Sector Eléctrico Ecuador
-Consorcio Industrial Kronos - Cumplimiento Mandatorio AGENTS.md
+Consorcio Industrial Olimpo - Cumplimiento Mandatorio AGENTS.md
 
 Calcula con exactitud matemática el impacto Antes vs. Después en 12 casos reales:
 1. Hogar Vulnerable / Clase Media (180 kWh/mes)

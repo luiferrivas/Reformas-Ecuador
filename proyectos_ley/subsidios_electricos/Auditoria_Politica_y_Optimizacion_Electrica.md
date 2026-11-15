@@ -351,7 +351,7 @@ A fin de blindar los servicios de supervivencia y la paz social popular sin reab
 
 1. **La Trampa del Net Metering 1 a 1 a Escala Industrial:**
    * Las cámaras industriales tradicionalmente reclaman el esquema de *Net Metering 1:1* (intercambio puro kilovatio por kilovatio). 
-   * **El Diagnóstico Crítico Kronos:** El Net Metering 1:1 a escala industrial es un **subsidio implícito injustificado**. La red de transporte del Sistema Nacional Interconectado (SNT) y las redes de media tensión no son un acumulador gratuito. Mover electrones genera disipación de calor por efecto Joule (pérdidas técnicas de 8.5% a 10%), congestión de transformadores y costos fijos de operación y mantenimiento. Permitir que una fábrica inyecte al mediodía y retire gratis en la noche a costo cero traslada el costo de los cables a los usuarios residenciales vulnerables.
+   * **El Diagnóstico Crítico Olimpo:** El Net Metering 1:1 a escala industrial es un **subsidio implícito injustificado**. La red de transporte del Sistema Nacional Interconectado (SNT) y las redes de media tensión no son un acumulador gratuito. Mover electrones genera disipación de calor por efecto Joule (pérdidas técnicas de 8.5% a 10%), congestión de transformadores y costos fijos de operación y mantenimiento. Permitir que una fábrica inyecte al mediodía y retire gratis en la noche a costo cero traslada el costo de los cables a los usuarios residenciales vulnerables.
 2. **El Equilibrio Económico de la Regla del 70/30:**
    * La ley impone la **Regla del 70/30**: se reconoce a la industria el **70% de la energía inyectada ($F_{\text{rec}} = 0.70$)** y el Estado retiene el **30%**:
      - 10% para cobertura de pérdidas técnicas de transmisión y distribución;
