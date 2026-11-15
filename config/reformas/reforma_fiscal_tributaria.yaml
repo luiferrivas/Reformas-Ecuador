@@ -1,0 +1,118 @@
+# ==============================================================================
+# CONFIGURACIÓN TÉCNICA Y PARÁMETROS: REFORMA FISCAL, TRIBUTARIA Y PRODUCTIVA
+# ==============================================================================
+# Base Legal: Proyecto de Ley Orgánica de Competitividad Tributaria, Descentralización Fiscal
+#             y Sostenibilidad de los Recursos Públicos
+# Documentos vinculados:
+#   - proyectos_ley/reforma_fiscal_tributaria/SUMMARY.md
+#   - proyectos_ley/reforma_fiscal_tributaria/Proyecto_Ley_Reforma_Fiscal_Tributaria.md
+#   - proyectos_ley/reforma_fiscal_tributaria/Memoria_Tecnica_Economica.md
+# ==============================================================================
+
+reforma_id: "reforma_fiscal_tributaria"
+denominacion: "Ley Orgánica de Competitividad Tributaria, Sustitución de Impuestos al Patrimonio y Racionalización de Subsidios"
+version: "1.0.0"
+
+# ------------------------------------------------------------------------------
+# 1. RÉGIMEN DE IVA Y RECUPERACIÓN COMERCIAL
+# ------------------------------------------------------------------------------
+iva:
+  tarifa_vigente_pct: 15.0
+  tarifa_objetivo_pct: 12.0
+  recaudacion_por_punto_usd: 410000000 # 410 M USD por punto porcentual de IVA
+  perdida_bruta_anual_usd: 1230000000 # 3 puntos * 410 M USD
+  impacto_contraccion_comercial_2024:
+    caida_ventas_quito_pct: -3.5
+    caida_ventas_guayaquil_pct: -4.4
+    caida_sector_automotriz_pct: -18.7
+    caida_importacion_insumos_pct: -10.0
+    contraccion_pib_t2_2024_pct: -2.2
+  efecto_rebote_demanda_24_meses:
+    recuperacion_ventas_estimada_pct: 4.8
+    recuperacion_ir_empresarial_usd: 320000000 # Recaudación inducida por reactivación
+
+# ------------------------------------------------------------------------------
+# 2. SUSTITUCIÓN DE IMPUESTOS AL PATRIMONIO MUNICIPAL (COOTAD)
+# ------------------------------------------------------------------------------
+impuestos_municipales_patrimonio:
+  patente_municipal_actual:
+    base_imponible: "Patrimonio neto de la empresa / capital en giro"
+    recaudacion_nacional_anual_usd: 260000000
+    impacto_adverso: "Penaliza la capitalización, inversiones en maquinaría y castiga empresas en pérdidas"
+  impuesto_1_5_por_mil_actual:
+    base_imponible: "Activos totales de la empresa"
+    recaudacion_nacional_anual_usd: 230000000
+    impacto_adverso: "Grava el endeudamiento y activos productivos no operativos"
+  mecanismo_sustitucion_aprobado:
+    denominacion: "Sobretasa Municipal Coparticipada sobre la Renta Neta (SM-IR)"
+    base_imponible: "Utilidad gravable / Renta neta imponible del Impuesto a la Renta (SRI)"
+    alicuota_maxima_pct: 1.5 # 1.0% a 1.5% sobre la utilidad imponible
+    regla_cero_ganancia: "Empresas con utilidad cero o pérdida contable tributan exactamente 0.00 USD"
+    prorrateo_multijurisdiccional: "Distribución cantonal proporcional a ventas y nómina local (Arts. 548/553 COOTAD)"
+    recaudacion_estimada_sm_ir_usd: 480000000 # Neutralidad financiera con los GADs
+    convenio_fiscalizacion_concurrente:
+      acceso_sri_gads: true
+      incentivo_auditoria_local_pct: 30.0 # GAD recibe 30% adicional sobre evasión de IR detectada en su cantón
+
+# ------------------------------------------------------------------------------
+# 3. ESCALAMIENTO Y FOCALIZACIÓN DEL GAS LICUADO DE PETRÓLEO (GLP)
+# ------------------------------------------------------------------------------
+gas_glp:
+  precio_cilindro_base_usd: 1.60
+  costo_real_importacion_logistica_usd: 13.50
+  subsidio_unitario_actual_usd: 11.90
+  gasto_fiscal_anual_glp_usd: 820000000
+  regla_escalamiento_anual:
+    incremento_porcentual_anual_pct: 10.0
+    margen_infraestructura_post_paridad_pct: 10.0
+    destino_margen: "Fondo de Renovación de Redes, Cilindros e Infraestructura de Gas Natural"
+  sistema_cupos_antifrontera_y_nacional:
+    fase_1_piloto_frontera:
+      cantones: ["Tulcán", "Huaquillas", "Arenillas", "Macará", "Loja", "Sucumbíos"]
+      cupo_maximo_adulto_mes: 1
+      cupo_maximo_familia_dias: 35
+      mecanismo_control: "Validación biométrica y cédula en punto de distribución"
+      ahorro_contrabando_fronterizo_usd: 120000000
+    fase_2_nacional:
+      cupo_residencial_familias_dias: 40
+      tarifa_excedente_usd: 13.50 # Tarifa comercial plena fuera de cupo
+      ahorro_nacional_desvio_comercial_usd: 280000000
+
+# ------------------------------------------------------------------------------
+# 4. FOCALIZACIÓN DE LA DEVOLUCIÓN DEL IVA (TERCERA EDAD Y DISCAPACIDAD)
+# ------------------------------------------------------------------------------
+devolucion_iva:
+  gasto_actual_anual_usd: 390000000
+  segmentacion:
+    discapacidad:
+      costo_anual_usd: 70000000
+      porcentaje_devolucion: 100.0 # Se mantiene intacto sin recorte (Art. 47 CRE)
+      condicion: "Discapacidad auditada superior al 40% según carnet MSP"
+    tercera_edad:
+      costo_anual_anterior_usd: 320000000
+      limite_ingresos_mensuales_sbu: 2 # Máximo 920 USD de ingreso para acceder
+      limite_patrimonio_rbu: 100
+      restriccion_canasta:
+        bienes_autorizados:
+          - "Alimentos básicos no procesados"
+          - "Medicamentos con prescripción facultativa verificada"
+        bienes_excluidos:
+          - "Electrodomésticos y tecnología"
+          - "Consumos en restaurantes, hotelería y entretenimiento"
+          - "Facturas comerciales de terceros"
+      costo_anual_reducido_usd: 80000000
+      ahorro_fiscal_neto_usd: 240000000
+
+# ------------------------------------------------------------------------------
+# 5. TRANSFORMACIÓN SOCIETARIA DE CNT EP A SOCIEDAD ANÓNIMA
+# ------------------------------------------------------------------------------
+cnt_sociedad_anonima:
+  figura_previa: "Empresa Pública (LOEP) con contratos colectivos y compras SERCOP"
+  figura_nueva: "Corporación Nacional de Telecomunicaciones CNT S.A. (Ley de Compañías)"
+  modelo_referencia: "Banco del Pacífico S.A. (100% acciones estatales, gestión privada)"
+  regimen_laboral: "Código del Trabajo ordinario del sector privado"
+  regimen_compras: "Comercial privado (fuera del SERCOP en giro de negocio)"
+  impacto_financiero:
+    ahorro_eliminacion_pasivos_colectivos_usd: 110000000
+    utilidades_netas_proyectadas_dividendos_usd: 140000000
+    impacto_total_fisco_usd: 250000000
