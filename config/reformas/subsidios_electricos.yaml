@@ -80,6 +80,16 @@ umbrales_consumo:
     tarifa_base_eficiente_usd_kwh: 0.078
     exclusion_expresa: ["Cosméticos", "Suplementos dietéticos suntuarios", "Fármacos no esenciales"]
 
+  transporte_publico_masivo_electrico:
+    descripcion: "Metro de Quito, Tranvía de Cuenca, Aerovía de Guayaquil, Trolebús/Ecovía y flotas de buses urbanos 100% eléctricos"
+    demanda_estimada_gwh_mes: 35.0
+    demanda_estimada_gwh_ano: 420.0
+    tarifa_base_eficiente_cost_of_service_usd_kwh: 0.082
+    posicion_tarifaria: "Mayor que hospitales públicos (~0.050 USD/kWh) pero menor que empresas exportadoras y minería (~0.160 USD/kWh)"
+    modulacion_horaria: "Recarga de baterías y patios en horas valle (23:00 a 06:00); restricción de recarga rápida en pico (18:00 a 22:00)"
+    garantia_pago: "Débito automático en Banco Central del Ecuador y fideicomisos de pasajes municipales"
+    impacto_descarbonizacion: "Sustitución masiva de diésel vehicular importado por energía hidroeléctrica limpia nacional"
+
   adultos_mayores_3ra_edad:
     descripcion: "Focalización equitativa y capping del subsidio para adultos mayores (LOPAM Art. 14)"
     descuento_tarifa_pct: 50.0

@@ -6,8 +6,8 @@
 
 meta:
   proyecto: "reforma_subsidios_combustibles"
-  denominacion: "Ley Orgánica para la Eficiencia Energética en el Sector Acuícola, Sinceramiento Gradual del Gas Licuado de Petróleo, Prohibición de Crédito Fiscal de IVA en Combustibles y Desescalamiento Reglado de Compensaciones Vehiculares"
-  version: "2.1.0"
+  denominacion: "Ley Orgánica para la Eficiencia Energética en el Sector Acuícola, Sinceramiento Gradual del Gas Licuado de Petróleo, Prohibición de Crédito Fiscal de IVA en Combustibles, Capping a 5 Años de Compensaciones Vehiculares, Subsidio Directo a la Pesca Artesanal contra GDOs y Sendero Industrial"
+  version: "2.2.0"
   fecha_actualizacion: "2026-11-14"
   estado: "Auditado Red Team (97% Confianza)"
 
@@ -72,7 +72,7 @@ reforma_tributaria_iva_combustibles:
   impacto_precio_surtidor: 0.0 # Cero variación en surtidor
   recaudacion_fiscal_recuperada_m_usd_ano: 135.00
 
-capping_compensacion_decreto_308:
+capping_compensacion_decreto_308_5_anos:
   combustibles: "Gasolina Extra y Ecopaís (85 octanos)"
   unidades_beneficiarias_total: 84000
   taxis_unidades: 60000
@@ -81,30 +81,45 @@ capping_compensacion_decreto_308:
   camionetas_cupo_galones_mes: 90
   tricimotos_unidades: 10000
   tricimotos_cupo_galones_mes: 90
-  mecanismo_capping: "Reducción del 25% semestral a 24 meses"
+  mecanismo_capping: "Reducción del 20% anual compuesto cada 1 de enero durante 5 años"
   ahorro_ano_1_m_usd: 0.00
-  ahorro_ano_2_m_usd: 20.00
-  ahorro_ano_3_m_usd: 40.00
-  ahorro_ano_4_m_usd: 60.00
-  ahorro_ano_5_m_usd: 80.00
-  programa_transicion: "Líneas de crédito blando CFN/BanEcuador para kits de GNV y biometano"
+  ahorro_ano_2_m_usd: 16.00
+  ahorro_ano_3_m_usd: 32.00
+  ahorro_ano_4_m_usd: 48.00
+  ahorro_ano_5_m_usd: 64.00
+  ahorro_ano_6_extincion_total_m_usd: 80.00
+  programa_transicion: "Líneas de crédito blando CFN/BanEcuador a 60 meses para kits duales GNV/biometano"
 
-otros_combustibles_estatus:
-  gasolina_super_95:
-    subsidio_estatal_usd: 0.0 # Mercado libre desde 2018
-  diesel_automotriz_transporte_pesado:
-    mecanismo: "Banda dinámica WTI posterior a 2025"
-    subsidio_remanente_m_usd_ano: 265.00
-    estrategia: "Mantener sin shock para evitar parálisis de alimentos y alianza con CONAIE"
-  fletes_especiales_galapagos_amazonia:
-    subsidio_remanente_m_usd_ano: 20.60
+pesca_artesanal_subsidio_directo:
+  precio_surtidor_marino: "100% paridad internacional WTI (~3.20 - 3.40 USD/galón)"
+  subsidio_fisico_en_agua: 0.0 # Cero subsidio físico para neutralizar desvío a narco-lanchas
+  mecanismo_compensacion: "Acreditación directa en Tarjeta Prepago BanEcuador al registrar zarpe legal DIRNEA"
+  seguridad_maritima: "Dotación gratuita obligatoria de transpondedores satelitales AIS sellados y botones de pánico"
+  combate_gdos: "Neutralización de extorsiones (vacunas) y robo armado de motores fuera de borda"
 
-balance_consolidado_ano_1:
-  gasto_base_previo_proforma_2026_m_usd: 1159.60
-  ahorro_directo_subsidios_combustibles_m_usd: 266.51
-  subsidios_remanentes_combustibles_hoy_m_usd: 893.09
-  reduccion_factura_subsidios_pct: 22.98
-  recuperacion_tributaria_iva_combustibles_m_usd: 135.00
-  alivio_fiscal_total_caja_estatal_m_usd: 401.51
-  alivio_fiscal_total_caja_estatal_nominal_m_usd: 405.35
-  alivio_al_deficit_presupuestario_pge_pct: 12.75
+sendero_gradual_industrial_36_meses:
+  derivados: "Diésel industrial y gasolinas de manufactura"
+  tasa_ajuste_mensual_compuesta: 0.015 # 1.5% mensual
+  plazo_convergencia_meses: 36
+  ahorro_ano_1_m_usd: 0.00
+  ahorro_ano_2_m_usd: 12.00
+  ahorro_ano_3_m_usd: 25.00
+  ahorro_ano_4_m_usd: 35.00
+  ahorro_ano_5_m_usd: 40.00
+  alternativas_sustitucion: "Biomasa agroindustrial, vapor eléctrico y GNL/GNC"
+
+electromovilidad_masiva_urbana:
+  beneficiarios: "Metro de Quito, Tranvía de Cuenca, Aerovía de Guayaquil, trolebuses y electro-corredores"
+  tarifa_regulada_cost_of_service_usd_kwh: 0.082 # Entre hospitales (0.05) y minería/exportación (0.16)
+  impacto_sustitucion: "Reducción directa de importación de diésel vehicular por tracción hidroeléctrica limpia"
+
+balance_consolidado_5_anos:
+  ano_1_alivio_fiscal_caja_garantizado_m_usd: 401.51
+  ano_1_alivio_fiscal_caja_nominal_m_usd: 405.35
+  ano_2_alivio_fiscal_m_usd: 442.13
+  ano_3_alivio_fiscal_m_usd: 485.08
+  ano_4_alivio_fiscal_m_usd: 526.43
+  ano_5_alivio_fiscal_m_usd: 564.22
+  ano_6_alivio_fiscal_permanente_m_usd: 598.00
+  alivio_al_deficit_pge_ano_1_pct: 12.75
+  alivio_al_deficit_pge_ano_5_pct: 17.91

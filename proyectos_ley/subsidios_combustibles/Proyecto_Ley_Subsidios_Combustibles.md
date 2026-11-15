@@ -116,22 +116,49 @@ En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el 
 ### CAPÍTULO VI
 ### DESESCALAMIENTO REGLADO DE LA COMPENSACIÓN A GASOLINAS EXTRA Y ECOPAÍS (DECRETO 308) Y TRANSICIÓN A GNV
 
-**Artículo 12.- Cronograma Simétrico de Capping a 24 Meses.-** La compensación monetaria en cuenta bancaria establecida mediante el Decreto Ejecutivo No. 308 de 26 de junio de 2024 para las gasolinas Extra y Ecopaís a favor de taxis convencionales, camionetas de transporte comercial mixto rural y tricimotos o mototaxis se extinguirá de manera gradual, uniforme e improrrogable en un plazo perentorio de veinticuatro (24) meses, conforme al siguiente cronograma:
-1. **Meses 1 al 6:** Se mantendrá el cien por ciento (100%) de la transferencia mensual calculada según los cupos de galones regulados.
-2. **Meses 7 al 12:** La transferencia mensual se reducirá al setenta y cinco por ciento (75%) del valor base.
-3. **Meses 13 al 18:** La transferencia mensual se reducirá al cincuenta por ciento (50%) del valor base.
-4. **Meses 19 al 24:** La transferencia mensual se reducirá al veinticinco por ciento (25%) del valor base.
-5. **A partir del Mes 25:** La compensación quedará definitivamente extinguida, cesando cualquier transferencia monetaria del Presupuesto General del Estado por dicho concepto.
+**Artículo 12.- Cronograma Simétrico de Capping a Cinco Años.-** La compensación monetaria en cuenta bancaria establecida mediante el Decreto Ejecutivo No. 308 de 26 de junio de 2024 para las gasolinas Extra y Ecopaís a favor de taxis convencionales y ejecutivos, camionetas de transporte comercial mixto rural y tricimotos o mototaxis se extinguirá de manera gradual, uniforme e improrrogable a razón de una reducción del veinte por ciento (20%) anual compuesto cada 1 de enero durante un plazo perentorio de cinco (5) años:
+1. **Año 1:** Se mantendrá el cien por ciento (100%) de la transferencia mensual calculada según los cupos de galones regulados.
+2. **Año 2:** La transferencia mensual se reducirá al ochenta por ciento (80%) del valor base (-20%).
+3. **Año 3:** La transferencia mensual se reducirá al sesenta por ciento (60%) del valor base (-40%).
+4. **Año 4:** La transferencia mensual se reducirá al cuarenta por ciento (40%) del valor base (-60%).
+5. **Año 5:** La transferencia mensual se reducirá al veinte por ciento (20%) del valor base (-80%).
+6. **A partir del Año 6:** La compensación quedará definitivamente extinguida (0%), cesando cualquier transferencia monetaria del Presupuesto General del Estado por dicho concepto.
 
-**Artículo 13.- Fomento a la Conversión a Gas Natural Vehicular (GNV) y Biometano.-** Durante el plazo de veinticuatro (24) meses establecido en el artículo precedente, la Corporación Financiera Nacional (CFN) B.P. y BanEcuador B.P. mantendrán activas líneas de crédito preferente con tasa de interés productiva subvencionada y plazo de hasta 48 meses para financiar la adquisición e instalación de kits de conversión dual a Gas Natural Vehicular (GNV) y biometano en talleres debidamente certificados por el Servicio Ecuatoriano de Normalización (INEN).
+**Artículo 13.- Fomento a la Conversión a Gas Natural Vehicular (GNV) y Biometano.-** Durante el plazo de cinco (5) años establecido en el artículo precedente, la Corporación Financiera Nacional (CFN) B.P. y BanEcuador B.P. mantendrán activas líneas de crédito preferente con tasa de interés productiva subvencionada y plazo de hasta 60 meses para financiar la adquisición e instalación de kits de conversión dual a Gas Natural Vehicular (GNV) y biometano en talleres debidamente certificados por el Servicio Ecuatoriano de Normalización (INEN).
+
+---
+
+### CAPÍTULO VII
+### RÉGIMEN DE SUBSIDIO DIRECTO A LA PESCA ARTESANAL POR ZARPE ELECTRÓNICO Y ERRADICACIÓN DEL DESVÍO A GDOs
+
+**Artículo 14.- Venta a Precio Completo de Paridad en Muelles y Subsidio Directo por Zarpe.-**
+1. En todas las estaciones de servicio marinas, depósitos de combustible en caletas pesqueras y muelles de cabotaje del territorio nacional, la gasolina de pesca artesanal y el diésel marino se facturará y cobrará obligatoriamente al cien por ciento (100%) de precio de paridad internacional de importación WTI. Queda prohibida la comercialización física de hidrocarburos a precios subsidiados en surtidor marino.
+2. El subsidio estatal a favor de los pescadores artesanales debidamente regularizados ante el Viceministerio de Acuacultura y Pesca se liquidará de forma directa e individual mediante transferencia bancaria anticipada o acreditación en una Tarjeta Prepago de Combustible Marino de BanEcuador B.P., calculada en función de las millas náuticas y horas de faena del cupo autorizado al momento de registrar el zarpe electrónico legal ante la Dirección Nacional de los Espacios Acuáticos (DIRNEA) de la Armada del Ecuador.
+3. La Tarjeta Prepago de Combustible únicamente podrá ser debitada en las terminales de punto de venta (POS) autorizadas de las gasolineras marinas para la adquisición exclusiva de combustible de pesca, impidiendo el retiro de efectivo en cajeros automáticos o su intermediación informal.
+
+**Artículo 15.- Escudo de Seguridad Satelital AIS Gratuito contra la Extorsión y Piratería de los GDOs.-** Con el propósito de proteger la vida de los pescadores artesanales ante las extorsiones ("vacunas"), robo armado de motores fuera de borda y asaltos perpetrados por Grupos de Delincuencia Organizada (GDOs), el Ministerio de Defensa Nacional a través de la Armada del Ecuador instalará de forma gratuita, obligatoria y sellada transpondedores satelitales del Sistema de Identificación Automática (AIS) y botones de pánico georreferenciados en la flota artesanal de fibra de vidrio registrada. La activación de alertas telemáticas o el desvío intempestivo de cuadrantes de pesca hacia rutas marítimas de narcotráfico activará de inmediato el protocolo de intercepción aeronaval por parte del Comando de Guardacostas.
+
+---
+
+### CAPÍTULO VIII
+### SENDERO GRADUAL Y PREVISIBLE PARA COMBUSTIBLES DEL SECTOR INDUSTRIAL
+
+**Artículo 16.- Sendero Mensual del 1.5% para Derivados de Uso Industrial.-** A fin de preservar la viabilidad operativa y la competitividad de las plantas de manufactura nacional (textil, agroindustria alimentaria, cerámica, envases y pesca industrial atunera) y conceder una ventana de adaptación tecnológica para la reconversión de calderas a biomasa, vapor eléctrico o Gas Natural Licuado (GNL), el precio de venta en terminal del diésel industrial y gasolinas de uso manufacturero se incrementará de oficio a razón del uno punto cinco por ciento (1.5%) mensual compuesto hasta alcanzar la paridad internacional de importación WTI en un plazo máximo de treinta y seis (36) meses.
+
+---
+
+### CAPÍTULO IX
+### PRIORIZACIÓN DE ELECTROMOVILIDAD Y SUSTITUCIÓN DE DIÉSEL EN TRANSPORTE PÚBLICO
+
+**Artículo 17.- Priorización de Suministro Eléctrico para Transporte Público Masivo.-** El Estado ecuatoriano garantizará la asignación de energía eléctrica limpia y eficiente para los sistemas de transporte público masivo urbano (Metro de Quito, Tranvía de Cuenca, Aerovía de Guayaquil, trolebuses y flotas de buses urbanos 100% eléctricos), aplicando pliegos tarifarios regulados por Costo de Servicio que aceleren la sustitución definitiva de los motores diésel importados por tracción eléctrica nacional descarbonizada.
 
 ---
 
 ### DISPOSICIONES GENERALES
 
-**PRIMERA.-** Los recursos fiscales liberados por la remoción del diésel camaronero (estimados en 75 millones de dólares anuales), por el desmonte del GLP comercial (estimados en 180 millones de dólares anuales) y por la recuperación del IVA en combustibles (estimada en 135 millones de dólares anuales) se destinarán de manera intangible y prioritaria a obras de electrificación rural, infraestructura de agua potable y saneamiento en las zonas costeras y campesinas, y al equipamiento operativo de la Policía Nacional y Fuerzas Armadas.
+**PRIMERA.-** Los recursos fiscales liberados por la remoción del diésel camaronero (estimados en 75 millones de dólares anuales), por el desmonte del GLP comercial (estimados en 180 millones de dólares anuales), por la recuperación del IVA en combustibles (estimada en 135 millones de dólares anuales) y por la optimización de los subsidios industriales y vehiculares se destinarán de manera intangible y prioritaria a obras de electrificación rural, infraestructura de agua potable y saneamiento en zonas costeras y campesinas, financiamiento para reconversión vehicular a GNV, y al equipamiento operativo y aeronaval de la Armada Nacional, Policía Nacional y Fuerzas Armadas.
 
-**SEGUNDA.-** Las Fuerzas Armadas y la Policía Nacional realizarán inspecciones periódicas inopinadas en instalaciones acuícolas y centros comerciales para decomisar combustible o cilindros de gas desviados ilícitamente, remitiendo los informes a la Fiscalía General del Estado para el inicio de las acciones penales por contrabando y enriquecimiento ilícito.
+**SEGUNDA.-** Las Fuerzas Armadas y la Policía Nacional realizarán inspecciones periódicas inopinadas en instalaciones acuícolas, centros comerciales y muelles de pesca para decomisar combustible o cilindros de gas desviados ilícitamente, remitiendo los informes a la Fiscalía General del Estado para el inicio de las acciones penales por contrabando, receptación aduanera y delincuencia organizada.
 
 ---
 
@@ -145,13 +172,17 @@ En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el 
 
 **CUARTA.-** En un plazo no mayor a quince (15) días calendario a partir de la publicación de esta Ley, el Servicio de Rentas Internas (SRI) actualizará las plataformas informáticas de declaración tributaria (Formulario 104) para parametrizar el bloqueo automático del crédito tributario por adquisiciones de combustibles fósiles.
 
-**QUINTA.-** El Ministerio de Economía y Finanzas, en coordinación con el Ministerio de Transporte y Obras Públicas y la Agencia Nacional de Tránsito (ANT), actualizará la plataforma de transferencias bancarias del Decreto Ejecutivo No. 308 para aplicar las reducciones escalonadas del Artículo 12 a partir del séptimo mes de vigencia de la presente Ley.
+**QUINTA.-** En un plazo no mayor a sesenta (60) días calendario, el Ministerio de Economía y Finanzas, en coordinación con el Ministerio de Transporte y Obras Públicas y la Agencia Nacional de Tránsito (ANT), parametrizará la plataforma de transferencias del Decreto Ejecutivo No. 308 para aplicar el cronograma de desescalamiento del veinte por ciento (20%) anual establecido en el Artículo 12.
+
+**SEXTA.-** En un plazo no superior a noventa (90) días calendario, la DIRNEA, el Viceministerio de Acuacultura y Pesca y BanEcuador B.P. pondrán en operación el sistema telemático de Zarpe Electrónico y acreditación de la Tarjeta Prepago de Combustible Marino para pescadores artesanales regularizados.
+
+**SÉPTIMA.-** En un plazo no superior a ciento veinte (120) días calendario, el Ministerio de Defensa Nacional iniciará la instalación progresiva de los dispositivos satelitales AIS y botones de pánico georreferenciados en las embarcaciones pesqueras artesanales debidamente matriculadas.
 
 ---
 
 ### DISPOSICIONES DEROGATORIAS
 
-**ÚNICA.-** Deróganse expresamente el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 en lo referente a la exención para camaroneras de menos de 30 hectáreas; el inciso o disposición reglamentaria que admita crédito tributario de IVA en combustibles fósiles; y todas las normas de igual o inferior jerarquía que se opongan a la presente Ley Orgánica.
+**ÚNICA.-** Deróganse expresamente el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 en lo referente a la exención para camaroneras de menos de 30 hectáreas; el inciso o disposición reglamentaria que admita crédito tributario de IVA en combustibles fósiles; las normas reglamentarias que fijen subsidios físicos en muelle a la pesca artesanal una vez implementada la tarjeta prepago; y todas las normas de igual o inferior jerarquía que se opongan a la presente Ley Orgánica.
 
 ---
 

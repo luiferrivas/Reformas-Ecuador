@@ -1,7 +1,7 @@
 # BALANCE Y RADIOGRAFÍA DE LOS SUBSIDIOS A COMBUSTIBLES EN EL ECUADOR HOY
 
 > **Consorcio Industrial Kronos — División de Economía de la Energía y Finanzas Públicas**  
-> *Informe de Estado de Situación: Impacto Inmediato de la Reforma Modular, Reforma Tributaria y Tabla de Precios Dinámicos.*  
+> *Informe de Estado de Situación: Impacto Inmediato de la Reforma Modular, Pesca Artesanal sin Desvío a GDOs, Capping a 5 Años y Tabla Dinámica.*  
 > *Nota Metodológica: Excluye de forma estricta los combustibles térmicos destinados al sector eléctrico (tratados en el Subproyecto 07).*
 
 ---
@@ -17,19 +17,22 @@ Para entender el balance fiscal actual del Ecuador, es necesario examinar el ré
 | Combustible                  | Estatus Regulatorio       | Mecanismo de Fijación | Nivel de Subsidio    |
 +------------------------------+---------------------------+-----------------------+----------------------+
 | 1. Gasolina Súper (95 oct)   | 100% Liberada (Mercado)   | Flotación mensual WTI | CERO subsidio (0.00) |
-| 2. Extra y Ecopaís (85 oct)  | Banda Dinámica (+5%/-10%) | Decreto 308 (Golfo)   | Capping 24m (80M/año)|
+| 2. Extra y Ecopaís (85 oct)  | Banda Dinámica (+5%/-10%) | Decreto 308 (Golfo)   | Capping 5 años (20%a)|
 | 3. Diésel Camaronero         | 100% Paridad WTI (HOY)    | Nueva Ley (DAE SENAE) | CERO subsidio (0.00) |
-| 4. Diésel Pesado / Buses     | Semi-regulado en surtidor | Banda dinámica WTI    | Subsidio remanente   |
+| 4. Pesca Artesanal (Muelles) | 100% Paridad en Surtidor  | Subsidio Directo DIRN | CERO subsidio físico |
 | 5. GLP Comercial / Industria | 100% Paridad WTI (HOY)    | Nueva Ley (Bodega)    | CERO subsidio (0.00) |
 | 6. GLP Doméstico (15 kg)     | Sendero Suave 10% anual   | Ajuste legal reglado  | Subsidio remanente   |
-| 7. Pesca Artesanal / Fletes  | Regulado preferente       | Cupo / Cabotaje islas | Subsidio remanente   |
+| 7. Diésel e Hidroc. Industria| Sendero Gradual 1.5% mes  | Convergencia 36 meses | Subsidio en extinción|
+| 8. Diésel Pesado / Buses     | Semi-regulado en surtidor | Banda dinámica WTI    | Subsidio remanente   |
+| 9. Fletes Especiales         | Regulado preferente       | Cabotaje islas/Oriente| Subsidio remanente   |
 +------------------------------+---------------------------+-----------------------+----------------------+
 ```
 
-### 1.1. Combustibles con Cero Subsidio Estatal HOY
-- **Gasolina Súper (95 octanos):** El precio de venta al público está 100% desregulado desde el año 2018 (Decreto Ejecutivo No. 619). Su precio se fija mensualmente con base en los costos internacionales de las naftas de alto octanaje en la Costa del Golfo de EE.UU., fletes marítimos de importación y márgenes comerciales de las comercializadoras privadas. El Estado no desembolsa ningún subsidio (**0.00 USD**).
-- **Diésel Camaronero (Acuacultura de Exportación):** Con la aprobación de la Etapa 1 de la presente reforma, el cien por ciento (100%) de las camaroneras (derogando la excepción de 30 hectáreas del Decreto 675 y cruzando la facturación con las Declaraciones Aduaneras de Exportación - DAE) pagan el diésel al precio real de paridad internacional WTI (~3.20 a 3.35 USD/galón). **Subsidio estatal = 0.00 USD**.
-- **Gas Licuado de Petróleo (GLP) Comercial e Industrial:** Con la aprobación de la Etapa 2 de la presente reforma, se desacopla inmediatamente a los restaurantes, hoteles, saunas, avícolas, panaderías industriales y calderas del precio preferencial familiar, cobrándoles la paridad internacional de importación (**13.50 USD por cilindro** o granel equivalente). **Subsidio estatal = 0.00 USD**.
+### 1.1. Combustibles con Cero Subsidio Físico en Surtidor HOY
+- **Gasolina Súper (95 octanos):** El precio de venta al público está 100% desregulado desde el año 2018 (Decreto 619). Su precio se fija mensualmente con base en los costos internacionales de las naftas en la Costa del Golfo de EE.UU. Subsidio estatal = **0.00 USD**.
+- **Diésel Camaronero (Acuacultura de Exportación):** Con la aprobación de la Etapa 1 de la presente reforma, el cien por ciento (100%) de las camaroneras pagan el diésel al precio real de paridad internacional WTI (~3.20 a 3.35 USD/galón). Subsidio estatal = **0.00 USD**.
+- **Gas Licuado de Petróleo (GLP) Comercial e Industrial:** Con la aprobación de la Etapa 2 de la presente reforma, se desacopla inmediatamente a los restaurantes, hoteles, saunas, avícolas, panaderías industriales y calderas del precio familiar, cobrándoles paridad internacional (**13.50 USD por cilindro**). Subsidio estatal = **0.00 USD**.
+- **Pesca Artesanal (Muelles y Caletas):** Se cobra el 100% de paridad en surtidor marino. El pescador formalizado recibe la compensación monetaria en su Tarjeta Prepago BanEcuador al registrar su zarpe en la Capitanía de Puerto (DIRNEA). **Cero subsidio físico en agua**, erradicando el desvío a lanchas *go-fast* del narcotráfico.
 
 ---
 
@@ -47,19 +50,19 @@ Para entender el balance fiscal actual del Ecuador, es necesario examinar el ré
 | **Fletes Especiales (Galápagos y Amazonía)** | 20.60 M USD | 0.00 M USD | 20.60 M USD | 0.00% |
 | **TOTAL FACTURA SUBSIDIOS COMBUSTIBLES** | **1,159.60 M USD** | **-266.51 M USD** | **893.09 M USD** | **-22.98%** |
 
-*(Nota de Conciliación Presupuestaria: Si el ahorro residencial del GLP se proyecta sobre la masa total de 93 millones de cilindros antes de depurar el padrón comercial, el ahorro nominal directo en combustibles asciende a **-270.35 M USD**, dejando un subsidio remanente de **889.25 M USD**).*
+*(Nota: Con cálculo nominal de GLP residencial sobre 93 M cilindros, el ahorro directo es de **-270.35 M USD**, dejando **889.25 M USD** de subsidio remanente).*
 
 ---
 
 ## 3. Impacto de la Reforma Tributaria al IVA en Combustibles (Art. 66 LORTI)
 
-De forma complementaria y con efecto inmediato en caja, la ley suprime la posibilidad de deducir el IVA de combustibles como crédito tributario:
+De forma complementaria y con efecto inmediato en caja, la ley suprime la deducibilidad del IVA de combustibles como crédito fiscal:
 
 | Rubro Fiscal | Recaudación Previa | Recaudación HOY (Año 1) | Variación Neta en Caja Fiscal |
 | :--- | :--- | :--- | :--- |
 | **Crédito Fiscal de IVA en Combustibles (LORTI Art. 66)** | Evasión / Escudo Fiscal | Bloqueo Automático SRI | **+135.00 M USD/año** |
 
-### Cuadro de Alivio Fiscal Neto Consolidado para el Estado Ecuatoriano (Año 1)
+### Cuadro de Alivio Fiscal Neto Consolidado en Caja Estatal (Año 1)
 
 | Fuente de Recursos Liberados | Monto Liberado Año 1 (M USD) | % sobre Total Alivio |
 | :--- | :--- | :--- |
@@ -69,37 +72,11 @@ De forma complementaria y con efecto inmediato en caja, la ley suprime la posibi
 | **Recuperación Tributaria de IVA en Combustibles (SRI)** | +135.00 M USD | 33.62% |
 | **ALIVIO FISCAL TOTAL EN CAJA ESTATAL (AÑO 1)** | **+401.51 M USD/año** | **100.00%** |
 
-*(Con cálculo nominal bruto de GLP: **+405.35 M USD/año**).*
+*(Con cómputo nominal bruto de GLP: **+405.35 M USD/año**).*
 
 ---
 
-## 4. Desglose Forense: ¿Qué Subsidios le Restan Exactamente al Estado HOY?
-
-La factura directa de subsidios a los combustibles no eléctricos se reduce inmediatamente de **1,159.60 M USD a 893.09 M USD/año** (liberando más de **266 M USD anuales netos** en subsidios directos, que sumados a los **135 M USD** del IVA generan **+401.51 M USD** de alivio fiscal global).
-
-Los **893.09 M USD** que el Estado aún continúa pagando se componen de cuatro rubros:
-
-### 4.1. Subsidio al GLP Doméstico Familiar: 527.49 M USD (59.06% del remanente)
-- **Mecanismo:** El cilindro de 15 kg para uso exclusivo en cocinas residenciales pasa de **1.65 USD a 1.815 USD** (primer incremento del sendero suave del 10%).
-- **Brecha:** Frente a un costo real de importación y envasado de **13.50 USD**, el Estado subsidia **11.685 USD por cilindro** en los 69.75 millones de cilindros familiares protegidos.
-- **Dinámica Legal:** Este gasto se extinguirá gradualmente a una tasa del 10% anual compuesto cada 1 de enero, alcanzando paridad internacional en 22 años sin generar conmoción social.
-
-### 4.2. Subsidio al Diésel de Transporte Terrestre Pesado y Pesca Artesanal: 265.00 M USD (29.67% del remanente)
-- **Mecanismo:** El diésel automotriz general se comercializa en surtidor entre **2.70 y 2.80 USD/galón** bajo el esquema de banda posterior a 2025.
-- **Brecha:** El costo real de importación (que cubre el 87% del diésel consumido) se ubica entre **3.20 y 3.40 USD/galón**.
-- **Justificación Estratégica de No Shock:** Quitar este subsidio de golpe encarecería de inmediato el flete de alimentos básicos (Sierra-Costa) en más del 20%, provocando un paro nacional inmediato liderado por la FENACOTRALI y la CONAIE.
-
-### 4.3. Compensación Monetaria a Gasolinas Extra y Ecopaís (Decreto 308): 80.00 M USD (8.96% del remanente)
-- **Mecanismo:** El precio en surtidor de la gasolina Extra y Ecopaís (85 octanos) fluctúa el 12 de cada mes con una banda de estabilización (+5% / -10%), situándose hoy en torno a 2.55 a 2.72 USD/galón.
-- **El Costo:** Representa la compensación monetaria bancaria que el Ministerio de Finanzas transfiere mensualmente a más de **84,000 transportistas comerciales legalizados** (taxis, camionetas mixtas rurales y tricimotos) para cubrir la diferencia frente al precio congelado antiguo (2.465 USD/galón).
-- **Régimen de Capping Aprobado:** Se reduce a razón del 25% semestral a partir del mes 7, extinguiéndose en 24 meses mientras se promueve la conversión a GNV y biometano.
-
-### 4.4. Fletes Logísticos en Galápagos y Amazonía: 20.60 M USD (2.31% del remanente)
-- **Mecanismo:** Subsidio de cabotaje marítimo asumido por EP Petroecuador para abastecer las islas Galápagos y fletes terrestres a comunidades fronterizas en la Amazonía profunda.
-
----
-
-## 5. Ecuaciones del Balance Fiscal HOY
+## 4. Ecuaciones del Balance Fiscal HOY
 
 Ahorro fiscal neto liberado inmediatamente en el Año 1 por subsidios directos:
 
@@ -107,7 +84,7 @@ $$A_{\text{directo}} = A_{\text{camaronero}} + A_{\text{GLP comercial}} + A_{\te
 
 $$A_{\text{directo}} = 75.00 \text{ M USD} + 180.00 \text{ M USD} + 11.51 \text{ M USD} = +266.51 \text{ M USD/año}$$
 
-Alivio fiscal consolidado total en caja fiscal (incluyendo recuperación de IVA):
+Alivio fiscal consolidado total en caja fiscal (incluyendo recuperación tributaria de IVA):
 
 $$A_{\text{consolidado}} = A_{\text{directo}} + R_{\text{IVA combustibles}}$$
 
@@ -129,19 +106,24 @@ $$\text{Alivio al Déficit Estatal} = \frac{401.51 \text{ M USD}}{3,150.00 \text
 
 ---
 
-## 6. Proyección Dinámica a 5 Años
+## 5. Proyección Dinámica a 5 Años con Capping Vehicular y Sendero Industrial
 
 ```
 +---------------------------------------------------------------------------------------------------------+
 |                  TRAYECTORIA DE EXTINCIÓN DE SUBSIDIOS Y ALIVIO FISCAL (AÑOS 1 AL 5)                    |
 +--------------------------+--------------------+--------------------+------------------------------------+
-| Periodo                  | Subsidio Restante  | Alivio Acumulado   | Estatus de la Reforma              |
+| Periodo                  | Subsidio Restante  | Alivio Acumulado   | Hitos de la Reforma                |
 +--------------------------+--------------------+--------------------+------------------------------------+
 | **Año 1 (HOY)**          | 893.09 M USD       | +401.51 M USD      | GLP en 1.815 USD; Cero camaronero; |
-|                          |                    |                    | IVA no deducible en vigor          |
-| **Año 2**                | 876.22 M USD       | +434.13 M USD      | GLP en 1.996 USD; Capping D.308 75%|
-| **Año 3**                | 837.65 M USD       | +468.08 M USD      | GLP en 2.196 USD; Capping D.308 50%|
-| **Año 4**                | 797.22 M USD       | +503.43 M USD      | GLP en 2.416 USD; Capping D.308 25%|
-| **Año 5**                | **754.76 M USD**   | **+540.22 M USD**  | GLP en 2.657 USD; Cero comp. Extra |
+|                          |                    |                    | IVA no deducible; precio pleno mar |
+| **Año 2**                | 848.22 M USD       | +442.13 M USD      | GLP en 1.996 USD; Capping 80% (-16M|
+|                          |                    |                    | Sendero industrial 1.5%m (+12M)    |
+| **Año 3**                | 796.65 M USD       | +485.08 M USD      | GLP en 2.196 USD; Capping 60% (-32M|
+|                          |                    |                    | Sendero industrial (+25M)          |
+| **Año 4**                | 742.22 M USD       | +526.43 M USD      | GLP en 2.416 USD; Capping 40% (-48M|
+|                          |                    |                    | Industrial a paridad (+35M)        |
+| **Año 5**                | **686.76 M USD**   | **+564.22 M USD**  | GLP en 2.657 USD; Capping 20% (-64M|
+|                          |                    |                    | Industrial 100% paridad (+40M)     |
+| **Año 6+**               | **605.00 M USD**   | **+598.00 M USD**  | CERO compensación Extra (+80M perm)|
 +--------------------------+--------------------+--------------------+------------------------------------+
 ```
