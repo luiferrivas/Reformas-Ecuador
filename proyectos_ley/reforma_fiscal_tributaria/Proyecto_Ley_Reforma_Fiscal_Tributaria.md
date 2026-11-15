@@ -61,10 +61,16 @@ En ejercicio de las facultades legislativas consagradas en el artículo 133 de l
 > *"Art. 65.- Tarifa.- La tarifa del Impuesto al Valor Agregado (IVA) es del doce por ciento (12%)."*
 
 **Artículo 2.- Sustitúyase el artículo 73 de la Ley de Régimen Tributario Interno por el siguiente:**
-> *"Art. 73.- Devolución del IVA a Grupos de Atención Prioritaria.- 
-> 1. **Personas con Discapacidad:** Las personas con discapacidad que cuenten con la calificación y certificación expedida por la Autoridad Sanitaria Nacional superior al cuarenta por ciento (40%), tendrán derecho a la devolución del cien por ciento (100%) del IVA pagado en la adquisición de bienes y servicios de su consumo personal, de conformidad con los límites y procedimientos previstos en el Reglamento.
-> 2. **Personas Adultas Mayores:** Las personas de sesenta y cinco (65) años de edad en adelante tendrán derecho a la devolución del IVA pagado en sus consumos personales, siempre que sus ingresos mensuales declarados o percibidos no superen el equivalente a dos (2) Salarios Básicos Unificados del trabajador en general y su patrimonio neto no exceda de cien (100) Remuneraciones Básicas Unificadas.
-> 3. **Restricción de Canasta:** La devolución para personas adultas mayores aplicará exclusivamente respecto del IVA liquidado en la adquisición de: (a) alimentos básicos no procesados destinados a la nutrición familiar; y, (b) medicamentos de uso humano respaldados en prescripción médica facultativa debidamente codificada en los sistemas de facturación electrónica del Servicio de Rentas Internas (SRI). Se excluye expresamente del beneficio la adquisición de bebidas alcohólicas, tabacos, electrodomésticos, tecnología, servicios turísticos, hotelería y compras corporativas o de terceros."*
+> *"Art. 73.- Devolución del IVA a Grupos de Atención Prioritaria (Adultos Mayores y Personas con Discapacidad).- 
+> 1. **Condición de Capacidad Económica y No Progresividad Inversa:** De conformidad con los principios de equidad, progresividad y suficiencia recaudatoria previstos en el artículo 300 de la Constitución de la República, el derecho a la devolución del cien por ciento (100%) del IVA pagado en consumos personales corresponderá exclusivamente a:
+>    (a) Personas adultas mayores de sesenta y cinco (65) años de edad; y,
+>    (b) Personas con discapacidad debidamente calificada y certificada por la Autoridad Sanitaria Nacional superior al cuarenta por ciento (40%);
+>    siempre que, en ambos casos, sus ingresos mensuales declarados o percibidos no superen el equivalente a dos (2) Salarios Básicos Unificados (SBU) del trabajador en general y su patrimonio neto no exceda de cien (100) Remuneraciones Básicas Unificadas.
+> 2. **Restricción Estricta de Canasta de Salud, Nutrición y Subsistencia:** La devolución para personas adultas mayores y personas con discapacidad aplicará única y exclusivamente respecto del IVA liquidado en la adquisición respaldada en comprobantes de facturación electrónica de:
+>    (a) Alimentos básicos no procesados y bienes destinados a la nutrición personal y familiar;
+>    (b) Fármacos, medicamentos de uso humano, insumos médicos, órtesis, prótesis, equipos de apoyo motriz o sensorial y servicios de salud general respaldados en prescripción o historia médica registrada ante la autoridad sanitaria; y,
+>    (c) Bienes esenciales de subsistencia primaria e higiene personal.
+> 3. **Exclusiones Expresas y Sanción por Simulación de Facturación:** Se excluye de manera categórica del beneficio la adquisición de electrodomésticos, tecnología, telefonía de alta gama, vehículos, bebidas alcohólicas, tabacos, servicios turísticos, hotelería, materiales de construcción y gastos comerciales de empresas o terceros. Toda simulación, cesión de facturas de terceros o uso instrumental de la identidad de personas vulnerables para solicitar devoluciones indebidas de IVA se sancionará con la restitución coactiva del trescientos por ciento (300%) del monto reclamado, sin perjuicio de las responsabilidades penales por defraudación tributaria."*
 
 ---
 
@@ -117,6 +123,28 @@ En ejercicio de las facultades legislativas consagradas en el artículo 133 de l
 
 **Artículo 11.- Aplicación de los Mandatos Constituyentes Nro. 2 y Nro. 4.-**
 Declárase la nulidad de pleno derecho (*ab initio*) de toda cláusula de contratos colectivos, actas transaccionales o acuerdos sindicales suscritos en empresas públicas o sociedades estatales que fijen indemnizaciones por renuncia voluntaria, despido o jubilación patronal que contravengan los límites de trescientos (300) Salarios Básicos Unificados establecidos en los Mandatos Constituyentes Nro. 2 y Nro. 4, o que extiendan beneficios colectivos a personal jerárquico y de confianza. La Contraloría General del Estado glosará y exigirá de forma coactiva e inmediata la restitución de todo valor pagado en exceso de estos límites constitucionales.
+
+---
+
+### TÍTULO V: RACIONALIZACIÓN INSTITUCIONAL, REESTRUCTURACIÓN CORPORATIVA Y SUPRESIÓN DE DRENAJES FISCALES
+
+**Artículo 12.- Transformación de FLOPEC EP a FLOPEC S.A. y Alianzas Internacionales.-**
+1. Autorízase la transformación de la Empresa Pública Flota Petrolera Ecuatoriana FLOPEC EP en una sociedad anónima mercantil denominada **Flota Petrolera Ecuatoriana FLOPEC S.A.**, sujeta exclusivamente a la Ley de Compañías y bajo el modelo de gobernanza corporativa privada aplicado en Banco del Pacífico S.A.
+2. FLOPEC S.A. operará sus fletamentos marítimos, pólizas de transporte y adquisiciones de buques fuera del régimen de la Ley de Contratación Pública (SERCOP), rigiéndose por las prácticas comerciales internacionales del transporte marítimo y prohibiendo expresamente la suscripción de contratos de intermediación o *pools* de fletamento opacos sin licitación abierta o arbitraje comercial formal.
+3. Se autoriza la conformación de alianzas estratégicas operativas (*joint ventures*) con operadores navieros internacionales de primer orden calificados con grado de inversión, garantizando una rentabilidad mínima anual transferida como dividendo a la Cuenta Única del Tesoro.
+
+**Artículo 13.- Subasta Pública Acelerada de Activos de INMOBILIAR y Extinción de Secretarías Liquidadoras.-**
+1. Se ordena a la Secretaría Técnica de Gestión Inmobiliaria del Sector Público (INMOBILIAR) la venta y liquidación perentoria de todos los bienes inmuebles incautados, baldíos o no operativos bajo su custodia mediante el mecanismo de **Subasta Pública Electrónica Ascendente con Mecanismo Holandés**. Todo bien que no reciba posturas en primera convocatoria saldrá a remate cada treinta (30) días con un descuento automático del diez por ciento (10%) sobre el avalúo pericial catastral hasta su efectiva adjudicación y transferencia de dominio al sector privado.
+2. Fíjase un plazo perentorio improrrogable de noventa (90) días para la extinción y cierre definitivo de las unidades liquidadoras de empresas públicas extintas (incluidas TAME EP, Empresa de Ferrocarriles del Ecuador y Correos del Ecuador). Los pasivos no reclamados o litigiosos se trasladarán a un fideicomiso pasivo centralizado en el Ministerio de Economía y Finanzas, cesando inmediatamente todo pago de honorarios a liquidadores, consultorías externas y gastos de administración corriente.
+3. Dispónese la disolución, liquidación y extinción de la Empresa Pública de Comunicación del Ecuador COMUNICA EP. El Estado mantendrá exclusivamente una frecuencia matriz para alertas de emergencia y protección civil adscrita a la Secretaría General de Comunicación de la Presidencia.
+
+**Artículo 14.- Sustitución de Subsidios al Transporte en Bloque por Subsidio a la Demanda Inteligente.-**
+1. Queda terminantemente prohibida la transferencia de compensaciones fiscales o subsidios económicos directos en bloque a federaciones, operadoras o cooperativas de transporte público urbano, intercantonal o interprovincial.
+2. Establécese el **Subsidio a la Demanda de Movilidad Inteligente**, consistente en la acreditación mensual directa de saldos de pasaje a través de la cédula de identidad digital o tarjetas inteligentes interoperables de transporte, focalizado exclusivamente en: (a) estudiantes de educación inicial, básica y bachillerato del sistema fiscal; y, (b) personas adultas mayores y con discapacidad registradas en el Registro Social con ingresos menores a dos (2) SBU. Las operadoras de transporte cobrarán el pasaje real únicamente por cada usuario elegible efectivamente transportado y registrado en el validador electrónico.
+
+**Artículo 15.- Libre Importación de Insumos Agropecuarios y Descentralización de Medicamentos (Medicina Cerca).-**
+1. Se deroga el programa estatal de adquisición y distribución centralizada de fertilizantes y urea del Ministerio de Agricultura y Ganadería. Establécese de forma permanente una tarifa arancelaria del cero por ciento (0%) y tarifa de IVA del cero por ciento (0%) para la importación privada y comercialización de fertilizantes, bioinsumos, plaguicidas agrícolas certificados y semillas de alto rendimiento.
+2. El Ministerio de Salud Pública (MSP) y el Instituto Ecuatoriano de Seguridad Social (IESS) universalizarán de forma obligatoria el modelo de receta electrónica interoperable denominado **Medicina Cerca**. Los pacientes retirarán sus fármacos e insumos médicos directamente en la red privada de farmacias autorizadas a precios de referencia mayoristas contratados por el Estado, erradicando el almacenamiento masivo centralizado en bodegas hospitalarias y pagando únicamente por fármaco efectivamente dispensado.
 
 ---
 

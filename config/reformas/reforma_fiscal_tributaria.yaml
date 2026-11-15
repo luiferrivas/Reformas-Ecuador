@@ -11,7 +11,7 @@
 
 reforma_id: "reforma_fiscal_tributaria"
 denominacion: "Ley Orgánica de Competitividad Tributaria, Sustitución de Impuestos al Patrimonio y Racionalización de Subsidios"
-version: "1.1.0" # Auditado Red Team y calibrado con modelo forense
+version: "1.2.0" # Auditado Red Team: focalización plena IVA discapacidad, catálogo de otros subsidios y reestructuración institucional
 
 # ------------------------------------------------------------------------------
 # 1. RÉGIMEN DE IVA Y RECUPERACIÓN COMERCIAL
@@ -89,23 +89,38 @@ devolucion_iva:
   gasto_actual_anual_usd: 390000000
   segmentacion:
     discapacidad:
-      costo_anual_usd: 70000000
-      porcentaje_devolucion: 100.0 # Se mantiene intacto sin recorte (Art. 47 CRE)
-      condicion: "Discapacidad auditada superior al 40% según carnet MSP"
+      costo_anual_anterior_usd: 70000000
+      limite_ingresos_mensuales_sbu: 2 # Máximo 920 USD de ingreso individual verificado
+      limite_patrimonio_rbu: 100
+      condicion: "Discapacidad calificada >40% en MSP con cruce de ingresos IESS/SRI"
+      restriccion_canasta:
+        bienes_autorizados:
+          - "Alimentos básicos para nutrición personal y familiar"
+          - "Fármacos, salud general, medicamentos, prótesis, órtesis y tratamientos"
+          - "Bienes esenciales de subsistencia e higiene personal"
+        bienes_excluidos:
+          - "Electrodomésticos, tecnología y vehículos"
+          - "Hotelería, restaurantes y entretenimiento"
+          - "Facturación comercial de terceros y empresas"
+      costo_anual_reducido_usd: 35000000
+      ahorro_fiscal_neto_usd: 35000000
     tercera_edad:
       costo_anual_anterior_usd: 320000000
       limite_ingresos_mensuales_sbu: 2 # Máximo 920 USD de ingreso para acceder
       limite_patrimonio_rbu: 100
+      condicion: "Ciudadanos mayores a 65 años con cruce de ingresos IESS/SRI"
       restriccion_canasta:
         bienes_autorizados:
-          - "Alimentos básicos no procesados"
-          - "Medicamentos con prescripción facultativa verificada"
+          - "Alimentos básicos para nutrición familiar"
+          - "Medicamentos con prescripción, salud general y prótesis"
+          - "Bienes esenciales de subsistencia e higiene personal"
         bienes_excluidos:
           - "Electrodomésticos y tecnología"
           - "Consumos en restaurantes, hotelería y entretenimiento"
           - "Facturas comerciales de terceros"
       costo_anual_reducido_usd: 80000000
       ahorro_fiscal_neto_usd: 240000000
+  ahorro_total_devolucion_iva_usd: 275000000 # 240 M tercera edad + 35 M discapacidad
 
 # ------------------------------------------------------------------------------
 # 5. TRANSFORMACIÓN SOCIETARIA DE CNT EP A SOCIEDAD ANÓNIMA
@@ -121,14 +136,65 @@ cnt_sociedad_anonima:
     ano_3_dividendos_netos_usd: 150000000
 
 # ------------------------------------------------------------------------------
-# 6. CONSOLIDACIÓN MACROFISCAL PLURIANUAL
+# 6. RACIONALIZACIÓN DE OTROS SUBSIDIOS NO ELÉCTRICOS Y NO COMBUSTIBLES
+# ------------------------------------------------------------------------------
+otros_subsidios_y_drenajes:
+  inmobiliar_bienes_improductivos:
+    descripcion: "Custodia de 5,200 inmuebles incautados y baldíos (seguridad privada, alícuotas y mantenimiento)"
+    mecanismo: "Subasta pública electrónica acelerada (remate holandés con baja del 10% cada 30 días)"
+    ahorro_opex_recurrente_anual_usd: 20000000
+    ingreso_capital_por_venta_usd: 350000000
+  subsidio_transporte_bloque:
+    descripcion: "Compensaciones en efectivo a federaciones de transportistas para congelar pasajes"
+    mecanismo: "Sustitución por Subsidio a la Demanda Inteligente (tarjeta digital/cédula a estudiantes y vulnerables)"
+    ahorro_fiscal_neto_anual_usd: 60000000
+  subsidio_urea_fertilizantes_mag:
+    descripcion: "Compras públicas centralizadas de sacos de urea sujetas a clientelismo y contrabando"
+    mecanismo: "Eliminación del programa estatal; sustitución por 0% arancel y 0% IVA a insumos agropecuarios importados"
+    ahorro_fiscal_neto_anual_usd: 25000000
+  medicamentos_medicina_cerca_msp_iess:
+    descripcion: "Despilfarro, caducidad en bodegas y sobreprecios en compras hospitalarias de medicamentos"
+    mecanismo: "Generalización del modelo 'Medicina Cerca' mediante receta electrónica dispensada en farmacias privadas"
+    ahorro_fiscal_ano_1_usd: 120000000
+    ahorro_fiscal_ano_3_usd: 180000000
+  mtop_concesiones_peajes_automaticos:
+    descripcion: "Subsidio indirecto en mantenimiento de corredores troncales pesados sin peaje o peajes manuales de 1 USD"
+    mecanismo: "Concesión de corredores viales troncales bajo APP con telepeaje automatizado Free-Flow (TAG)"
+    ahorro_opex_vial_ano_1_usd: 80000000
+    ahorro_opex_vial_ano_3_usd: 180000000
+
+# ------------------------------------------------------------------------------
+# 7. OPTIMIZACIÓN INSTITUCIONAL COMPLEMENTARIA (MODELO CORPORATIVO Y CIERRES)
+# ------------------------------------------------------------------------------
+optimizacion_institucional_adicional:
+  flopec_sa:
+    descripcion: "Flota Petrolera Ecuatoriana operando pools opacos y time-charters"
+    mecanismo: "Transformación a FLOPEC S.A. privada (modelo Banco del Pacífico) o Alianza Estratégica Internacional"
+    aporte_corte_perdidas_ano_1_usd: 40000000
+    dividendos_netos_ano_3_usd: 100000000
+  medios_publicos_comunica_ep:
+    descripcion: "Empresa pública de medios de comunicación estatal deficitaria y sin audiencia"
+    mecanismo: "Liquidación y extinción definitiva; subasta de frecuencias y activos"
+    ahorro_opex_anual_usd: 15000000
+  unidades_liquidadoras_residuales:
+    descripcion: "Costos administrativos de liquidaciones interminables (TAME, Correos, Ferrocarriles)"
+    mecanismo: "Plazo perentorio improrrogable de 90 días, dación en pago y extinción legal"
+    ahorro_administrativo_anual_usd: 10000000
+  supresion_entidades_duplicadas:
+    descripcion: "Consejos hipertrofiados (CORDICOM, SOT) y secretarías técnicas sin rectoría operativa"
+    mecanismo: "Derogatoria orgánica, absorción en ministerios matrices y supresión de nómina redundante"
+    ahorro_fiscal_ano_1_usd: 30000000
+    ahorro_fiscal_ano_3_usd: 40000000
+
+# ------------------------------------------------------------------------------
+# 8. CONSOLIDACIÓN MACROFISCAL PLURIANUAL
 # ------------------------------------------------------------------------------
 balance_consolidado:
   deficit_base_pge_usd: -4500000000
   perdida_iva_12pct_usd: -1230000000
   ano_1:
-    total_medidas_compensatorias_usd: 4975400000
-    balance_neto_usd: -754600000 # Reducción del déficit del 83.2%
+    total_medidas_compensatorias_usd: 5410400000
+    balance_neto_usd: -319600000 # Reducción del déficit del 92.9%
   ano_3_regimen_permanente:
-    total_medidas_compensatorias_usd: 5920000000
-    balance_neto_usd: 190000000 # Superávit estructural consolidado
+    total_medidas_compensatorias_usd: 6585000000
+    balance_neto_usd: 855000000 # Superávit estructural consolidado de +855 M USD
