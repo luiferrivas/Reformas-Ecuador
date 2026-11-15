@@ -11,7 +11,7 @@
 
 reforma_id: "reforma_fiscal_tributaria"
 denominacion: "Ley Orgánica de Competitividad Tributaria, Sustitución de Impuestos al Patrimonio y Racionalización de Subsidios"
-version: "1.0.0"
+version: "1.1.0" # Auditado Red Team y calibrado con modelo forense
 
 # ------------------------------------------------------------------------------
 # 1. RÉGIMEN DE IVA Y RECUPERACIÓN COMERCIAL
@@ -27,29 +27,29 @@ iva:
     caida_sector_automotriz_pct: -18.7
     caida_importacion_insumos_pct: -10.0
     contraccion_pib_t2_2024_pct: -2.2
-  efecto_rebote_demanda_24_meses:
+  efecto_rebote_demanda_plurianual:
+    ano_1_retenciones_anticipadas_usd: 80000000
+    ano_3_recuperacion_plena_ir_usd: 320000000
     recuperacion_ventas_estimada_pct: 4.8
-    recuperacion_ir_empresarial_usd: 320000000 # Recaudación inducida por reactivación
 
 # ------------------------------------------------------------------------------
 # 2. SUSTITUCIÓN DE IMPUESTOS AL PATRIMONIO MUNICIPAL (COOTAD)
 # ------------------------------------------------------------------------------
 impuestos_municipales_patrimonio:
-  patente_municipal_actual:
-    base_imponible: "Patrimonio neto de la empresa / capital en giro"
-    recaudacion_nacional_anual_usd: 260000000
-    impacto_adverso: "Penaliza la capitalización, inversiones en maquinaría y castiga empresas en pérdidas"
-  impuesto_1_5_por_mil_actual:
-    base_imponible: "Activos totales de la empresa"
-    recaudacion_nacional_anual_usd: 230000000
-    impacto_adverso: "Grava el endeudamiento y activos productivos no operativos"
+  recaudacion_historica_linea_base:
+    patente_municipal_actual_usd: 260000000
+    impuesto_1_5_por_mil_actual_usd: 230000000
+    total_gad_actual_usd: 490000000
+    impacto_adverso: "Penaliza la capitalización, inversiones en maquinaria y castiga empresas en pérdidas"
   mecanismo_sustitucion_aprobado:
     denominacion: "Sobretasa Municipal Coparticipada sobre la Renta Neta (SM-IR)"
-    base_imponible: "Utilidad gravable / Renta neta imponible del Impuesto a la Renta (SRI)"
-    alicuota_maxima_pct: 1.5 # 1.0% a 1.5% sobre la utilidad imponible
+    base_imponible_total_usd: 24800000000 # 21,000 M sociedades + 3,800 M personas naturales contabilidad
+    alicuota_regulada_pct: 2.0 # 2.0% sobre la utilidad imponible genera 496 M USD
     regla_cero_ganancia: "Empresas con utilidad cero o pérdida contable tributan exactamente 0.00 USD"
-    prorrateo_multijurisdiccional: "Distribución cantonal proporcional a ventas y nómina local (Arts. 548/553 COOTAD)"
-    recaudacion_estimada_sm_ir_usd: 480000000 # Neutralidad financiera con los GADs
+    prorrateo_multijurisdiccional: "Distribución cantonal proporcional a ventas (60%) y nómina local (40%)"
+    recaudacion_estimada_sm_ir_usd: 496000000
+    tasa_habilitacion_rimpe_usd: 16000000 # 800,000 micronegocios a 20 USD/año
+    recaudacion_total_reforma_gads_usd: 512000000 # Superávit municipal de +22 M USD (neutralidad plena)
     convenio_fiscalizacion_concurrente:
       acceso_sri_gads: true
       incentivo_auditoria_local_pct: 30.0 # GAD recibe 30% adicional sobre evasión de IR detectada en su cantón
@@ -61,7 +61,7 @@ gas_glp:
   precio_cilindro_base_usd: 1.60
   costo_real_importacion_logistica_usd: 13.50
   subsidio_unitario_actual_usd: 11.90
-  gasto_fiscal_anual_glp_usd: 820000000
+  gasto_fiscal_anual_glp_usd: 773500000
   regla_escalamiento_anual:
     incremento_porcentual_anual_pct: 10.0
     margen_infraestructura_post_paridad_pct: 10.0
@@ -72,11 +72,15 @@ gas_glp:
       cupo_maximo_adulto_mes: 1
       cupo_maximo_familia_dias: 35
       mecanismo_control: "Validación biométrica y cédula en punto de distribución"
-      ahorro_contrabando_fronterizo_usd: 120000000
+      ahorro_contrabando_fronterizo_usd: 95200000 # 8 millones de cilindros recuperados
     fase_2_nacional:
       cupo_residencial_familias_dias: 40
       tarifa_excedente_usd: 13.50 # Tarifa comercial plena fuera de cupo
-      ahorro_nacional_desvio_comercial_usd: 280000000
+      ahorro_nacional_ano_1_usd: 95000000 # Captura del 50% de desvíos comerciales año 1
+      ahorro_nacional_ano_3_usd: 280000000 # Captura plena
+    ahorro_ajuste_precio_10pct_ano_1_usd: 10200000
+    ahorro_total_glp_ano_1_usd: 200400000
+    ahorro_total_glp_ano_3_usd: 380000000
 
 # ------------------------------------------------------------------------------
 # 4. FOCALIZACIÓN DE LA DEVOLUCIÓN DEL IVA (TERCERA EDAD Y DISCAPACIDAD)
@@ -113,6 +117,18 @@ cnt_sociedad_anonima:
   regimen_laboral: "Código del Trabajo ordinario del sector privado"
   regimen_compras: "Comercial privado (fuera del SERCOP en giro de negocio)"
   impacto_financiero:
-    ahorro_eliminacion_pasivos_colectivos_usd: 110000000
-    utilidades_netas_proyectadas_dividendos_usd: 140000000
-    impacto_total_fisco_usd: 250000000
+    ano_1_flujo_corte_perdidas_usd: 60000000
+    ano_3_dividendos_netos_usd: 150000000
+
+# ------------------------------------------------------------------------------
+# 6. CONSOLIDACIÓN MACROFISCAL PLURIANUAL
+# ------------------------------------------------------------------------------
+balance_consolidado:
+  deficit_base_pge_usd: -4500000000
+  perdida_iva_12pct_usd: -1230000000
+  ano_1:
+    total_medidas_compensatorias_usd: 4975400000
+    balance_neto_usd: -754600000 # Reducción del déficit del 83.2%
+  ano_3_regimen_permanente:
+    total_medidas_compensatorias_usd: 5920000000
+    balance_neto_usd: 190000000 # Superávit estructural consolidado
