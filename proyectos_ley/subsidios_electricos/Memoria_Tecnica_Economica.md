@@ -950,11 +950,29 @@ Para transformar el sector eléctrico de un sistema crónicamente quebrado a uno
   - Para un usuario que consume 200 kWh (dentro del bloque protegido), el impacto es de \$0.00 en el Escenario B o de apenas **\$2.00 USD al mes** en el Escenario A.
   - El usuario prefiere pagar \$2.00 USD más al mes antes que sufrir apagones que le queman los electrodomésticos, le pudren la comida en la refrigeradora o lo obligan a gastar \$150 USD en gasolina para un generador ruidoso.
 
+#### 11.4. Titularización de Flujos y Emisión de Bonos Verdes de Infraestructura: Apalancamiento Inmediato de $1,200 a $1,500 M USD
+- **El Cuello de Botella del Flujo Corriente (Pay-as-you-go):**
+  Aunque el FERRE recauda anualmente entre 240 y 345 M USD en efectivo, los megaproyectos de infraestructura eléctrica (como la hidroeléctrica en cascada Cardenillo de 596 MW que requiere un CAPEX de ~1,300 M USD o la repotenciación integral de alimentadores de CNEL que requiere ~400 M USD) sufrirían demoras de 6 a 8 años si se financian únicamente con los saldos corrientes anuales acumulados año tras año.
+- **La Estructuración Financiera:**
+  La ley autoriza la **titularización de hasta el 50% de los flujos futuros predecibles del FERRE** (respaldados por el rubro de resiliencia y los peajes del Net Billing) a través de un fideicomiso mercantil autónomo calificado por la Superintendencia de Compañías, Valores y Seguros y calificado con grado de inversión internacional:
+  - Emisión de **Bonos de Infraestructura Eléctrica y Resiliencia Climática** a 15 años plazo, con cupón estructurado del 6.0% al 6.5% anual en mercados internacionales y multilaterales (BID Invest, CAF, IFC).
+  - Permite monetizar y levantar de forma inmediata un **capital de inversión líquida de 1,200 a 1,500 millones de USD de CAPEX en el Año 1**.
+  - Este capital permite licitar y construir de forma simultánea Cardenillo (596 MW), desplegar 500 MW en baterías BESS y modernizar el 100% de las subestaciones de CNEL en un plazo de 36 a 48 meses, cortando de raíz los apagones.
+
+#### 11.5. Mecanismo de Obras por Impuestos para Redes de Distribución y Subestaciones
+- **El Problema de la Contratación Pública Tradicional (SERCOP):**
+  Históricamente, los procesos de licitación pública en CNEL y CELEC sufren impugnaciones, litigios y demoras burocráticas que postergan el tendido de alimentadores y subestaciones entre 2 y 4 años.
+- **La Solución Regulatoria:**
+  La incorporación de la figura de **Obras por Impuestos Eléctricas** permite que consorcios privados (empresas mineras, cámaras camaroneras, parques industriales o consorcios de autogeneración):
+  1. Diseñen, financien y construyan directamente subestaciones (138/69 kV) y alimentadores trifásicos de media tensión bajo normas de homologación de ARCONEL.
+  2. Cumplida la fiscalización y entrega de la obra a la distribuidora pública, el SRI les entrega Notas de Crédito Tributarias para compensar el 100% de su Impuesto a la Renta corporativo a lo largo de 3 a 5 años.
+  3. Resultado: Se salta la traba burocrática del SERCOP, el Estado no desembolsa caja directa y la red pública de distribución se expande y moderniza a costo eficiente auditado.
+
 ---
 
 ### 12. PROPUESTAS DE INGENIERÍA ESTRUCTURAL Y OPTIMIZACIÓN DEL SISTEMA ELÉCTRICO NACIONAL
 
-A fin de erradicar de forma definitiva los problemas de racionamiento, déficit de potencia en horas pico y obsolescencia operativa, el sinceramiento tarifario y la gobernanza del FERRE se articulan con seis optimizaciones de ingeniería de alto impacto:
+A fin de erradicar de forma definitiva los problemas de racionamiento, déficit de potencia en horas pico y obsolescencia operativa, el sinceramiento tarifario y la gobernanza del FERRE se articulan con siete optimizaciones de ingeniería de alto impacto:
 
 #### 12.1. Cierre de Ciclo Combinado en Termogas Machala (+150 MW sin Consumo de Gas Adicional)
 - **Diagnóstico Termodinámico:** La central termoeléctrica Termogas Machala (provincia de El Oro) opera actualmente con turbinas de gas en ciclo abierto simple (eficiencia térmica de solo 32% a 34%), arrojando gases de combustión a más de 500 °C por las chimeneas a la atmósfera.
@@ -994,6 +1012,25 @@ A fin de erradicar de forma definitiva los problemas de racionamiento, déficit 
 - **Diagnóstico Operativo:** El CENACE ha dependido históricamente de reglas hidrológicas deterministas con escasa anticipación sobre las crecidas y secas de la cuenca amazónica (Paute, Mazar y Coca Codo).
 - **La Modernización:** Implementación de un gemelo digital con modelos hidrológicos predictivos basados en redes neuronales e inteligencia artificial, alimentados por telemetría satelital de radar y precipitación en tiempo real (misiones GPM de la NASA y Copernicus de la ESA).
 - **Impacto en Confiabilidad:** Permite anticipar caudales con **72 a 96 horas de anticipación**, optimizando el llenado y vaciado estratégico de los embalses de Mazar y Amaluza, eliminando vertimientos no controlados de agua y reteniendo el recurso hídrico para cubrir con precisión matemática el pico nocturno de las 18:00 a las 22:00 horas.
+
+#### 12.7. Hoja de Ruta Hidroeléctrica Estratégica: Priorización de Cardenillo (596 MW) y Bombeo Reversible (Pumped-Storage) vs. Descarte de Filo de Agua sin Embalse
+- **Diagnóstico Forense de la Matriz Hidroeléctrica Ecuatoriana:**
+  Ecuador cuenta con una potencia nominal instalada de más de 5,300 MW hidroeléctricos, pero durante el estiaje amazónico (octubre a marzo) la generación efectiva se desploma a menos de 2,100 MW. Este colapso obedece a un error doctrinario de planificación estatal: la construcción de macrocentrales a filo de agua sin embalse de regulación estacional (ej. Coca Codo Sinclair de 1,500 MW nominales).
+- **Descarte Técnico Obligatorio de Macro-Proyectos a Filo de Agua sin Embalse:**
+  1. *Vulnerabilidad Extrema al Estiaje:* Sin un vaso de almacenamiento de varios meses, cuando el caudal del río Coca cae de 290 m3/s a 60 m3/s, la potencia de Coca Codo se derrumba por debajo de 400 MW (<27% de factor de planta), coincidiendo exactamente con la sequía nacional.
+  2. *Abrasión por Sedimentos Cuarzosos:* Durante crecidas de lluvia, el arrastre de sedimentos abrasivos (>10,000 ppm de cuarzo) obliga a cerrar compuertas desarenadoras para no destruir los rodetes de las turbinas, provocando apagones simultáneos paradójicamente en plena época de lluvias.
+  3. *Riesgo Geológico Catastrófico:* La erosión regresiva del río Coca amenaza de forma permanente la captación de agua y obras civiles.
+  *Decisión:* Queda formalmente descartada la priorización de nuevas centrales hidroeléctricas a filo de agua sin regulación estacional.
+- **Priorización 1: Proyecto Hidroeléctrico Cardenillo (596 MW, 3,350 GWh/año):**
+  - *Ubicación y Sinergia en Cascada:* Constituye el último escalón del Complejo Hidroeléctrico Paute Integral (río Paute), ubicado aguas abajo de la central Sopladora.
+  - *Ventaja Física Innegable:* Cardenillo aprovecha exactamente el mismo caudal turbinado que **ya fue regulado y almacenado aguas arriba por los dos grandes embalses del país: Mazar (410 millones de m3) y Amaluza (120 millones de m3)**. No requiere inundar grandes valles agrícolas ni crear un nuevo embalse masivo.
+  - *Costo Eficiente y Resiliencia:* Con un CAPEX estimado en aproximadamente 1,300 millones de USD y un LCOE inferior a 0.038 USD/kWh, aporta 596 MW de energía limpia de base ultra-barata, financiable mediante la titularización de flujos del FERRE y concesión privada a 30 años sin aval soberano.
+- **Priorización 2: Centrales Hidroeléctricas de Bombeo Reversible (Pumped-Storage Hydro - PSH, 300 a 500 MW):**
+  - *El Rol de Batería de Agua a Gran Escala:* Con la masiva inyección solar diurna impulsada por la presente reforma (Net Billing 70/30), el mediodía (10:00 a 14:00) registrará abundante energía eléctrica a costo marginal cero.
+  - *Ciclo Termodinámico Cerrado:* Se acondiciona un circuito reversible de bombeo-turbinado entre dos vasos con desnivel hidráulico (ej. entre embalses de la cascada del Paute o Daule-Peripa):
+    - Al mediodía, las turbinas reversibles operan como bombas de alta potencia consumiendo los excedentes solares diurnos para subir agua desde el reservorio inferior al superior.
+    - Durante el pico nocturno (18:00 a 22:00), el agua se descarga por gravedad turbinando a máxima capacidad para inyectar entre **300 y 500 MW de potencia de punta 100% limpia a costo de combustible cero**.
+  - *Eficiencia del Ciclo:* Presenta una eficiencia de ciclo completo (Round-Trip Efficiency) del **76% al 80%**, con una vida útil superior a 50 años (muy superior a las baterías químicas de litio que degradan en 10-12 años), resolviendo estructuralmente el pico nocturno de demanda sin quemar diésel fósil.
 
 ---
 

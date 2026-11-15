@@ -405,3 +405,59 @@ fondo_reinversion_ferre:
     - "Incorporación de sistemas de almacenamiento BESS estratégicos en subestaciones críticas"
     - "Modernización y repotenciación de líneas del Sistema Nacional de Transmisión"
     - "Ampliación de redes de distribución rural y alumbrado público eficiente"
+  titularizacion_flujos_bonos_verdes:
+    autorizacion_legal: "Hasta el 50% de los flujos proyectados del rubro de resiliencia y peajes Net Billing"
+    emision_bonos_verdes_usd: 1200000000 # Rango: $1,200M a $1,500M USD
+    plazo_emision_anos: 15
+    cupon_estimado_anual_pct: 6.25 # Rango: 6.0% a 6.5%
+    agentes_colocadores: ["BID Invest", "CAF", "IFC", "Mercado de Valores de Guayaquil/Quito"]
+    capex_inmediato_ano_1_usd: 1350000000
+    destinos_prioritarios:
+      - "Proyecto Hidroeléctrico Cardenillo (596 MW en cascada Paute)"
+      - "Centrales Hidroeléctricas de Bombeo Reversible (Pumped-Storage 300-500 MW)"
+      - "Despliegue de 500 MW en baterías BESS de escala troncal"
+      - "Repotenciación del 100% de alimentadores saturados en CNEL EP"
+
+# ------------------------------------------------------------------------------
+# 10. MECANISMO DE OBRAS POR IMPUESTOS PARA INFRAESTRUCTURA ELÉCTRICA
+# ------------------------------------------------------------------------------
+obras_por_impuestos:
+  normativa_aplicable: "Artículo innumerado LOSPEE agregado por la presente Ley"
+  sujetos_financiadores: ["Consorcios privados", "Empresas mineras", "Cámaras camaroneras", "Industrias pesadas"]
+  obras_elegibles:
+    - "Subestaciones transformadoras 138/69 kV de uso público"
+    - "Líneas de transmisión y alimentadores trifásicos de media tensión"
+    - "Bancos de compensación reactiva y STATCOMs en subestaciones troncales"
+  beneficio_tributario:
+    tipo: "Notas de Crédito Tributarias Desmaterializadas del SRI"
+    cobertura: "100% del costo eficiente auditado de la obra"
+    plazo_compensacion_ir_anos: 5
+  ventaja_estructural: "Evita cuellos de botella de licitación pública en SERCOP y acelera obras sin desembolso de caja fiscal"
+
+# ------------------------------------------------------------------------------
+# 11. HOJA DE RUTA HIDROELÉCTRICA ESTRATÉGICA
+# ------------------------------------------------------------------------------
+hoja_ruta_hidroelectrica:
+  criterio_exclusion_macro_filo_agua:
+    modelo_descartado: "Centrales macro a filo de agua sin embalse estacional (tipo Coca Codo Sinclair)"
+    motivos_descarte:
+      - "Desplome de generación a <27% de factor de planta durante estiaje amazónico"
+      - "Abrasión severa por sedimentos de cuarzo (>10,000 ppm) obligando a paradas en lluvias"
+      - "Riesgo geológico y erosión regresiva fluvial incontrolable"
+  proyectos_priorizados:
+    cardenillo:
+      capacidad_mw: 596
+      generacion_anual_gwh: 3350
+      ubicacion: "Río Paute, aguas abajo de Sopladora (último escalón de la cascada Paute)"
+      ventaja_hidraulica: "Aprovecha agua 100% regulada por los embalses Mazar (410M m³) y Amaluza (120M m³)"
+      lcoe_usd_kwh: 0.038
+      capex_estimado_usd: 1300000000
+      esquema_financiamiento: "Titularización FERRE + Concesión privada a 30 años sin aval soberano"
+    pumped_storage_hydro_bombeo_reversible:
+      capacidad_mw: 400 # Rango: 300 a 500 MW
+      ubicacion: "Desnivel hidráulico entre embalses existentes (Paute / Daule-Peripa)"
+      eficiencia_ciclo_completo_pct: 78.0 # Rango: 76% a 80%
+      mecanismo_operativo:
+        bombeo_diurno: "Consume excedentes solares industriales de costo marginal cero (10:00 a 14:00)"
+        turbinado_nocturno: "Genera potencia pico firme limpia de 18:00 a 22:00 sin quemar diésel"
+      vida_util_anos: 50
