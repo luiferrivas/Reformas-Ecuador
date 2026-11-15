@@ -17,13 +17,13 @@ Para entender el balance fiscal actual del Ecuador, es necesario examinar el ré
 | Combustible                  | Estatus Regulatorio       | Mecanismo de Fijación | Nivel de Subsidio    |
 +------------------------------+---------------------------+-----------------------+----------------------+
 | 1. Gasolina Súper (95 oct)   | 100% Liberada (Mercado)   | Flotación mensual WTI | CERO subsidio (0.00) |
-| 2. Extra y Ecopaís (85 oct)  | Banda Dinámica (+5%/-10%) | Decreto 308 (Golfo)   | Capping 5 años (20%a)|
+| 2. Extra y Ecopaís (85 oct)  | Banda Dinámica con Colchón| Paridad + 5-10% (CFEC)| CERO subsidio neto   |
 | 3. Diésel Camaronero         | 100% Paridad WTI (HOY)    | Nueva Ley (DAE SENAE) | CERO subsidio (0.00) |
 | 4. Pesca Artesanal (Muelles) | 100% Paridad en Surtidor  | Subsidio Directo DIRN | CERO subsidio físico |
 | 5. GLP Comercial / Industria | 100% Paridad WTI (HOY)    | Nueva Ley (Bodega)    | CERO subsidio (0.00) |
 | 6. GLP Doméstico (15 kg)     | Sendero Suave 10% anual   | Ajuste legal reglado  | Subsidio remanente   |
 | 7. Diésel e Hidroc. Industria| Sendero Gradual 1.5% mes  | Convergencia 36 meses | Subsidio en extinción|
-| 8. Diésel Pesado / Buses     | Semi-regulado en surtidor | Banda dinámica WTI    | Subsidio remanente   |
+| 8. Diésel Pesado / Buses     | Banda Dinámica con Colchón| Paridad + 5-10% (CFEC)| CERO subsidio neto   |
 | 9. Fletes Especiales         | Regulado preferente       | Cabotaje islas/Oriente| Subsidio remanente   |
 +------------------------------+---------------------------+-----------------------+----------------------+
 ```
@@ -33,6 +33,15 @@ Para entender el balance fiscal actual del Ecuador, es necesario examinar el ré
 - **Diésel Camaronero (Acuacultura de Exportación):** Con la aprobación de la Etapa 1 de la presente reforma, el cien por ciento (100%) de las camaroneras pagan el diésel al precio real de paridad internacional WTI (~3.20 a 3.35 USD/galón). Subsidio estatal = **0.00 USD**.
 - **Gas Licuado de Petróleo (GLP) Comercial e Industrial:** Con la aprobación de la Etapa 2 de la presente reforma, se desacopla inmediatamente a los restaurantes, hoteles, saunas, avícolas, panaderías industriales y calderas del precio familiar, cobrándoles paridad internacional (**13.50 USD por cilindro**). Subsidio estatal = **0.00 USD**.
 - **Pesca Artesanal (Muelles y Caletas):** Se cobra el 100% de paridad en surtidor marino. El pescador formalizado recibe la compensación monetaria en su Tarjeta Prepago BanEcuador al registrar su zarpe en la Capitanía de Puerto (DIRNEA). **Cero subsidio físico en agua**, erradicando el desvío a lanchas *go-fast* del narcotráfico.
+
+### 1.2. El Colchón Contracíclico del 5% al 10% y la Cuenta CFEC (Garantía de Subsidio Cero)
+Para blindar las finanzas del Estado de forma permanente y eliminar la reaparición de subsidios cuando el petróleo internacional sube, la ley incorpora un margen contracíclico técnico en la fórmula de paridad de gasolinas y diésel automotriz:
+
+$$P_{\text{techo}} = P_{\text{paridad}} \times (1 + \alpha), \quad \alpha \in [0.05, 0.10]$$
+
+1. **Autofinanciamiento Dinámico:** Cuando los precios internacionales de importación son estables o bajos, el diferencial del 5% al 10% ingresa automáticamente a la **Cuenta Fiduciaria de Estabilización de Combustibles (CFEC)** administrada por el Banco Central del Ecuador (acumulación estimada de 12 a 20 M USD/mes).
+2. **Absorción de Picos sin Cargo al Estado:** Ante rallies alcistas (WTI > 85-90 USD/barril), la CFEC amortigua las variaciones pagando el diferencial desde sus propios fondos fiduciarios acumulados.
+3. **Subsidio Neto Estatal Garantizado en Cero (0.00 USD):** El Ministerio de Economía y Finanzas no realiza aportes ni inyecciones de liquidez. Si en un evento geopolítico extremo la reserva fiduciaria se agotara, el precio en surtidor flota cubriendo la paridad real, erradicando cualquier fuga fiscal.
 
 ---
 

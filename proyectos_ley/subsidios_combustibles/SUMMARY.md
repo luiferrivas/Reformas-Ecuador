@@ -14,6 +14,7 @@
   4. Capping suave a 5 años (reducción del 20% anual compuesto) de la compensación de gasolinas Extra y Ecopaís (Decreto 308) a taxis, camionetas de transporte mixto rural y tricimotos, con financiamiento preferente de CFN para kits de GNV y biometano.
   5. Pesca artesanal: cobro a precio completo (100% paridad internacional) en surtidor marino para quebrar el arbitraje criminal hacia lanchas del narcotráfico, compensando al pescador con subsidio directo pre-acreditado por zarpe DIRNEA en Tarjeta Prepago BanEcuador, y dotación de transpondedores satelitales AIS para neutralizar la extorsión de los GDOs.
   6. Sector industrial: sendero mensual del 1.5% a 36 meses y tarifa preferente de electromovilidad masiva urbana (Metro de Quito, Tranvía de Cuenca, buses eléctricos).
+  7. Colchón contracíclico del 5% al 10% sobre la fórmula de paridad de importación WTI y creación de la Cuenta Fiduciaria de Estabilización de Combustibles (CFEC) en el BCE para neutralizar shocks internacionales con saldos propios acumulados, garantizando un subsidio fiscal estatal neto de estrictamente 0.00 USD.
 - **Fase de Desarrollo:** `Auditado Red Team (97% Confianza)`
 - **Última Actualización:** 2026-11-14
 
@@ -55,6 +56,7 @@
 7. **Precio Pleno en Muelle Pesquero y Subsidio por Zarpe DIRNEA:** Cobro a paridad 100% en surtidor marino, compensación anticipada en Tarjeta Prepago BanEcuador al registrar zarpe legal, y transpondedores satelitales AIS obligatorios y gratuitos contra GDOs.
 8. **Sendero Gradual Industrial:** Incremento del 1.5% mensual a 36 meses hasta paridad plena.
 9. **Tarifa Preferente de Electromovilidad Masiva:** Tarifa por Costo de Servicio (~0.075 a 0.088 USD/kWh) para Metro de Quito, Tranvía de Cuenca y electro-corredores, superior a hospitales pero inferior a industrias exportadoras.
+10. **Banda Dinámica con Colchón Contracíclico (5% - 10%) y Cuenta CFEC:** Margen regulatorio del 5% al 10% sobre la paridad técnica internacional de importación WTI / Costa del Golfo ($P_{\text{techo}} = P_{\text{paridad}} \times (1 + \alpha)$) en gasolinas y diésel automotriz. Los excedentes en periodos estables se depositan en la Cuenta CFEC del Banco Central. En periodos de alzas extraordinarias (WTI > 85-90 USD/barril), la CFEC amortigua el precio al consumidor con sus propios saldos acumulados. Si se agotan, flota a paridad. El subsidio neto del Estado para estos combustibles es permanentemente 0.00 USD.
 
 ---
 
@@ -114,6 +116,8 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Subsidio Directo Bancario por Zarpe DIRNEA y Transpondedor AIS** | **Aprobada** | Precio pleno en muelle quiebra el arbitraje narco; subsidio directo protege liquidez; AIS protege ante piratas | Requiere coordinación telemática DIRNEA-BanEcuador | Aprobada. Resuelve el desvío ilícito y protege la vida de los pescadores artesanales. |
 | **Shock Inmediato en Combustible Industrial** | **Descartada** | Recaudación fiscal inmediata | Quiebra a empresas manufactureras con márgenes estrechos e induce inflación en productos básicos | Descartada. Se aprueba sendero gradual del 1.5% mensual a 36 meses con incentivos para GNL y biomasa. |
 | **Tarifa Intermedia para Metro y Transporte Público Eléctrico** | **Aprobada** | Incentiva la sustitución masiva de diésel por tracción eléctrica limpia; protege la tarifa de pasaje popular | Exige medidores dedicados y contratos de servicio | Aprobada. Tarifa por Costo de Servicio (~8 ¢/kWh) mayor que hospital pero menor que minería/exportación. |
+| **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |
+| **Colchón Contracíclico del 5% al 10% y Cuenta CFEC** | **Aprobada** | Sistema 100% autofinanciado; absorbe picos de WTI con saldos propios acumulados; garantiza subsidio fiscal neto de 0.00 USD | Exige administración fiduciaria transparente en el BCE | Aprobada. Convierte la fórmula de precios en un estabilizador automático sin costo para el Presupuesto del Estado. |
 | **Prohibición de Crédito Fiscal de IVA en Combustibles (Art. 66 LORTI)** | **Aprobada** | Recupera +135 M USD/año netos; combate la defraudación por facturas fantasmas; no altera el precio en surtidor al consumidor | Oposición de cámaras empresariales que utilizaban el crédito tributario | Aprobada. Erradica el subsidio tributario encubierto sin impacto inflacionario en surtidor. |
 
 ---

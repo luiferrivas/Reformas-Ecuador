@@ -282,12 +282,38 @@ En articulación directa con la Ley de Subsidios Eléctricos, los sistemas de tr
 
 ---
 
-## 9. Balance Consolidado de Alivio Fiscal (Años 1 al 5)
+## 9. Formulación Matemática del Colchón Contracíclico (+5% a +10% sobre Paridad) y Garantía de Subsidio Cero
+
+### 9.1. El Problema del Déficit por Volatilidad Externa en Sistemas de Banda Plana
+En los esquemas convencionales de banda de precios (como el diseño original del Decreto 308 o fondos latinoamericanos deficitarios como el FEPC colombiano), si el precio regulado se fija estrictamente en o por debajo de la paridad internacional, cualquier alza abrupta o shock geopolítico en el crudo WTI o en los márgenes de refinación del Golfo de México obliga al Estado a desembolsar subsidios imprevistos para absorber la diferencia sobre el techo (+5%).
+
+### 9.2. Mecanismo de Colchón Contracíclico y Fórmula de Paridad Superior
+Para extinguir definitivamente el subsidio estatal y garantizar que el Presupuesto General del Estado aporte **estrictamente cero dólares (0.00 USD)** ante cualquier variación internacional:
+
+$$P_{\text{techo}}(m) = P_{\text{paridad}}(m) \times (1 + \alpha)$$
+
+Donde:
+- $P_{\text{paridad}}(m)$: precio de paridad técnica de importación calculado por la ARCH el día 12 de cada mes calendario basado en WTI y fletes eficientes.
+- $\alpha$: factor del margen contracíclico de estabilización, fijado entre **0.05 y 0.10** (+5% al +10%).
+
+### 9.3. Dinámica Operativa de la Cuenta Fiduciaria de Estabilización (CFEC)
+1. **Fase de Bonanza / Precios Internacionales Bajos o Moderados ($P_{\text{mercado}} \le P_{\text{paridad}}$):**
+   - El precio de venta en surtidor captura el margen $\alpha \times P_{\text{paridad}}$ (entre 12 y 25 centavos de dólar por galón).
+   - Estos recursos se transfieren automáticamente a la **Cuenta Fiduciaria de Estabilización de Combustibles (CFEC)** en el Banco Central del Ecuador.
+   - En periodos de estabilidad (6 meses), la cuenta acumula una reserva líquida de entre **70 M y 110 M USD**.
+2. **Fase de Shock Petrolero / Precios Internacionales Altos ($P_{\text{mercado}} > P_{\text{techo}}$):**
+   - Cuando el WTI se dispara por encima de 85-90 USD/barril, la CFEC amortigua el impacto pagando la diferencia a los importadores y comercializadores directamente desde su fondo acumulado.
+   - **Garantía Inviolable para el PGE:** El Ministerio de Economía y Finanzas no transfiere un solo centavo del erario nacional.
+3. **Regla de Cierre de Riesgo Extremo:** Si la reserva acumulada en la CFEC se agotara tras un shock bélico o crisis prolongada, el precio en surtidor ajustará su flotación hasta cubrir el costo real pleno de importación, garantizando que el subsidio estatal sea **permanentemente 0.00 USD**.
+
+---
+
+## 10. Balance Consolidado de Alivio Fiscal (Años 1 al 5)
 
 Sumando todos los componentes del paquete integral (combustibles directos + reforma tributaria IVA + capping a 5 años de gasolinas + sendero industrial):
 
 | Componente de Reforma Fiscal | Año 1 (M USD) | Año 2 (M USD) | Año 3 (M USD) | Año 4 (M USD) | Año 5 (M USD) | Año 6+ (M USD) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Diésel Camaronero (100% Paridad)** | +75.00 | +75.00 | +75.00 | +75.00 | +75.00 | +75.00 |
 | **2. GLP Comercial e Industrial (Desacople)**| +180.00 | +180.00 | +180.00 | +180.00 | +180.00 | +180.00 |
 | **3. GLP Doméstico (+10% Anual Suave)** | +11.51 | +24.13 | +38.08 | +53.43 | +70.22 | +88.00 |
@@ -298,16 +324,16 @@ Sumando todos los componentes del paquete integral (combustibles directos + refo
 
 *(Nota: En el Año 1, bajo cómputo nominal bruto de GLP doméstico sobre 93 M cilindros, el alivio fiscal inicial alcanza **+405.35 M USD/año**).*
 
-### 9.1. Impacto en el Déficit del Presupuesto General del Estado
+### 10.1. Impacto en el Déficit del Presupuesto General del Estado
 Con un déficit presupuestario proyectado para 2026 de **-3,150.00 M USD**, la reforma modular estructurada cubre el **12.75% del déficit fiscal total en el Año 1**, expandiéndose a **564.22 M USD en el Año 5 (17.91% del déficit)**, y rozando los **600 M USD anuales permanentes a partir del Año 6**, con **cero conflictividad social, blindaje total a la economía campesina y desarticulación de las mafias criminales del combustible**.
 
 ---
 
-## 10. Doble Métrica Obligatoria de Payback (Electrificación Camaronera de 25 Hectáreas)
+## 11. Doble Métrica Obligatoria de Payback (Electrificación Camaronera de 25 Hectáreas)
 
 $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Después de Impuestos}}$$
 
-### 10.1. Payback Crudo / Real de Resistencia (*Unshielded Payback*)
+### 11.1. Payback Crudo / Real de Resistencia (*Unshielded Payback*)
 - **Finca Camaronera Evaluada:** Predio típico de 25 hectáreas en Golfo de Guayaquil / El Oro.
 - **CAPEX Requerido:** 65,000 USD (construcción de 1.8 km de línea de media tensión 13.8 kV, banco de transformación de 75 kVA, tableros de control y 4 motores eléctricos trifásicos de 15 kW).
 - **Ahorro Operativo Anual Bruto (OPEX diésel vs electricidad):** 25,700 USD/año.
@@ -317,14 +343,14 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
   * Flujo neto de caja anual después de impuestos: 16,383.75 USD/año.
 - **Resultado:** **3.97 años** *(Proyecto de inversión solvente en mercado abierto sin subsidios)*.
 
-### 10.2. Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*)
+### 11.2. Payback Acelerado por Negociación Estatal (*Fast-Track / Negotiated Payback*)
 - **Mecanismos Aplicados:** Deducción adicional del 100% en conciliación tributaria para adquisición de maquinaria de eficiencia energética (Art. 10 LORTI), arancel 0% para transformadores y motores trifásicos, y crédito verde blando CFN al 6.5%.
 - **Flujo Neto Acelerado:** 23,500 USD/año.
 - **Resultado:** **2.77 años**.
 
 ---
 
-## 11. Bitácora Forense de Decisiones y Descartes (Mandamiento 6)
+## 12. Bitácora Forense de Decisiones y Descartes (Mandamiento 6)
 
 | Alternativa Evaluada | Decisión | Ventajas Identificadas | Riesgos y Contras Críticos | Justificación Técnica del Descarte |
 | :--- | :--- | :--- | :--- | :--- |
@@ -332,8 +358,10 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Remoción del 100% del Diésel Camaronero** | **Aprobada** | Ahorro de 75 M USD/año inmediato; cero riesgo de paro popular; blinda contra aranceles compensatorios en la OMC. | Exige inversión en electrificación de piscinas. | Aprobada. La electricidad industrial es 50.2% más barata que el diésel real; la reforma crea la señal económica perfecta para la modernización. |
 | **Sendero Suave del 10% Anual en GLP Doméstico** | **Aprobada** | Ajuste imperceptible (+16 centavos/cilindro en año 1); desactiva el conflicto social; blindaje legal automático. | Convergencia lenta (22 años para paridad plena). | Aprobada como solución pragmática e irreversible. Se complementa con el desmonte inmediato al GLP comercial/industrial (+180 M USD/año). |
 | **Capping a 24 Meses vs Capping a 5 Años en Gasolinas** | **Aprobada (5 Años)** | Desescalamiento del 20% anual (-8.60 USD/mes por taxi cada año); permite pagar el kit GNV con el propio ahorro. | Mayor tiempo para extinguir los 80 M USD. | Aprobada a 5 años. Desactiva paros urbanos al dar holgura financiera para el cambio vehicular. |
-| **Subsidio Físico en Muelle a la Pesca Artesanal** | **Descartada** | Facilidad aparente de despacho en caleta. | Alimenta directamente a las lanchas *go-fast* del narcotráfico; expone al pescador a vacunas y piratería de GDOs. | Descartada por razones de seguridad nacional. El subsidio en producto físico es capturado por el crimen organizado. |
+| **Subsidio Físico en Muelle a la Pesca Artesanal** | **Descartada** | Facilidad aparente de despacho en caleta. | Alimenta directamente a las lanchas *go-fast* del narcotráfico; expone al pescador a vacunas y piratería de GDOs. | Descartada por razones de seguridad nacional. El combustible en producto físico es capturado por el crimen organizado. |
 | **Subsidio Directo Bancario por Zarpe y AIS Satelital** | **Aprobada** | Precio pleno en muelle erradica el narcotráfico; pescador recibe subsidio en tarjeta prepago; AIS protege ante piratas. | Requiere coordinación telemática DIRNEA-BanEcuador. | Aprobada. Resuelve el desvío ilícito y protege la vida de los pescadores artesanales. |
 | **Shock Inmediato en Combustible Industrial** | **Descartada** | Recaudación fiscal inmediata. | Quiebra a empresas manufactureras con márgenes estrechos e induce inflación en productos básicos. | Descartada. Se aprueba sendero gradual del 1.5% mensual a 36 meses con incentivos para GNL y biomasa. |
 | **Tarifa Intermedia para Metro y Transporte Eléctrico** | **Aprobada** | Incentiva la sustitución masiva de diésel por tracción eléctrica limpia; protege la tarifa de pasaje popular. | Exige medidores dedicados y contratos de servicio. | Aprobada. Tarifa por Costo de Servicio (~8 ¢/kWh) mayor que hospital pero menor que minería/exportación. |
+| **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor. | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl. | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |
+| **Colchón Contracíclico del 5% al 10% y Cuenta CFEC** | **Aprobada** | Sistema 100% autofinanciado; absorbe picos de WTI con saldos propios acumulados; garantiza subsidio fiscal neto de 0.00 USD. | Exige administración fiduciaria transparente en el BCE. | Aprobada. Convierte la fórmula de precios en un estabilizador automático sin costo para el Presupuesto del Estado. |
 | **Eliminación de Deducibilidad de IVA en Combustibles** | **Aprobada** | Captura +135 M USD/año; erradica facturas fantasmas; no afecta el precio de venta en surtidor al público. | Resistencia de cámaras empresariales. | Aprobada. El combustible no debe ser un escudo de evasión de IVA. Si es gasto productivo, se deduce en Impuesto a la Renta. |

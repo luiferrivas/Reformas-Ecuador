@@ -154,6 +154,20 @@ En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el 
 
 ---
 
+### CAPÍTULO X
+### BANDA DINÁMICA CON COLCHÓN CONTRACÍCLICO DEL CINCO AL DIEZ POR CIENTO (5% - 10%) SOBRE PARIDAD Y CUENTA DE ESTABILIZACIÓN HIDROCARBURÍFERA (SUBSIDIO CERO)
+
+**Artículo 18.- Margen de Estabilización Contracíclica en la Fórmula de Paridad.-**
+1. La Agencia de Regulación y Control Hidrocarburífero (ARCH) incorporará de oficio en la fórmula mensual de determinación de precios de paridad de importación para las gasolinas Extra y Ecopaís, y para el diésel automotriz de transporte terrestre, un margen técnico contracíclico de entre el cinco por ciento (5%) y el diez por ciento (10%) por encima del costo real de paridad internacional WTI / Costa del Golfo más costos eficientes de logística y comercialización.
+2. Dicho margen operará como un colchón regulatorio de autofinanciamiento para que, al alcanzarse la paridad de precios internacionales, el sistema absorba de forma autónoma la volatilidad externa del crudo y de los destilados sin generar déficits operativos para las empresas comercializadoras ni requerir desembolsos fiscales del Presupuesto General del Estado.
+
+**Artículo 19.- Cuenta Fiduciaria de Estabilización de Combustibles (CFEC) y Garantía de Subsidio Cero.-**
+1. Créase la Cuenta Fiduciaria de Estabilización de Combustibles (CFEC), administrada por el Banco Central del Ecuador (BCE), en la cual se depositarán de manera automática los recursos recaudados a través del margen contracíclico del cinco al diez por ciento (5% al 10%) durante los periodos de precios internacionales bajos o moderados.
+2. Cuando el precio internacional de paridad WTI experimente alzas extraordinarias o picos de cotización que superen el techo de la banda mensual, la CFEC amortiguará la diferencia para proteger a los consumidores, cubriendo el diferencial con sus propios saldos acumulados, sin que bajo ninguna circunstancia el Ministerio de Economía y Finanzas o el Presupuesto General del Estado realice transferencias, inyecciones de liquidez ni asuma subsidios con cargo a recursos públicos.
+3. En caso de agotamiento temporal de los recursos de la CFEC ante eventos de crisis geopolítica o shocks petroleros globales prolongados, el precio de venta en surtidor ajustará su flotación hasta cubrir el costo real de paridad, garantizando taxativamente que el subsidio neto del Estado ecuatoriano para dichos combustibles sea permanentemente de cero dólares (0.00 USD).
+
+---
+
 ### DISPOSICIONES GENERALES
 
 **PRIMERA.-** Los recursos fiscales liberados por la remoción del diésel camaronero (estimados en 75 millones de dólares anuales), por el desmonte del GLP comercial (estimados en 180 millones de dólares anuales), por la recuperación del IVA en combustibles (estimada en 135 millones de dólares anuales) y por la optimización de los subsidios industriales y vehiculares se destinarán de manera intangible y prioritaria a obras de electrificación rural, infraestructura de agua potable y saneamiento en zonas costeras y campesinas, financiamiento para reconversión vehicular a GNV, y al equipamiento operativo y aeronaval de la Armada Nacional, Policía Nacional y Fuerzas Armadas.
@@ -177,6 +191,8 @@ En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el 
 **SEXTA.-** En un plazo no superior a noventa (90) días calendario, la DIRNEA, el Viceministerio de Acuacultura y Pesca y BanEcuador B.P. pondrán en operación el sistema telemático de Zarpe Electrónico y acreditación de la Tarjeta Prepago de Combustible Marino para pescadores artesanales regularizados.
 
 **SÉPTIMA.-** En un plazo no superior a ciento veinte (120) días calendario, el Ministerio de Defensa Nacional iniciará la instalación progresiva de los dispositivos satelitales AIS y botones de pánico georreferenciados en las embarcaciones pesqueras artesanales debidamente matriculadas.
+
+**OCTAVA.-** En un plazo no superior a cuarenta y cinco (45) días calendario a partir de la vigencia de esta Ley, la ARCH y el Banco Central del Ecuador instrumentarán el reglamento de operación y la apertura de la Cuenta Fiduciaria de Estabilización de Combustibles (CFEC) establecida en los Artículos 18 y 19.
 
 ---
 

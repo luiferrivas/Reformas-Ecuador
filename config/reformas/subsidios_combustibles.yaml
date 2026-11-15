@@ -113,6 +113,21 @@ electromovilidad_masiva_urbana:
   tarifa_regulada_cost_of_service_usd_kwh: 0.082 # Entre hospitales (0.05) y minería/exportación (0.16)
   impacto_sustitucion: "Reducción directa de importación de diésel vehicular por tracción hidroeléctrica limpia"
 
+colchon_contraciclico_estabilizacion:
+  combustibles_aplicables:
+    - "Gasolina Extra (85 octanos)"
+    - "Gasolina Ecopaís (85 octanos con etanol)"
+    - "Diésel Automotriz y Transporte Masivo"
+  margen_tecnico_pct_min: 5.0
+  margen_tecnico_pct_max: 10.0
+  formula: "P_techo = P_paridad * (1 + alpha), alpha in [0.05, 0.10]"
+  cuenta_estabilizacion: "Cuenta Fiduciaria de Estabilización de Combustibles (CFEC) en el Banco Central del Ecuador"
+  flujo_acumulacion_mensual_estimado_m_usd: 15.00
+  precio_wti_piso_acumulacion_usd_bbl: 70.00
+  precio_wti_techo_activacion_amortiguacion_usd_bbl: 85.00
+  regla_cierre_riesgo_extremo: "Flotación plena hasta cubrir costos de paridad real sin aportes del PGE"
+  subsidio_fiscal_neto_estatal_usd: 0.00 # Garantía estricta de subsidio cero para el erario público
+
 balance_consolidado_5_anos:
   ano_1_alivio_fiscal_caja_garantizado_m_usd: 401.51
   ano_1_alivio_fiscal_caja_nominal_m_usd: 405.35
