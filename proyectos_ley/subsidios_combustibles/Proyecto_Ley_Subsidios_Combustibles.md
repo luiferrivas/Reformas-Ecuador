@@ -102,9 +102,34 @@ En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el 
 
 ---
 
+### CAPÍTULO V
+### REFORMA TRIBUTARIA A LA LEY DE RÉGIMEN TRIBUTARIO INTERNO (LORTI): PROHIBICIÓN DE CRÉDITO TRIBUTARIO DE IVA EN COMBUSTIBLES
+
+**Artículo 10.- Reforma al Artículo 66 de la Ley de Régimen Tributario Interno.-** A continuación del último inciso del Artículo 66 de la Ley de Régimen Tributario Interno, agréguese el siguiente inciso con carácter vinculante:
+
+> "El Impuesto al Valor Agregado (IVA) pagado en la adquisición local, transferencia o importación de combustibles fósiles derivados de hidrocarburos (gasolinas en todos sus octanajes, diésel en todas sus modalidades y gas licuado de petróleo) no otorgará derecho a crédito tributario bajo ninguna circunstancia ni podrá ser compensado contra el IVA cobrado en ventas gravadas. Dicho valor constituirá obligatoriamente costo o gasto deducible para fines de la determinación de la base imponible del Impuesto a la Renta, siempre que cumpla con los requisitos generales de deducibilidad previstos en esta Ley."
+
+**Artículo 11.- Control Telemático del SRI y Sanciones por Evasión.-** El Servicio de Rentas Internas (SRI) bloqueará de forma automática en los sistemas informáticos de declaración tributaria (Formulario 104) cualquier intento de registrar facturas de combustibles como crédito fiscal de IVA. La utilización fraudulenta de comprobantes de venta de hidrocarburos para simular crédito tributario será sancionada conforme al régimen penal tributario del Código Orgánico Integral Penal como defraudación tributaria.
+
+---
+
+### CAPÍTULO VI
+### DESESCALAMIENTO REGLADO DE LA COMPENSACIÓN A GASOLINAS EXTRA Y ECOPAÍS (DECRETO 308) Y TRANSICIÓN A GNV
+
+**Artículo 12.- Cronograma Simétrico de Capping a 24 Meses.-** La compensación monetaria en cuenta bancaria establecida mediante el Decreto Ejecutivo No. 308 de 26 de junio de 2024 para las gasolinas Extra y Ecopaís a favor de taxis convencionales, camionetas de transporte comercial mixto rural y tricimotos o mototaxis se extinguirá de manera gradual, uniforme e improrrogable en un plazo perentorio de veinticuatro (24) meses, conforme al siguiente cronograma:
+1. **Meses 1 al 6:** Se mantendrá el cien por ciento (100%) de la transferencia mensual calculada según los cupos de galones regulados.
+2. **Meses 7 al 12:** La transferencia mensual se reducirá al setenta y cinco por ciento (75%) del valor base.
+3. **Meses 13 al 18:** La transferencia mensual se reducirá al cincuenta por ciento (50%) del valor base.
+4. **Meses 19 al 24:** La transferencia mensual se reducirá al veinticinco por ciento (25%) del valor base.
+5. **A partir del Mes 25:** La compensación quedará definitivamente extinguida, cesando cualquier transferencia monetaria del Presupuesto General del Estado por dicho concepto.
+
+**Artículo 13.- Fomento a la Conversión a Gas Natural Vehicular (GNV) y Biometano.-** Durante el plazo de veinticuatro (24) meses establecido en el artículo precedente, la Corporación Financiera Nacional (CFN) B.P. y BanEcuador B.P. mantendrán activas líneas de crédito preferente con tasa de interés productiva subvencionada y plazo de hasta 48 meses para financiar la adquisición e instalación de kits de conversión dual a Gas Natural Vehicular (GNV) y biometano en talleres debidamente certificados por el Servicio Ecuatoriano de Normalización (INEN).
+
+---
+
 ### DISPOSICIONES GENERALES
 
-**PRIMERA.-** Los recursos fiscales liberados por la remoción del diésel camaronero (estimados en 75 millones de dólares anuales) y por el desmonte del GLP comercial (estimados en 180 millones de dólares anuales) se destinarán de manera intangible y prioritaria a obras de electrificación rural, infraestructura de agua potable y saneamiento en las zonas costeras y campesinas, y al equipamiento operativo de la Policía Nacional y Fuerzas Armadas.
+**PRIMERA.-** Los recursos fiscales liberados por la remoción del diésel camaronero (estimados en 75 millones de dólares anuales), por el desmonte del GLP comercial (estimados en 180 millones de dólares anuales) y por la recuperación del IVA en combustibles (estimada en 135 millones de dólares anuales) se destinarán de manera intangible y prioritaria a obras de electrificación rural, infraestructura de agua potable y saneamiento en las zonas costeras y campesinas, y al equipamiento operativo de la Policía Nacional y Fuerzas Armadas.
 
 **SEGUNDA.-** Las Fuerzas Armadas y la Policía Nacional realizarán inspecciones periódicas inopinadas en instalaciones acuícolas y centros comerciales para decomisar combustible o cilindros de gas desviados ilícitamente, remitiendo los informes a la Fiscalía General del Estado para el inicio de las acciones penales por contrabando y enriquecimiento ilícito.
 
@@ -118,11 +143,15 @@ En ejercicio de las facultades conferidas por el artículo 120, numeral 6, y el 
 
 **TERCERA.-** El primer ajuste anual del diez por ciento (10%) al precio del GLP doméstico residencial entrará en vigencia el día 1 de enero inmediato posterior a la publicación de la presente Ley en el Registro Oficial.
 
+**CUARTA.-** En un plazo no mayor a quince (15) días calendario a partir de la publicación de esta Ley, el Servicio de Rentas Internas (SRI) actualizará las plataformas informáticas de declaración tributaria (Formulario 104) para parametrizar el bloqueo automático del crédito tributario por adquisiciones de combustibles fósiles.
+
+**QUINTA.-** El Ministerio de Economía y Finanzas, en coordinación con el Ministerio de Transporte y Obras Públicas y la Agencia Nacional de Tránsito (ANT), actualizará la plataforma de transferencias bancarias del Decreto Ejecutivo No. 308 para aplicar las reducciones escalonadas del Artículo 12 a partir del séptimo mes de vigencia de la presente Ley.
+
 ---
 
 ### DISPOSICIONES DEROGATORIAS
 
-**ÚNICA.-** Deróganse expresamente el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 en lo referente a la exención para camaroneras de menos de 30 hectáreas, y todas las normas reglamentarias y resoluciones que reconozcan precios subsidiados a la acuacultura de exportación o que impidan la aplicación del sendero anual del 10% en el GLP doméstico.
+**ÚNICA.-** Deróganse expresamente el Decreto Ejecutivo No. 675 de 2 de diciembre de 2022 en lo referente a la exención para camaroneras de menos de 30 hectáreas; el inciso o disposición reglamentaria que admita crédito tributario de IVA en combustibles fósiles; y todas las normas de igual o inferior jerarquía que se opongan a la presente Ley Orgánica.
 
 ---
 

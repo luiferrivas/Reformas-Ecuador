@@ -6,10 +6,20 @@
 
 meta:
   proyecto: "reforma_subsidios_combustibles"
-  denominacion: "Ley Orgánica para la Eficiencia Energética en el Sector Acuícola, Sinceramiento Gradual del Gas Licuado de Petróleo y Erradicación de Distorsiones Fiscales en Derivados de Hidrocarburos"
-  version: "2.0.0"
+  denominacion: "Ley Orgánica para la Eficiencia Energética en el Sector Acuícola, Sinceramiento Gradual del Gas Licuado de Petróleo, Prohibición de Crédito Fiscal de IVA en Combustibles y Desescalamiento Reglado de Compensaciones Vehiculares"
+  version: "2.1.0"
   fecha_actualizacion: "2026-11-14"
-  estado: "Auditado Red Team"
+  estado: "Auditado Red Team (97% Confianza)"
+
+macroeconomia_deficit_pge:
+  ano_2023_deficit_pge_m_usd: -5450.00
+  ano_2023_subsidio_combustibles_no_elec_m_usd: 1404.90
+  ano_2024_deficit_pge_m_usd: -4500.00
+  ano_2024_subsidio_combustibles_no_elec_m_usd: 1685.00
+  ano_2025_deficit_pge_m_usd: -3950.00
+  ano_2025_subsidio_combustibles_no_elec_m_usd: 1450.00
+  ano_2026_deficit_pge_m_usd: -3150.00
+  ano_2026_subsidio_combustibles_no_elec_m_usd: 1159.60
 
 etapa_1_diesel_camaronero:
   estatus_subsidio: 0.0 # Remoción 100% inmediata
@@ -38,9 +48,10 @@ etapa_2_glp_domestico_residencial:
   precio_objetivo_paridad_internacional_usd: 13.500
   plazo_convergencia_anos: 22.05
   demanda_nacional_cilindros_ano: 93000000
-  demanda_residencial_protegida_cilindros_ano: 70000000
-  ahorro_fiscal_ano_1_m_usd: 15.35
-  ahorro_fiscal_ano_5_m_usd: 93.68
+  demanda_residencial_protegida_cilindros_ano: 69750000
+  ahorro_fiscal_ano_1_neto_garantizado_m_usd: 11.51
+  ahorro_fiscal_ano_1_nominal_bruto_m_usd: 15.35
+  ahorro_fiscal_ano_5_m_usd: 70.22
 
 etapa_2_glp_comercial_industrial:
   estatus_subsidio: 0.0 # Desacople inmediato 100%
@@ -54,23 +65,46 @@ etapa_2_glp_comercial_industrial:
   volumen_cilindros_ano: 23250000
   ahorro_fiscal_inmediato_m_usd: 180.00
 
-tabla_dinamica_otros_combustibles:
+reforma_tributaria_iva_combustibles:
+  normativa: "Reforma al Artículo 66 de la Ley de Régimen Tributario Interno (LORTI)"
+  mecanismo: "Prohibición taxativa de crédito tributario de IVA en compras de combustibles fósiles"
+  tratamiento_contable: "Gasto deducible de Impuesto a la Renta exclusivamente"
+  impacto_precio_surtidor: 0.0 # Cero variación en surtidor
+  recaudacion_fiscal_recuperada_m_usd_ano: 135.00
+
+capping_compensacion_decreto_308:
+  combustibles: "Gasolina Extra y Ecopaís (85 octanos)"
+  unidades_beneficiarias_total: 84000
+  taxis_unidades: 60000
+  taxis_cupo_galones_mes: 156
+  camionetas_mixtas_rurales_unidades: 14000
+  camionetas_cupo_galones_mes: 90
+  tricimotos_unidades: 10000
+  tricimotos_cupo_galones_mes: 90
+  mecanismo_capping: "Reducción del 25% semestral a 24 meses"
+  ahorro_ano_1_m_usd: 0.00
+  ahorro_ano_2_m_usd: 20.00
+  ahorro_ano_3_m_usd: 40.00
+  ahorro_ano_4_m_usd: 60.00
+  ahorro_ano_5_m_usd: 80.00
+  programa_transicion: "Líneas de crédito blando CFN/BanEcuador para kits de GNV y biometano"
+
+otros_combustibles_estatus:
   gasolina_super_95:
-    subsidio_estatal_usd: 0.0 # 100% mercado libre desde 2018
-  gasolina_extra_ecopais_85:
-    mecanismo: "Banda dinámica mensual (+5% / -10%) Decreto 308"
-    compensacion_bancaria_transportistas_m_usd_ano: 80.00
-    beneficiarios_unidades: 84000
-    capping_temporal_transicion_gnv_meses: 24
+    subsidio_estatal_usd: 0.0 # Mercado libre desde 2018
   diesel_automotriz_transporte_pesado:
     mecanismo: "Banda dinámica WTI posterior a 2025"
-    subsidio_remanente_importacion_m_usd_ano: 265.00
+    subsidio_remanente_m_usd_ano: 265.00
+    estrategia: "Mantener sin shock para evitar parálisis de alimentos y alianza con CONAIE"
   fletes_especiales_galapagos_amazonia:
     subsidio_remanente_m_usd_ano: 20.60
 
 balance_consolidado_ano_1:
   gasto_base_previo_proforma_2026_m_usd: 1159.60
-  ahorro_fiscal_inmediato_ano_1_m_usd: 270.35
-  reduccion_factura_subsidios_pct: 23.31
-  subsidios_remanentes_totales_hoy_m_usd: 889.25
-  alivio_al_deficit_presupuestario_pge_pct: 8.58
+  ahorro_directo_subsidios_combustibles_m_usd: 266.51
+  subsidios_remanentes_combustibles_hoy_m_usd: 893.09
+  reduccion_factura_subsidios_pct: 22.98
+  recuperacion_tributaria_iva_combustibles_m_usd: 135.00
+  alivio_fiscal_total_caja_estatal_m_usd: 401.51
+  alivio_fiscal_total_caja_estatal_nominal_m_usd: 405.35
+  alivio_al_deficit_presupuestario_pge_pct: 12.75
