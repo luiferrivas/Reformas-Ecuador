@@ -16,16 +16,23 @@ version: "1.0.0"
 # ------------------------------------------------------------------------------
 umbrales_consumo:
   residencial:
+    limite_preferente_base_kwh_mes: 200 # Hogares que cocinan con gas GLP
+    limite_preferente_induccion_kwh_mes: 250 # Hogares con cocina de inducción acreditada
+    bonificacion_induccion_kwh_mes: 50 # Cupón de cocción limpia
     sierra:
-      limite_preferente_kwh_mes: 250
-      criterio: "Cubre iluminación, refrigeración eficiente y computación del 78% de hogares"
-      consumo_promedio_estimado_kwh_mes: 140
+      limite_preferente_kwh_mes: 200
+      limite_preferente_induccion_kwh_mes: 250
+      criterio: "200 kWh base cubre iluminación, refrigeración y consumos básicos; 250 kWh con cocina a inducción"
+      consumo_promedio_estimado_kwh_mes: 135
     costa_amazonia:
-      limite_preferente_base_kwh_mes: 250
-      limite_preferente_temporada_calida_kwh_mes: 300
-      limite_maximo_excepcion_bioclimatica_kwh_mes: 320
-      criterio: "Ajuste estacional para refrigeración y ventilación/climatización moderada"
-      consumo_promedio_estimado_kwh_mes: 205
+      limite_preferente_base_kwh_mes: 200
+      limite_preferente_temporada_calida_kwh_mes: 200
+      limite_preferente_induccion_kwh_mes: 250
+      limite_maximo_excepcion_bioclimatica_kwh_mes: 200
+      criterio: "200 kWh base (cubre ventiladores eficientes de 60 W); +50 kWh para inducción; splits pagan tarifa real"
+      consumo_promedio_estimado_kwh_mes: 170
+    recargo_estacional_sequia_excedente_usd_kwh: 0.020 # Aplica sobre todo consumo que exceda 200k (o 250k con inducción) en estiaje
+    bonificacion_ahorro_estiaje_pct: 10.0 # Reducción >=10% exonera el recargo de 2 centavos
     regla_cobro_excedente: "marginal_por_tramos" # (T_preferente * min(C, U)) + (T_real * max(0, C - U))
 
   soberania_alimentaria:
@@ -318,6 +325,16 @@ tarifas_horarias_tou:
         - "18:00 - 22:00"
       costo_marginal_estimado_usd_kwh: 0.260
       objetivo: "Desplazar demanda fuera del horario crítico; incentivo a descarga de baterías BESS"
+    movilidad_electrica_vehiculos_electricos:
+      principio_rector: "Recarga de bajo costo condicionada exclusivamente a la disponibilidad de superávit en red"
+      ventanas_superavit_permitidas_tarifa_valle:
+        - "23:00 - 06:00 (Superávit hidroeléctrico de pasada / eólico nocturno)"
+        - "10:00 - 14:00 (Superávit de generación solar fotovoltaica)"
+      tarifa_valle_recarga_usd_kwh: 0.065
+      recarga_fuera_de_valle:
+        tratamiento: "Tarifa plana ordinaria o costo real pleno TOU con Factor de Contingencia Climática (FCC)"
+        tarifa_pico_nocturno_usd_kwh: 0.260
+        objetivo: "Prohibición absoluta de subsidiar recarga de VE en horarios de estrés o despacho térmico"
 
 # ------------------------------------------------------------------------------
 # 6. TRANSICIÓN PRODUCTIVA INDUSTRIAL (ANTI-INFLACIONARIA)
@@ -347,13 +364,13 @@ medicion_inteligente_ami:
   principio: "No gratuidad con depósito de garantía recuperable y fondo de rotación permanente"
   modelo_costo_garantia:
     costo_adquisicion_escala_usd: 60.00 # Rango: $55.00 a $65.00 USD
-    recargo_operativo_garantia_pct: 5.0 # Nutre el fondo rotativo para stock permanente y calibración
-    recargo_operativo_monto_usd: 3.00
-    deposito_garantia_total_usd: 63.00
+    recargo_operativo_garantia_pct: 10.0 # Nutre el fondo rotativo para stock permanente y calibración
+    recargo_operativo_monto_usd: 6.00
+    deposito_garantia_total_usd: 66.00
   amortizacion_usuario:
     plazo_cuotas_meses: 36 # Diferido en planilla mensual
     tasa_interes_pct: 0.0
-    cuota_mensual_planilla_usd: 1.75
+    cuota_mensual_planilla_usd: 1.83
   devolucion_garantia:
     condicion: "Devolución íntegra del depósito si el usuario entrega el medidor al terminar el contrato o traspaso a nuevo titular"
 
@@ -373,12 +390,31 @@ autogeneracion_solar:
     tarifa_aplicada: "tarifa_marginal_horaria_pico"
     objetivo: "Aplanar el pico nacional de 18:00 a 22:00 horas"
   tope_capacidad_sgda_kwp: 2000 # Ampliable a 5000 kWp previa validación de alimentador
-  mandato_inyeccion_excedentes: true # Todo el sistema industrial inyecta excedentes diurnos al SNI
-  indicadores_economicos:
-    payback_solar_techo_anos: 3.5 # Reducido desde 11 años con subsidio distorsionado
-    tir_solar_techo_pct: 28.5
-    payback_solar_con_bess_anos: 4.5
-    lcoe_solar_estimado_usd_kwh: 0.050
+  manejo_dinamico_red:
+    sistema_supervision: "DERMS (CENACE y Distribuidoras)"
+    norma_inversores_obligatoria: "IEEE 1547-2018 / UL 1741 SB (Smart Inverters Grid-Forming)"
+    funciones_autonomas_inversor: ["Volt-VAr", "Volt-Watt"]
+    umbral_alerta_saturacion_alimentador_pct: 80.0
+    jerarquia_despacho:
+      - "1. Autoconsumo en sitio"
+      - "2. Carga banco baterías BESS"
+      - "3. Inyección dinámica regulada (70% reconocimiento)"
+      - "4. Limitación activa de potencia (Curtailment) o Inyección Cero (Zero Export)"
+    via_rapida_zero_export: true # Permite conexión inmediata sin inyección en circuitos saturados
+
+  incentivo_bess_via_70_30:
+    mecanismo: "La deducción del 30% en inyección diurna penaliza el vertido ciego y fuerza el almacenamiento BESS para consumo nocturno o inyección en punta al 100%"
+    rentabilidad_largo_plazo:
+      lcoe_solar_25_anos_usd_kwh: 0.050
+      tarifa_historica_subsidiada_usd_kwh: 0.095
+      reduccion_costo_estructural_industria_pct: 47.4
+
+  brecha_remanente_deficit_estado:
+    subsidio_diesel_transporte_pesado_usd: 1000000000
+    subsidio_glp_domestico_15kg_usd: 750000000
+    deficit_pensiones_salud_iess_usd: 1350000000
+    total_brecha_remanente_deficit_cero_usd: 3100000000
+    leccion_estrategica: "La reforma eléctrica cubre hasta el 78.5% del déficit; el remanente requiere reformar subsidios fósiles automotrices e IESS"
 
 # ------------------------------------------------------------------------------
 # 9. GOBERNANZA DEL FONDO ESPECIAL (FERRE)
@@ -396,3 +432,81 @@ fondo_reinversion_ferre:
     - "Incorporación de sistemas de almacenamiento BESS estratégicos en subestaciones críticas"
     - "Modernización y repotenciación de líneas del Sistema Nacional de Transmisión"
     - "Ampliación de redes de distribución rural y alumbrado público eficiente"
+  titularizacion_flujos_bonos_verdes:
+    autorizacion_legal: "Hasta el 50% de los flujos proyectados del rubro de resiliencia y peajes Net Billing"
+    emision_bonos_verdes_usd: 1200000000 # Rango: $1,200M a $1,500M USD
+    plazo_emision_anos: 15
+    cupon_estimado_anual_pct: 6.25 # Rango: 6.0% a 6.5%
+    agentes_colocadores: ["BID Invest", "CAF", "IFC", "Mercado de Valores de Guayaquil/Quito"]
+    capex_inmediato_ano_1_usd: 1350000000
+    destinos_prioritarios:
+      - "Proyecto Hidroeléctrico Cardenillo (596 MW en cascada Paute)"
+      - "Centrales Hidroeléctricas de Bombeo Reversible (Pumped-Storage 300-500 MW)"
+      - "Despliegue de 500 MW en baterías BESS de escala troncal"
+      - "Repotenciación del 100% de alimentadores saturados en CNEL EP"
+
+# ------------------------------------------------------------------------------
+# 10. MECANISMO DE OBRAS POR IMPUESTOS PARA INFRAESTRUCTURA ELÉCTRICA
+# ------------------------------------------------------------------------------
+obras_por_impuestos:
+  normativa_aplicable: "Artículo innumerado LOSPEE agregado por la presente Ley"
+  sujetos_financiadores: ["Consorcios privados", "Empresas mineras", "Cámaras camaroneras", "Industrias pesadas"]
+  obras_elegibles:
+    - "Subestaciones transformadoras 138/69 kV de uso público"
+    - "Líneas de transmisión y alimentadores trifásicos de media tensión"
+    - "Bancos de compensación reactiva y STATCOMs en subestaciones troncales"
+  beneficio_tributario:
+    tipo: "Notas de Crédito Tributarias Desmaterializadas del SRI"
+    cobertura: "100% del costo eficiente auditado de la obra"
+    plazo_compensacion_ir_anos: 5
+  ventaja_estructural: "Evita cuellos de botella de licitación pública en SERCOP y acelera obras sin desembolso de caja fiscal"
+
+# ------------------------------------------------------------------------------
+# 11. HOJA DE RUTA HIDROELÉCTRICA ESTRATÉGICA
+# ------------------------------------------------------------------------------
+hoja_ruta_hidroelectrica:
+  criterio_exclusion_macro_filo_agua:
+    modelo_descartado: "Centrales macro a filo de agua sin embalse estacional (tipo Coca Codo Sinclair)"
+    motivos_descarte:
+      - "Desplome de generación a <27% de factor de planta durante estiaje amazónico"
+      - "Abrasión severa por sedimentos de cuarzo (>10,000 ppm) obligando a paradas en lluvias"
+      - "Riesgo geológico y erosión regresiva fluvial incontrolable"
+  proyectos_priorizados:
+    cardenillo:
+      capacidad_mw: 596
+      generacion_anual_gwh: 3350
+      ubicacion: "Río Paute, aguas abajo de Sopladora (último escalón de la cascada Paute)"
+      ventaja_hidraulica: "Aprovecha agua 100% regulada por los embalses Mazar (410M m³) y Amaluza (120M m³)"
+      lcoe_usd_kwh: 0.038
+      capex_estimado_usd: 1300000000
+      esquema_financiamiento: "Titularización FERRE + Concesión privada a 30 años sin aval soberano"
+    pumped_storage_hydro_bombeo_reversible:
+      capacidad_mw: 400 # Rango: 300 a 500 MW
+      ubicacion: "Desnivel hidráulico entre embalses existentes (Paute / Daule-Peripa)"
+      eficiencia_ciclo_completo_pct: 78.0 # Rango: 76% a 80%
+      mecanismo_operativo:
+        bombeo_diurno: "Consume excedentes solares industriales de costo marginal cero (10:00 a 14:00)"
+        turbinado_nocturno: "Genera potencia pico firme limpia de 18:00 a 22:00 sin quemar diésel"
+      vida_util_anos: 50
+
+# ------------------------------------------------------------------------------
+# 12. FIDEICOMISO MAESTRO CENTRALIZADO DE RECAUDACIÓN EN EL BANCO CENTRAL (BCE)
+# ------------------------------------------------------------------------------
+fideicomiso_maestro_recaudacion_bce:
+  entidad_depositaria: "Banco Central del Ecuador (BCE)"
+  cobertura_recaudacion_pct: 100.0
+  orden_prelacion_legal_forzoso:
+    - "1. Compra de energía en bloque y potencia firme a CELEC EP y generadores privados habilitados"
+    - "2. Peaje de transporte del Sistema Nacional de Transmisión (Transelectric)"
+    - "3. Transferencia intangible de excedentes y rubros de resiliencia (0.01 USD/kWh) al Fondo FERRE"
+    - "4. Transferencia de remanente para VAD y costos operativos eficientes a empresas distribuidoras"
+  prohibicion_expresa: "Prohibido a distribuidoras retener fondos para gasto corriente o nómina antes de honrar generación y transmisión"
+
+# ------------------------------------------------------------------------------
+# 13. CAPPING REGULATORIO DE PÉRDIDAS DE DISTRIBUCIÓN EN EL VAD
+# ------------------------------------------------------------------------------
+capping_perdidas_distribucion_vad:
+  limite_maximo_perdidas_reconocidas_pct: 8.5
+  entidad_reguladora: "ARCONEL"
+  tratamiento_perdidas_excedentes: "Pérdida patrimonial directa contra balance contable de la distribuidora; prohibido trasladar a tarifa de abonados o Presupuesto del Estado"
+  sancion_administrativa: "Causal de remoción para Directorio y Gerencia General de la empresa eléctrica distribuidora"

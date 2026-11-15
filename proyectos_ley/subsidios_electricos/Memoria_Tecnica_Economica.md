@@ -29,10 +29,14 @@ Esta propuesta legislativa resuelve estructuralmente estos tres problemas median
 +------------------------------------+--------------------------------------------------------------+
 | CATEGORÍA                          | TRATAMIENTO TARIFARIO                                        |
 +------------------------------------+--------------------------------------------------------------+
-| Residencial (0 a 250 kWh/mes)      | Tarifa Más Barata Posible (Asignación prioritaria de hidro/  |
-|                                    | eólica/solar de menor costo según región)                    |
+| Residencial Base (0 a 200 kWh/mes) | Tarifa Más Barata Posible (Asignación prioritaria hidroeléctrica/|
+| (Hogares con cocción a gas GLP)    | renovable base a costo eficiente)                            |
 +------------------------------------+--------------------------------------------------------------+
-| Residencial (> 250 kWh/mes)        | Tarifa a Costo Real Pleno sobre el excedente consumido       |
+| Residencial con Cocina de Inducción| Tarifa Más Barata Posible hasta 250 kWh/mes (Cupón de +50 kWh|
+| (0 a 250 kWh/mes acreditado 220V)  | preferente para cocción eléctrica limpia sustituyendo GLP)   |
++------------------------------------+--------------------------------------------------------------+
+| Residencial Excedente              | Tarifa a Costo Real Pleno sobre el exceso consumido          |
+| (> 200 kWh sin inducción o > 250k) | (+ Recargo Estacional de Sequía de 2 ¢/kWh en estiaje)       |
 +------------------------------------+--------------------------------------------------------------+
 | Alimentación Popular y Tiendas     | Tarifa Más Barata Posible (Asignación prioritaria)           |
 | (0 a 500 kWh/mes)                  |                                                              |
@@ -45,15 +49,19 @@ Esta propuesta legislativa resuelve estructuralmente estos tres problemas median
 +------------------------------------+--------------------------------------------------------------+
 ```
 
-#### 2.1. Bloque Residencial Familiar: Umbral de 250 kWh/mes
-- **Fundamento Demográfico y Estadístico:**
-  - El consumo promedio de un hogar ecuatoriano de 4 habitantes en la región Sierra (Quito, Cuenca, Ambato) se sitúa entre **120 y 160 kWh/mes**, destinado principalmente a iluminación LED, refrigeradora eficiente, televisión, pequeños electrodomésticos y computación.
-  - En la región Costa y Amazonía (Guayaquil, Manta, Machala, Lago Agrio), el uso estacional de ventilación o un equipo de aire acondicionado de bajo consumo (inverter) eleva el promedio de los hogares típicos a un rango de **180 a 230 kWh/mes**.
-  - Por ende, el umbral de **250 kWh/mes** cubre holgadamente el consumo vital y de confort básico de aproximadamente el **78% de la población residencial ecuatoriana**.
+#### 2.1. Bloque Residencial Familiar: Umbral de 200 kWh/mes Base y 250 kWh/mes con Cocina a Inducción
+- **Fundamento Demográfico, Estadístico y Energético:**
+  - El consumo promedio real de un hogar ecuatoriano de 4 habitantes que cocina con cilindro de gas GLP se ubica entre **120 y 160 kWh/mes** a nivel nacional, cubriendo iluminación LED, refrigeradora eficiente de 10-12 pies cúbicos (30 a 40 kWh/mes), lavadora, conectividad, TV y hasta 3 ventiladores continuos de 60 W en la Costa o electrodomésticos en la Sierra.
+  - Por lo tanto, el umbral base de **200 kWh/mes** protege con holgura absoluta las necesidades vitales del **72% al 75% de las familias ecuatorianas**.
+- **El Cupo Estratégico de Cocción Limpia (+50 kWh/mes para Inducción hasta 250 kWh/mes):**
+  - Preparar el almuerzo y la cena diaria para 4 personas en una cocina de inducción de alta eficiencia magnética consume entre **40 y 60 kWh/mes** (promedio: ~50 kWh/mes).
+  - Al otorgar un umbral ampliado a **250 kWh/mes** exclusivamente a los hogares con cocina de inducción acreditada (circuito bifásico de 220V o telemetría AMI):
+    1. Se elimina la penalización eléctrica a quienes apoyan la transición energética.
+    2. Se crea un incentivo potente para abandonar el Gas Licuado de Petróleo (GLP) importado subsidiado, ahorrándole a Petroecuador más de **$15 a $20 millones de USD anuales por cada 100,000 familias** que migran de gas a inducción.
+    3. Se recaudan más de **$64.8 millones de USD anuales adicionales** en el sector eléctrico de los hogares que consumen entre 200 y 250 kWh sin tener inducción (pagando costo real pleno sobre ese exceso).
 - **Mecánica del Cobro Excedente:**
-  - A diferencia de esquemas punitivos de corte abrupto (donde pasarse de 1 kWh eliminaba todo el subsidio hacia atrás), la reforma establece un cobro marginal por tramos:
-    $$\text{Factura Residencial} = (C_{\text{preferente}} \times \min(\text{Consumo}, 250)) + (C_{\text{real}} \times \max(0, \text{Consumo} - 250)) + \text{Cargos de Red y Alumbrado}$$
-  - Esto protege el presupuesto familiar básico mientras penaliza de forma transparente los consumos suntuarios o ineficientes.
+  - La liquidación se efectúa por tramos marginales, donde el límite $U$ es 200 kWh (o 250 kWh con inducción):
+    $$\text{Factura Residencial} = (C_{\text{preferente}} \times \min(\text{Consumo}, U)) + (C_{\text{real}} \times \max(0, \text{Consumo} - U)) + \text{Cargos de Red y Alumbrado}$$
 
 #### 2.2. Bloque de Soberanía Alimentaria y Cadena Popular de Frío: Análisis Técnico (500 kWh vs. 800 kWh)
 
@@ -248,7 +256,7 @@ Para verificarlo con total rigor, se confronta la **Demanda Protegida Total** co
 
 - **Conclusión Contundente: ¡SÍ ALCANZA Y CON AMPLIA HOLGURA EN ENERGÍA!**
   1. Incluso en el mes más seco de la peor sequía registrada en la historia nacional (con Mazar en cota crítica y Coca Codo en estiaje amazónico generando solo 1,150 GWh/mes), **la oferta hidroeléctrica base cubre al 130.8% toda la demanda protegida combinada de familias, panaderías, tiendas, la agroindustria molinera de alimentos internos, agua potable cantonal, riego campesino, laboratorios de genéricos, hospitales y escuelas públicas**.
-  2. Queda un excedente mensual mínimo garantizado de **+270.5 GWh/mes** de energía hidroeléctrica barata para inyectar al resto de la economía productiva.
+  2. Queda un excedente mensual mínimo comprobado de **+270.5 GWh/mes** de energía hidroeléctrica barata correspondiente al límite inferior histórico registrado, disponible para inyectar al resto de la economía productiva.
 
 #### 3.4. La Distinción Física y Operativa Crucial: Energía (MWh Acumulados) vs. Potencia Pico (MW Instantáneos a las 19:00 horas)
 
@@ -271,7 +279,7 @@ Uno de los errores más comunes en la política energética ecuatoriana es confu
 
 #### 4.1. Estructura de Tarifa a Costo Real Pleno ($T_{\text{real}}$)
 
-Para todos los consumidores no amparados por los bloques preferentes (comercio de media y gran escala, industrias, bancos, telecomunicaciones, minería, sector público, grandes consumidores) y para los consumos residenciales y alimentarios en la porción que exceda los 250 kWh (o 320 kWh bioclimático) y 500/800 kWh respectivamente, se aplicará la **Tarifa a Costo Real Pleno ($T_{\text{real}}$)**:
+Para todos los consumidores no amparados por los bloques preferentes (comercio de media y gran escala, industrias, bancos, telecomunicaciones, minería, sector público, grandes consumidores) y para los consumos residenciales y alimentarios en la porción que exceda los 250 kWh y 500/800 kWh respectivamente, se aplicará la **Tarifa a Costo Real Pleno ($T_{\text{real}}$)**:
 
 $$T_{\text{real}} = C_{\text{gen,real}} + C_{\text{trans}} + C_{\text{dist}} + C_{\text{com}} + C_{\text{pérdidas}} + C_{\text{SAPG}}$$
 
@@ -458,11 +466,11 @@ A fin de blindar la soberanía alimentaria nacional y evitar que el sinceramient
 |    balanceado avícola/porcino, lácteos)     | USD/kWh) en MT. Cero subsidio.| Evita inflación en pan, |
 |    Volumen: ~85.0 GWh/mes (1,020 GWh/año)   | Modulación horaria fuera pico.| arroz, pollo y huevos.  |
 | 2. Agroexportación Intensiva                | Tarifa a Costo Real Pleno     | Facturan en USD en      |
-|    (Camarón, banano, flores, cacao, pesca)  | ($T_{\text{real}}$ + TOU +    | mercados mundiales.     |
+|    (Camarón, banano, flores, cacao, pesca)  | (T_real + TOU +               | mercados mundiales.     |
 |    Volumen: ~180.0 GWh/mes (2,160 GWh/año)  | FCC en estiaje). 14 a 22 ¢/kWh| Tienen alta capacidad de|
 |                                             |                               | pago y cobertura de red.|
 | 3. Gran Minería Metálica e Hidrocarburos    | Tarifa a Costo Real Pleno     | Actividades extractivas |
-|    (Mirador, Fruta del Norte, bombeo crudo) | ($T_{\text{real}}$ + TOU +    | de gran escala. Cero    |
+|    (Mirador, Fruta del Norte, bombeo crudo) | (T_real + TOU +               | de gran escala. Cero    |
 |    Volumen: ~100.0 GWh/mes (1,200 GWh/año)  | FCC en estiaje). 13 a 20 ¢/kWh| subsidio del Estado.    |
 +---------------------------------------------+-------------------------------+-------------------------+
 ```
@@ -595,6 +603,32 @@ Para que la paridad de red se traduzca de inmediato en cientos de megavatios lim
 4. **Bonificación del 100% por Inyección en Horas Punta Nocturnas (Peak Injection):**
    - Cuando las industrias incorporan baterías BESS y descargan potencia a la red en el bloque crítico de 18:00 a 22:00 horas, la distribuidora **reconoce el 100% de la tarifa marginal horaria de pico (~0.26 USD/kWh)** sin retención del 30%, desatando la inversión privada en almacenamiento y aplanando el pico nacional.
 
+#### 5.2.1. Gestión Dinámica de Capacidad de Aceptación de Red (Dynamic Hosting Capacity) y Protocolo Anti-Saturación DERMS
+
+La inyección simultánea de cientos de megavatios solares descentralizados impone un desafío de física de redes: **los alimentadores de distribución y las subestaciones transformadoras no pueden absorber una cantidad infinita de potencia sin riesgo de colapso por sobretensión o sobrecarga térmica**.
+
+A fin de hacer técnicamente imposible inyectar más energía de la que la red local puede admitir con seguridad, se institucionaliza el **Sistema de Gestión Dinámica de Recursos Energéticos Distribuidos (DERMS)** operado coordinadamente entre el CENACE y las distribuidoras:
+
+1. **La Restricción Física de los Circuitos de Media Tensión (13.8 kV / 22 kV):**
+   - Cuando la generación solar fotovoltaica excedentaria en un circuito excede la demanda local de ese mismo ramal, la potencia invierte su sentido de flujo hacia la subestación transformadora (*reverse power flow*).
+   - Este flujo inverso provoca elevaciones locales de voltaje que pueden violar los límites admisibles (+5% / -5%), dañar electrodomésticos vecinos y sobrecalentar los devanados del transformador de potencia 69/13.8 kV.
+
+2. **Protocolo DERMS y Curvas de Control en Inversores Inteligentes (Smart Inverters):**
+   - Es obligatorio que todo inversor comercial e industrial cumpla la norma **IEEE 1547-2018 y UL 1741 SB** (*Grid-Forming / Smart Inverters*).
+   - Los inversores ajustan de forma autónoma su potencia reactiva mediante curvas **Volt-VAr** (absorbiendo reactivos inductivos para mitigar sobrevoltajes locales) y modulan potencia activa mediante curvas **Volt-Watt** cuando el voltaje de la barra se aproxima a los límites normativos.
+
+3. **Algoritmo de Modulación y Jerarquía de Flujo en Tiempo Real:**
+   - Mediante telemetría AMI y protocolos digitales estandarizados (IEEE 2030.5 / OpenADR / IEC 61850), las distribuidoras monitorean la carga en cabeza de circuito.
+   - **Umbral de Alerta Temprana (80% de Capacidad Térmica):** Cuando la inyección solar agregada alcanza el 80% del límite térmico del alimentador o de la capacidad admisible del transformador, el sistema DERMS emite consignas dinámicas de modulación automática.
+   - **Jerarquía Obligatoria de Despacho en Sitio:**
+     * *Prioridad 1 (Autoconsumo):* Cobertura de la carga productiva interna de la fábrica u oficina;
+     * *Prioridad 2 (Carga de Baterías BESS):* Desvío automático de excedentes para cargar el banco de baterías local;
+     * *Prioridad 3 (Inyección Regulada al SNI):* Inyección a la red pública dentro de la cuota dinámica autorizada por la distribuidora bajo la Regla del 70/30;
+     * *Prioridad 4 (Limitación Activa de Potencia / Curtailment):* Si el circuito alcanza el 100% de su capacidad admisible, el inversor reduce automáticamente su generación fotovoltaica (*Active Power Curtailment*) para preservar la estabilidad de la red barrial.
+
+4. **Vía Rápida de Conexión con Inyección Cero Dinámica (*Zero Export*):**
+   - En alimentadores provisionalmente congestionados, la distribuidora no podrá bloquear el trámite de conexión: se otorgará autorización inmediata bajo modalidad **Zero Export**. La empresa genera el 100% de la energía solar para sus propios motores y baterías, bloqueando electrónicamente la salida a la red pública mediante limitadores de inyección en borne de acometida, hasta que la distribuidora repotencie el circuito.
+
 #### 5.3. Baterías de Almacenamiento (BESS) y Arbitraje Tarifario (Peak Shaving)
 
 El sinceramiento tarifario y la variabilidad en estiaje detonan la rentabilidad no solo de los paneles solares, sino de la combinación **Solar + Sistemas de Almacenamiento con Baterías (BESS)** para empresas y comercios:
@@ -603,12 +637,54 @@ El sinceramiento tarifario y la variabilidad en estiaje detonan la rentabilidad 
 3. **Respaldo Limpio vs. Generador a Diésel:** Sustituye a los generadores térmicos a diésel (que cuestan >30 ¢USD/kWh entre combustible y mantenimiento), garantizando continuidad operativa con cero emisiones y cero ruido.
 4. **Viabilidad Financiera:** Con la superdeducción del 100% de Impuesto a la Renta y arancel 0%, el retorno de inversión del combo **Solar + BESS industrial** se reduce a **4.0 a 5.2 años**, transformando a las empresas en agentes de estabilidad para la red pública.
 
+#### 5.3.1. La Regla del 70/30 como Vector Catalizador de Baterías BESS: Horario de Oficina vs. Plantas Continuas 24/7
+
+La decisión de reconocer únicamente el 70% de la energía inyectada al mediodía no es solo un mecanismo de recaudación de peajes, sino **la señal de precio más potente para forzar la adopción masiva de almacenamiento BESS en el sector privado**:
+
+1. **Empresas Comerciales y Horarios de Oficina (08:00 a 17:00):**
+   - *El Fenómeno:* Su curva de demanda productiva coincide en un 80% a 90% con la campana de generación solar matutina y diurna. Durante el horario laboral consumen prácticamente toda la energía solar generada en sitio.
+   - *El Desafío de los Excedentes:* Los excedentes masivos se suscitan los fines de semana (sábados y domingos), feriados y horas de máxima irradiancia (11:30 a 14:00).
+   - *El Incentivo de Baterías:* Si la empresa inyecta esos excedentes a la red el fin de semana, el Estado le retiene el 30%. En cambio, si la empresa instala un sistema de baterías BESS, almacena esa energía solar excedentaria a costo cero y:
+     * La utiliza el lunes por la mañana antes de que salga el sol, o
+     * La inyecta a la red pública durante las Horas Pico (18:00 a 22:00) recibiendo el **100% de la tarifa marginal nocturna sin retención alguna**.
+   - La Regla del 70/30 convierte a la batería en el instrumento idóneo para no "desperdiciar" el 30% retenido.
+
+2. **Plantas Industriales de Operación Continua (24 Horas / 3 Turnos):**
+   - *El Fenómeno:* Industrias plásticas, papeleras, metalmecánicas, farmacéuticas y textileras operan con turnos nocturnos intensivos de 19:00 a 07:00 horas, donde la tarifa de red con TOU alcanza su nivel más elevado (18 a 26 ¢USD/kWh).
+   - *El Desplazamiento de Demanda:* Al acumular su excedente solar diurno en BESS, la fábrica alimenta su segundo y tercer turno nocturno con energía limpia generada en su propio techo, abatiendo el costo de punta nocturna.
+
+#### 5.3.2. La Paradoja Virtuosa a Largo Plazo: Por qué Forzar a la Industria Reduce sus Costos Estructurales
+
+Existe una paradoja económica y de competitividad fundamental: **retirar el subsidio eléctrico y forzar a las empresas a autogenerar reduce drásticamente los costos de producción a largo plazo**.
+
+1. **La Trampa de la Inercia del Subsidio Barato:**
+   - Con tarifas subsidiadas a 9.5 ¢USD/kWh, los directorios corporativos consideraban que invertir en paneles solares era innecesario ("la luz ya es barata").
+   - Sin embargo, esa tarifa subsidiada era una ilusión: el sistema colapsaba cada año por sequía, obligando a las industrias a pagar **más de 32 ¢USD/kWh operando generadores térmicos a diésel** o afrontando pérdidas catastróficas por interrupción de líneas de producción.
+2. **La Ecuación Nivelada a 25 Años:**
+   - Al sincerar la tarifa a 16 - 18.5 ¢USD/kWh, el Estado obliga a las fábricas a salir de la inercia e invertir en solar fotovoltaica con crédito verde CFN al 5% anual.
+   - En un plazo de **3.5 a 4.5 años**, el ahorro en planillas paga el 100% del capital e intereses del crédito bancario.
+   - A partir del año 5, los paneles solares (cuya vida útil garantizada supera los 25 a 30 años) generan electricidad con un costo operativo marginal de solo **$0.015 a $0.020 USD/kWh** (limpieza e inspección de inversores).
+   - En el ciclo de vida completo del activo, el costo promedio nivelado (*LCOE*) de la energía de la empresa es de **~$0.050 USD/kWh**, es decir, **¡la mitad de lo que pagaban bajo la tarifa subsidiada histórica de 9.5 centavos!**
+3. **Veredicto:** Forzar a la industria a instalar energía solar mediante la eliminación del subsidio es la política de competitividad más transformadora del Ecuador: no solo salva al Estado del déficit fiscal, sino que dota a las empresas de energía más barata y limpia que la de sus competidores de la región.
+
+#### 5.4. Regulación Horaria Condicionada al Superávit para Movilidad Eléctrica (Vehículos Eléctricos)
+- **El Principio Físico Inviolable:**
+  La electricidad de bajo costo para la recarga de vehículos eléctricos (VE) no puede ser un derecho irrestricto ni un subsidio ciego permanente aplicable a cualquier hora. Físicamente, un vehículo eléctrico es una batería móvil de gran capacidad (50 a 100 kWh).
+  Si miles de usuarios conectan sus vehículos eléctricos simultáneamente entre las 18:00 y las 22:00 horas (al regresar del trabajo en plena hora pico nacional), o durante el día en época de estiaje, se fuerzan sobre el sistema dos efectos destructivos:
+  1. Sobrecarga crítica de transformadores de distribución residenciales en zonas urbanas.
+  2. Despacho forzado de termoeléctricas fósiles a diésel a costos marginales de 25 a 35 ¢USD/kWh, obligando al Estado a quemar combustible caro para mover autos particulares.
+- **La Solución Económica por Bloques Horarios (Horas Valle vs. Horas Ordinarias y Pico):**
+  1. *Horas Valle Nocturnas de Superávit (23:00 a 06:00):* La matriz eléctrica cuenta con energía hidroeléctrica base y eólica que de otro modo se vertería o tiene costo marginal casi cero. En este horario exclusivo, la recarga de vehículos eléctricos accede a la tarifa preferencial económica de Valle (~0.065 USD/kWh), incentivando al usuario a programar el cargador inteligente de su vehículo para activarse de madrugada.
+  2. *Horas de Superávit Solar Diurno (10:00 a 14:00):* En centros de trabajo o parqueaderos con autogeneración solar o superávit del SNI, se habilitan recargas a tarifa valle solar.
+  3. *Horas Llanas y Pico (06:00 a 22:00, especialmente 18:00 a 22:00):* Quien decida recargar su auto eléctrico en estos horarios de estrés de la red debe pagar la **tarifa ordinaria de red o la tarifa a costo real pleno (Time-of-Use en horas pico ~0.260 USD/kWh + Factor de Contingencia Climática)**.
+- **Conclusión Técnica:** La movilidad eléctrica solo se abarata cuando ayuda a estabilizar la red nacional consumiendo los excedentes nocturnos o solares; si se recarga en horarios de pico, paga el costo marginal real que le cuesta al país.
+
 ---
 
 ### 6. MITIGACIÓN DEL IMPACTO INFLACIONARIO Y TRANSICIÓN PRODUCTIVA
 
 #### 6.1. Diagnóstico del Riesgo Inflacionario de Segunda Ronda
-Si bien la ley blinda a las familias (hasta 250/300 kWh/mes) y a los comercios de alimentos básicos (hasta 500 kWh en tiendas y 800 kWh en panaderías), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
+Si bien la ley blinda a las familias (hasta 250 kWh/mes a nivel nacional) y a los comercios de alimentos básicos (hasta 500 kWh en tiendas y 800 kWh en panaderías), un encarecimiento intempestivo de la electricidad industrial podría trasladarse a los precios de bienes intermedios (envases, harinas procesadas, cadenas de frío logísticas).
 
 #### 6.2. Estrategia Escalonada en 3 Trimestres (Curva de Adaptación)
 Para evitar un shock inflacionario, el retiro del subsidio a industrias se dosifica en un año:
@@ -623,60 +699,97 @@ El Banco Central del Ecuador, la CFN y BanEcuador dispondrán de líneas de cré
 
 ---
 
-### 7. MODELADO BIOCLIMÁTICO, ELASTICIDAD PRECIO Y EFECTO SUSTITUCIÓN (VENTILADOR vs. AIRE ACONDICIONADO)
+### 7. MODELADO DE ELASTICIDAD PRECIO, CONFORT TÉRMICO Y EFECTO SUSTITUCIÓN (COSTA Y SIERRA)
 
-#### 7.1. Elasticidad Precio de la Demanda Residencial por Estratos de Ingreso
-La respuesta del consumo residencial ante un sinceramiento tarifario o ante el incremento por estiaje ($FCC$) no es homogénea, sino que se comporta de forma **parcialmente elástica según el nivel de ingresos**:
-
-```
-+-------------------------------------------------------------------------------------------------------+
-|                    COMPORTAMIENTO DE ELASTICIDAD Y EFECTO SUSTITUCIÓN EN LA COSTA                     |
-+------------------------+-------------------+----------------------------+-----------------------------+
-| ESTRATO SOCIOECONÓMICO | ELASTICIDAD PRECIO| REACCIÓN ANTE TARIFA CARA  | IMPACTO EN EL SISTEMA       |
-|                        | DE LA DEMANDA     | (SEÑAL DE PRECIO EN SEQUÍA)|                             |
-+------------------------+-------------------+----------------------------+-----------------------------+
-| **Quintiles 1, 2 y 3** | **Alta Elasticidad**| **Sustitución Inmediata:**  | **Descongestionamiento:**   |
-| (Ingresos Bajos-Medios)| (ε_p ≈ -0.55)     | Apagan aire acondicionado; | Desploma la demanda pico de |
-| ~75% de la población   | Sensibles a la    | Encienden ventilador de    | noche en 15% a 22%. Ahorro  |
-|                        | planilla mensual  | pedestal/techo eficiente.  | de agua en embalses.        |
-+------------------------+-------------------+----------------------------+-----------------------------+
-| **Quintiles 4 y 5**    | **Inelástica**    | **Mantienen Confort:**     | **Aporte Financiero Pleno:**|
-| (Altos Ingresos)       | (ε_p ≈ -0.12)     | No apagan aire ni splits;  | Pagan 100% costo real sin   |
-| ~25% de la población   | Priorizan confort | pagan la tarifa real sobre | subsidio. Financian el parque|
-|                        | sobre el costo    | los 400 a 1.200 kWh extras.| térmico de respaldo.        |
-+------------------------+-------------------+----------------------------+-----------------------------+
-```
-
-#### 7.2. Comparativa Energética y Económica: Ventilador vs. Aire Acondicionado
-El efecto de sustitución inducido por la tarifa real genera una reducción drástica del consumo eléctrico en los hogares de la Costa:
+#### 7.1. Elasticidad Precio y Confort Suntuario: Aire Acondicionado (Costa) vs. Calefacción y Duchas Resistivas (Sierra)
+La respuesta del consumo residencial ante un sinceramiento tarifario o ante el incremento estacional por sequía (Factor de Contingencia Climática, $FCC = +0.02\text{ USD/kWh}$) no es homogénea, pero activa una potente elasticidad de sustitución tanto en la Costa cálida como en la Sierra fría:
 
 ```
 +-------------------------------------------------------------------------------------------------------+
-|                 ANÁLISIS COMPARATIVO DE CONSUMO: AIRE ACONDICIONADO vs. VENTILADOR                    |
+|                    COMPORTAMIENTO DE ELASTICIDAD Y EFECTO SUSTITUCIÓN EN COSTA Y SIERRA               |
++------------------------+-------------------+----------------------------+-----------------------------+
+| REGIÓN / ESTRATO       | EQUIPO SUNTUARIO  | REACCIÓN ANTE SEÑAL DE     | IMPACTO EN EL SISTEMA       |
+|                        | DE ALTO CONSUMO   | PRECIO EN SEQUÍA (+2 ¢/kWh)| ELÉCTRICO NACIONAL          |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Costa (Clima Cálido)**| Aire Acondicionado| **Sustitución Eficiente:** | Descongestiona el pico      |
+| Quintiles 1, 2 y 3     | Split convencional| Apagan split; encienden    | nocturno en 350 a 400 MW.   |
+| (Sensibles al precio)  | (1,200 W a 19 °C) | ventilador de 60 W y       | Reduce importación térmica  |
+|                        |                   | regulan termostato a 24 °C.| a diésel en estiaje.        |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Sierra (Clima Frío)**| Calefactor mica   | **Sustitución Eficiente:** | Descongestiona picos de red |
+| Quintiles 1, 2 y 3     | (1,500 a 2,000 W);| Apagan calefactor; usan    | matutino (06:30) y nocturno |
+| (Sensibles al precio)  | Ducha eléctrica   | frazadas/ropa térmica;     | (19:30). Ahorra agua en     |
+|                        | (4,500 a 5,500 W) | migran a gas GLP o solar.  | embalses de Paute y Mazar.  |
++------------------------+-------------------+----------------------------+-----------------------------+
+| **Quintiles 4 y 5**    | Confort pleno     | **Inelástica:** Mantienen  | **Financiamiento Pleno:**   |
+| (Altos Ingresos en     | ininterrumpido en | climatización y calefacción| Pagan 100% costo real más   |
+| ambas regiones)        | ambas regiones    | pagando el costo real + FCC| recargo 2¢, fondeando el FCC|
++------------------------+-------------------+----------------------------+-----------------------------+
+```
+
+#### 7.2. Termodinámica Comparativa de la Costa: Aire Acondicionado vs. Ventilador Eficiente
+En las provincias del Litoral (Guayas, Manabí, El Oro, Los Ríos, Santa Elena), los meses de estiaje amazónico (noviembre a abril) coinciden con la época de mayor temperatura y humedad ambiental (32 °C a 36 °C). El uso irracional del aire acondicionado split a 18 °C o 19 °C dispara la demanda a niveles insostenibles:
+
+```
++-------------------------------------------------------------------------------------------------------+
+|                 ANÁLISIS COMPARATIVO DE CONSUMO EN LA COSTA: AIRE ACONDICIONADO vs. VENTILADOR         |
 +------------------------------------+-----------------------------+------------------------------------+
 | PARÁMETRO / INDICADOR              | AIRE ACONDICIONADO SPLIT    | VENTILADOR DE TECHO / PEDESTAL     |
 |                                    | (12,000 BTU convencional)   | (Eficiencia energética motor DC)   |
 +------------------------------------+-----------------------------+------------------------------------+
-| Potencia eléctrica de operación    | **1,200 Watts (1.20 kW)**   | **60 Watts (0.06 kW)**             |
+| Potencia eléctrica de operación    | 1,200 Watts (1.20 kW)       | 60 Watts (0.06 kW)                 |
 | Uso nocturno estimado (8 horas)    | 9.60 kWh / noche            | 0.48 kWh / noche                   |
-| Consumo mensual acumulado          | **288 kWh / mes**           | **14.4 kWh / mes**                 |
+| Consumo mensual acumulado          | 288 kWh / mes               | 14.4 kWh / mes                     |
 | Costo mensual a Tarifa Real Plena  |                             |                                    |
-| (estimada en 20 ¢USD/kWh)          | **$57.60 USD / mes**       | **$2.88 USD / mes**               |
-| Costo dentro del Bloque Preferente |                             |                                    |
-| (piso tarifario base ~9.5 ¢/kWh)   | N/A (Excede el umbral base) | **$1.37 USD / mes**               |
+| con Recargo Sequía (20.5 ¢USD/kWh) | 59.04 USD / mes             | 2.95 USD / mes                     |
+| Costo dentro del Bloque Base       |                             |                                    |
+| (piso tarifario base ~9.5 ¢/kWh)   | N/A (Excede umbral de 250k) | 1.37 USD / mes                     |
 +------------------------------------+-----------------------------+------------------------------------+
-| **AHORRO ENERGÉTICO Y MONETARIO**  | **Reducción del 95% en consumo y $54.72 USD de ahorro mensual**   |
+| AHORRO ENERGÉTICO Y MONETARIO      | Reducción del 95% en consumo y 56.09 USD de ahorro mensual        |
 +------------------------------------+------------------------------------------------------------------+
 ```
 
-- **Por qué ayuda a mitigar la sequía:**
-  Durante los meses críticos de estiaje, miles de familias en la Costa ecuatoriana, al enfrentarse al cobro real de los excedentes, prefieren encender el ventilador en lugar del aire acondicionado. Esto retira de la red aproximadamente **1.14 kW de potencia por cada hogar que modera su consumo**.
-  Multiplicado por 400,000 familias en la cuenca del Guayas, Manabí, El Oro y Esmeraldas, esto representa un **alivio instantáneo de hasta 450 MW de potencia en el pico nocturno**, equivalente a apagar tres barcazas térmicas de generación diésel importada.
+#### 7.3. Termodinámica Comparativa de la Sierra: Calefacción Resistiva y Duchas Eléctricas vs. Eficiencia Térmica
+En los Andes ecuatorianos (Pichincha, Azuay, Tungurahua, Chimborazo, Imbabura, Loja), la creencia popular de que "en la Sierra no se consume energía térmica suntuaria" es físicamente falsa. El uso del "efecto Joule" (resistencia eléctrica pura para calentar aire o agua) representa el vector más ineficiente de la termodinámica:
 
-#### 7.3. Bonificación por Ahorro Voluntario en Estiaje
-Para potenciar la elasticidad de la demanda de forma proactiva, la ley premia el ahorro:
-- Los hogares y micronegocios que reduzcan su consumo mensual en al menos un **10%** respecto a su historial previo en época seca quedan **100% exonerados del Factor de Contingencia ($FCC$)**.
-- La combinación de tarifa real para el exceso y bonificación por ahorro convierte al ciudadano en un agente activo de la seguridad energética del país.
+1. **Duchas Eléctricas Tipo Lorenzetti / Corona (4,500 a 5,500 W):**
+   - Una ducha eléctrica demanda **la misma potencia instantánea que cuatro aires acondicionados split operando simultáneamente** (5.0 kW vs. 4 x 1.2 kW).
+   - En una familia de cuatro personas con duchas de 12 minutos diarios:
+     $$4 \times (5.0\text{ kW} \times 0.20\text{ h}) \times 30\text{ días} = \mathbf{120\text{ kWh/mes}}$$
+   - Estas cargas se concentran de forma destructiva en el pico matutino (06:00 a 07:30) y en el pico nocturno (18:30 a 20:30), sobrecargando las subestaciones de Quito y Cuenca.
+2. **Calefactores Eléctricos Portátiles (1,500 a 2,000 W):**
+   - Un calefactor de resistencia o mica de 1.8 kW encendido 6 horas en noches frías consume:
+     $$1.8\text{ kW} \times 6\text{ h/noche} \times 30\text{ días} = \mathbf{324\text{ kWh/mes}}$$
+   - Solo este equipo supera por sí solo todo el umbral básico residencial de 250 kWh.
+
+```
++-------------------------------------------------------------------------------------------------------+
+|            ANÁLISIS COMPARATIVO EN LA SIERRA: RESISTENCIA ELÉCTRICA vs. ALTERNATIVAS EFICIENTES       |
++------------------------------------+-----------------------------+------------------------------------+
+| PARÁMETRO / INDICADOR              | CALEFACCIÓN Y DUCHA RESISTIVA| AISLAMIENTO PASIVO Y SOLAR/GAS GLP|
+|                                    | (Resistencias eléctricas)   | (Termotanque solar / Calefón gas)  |
++------------------------------------+-----------------------------+------------------------------------+
+| Potencia eléctrica demandada       | 1,800 W (calefactor) +      | 0 W (Calefón GLP / Termotanque     |
+|                                    | 5,000 W (ducha eléctrica)   | solar térmico al vacío en techo)   |
+| Consumo mensual acumulado          | 324 kWh (calefactor) +      | 0 kWh eléctricos                   |
+|                                    | 120 kWh (duchas) = 444 kWh  |                                    |
+| Costo a Tarifa Real + Recargo      |                             |                                    |
+| Sequía (20.5 ¢USD/kWh sobre exceso)| 91.02 USD / mes             | 3.20 USD / mes (1 cilindro GLP)    |
++------------------------------------+-----------------------------+------------------------------------+
+| AHORRO ENERGÉTICO Y MONETARIO      | Reducción de 444 kWh de red eléctrica y ahorro de 87.82 USD/mes   |
++------------------------------------+------------------------------------------------------------------+
+```
+
+#### 7.4. Justificación del Techo Nacional Unificado en 250 kWh/mes (Sin Excepciones Geográficas)
+La fijación estricta de **250 kWh/mes como umbral único nacional** (eliminando cualquier excepción de 300 kWh en la Costa) se fundamenta en tres verdades de física y equidad:
+1. **Tratamiento Equitativo del Confort:** Tanto el enfriamiento por aire acondicionado en Guayaquil como el calentamiento por calefactores o duchas de alta resistencia en Quito constituyen consumos suntuarios de confort térmico que deben pagar su costo real si exceden el límite de subsistencia.
+2. **Suficiencia Vital Demostrada:** 250 kWh/mes cubren holgadamente refrigeración eficiente, iluminación LED, televisión, conectividad y hasta tres ventiladores de 60 W encendidos 12 horas al día en la Costa (64.8 kWh/mes), o duchas moderadas y electrodomésticos en la Sierra.
+3. **Señal Económica Universal en Estiaje:** Al unificar el techo en 250 kWh, se envía una señal idéntica a todo el país: durante la sequía, quien use la red para climatizar o calentar por encima de lo básico, asume el costo real pleno ($0.185 USD/kWh) más el recargo estacional de 2 centavos ($FCC = 0.020 USD/kWh).
+
+#### 7.5. El Recargo Estacional de Sequía (+0.02 USD/kWh) y la Bonificación por Ahorro del 10%
+- Durante los meses de estiaje declarados por CENACE, todo kWh excedente (>250 kWh) paga **0.205 USD/kWh** en horas llanas y hasta **0.280 USD/kWh** en horas pico (18:00 a 22:00).
+- **Gatillo de Exoneración Total (Premio al Ahorro):** Si el hogar reduce su consumo mensual en al menos un **10%** frente al mismo periodo del año previo, queda **100% exonerado del recargo de 2 centavos**, pagando únicamente la tarifa base sobre el volumen reducido.
+- **Resultado en Planilla:** Un hogar que sustituye split por ventilador en la Costa, o apaga el calefactor y optimiza duchas en la Sierra, reduce su consumo de 440 kWh a 240 kWh/mes, quedando por debajo de los 250 kWh y viendo caer su factura mensual de **$55 - $75 USD a solo $22.80 USD/mes (-58% a -69% de reducción en planilla)**.
 
 ---
 
@@ -691,7 +804,7 @@ Existe una sinergia meteorológica crucial en el Ecuador:
 
 ---
 
-### 9. TARIFAS HORARIAS DINÁMICAS (TIME-OF-USE), MEDICIÓN INTELIGENTE (AMI) Y RÉGIMEN DE GARANTÍA AUTOFINANCIADA (COSTO + 5%)
+### 9. TARIFAS HORARIAS DINÁMICAS (TIME-OF-USE), MEDICIÓN INTELIGENTE (AMI) Y RÉGIMEN DE GARANTÍA AUTOFINANCIADA (COSTO + 10%)
 
 #### 9.1. La Curva de Carga Horaria y el Aplanamiento del Pico Nacional
 La demanda eléctrica en el Ecuador experimenta tres fases horarias claramente diferenciadas durante el ciclo diario de 24 horas:
@@ -894,11 +1007,49 @@ Para transformar el sector eléctrico de un sistema crónicamente quebrado a uno
   - Para un usuario que consume 200 kWh (dentro del bloque protegido), el impacto es de \$0.00 en el Escenario B o de apenas **\$2.00 USD al mes** en el Escenario A.
   - El usuario prefiere pagar \$2.00 USD más al mes antes que sufrir apagones que le queman los electrodomésticos, le pudren la comida en la refrigeradora o lo obligan a gastar \$150 USD en gasolina para un generador ruidoso.
 
+#### 11.4. Titularización de Flujos y Emisión de Bonos Verdes de Infraestructura: Apalancamiento Inmediato de $1,200 a $1,500 M USD
+- **El Cuello de Botella del Flujo Corriente (Pay-as-you-go):**
+  Aunque el FERRE recauda anualmente entre 240 y 345 M USD en efectivo, los megaproyectos de infraestructura eléctrica (como la hidroeléctrica en cascada Cardenillo de 596 MW que requiere un CAPEX de ~1,300 M USD o la repotenciación integral de alimentadores de CNEL que requiere ~400 M USD) sufrirían demoras de 6 a 8 años si se financian únicamente con los saldos corrientes anuales acumulados año tras año.
+- **La Estructuración Financiera:**
+  La ley autoriza la **titularización de hasta el 50% de los flujos futuros predecibles del FERRE** (respaldados por el rubro de resiliencia y los peajes del Net Billing) a través de un fideicomiso mercantil autónomo calificado por la Superintendencia de Compañías, Valores y Seguros y calificado con grado de inversión internacional:
+  - Emisión de **Bonos de Infraestructura Eléctrica y Resiliencia Climática** a 15 años plazo, con cupón estructurado del 6.0% al 6.5% anual en mercados internacionales y multilaterales (BID Invest, CAF, IFC).
+  - Permite monetizar y levantar de forma inmediata un **capital de inversión líquida de 1,200 a 1,500 millones de USD de CAPEX en el Año 1**.
+  - Este capital permite licitar y construir de forma simultánea Cardenillo (596 MW), desplegar 500 MW en baterías BESS y modernizar el 100% de las subestaciones de CNEL en un plazo de 36 a 48 meses, cortando de raíz los apagones.
+
+#### 11.5. Mecanismo de Obras por Impuestos para Redes de Distribución y Subestaciones
+- **El Problema de la Contratación Pública Tradicional (SERCOP):**
+  Históricamente, los procesos de licitación pública en CNEL y CELEC sufren impugnaciones, litigios y demoras burocráticas que postergan el tendido de alimentadores y subestaciones entre 2 y 4 años.
+- **La Solución Regulatoria:**
+  La incorporación de la figura de **Obras por Impuestos Eléctricas** permite que consorcios privados (empresas mineras, cámaras camaroneras, parques industriales o consorcios de autogeneración):
+  1. Diseñen, financien y construyan directamente subestaciones (138/69 kV) y alimentadores trifásicos de media tensión bajo normas de homologación de ARCONEL.
+  2. Cumplida la fiscalización y entrega de la obra a la distribuidora pública, el SRI les entrega Notas de Crédito Tributarias para compensar el 100% de su Impuesto a la Renta corporativo a lo largo de 3 a 5 años.
+  3. Resultado: Se salta la traba burocrática del SERCOP, el Estado no desembolsa caja directa y la red pública de distribución se expande y moderniza a costo eficiente auditado.
+
+#### 11.6. Fideicomiso Maestro Centralizado de Recaudación en el BCE y Prelación Forzosa de Pagos
+- **Diagnóstico de la Cadena de Pagos Quebrada:**
+  Históricamente, las empresas eléctricas de distribución cobraban las planillas de los abonados y utilizaban dichos recursos con discrecionalidad como su "caja chica", priorizando el pago de nómina burocrática, horas extras sindicales y gasto corriente seccional, mientras postergaban o acumulaban deudas de cientos de millones de dólares con la empresa pública generadora (CELEC EP) y la empresa transmisora (Transelectric).
+- **La Solución Estructural Fiduciaria:**
+  La ley establece que el **100% de los valores cobrados por planillas eléctricas a nivel nacional ingrese de forma automática e inmediata a una Cuenta Fiduciaria Maestra Única en el Banco Central del Ecuador (BCE)**.
+- **Orden de Prelación Legal Forzoso:**
+  La administración fiduciaria del BCE liquida y desembolsa diariamente los recursos bajo el siguiente orden de prelación inalterable:
+  1. *Generación:* Pago íntegro de la energía y potencia despachada a favor de CELEC EP y generadores privados;
+  2. *Transmisión:* Pago de peajes del Sistema Nacional de Transmisión (Transelectric);
+  3. *Inversión Intangible:* Transferencia obligatoria de los excedentes y del rubro de resiliencia (0.01 USD/kWh) hacia la cuenta del Fondo FERRE;
+  4. *Distribución (Remanente):* Solo tras haber honrado las tres obligaciones anteriores, el saldo remanente se transfiere a las empresas distribuidoras para cubrir su Valor Agregado de Distribución (VAD) y costos operativos eficientes.
+
+#### 11.7. Capping Regulatorio de Pérdidas de Distribución en el VAD (Eficiencia por Desempeño a 8.5%)
+- **Diagnóstico del Traslado de Ineficiencias:**
+  Diversas unidades de negocio de CNEL EP registran pérdidas totales de energía de entre el 16% y el 22% (explicadas primordialmente por hurto masivo, tomas clandestinas en zonas urbanomarginales e ineficiencia en cuadrillas de fiscalización). Históricamente, las empresas presionaban para que el pliego tarifario reconociera estas mermas como "costo del sistema", castigando a los usuarios honestos o generando déficit estatal.
+- **La Regulación de Desempeño ARCONEL:**
+  Se impone un **límite máximo legal de pérdidas técnicas reconocibles del ocho coma cinco por ciento (8.5%)** en la fijación del VAD.
+- **Consecuencia Financiera y Patrimonial:**
+  Cualquier pérdida energética que sobrepase el 8.5% no podrá bajo ningún concepto ser trasladada a la tarifa de los usuarios ni asumida por el Presupuesto General del Estado. Dicho quebranto debe ser absorbido directamente como **pérdida patrimonial en el balance contable de la distribuidora**, con causal expresa de remoción para sus directores y gerentes si no reducen las pérdidas al umbral normativo mediante telemetría AMI y blindaje de acometidas.
+
 ---
 
 ### 12. PROPUESTAS DE INGENIERÍA ESTRUCTURAL Y OPTIMIZACIÓN DEL SISTEMA ELÉCTRICO NACIONAL
 
-A fin de erradicar de forma definitiva los problemas de racionamiento, déficit de potencia en horas pico y obsolescencia operativa, el sinceramiento tarifario y la gobernanza del FERRE se articulan con seis optimizaciones de ingeniería de alto impacto:
+A fin de erradicar de forma definitiva los problemas de racionamiento, déficit de potencia en horas pico y obsolescencia operativa, el sinceramiento tarifario y la gobernanza del FERRE se articulan con siete optimizaciones de ingeniería de alto impacto:
 
 #### 12.1. Cierre de Ciclo Combinado en Termogas Machala (+150 MW sin Consumo de Gas Adicional)
 - **Diagnóstico Termodinámico:** La central termoeléctrica Termogas Machala (provincia de El Oro) opera actualmente con turbinas de gas en ciclo abierto simple (eficiencia térmica de solo 32% a 34%), arrojando gases de combustión a más de 500 °C por las chimeneas a la atmósfera.
@@ -938,6 +1089,25 @@ A fin de erradicar de forma definitiva los problemas de racionamiento, déficit 
 - **Diagnóstico Operativo:** El CENACE ha dependido históricamente de reglas hidrológicas deterministas con escasa anticipación sobre las crecidas y secas de la cuenca amazónica (Paute, Mazar y Coca Codo).
 - **La Modernización:** Implementación de un gemelo digital con modelos hidrológicos predictivos basados en redes neuronales e inteligencia artificial, alimentados por telemetría satelital de radar y precipitación en tiempo real (misiones GPM de la NASA y Copernicus de la ESA).
 - **Impacto en Confiabilidad:** Permite anticipar caudales con **72 a 96 horas de anticipación**, optimizando el llenado y vaciado estratégico de los embalses de Mazar y Amaluza, eliminando vertimientos no controlados de agua y reteniendo el recurso hídrico para cubrir con precisión matemática el pico nocturno de las 18:00 a las 22:00 horas.
+
+#### 12.7. Hoja de Ruta Hidroeléctrica Estratégica: Priorización de Cardenillo (596 MW) y Bombeo Reversible (Pumped-Storage) vs. Descarte de Filo de Agua sin Embalse
+- **Diagnóstico Forense de la Matriz Hidroeléctrica Ecuatoriana:**
+  Ecuador cuenta con una potencia nominal instalada de más de 5,300 MW hidroeléctricos, pero durante el estiaje amazónico (octubre a marzo) la generación efectiva se desploma a menos de 2,100 MW. Este colapso obedece a un error doctrinario de planificación estatal: la construcción de macrocentrales a filo de agua sin embalse de regulación estacional (ej. Coca Codo Sinclair de 1,500 MW nominales).
+- **Descarte Técnico Obligatorio de Macro-Proyectos a Filo de Agua sin Embalse:**
+  1. *Vulnerabilidad Extrema al Estiaje:* Sin un vaso de almacenamiento de varios meses, cuando el caudal del río Coca cae de 290 m3/s a 60 m3/s, la potencia de Coca Codo se derrumba por debajo de 400 MW (<27% de factor de planta), coincidiendo exactamente con la sequía nacional.
+  2. *Abrasión por Sedimentos Cuarzosos:* Durante crecidas de lluvia, el arrastre de sedimentos abrasivos (>10,000 ppm de cuarzo) obliga a cerrar compuertas desarenadoras para no destruir los rodetes de las turbinas, provocando apagones simultáneos paradójicamente en plena época de lluvias.
+  3. *Riesgo Geológico Catastrófico:* La erosión regresiva del río Coca amenaza de forma permanente la captación de agua y obras civiles.
+  *Decisión:* Queda formalmente descartada la priorización de nuevas centrales hidroeléctricas a filo de agua sin regulación estacional.
+- **Priorización 1: Proyecto Hidroeléctrico Cardenillo (596 MW, 3,350 GWh/año):**
+  - *Ubicación y Sinergia en Cascada:* Constituye el último escalón del Complejo Hidroeléctrico Paute Integral (río Paute), ubicado aguas abajo de la central Sopladora.
+  - *Ventaja Física Innegable:* Cardenillo aprovecha exactamente el mismo caudal turbinado que **ya fue regulado y almacenado aguas arriba por los dos grandes embalses del país: Mazar (410 millones de m3) y Amaluza (120 millones de m3)**. No requiere inundar grandes valles agrícolas ni crear un nuevo embalse masivo.
+  - *Costo Eficiente y Resiliencia:* Con un CAPEX estimado en aproximadamente 1,300 millones de USD y un LCOE inferior a 0.038 USD/kWh, aporta 596 MW de energía limpia de base ultra-barata, financiable mediante la titularización de flujos del FERRE y concesión privada a 30 años sin aval soberano.
+- **Priorización 2: Centrales Hidroeléctricas de Bombeo Reversible (Pumped-Storage Hydro - PSH, 300 a 500 MW):**
+  - *El Rol de Batería de Agua a Gran Escala:* Con la masiva inyección solar diurna impulsada por la presente reforma (Net Billing 70/30), el mediodía (10:00 a 14:00) registrará abundante energía eléctrica a costo marginal cero.
+  - *Ciclo Termodinámico Cerrado:* Se acondiciona un circuito reversible de bombeo-turbinado entre dos vasos con desnivel hidráulico (ej. entre embalses de la cascada del Paute o Daule-Peripa):
+    - Al mediodía, las turbinas reversibles operan como bombas de alta potencia consumiendo los excedentes solares diurnos para subir agua desde el reservorio inferior al superior.
+    - Durante el pico nocturno (18:00 a 22:00), el agua se descarga por gravedad turbinando a máxima capacidad para inyectar entre **300 y 500 MW de potencia de punta 100% limpia a costo de combustible cero**.
+  - *Eficiencia del Ciclo:* Presenta una eficiencia de ciclo completo (Round-Trip Efficiency) del **76% al 80%**, con una vida útil superior a 50 años (muy superior a las baterías químicas de litio que degradan en 10-12 años), resolviendo estructuralmente el pico nocturno de demanda sin quemar diésel fósil.
 
 ---
 
@@ -1035,7 +1205,7 @@ A fin de comprobar el comportamiento microeconómico y el impacto financiero rea
 
 ### 14. CONCLUSIONES TÉCNICAS Y BENEFICIOS PARA EL ECUADOR
 
-1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes (300 kWh en Costa/Amazonía cálida), a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a la agroindustria de alimentos internos (~85 GWh/mes a 7.5 ¢/kWh), a los adultos mayores (50% de descuento vital hasta 50 kWh/mes en 1 solo medidor nacional), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
+1. **Equidad Social Genuina y Ampliada:** Se garantiza a las familias ecuatorianas la energía más barata del país hasta 250 kWh/mes a nivel nacional, a los alimentos populares (hasta 500 kWh en tiendas y 800 kWh en panaderías artesanales), a la agroindustria de alimentos internos (~85 GWh/mes a 7.5 ¢/kWh), a los adultos mayores (50% de descuento vital hasta 50 kWh/mes en 1 solo medidor nacional), a los hospitales públicos de la RPIS y a las escuelas y colegios fiscales, con un piso tarifario legal que protege las finanzas de las distribuidoras.
 2. **Responsabilidad Fiscal y Finanzas Sanas:** Al cobrar tarifa a costo real pleno a la gran industria, agroexportación, minería y consumos suntuarios, erradicar los subsidios al combustible térmico en Petroecuador y activar los mecanismos anti-fraude, el Estado recupera entre **$2,605 y $3,575 millones de USD anuales** (2.7% a 3.4% del PIB), saneando de raíz el déficit fiscal nacional sin recurrir a endeudamiento externo.
 3. **Erradicación de Subsidios Cruzados y Justicia Productiva:** Se prohíben las sobretasas artificiales a la industria; cada segmento responde a su costo real de servicio (*Cost-of-Service*), demostrándose que los bloques protegidos se autofinancian con la hidroelectricidad amortizada del Estado sin gravar al sector productivo.
 4. **Descarbonización Insular Acelerada en Galápagos:** Bajo el amparo de los Arts. 258 y 396 de la CRE y la LOREG, cobrar el costo real de 35 a 42 ¢USD/kWh al turismo y consumo suntuario desploma el Payback de techos solares con baterías BESS a menos de 2 años, logrando la transición limpia financiada íntegramente por el capital privado sin gasto público.
