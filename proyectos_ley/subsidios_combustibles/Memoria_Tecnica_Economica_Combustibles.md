@@ -174,6 +174,79 @@ Trayectoria de precios residenciales y ahorro acumulado:
 | **Año 20** | 11.100 | +1.009 | +659.14 | +180.00 | +839.14 | 0.00 |
 | **Año 22.05**| **13.500** | -- | **+719.00** | **+180.00** | **+719.00** | **0.00 (Extinción Total)** |
 
+### 4.5. Dimensionamiento Termodinámico y Mecánica Operativa del Cupo de 15 Cilindros/Año por Medidor Residencial (CUEN)
+
+#### 4.5.1. Balance Energético y Termodinámico de la Cocción Familiar
+El consumo de GLP en el sector residencial no responde a una variable abstracta, sino a las leyes de la termodinámica aplicadas a la preparación de alimentos. Un cilindro doméstico estándar en Ecuador contiene quince kilogramos (15 kg) de mezcla comercial de propano ($C_3H_8$, ~70%) y butano ($C_4H_{10}$, ~30%), con un Poder Calorífico Inferior (PCI) ponderado de 46.10 MJ/kg:
+
+$$E_{\text{cilindro}} = 15 \text{ kg} \times 46.10 \frac{\text{MJ}}{\text{kg}} = 691.50 \text{ MJ} \approx 192.08 \text{ kWh}_{\text{térmicos}}$$
+
+Según los datos de la Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU - INEC) y el Balance Energético Nacional:
+1. El tamaño promedio de un hogar ecuatoriano es de 3.75 habitantes (~3.8 personas).
+2. La demanda de calor útil requerida para la cocción diaria de tres comidas (desayuno, almuerzo, merienda) asciende a 10.50 MJ/día por familia.
+3. La eficiencia térmica promedio de un quemador doméstico atmosférico de GLP en estufas convencionales se sitúa en un 55% ($\eta_{\text{quemador}} = 0.55$).
+
+La demanda de energía primaria diaria consumida por el hogar es:
+
+$$E_{\text{primaria}} = \frac{10.50 \text{ MJ/día}}{0.55} = 19.09 \text{ MJ/día}$$
+
+Por consiguiente, la duración teórica de un cilindro de 15 kg destinado exclusivamente a cocción es:
+
+$$T_{\text{duración}} = \frac{691.50 \text{ MJ}}{19.09 \text{ MJ/día}} = 36.22 \text{ días/cilindro}$$
+
+El número de cilindros requeridos anualmente por un hogar promedio para cocción estricta es:
+
+$$N_{\text{anual base}} = \frac{365 \text{ días}}{36.22 \text{ días/cilindro}} = 10.08 \approx 10.10 \text{ cilindros/año}$$
+
+Al fijar la cuota anual protegida en **quince (15) cilindros de 15 kg por medidor residencial (CUEN)**, el Estado otorga un margen de holgura técnica de:
+
+$$\Delta_{\text{holgura}} = \frac{15 - 10.10}{10.10} \times 100 = 48.51\%$$
+
+Este margen del 48.51% cubre holgadamente variaciones familiares (hogares de 5 o 6 miembros, celebraciones festivas o uso moderado de agua caliente en zonas de clima templado), asegurando que **ninguna familia ecuatoriana de clase trabajadora o vulnerable quede desabastecida o forzada a pagar precio de mercado para cocinar**.
+
+#### 4.5.2. Auditoría Forense: Fracaso del Cupo por Cédula vs. Eficacia del Medidor Residencial (CUEN)
+La asignación de subsidios de gas mediante la cédula de ciudadanía ha fracasado en múltiples economías emergentes debido a fallas estructurales de diseño:
+
+```
++---------------------------------------------------------------------------------------------------------+
+|                  COMPARATIVA ESTRUCTURAL: CUPO POR CÉDULA VS. CUPO POR MEDIDOR (CUEN)                   |
++------------------------------+------------------------------------+-------------------------------------+
+| Criterio Forense             | Esquema por Cédula de Identidad    | Esquema por Medidor Residencial CUEN|
++------------------------------+------------------------------------+-------------------------------------+
+| 1. Universo de Cupos Creados | 18 millones de cédulas             | 5.3 millones de medidores reales    |
+|                              | (~107 a 144 M derechos/año)        | (~79.5 M cilindros techo físico)    |
+| 2. Vulnerabilidad a Fraude   | Mercado negro de cédulas alquiladas| Blindado a la vivienda física       |
+|                              | (fallecidos, menores, emigrantes)  | (un inmueble = un medidor)          |
+| 3. Desvío Comercial          | Restaurantes compran 10 cédulas    | Bloqueo automático (medidor RUC     |
+|                              | y desvían 80 cilindros/año         | comercial paga 13.50 USD)           |
+| 4. Fricción en Distribución  | Caos en camiones repartidores      | Validación de 2 segundos por app    |
+|                              | exigiendo 4 cédulas por familia    | telemática con lectura QR del CUEN  |
+| 5. Alineación Termodinámica  | Nula (las personas no comen gas;   | Perfecta (las estufas están en las  |
+|                              | las cocinas son por vivienda)      | viviendas, no en las personas)      |
++------------------------------+------------------------------------+-------------------------------------+
+```
+
+Al anclar el subsidio al **Código Único Eléctrico Nacional (CUEN)** de la Tarifa Residencial:
+1. Se elimina de raíz el "tráfico de cédulas": un inmueble que albergue a seis adultos sigue teniendo una sola cocina y recibe sus 15 cilindros anuales reglamentarios.
+2. Los restaurantes, hoteles, saunas e industrias cuentan con medidores bajo Tarifa Comercial o Industrial (RUC), quedando automáticamente bloqueados del cupo subsidiado en el sistema telemático del SRI y la ARCH.
+
+#### 4.5.3. Mecánica Telemática de Despacho en Bodegas y Camiones Repartidores
+El 70% del GLP en Ecuador se distribuye mediante camiones repartidores a domicilio y el 30% en depósitos barriales autorizados (*bodegas*). Para no entorpecer la logística:
+1. **Identificador Universal:** El número de CUEN consta en todas las planillas eléctricas, aplicaciones móviles de las empresas distribuidoras (CNEL, EEQ, EEASA, Centrosur) y puede colocarse mediante una etiqueta adhesiva QR en la caja del medidor o puerta del domicilio.
+2. **Aplicativo Móvil Homologado ARCH-SRI:** El repartidor o bodeguero escanea el código QR o digita el CUEN en su dispositivo móvil. El sistema consulta en línea la base unificada ARCH-ARCONEL (< 2 segundos):
+   - Si Consumo < 15: Autoriza el despacho subsidiado (1.65 USD base en depósito o valor con recargo de flete a domicilio) y suma una unidad al contador anual.
+   - Si Consumo >= 15: Alerta "Cupo Subsidiado Agotado" y factura obligatoriamente el cilindro a precio de paridad internacional (13.50 USD).
+3. **Mecanismo de Resiliencia Offline:** En sectores sin cobertura de datos móviles, el aplicativo opera mediante tokens criptográficos firmados localmente, sincronizando las transacciones una vez que el vehículo retorna a zona de cobertura celular o al depósito base al final de la jornada.
+
+#### 4.5.4. Régimen para Hogares Rurales Aislados sin Conexión a la Red (CUEN Virtual)
+Aproximadamente el 2.7% de las viviendas en zonas rurales remotas (Amazonía profunda, recintos dispersos de la Costa) no están conectadas al Sistema Nacional Interconectado (SNI). Para evitar su exclusión:
+1. El Ministerio de Inclusión Económica y Social (MIES), en coordinación con los GAD Parroquiales y las Tenencias Políticas, emite un **CUEN Virtual / Código Social Rural** georreferenciado por vivienda física.
+2. Dicho código se asocia a la cédula del jefe de hogar con el mismo límite de quince (15) cilindros anuales protegidos.
+3. El sistema prohíbe taxativamente la emisión de más de un CUEN Virtual por coordenada geográfica o edificación habitable.
+
+#### 4.5.5. Facturación de Excedentes a Paridad Plena (13.50 USD)
+El sistema no impone racionamiento físico: cualquier usuario puede comprar cilindros adicionales si los requiere (para calefones intensivos, eventos familiares o talleres), pero a partir del cilindro número dieciséis (16), abona el costo real sin subsidio estatal (13.50 USD). Esto elimina las distorsiones de escasez y garantiza que el Presupuesto General del Estado no financie consumos suntuarios ni desvíos clandestinos.
+
 ---
 
 ## 5. Reforma Tributaria al IVA en Combustibles (LORTI Art. 66)
@@ -384,3 +457,4 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor. | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl. | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |
 | **Colchón Contracíclico del 5% al 10% y Cuenta CFEC** | **Aprobada** | Sistema 100% autofinanciado; absorbe picos de WTI con saldos propios acumulados; garantiza subsidio fiscal neto de 0.00 USD. | Exige administración fiduciaria transparente en el BCE. | Aprobada. Convierte la fórmula de precios en un estabilizador automático sin costo para el Presupuesto del Estado. |
 | **Eliminación de Deducibilidad de IVA en Combustibles** | **Aprobada** | Captura +135 M USD/año; erradica facturas fantasmas; no afecta el precio de venta en surtidor al público. | Resistencia de cámaras empresariales. | Aprobada. El combustible no debe ser un escudo de evasión de IVA. Si es gasto productivo, se deduce en Impuesto a la Renta. |
+| **Cupo de GLP por Cédula vs. Medidor Residencial (CUEN)** | **Aprobada (CUEN)** | CUEN ancla el subsidio a la vivienda física (5.3M medidores = 79.5M cilindros techo); erradica el tráfico de cédulas alquiladas; 15 cilindros/año cubren 148% de la demanda de cocción familiar. | Requiere interconexión ARCH-ARCONEL y app telemática en camiones repartidores. | Aprobada por medidor eléctrico. El esquema por cédula crea 107M de cupos teóricos, incentiva mafias de acopio de cédulas y no coincide con la termodinámica de cocción por hogar. |

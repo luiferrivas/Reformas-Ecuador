@@ -43,6 +43,12 @@ $$P_{\text{techo}} = P_{\text{paridad}} \times (1 + \alpha), \quad \alpha \in [0
 2. **Absorción de Picos sin Cargo al Estado:** Ante rallies alcistas (WTI > 85-90 USD/barril), la CFEC amortigua las variaciones pagando el diferencial desde sus propios fondos fiduciarios acumulados.
 3. **Subsidio Neto Estatal Garantizado en Cero (0.00 USD):** El Ministerio de Economía y Finanzas no realiza aportes ni inyecciones de liquidez. Si en un evento geopolítico extremo la reserva fiduciaria se agotara, el precio en surtidor flota cubriendo la paridad real, erradicando cualquier fuga fiscal.
 
+### 1.3. Cupo Máximo Telemático por Medidor Residencial Eléctrico (CUEN)
+Para blindar el universo residencial y evitar la filtración clandestina hacia el sector comercial o contrabando:
+1. **Cupo de 15 Cilindros/Año:** Cada Código Único Eléctrico Nacional (CUEN) con Tarifa Residencial (~5.3 millones de medidores) tiene un cupo anual protegido de hasta 15 cilindros de 15 kg (cubriendo 148% de la demanda de cocción familiar, calculada en 10.1 cilindros/año bajo eficiencia de quemador del 55%).
+2. **Facturación a Paridad de Excedentes:** A partir del cilindro número 16, o para usuarios con Tarifa Comercial/Industrial (RUC), el sistema factura obligatoriamente el precio internacional de 13.50 USD.
+3. **Validación Telemática:** Bodegas y camiones repartidores validan el CUEN en tiempo real mediante aplicativo móvil homologado por ARCH y SRI. Hogares rurales sin red cuentan con CUEN Virtual emitido por MIES y GADs Parroquiales.
+
 ---
 
 ## 2. Balance Comparativo de Subsidios: Antes vs. HOY (Año 1)

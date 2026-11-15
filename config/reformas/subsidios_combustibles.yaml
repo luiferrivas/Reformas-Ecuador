@@ -37,7 +37,11 @@ etapa_1_diesel_camaronero:
     payback_inversion_linea_transformador_anos_acelerado: 2.77
 
 etapa_2_glp_domestico_residencial:
-  mecanismo: "Sendero suave del 10% anual compuesto cada 1 de enero"
+  mecanismo: "Sendero suave del 10% anual compuesto cada 1 de enero y cupo telemático por medidor"
+  cupo_anual_glp_por_cuen_residencial: 15 # 15 cilindros de 15 kg al año por medidor residencial
+  consumo_promedio_coccion_cilindros_ano: 10.1 # Demanda termodinámica base para 3.8 personas
+  margen_holgura_termodinamica_pct: 48.5 # Cobertura de holgura para familias numerosas
+  universo_medidores_residenciales_nacional: 5300000 # Techo físico de 79.5 M cilindros
   precio_base_inicial_usd_cilindro_15kg: 1.650
   tasa_incremento_anual_compuesta: 0.10
   precio_ano_1_usd: 1.815
@@ -46,6 +50,9 @@ etapa_2_glp_domestico_residencial:
   precio_ano_4_usd: 2.416
   precio_ano_5_usd: 2.657
   precio_objetivo_paridad_internacional_usd: 13.500
+  precio_cilindro_excedente_usd: 13.500 # A partir del cilindro #16 o compras no residenciales
+  sistema_validacion_distribucion: "CUEN - Código Único Eléctrico Nacional vía app móvil ARCH/ARCONEL/SRI en bodegas y camiones repartidores"
+  regimen_rural_offgrid: "CUEN Virtual / Código Social Rural georreferenciado por vivienda física con MIES y GADs Parroquiales"
   plazo_convergencia_anos: 22.05
   demanda_nacional_cilindros_ano: 93000000
   demanda_residencial_protegida_cilindros_ano: 69750000

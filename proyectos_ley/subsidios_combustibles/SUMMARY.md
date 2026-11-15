@@ -50,7 +50,11 @@
    - Precio inicial base: **1.65 USD por cilindro de 15 kg**.
    - Factor de ajuste anual automático: **1.10** aplicado cada 1 de enero por ministerio de la ley.
    - Meta de paridad internacional: **13.50 USD por cilindro** (Plazo de convergencia: **22.05 años**).
-4. **Desacople Inmediato del GLP Comercial e Industrial:** El beneficio del sendero suave del 10% aplica exclusivamente a hogares residenciales. Restaurantes, hoteles, saunas, avícolas, panaderías industriales y calderas abonan el 100% de paridad internacional (**13.50 USD/cilindro**) desde el Día 1.
+4. **Cupo Máximo de 15 Cilindros/Año por Medidor Residencial (CUEN) y Desacople Comercial:**
+   - El beneficio del GLP subsidiado se topa a **15 cilindros de 15 kg por año calendario por cada Código Único Eléctrico Nacional (CUEN)** con Tarifa Residencial (~5.3M de medidores, cubriendo el 148% de la demanda de cocción familiar).
+   - Todo cilindro excedente (a partir del #16) o compra de usuarios comerciales/industriales abona el 100% de paridad internacional (**13.50 USD/cilindro**) desde el Día 1.
+   - Validación telemática en tiempo real vía app ARCH-SRI-ARCONEL en bodegas y camiones repartidores (con modo offline criptográfico).
+   - Emisión de **CUEN Virtual / Código Social Rural** georreferenciado por vivienda física para familias rurales off-grid sin conexión a la red.
 5. **No Deducibilidad de IVA en Combustibles (Art. 66 LORTI):** El IVA pagado en combustibles no genera crédito fiscal para compensar ventas; solo se deduce como gasto en Impuesto a la Renta. Cero variación del precio en surtidor al consumidor.
 6. **Capping Suave a 5 Años del Decreto 308 (20% Anual):** Desescalamiento del 20% anual en compensación a taxis, camionetas mixtas rurales y tricimotos, con financiamiento preferente de CFN para kits de GNV y biometano.
 7. **Precio Pleno en Muelle Pesquero, Subsidio por Zarpe, 1 Año de Gracia y Desescalamiento del 10% Anual:** Cobro a paridad 100% en surtidor marino, compensación anticipada en Tarjeta Prepago BanEcuador al registrar zarpe legal con 1 año de gracia, seguido de reducción del 10% anual compuesto, apalancado con crédito CFN para motores 4T EFI (ahorro 45% combustible), y transpondedores satelitales AIS obligatorios y gratuitos contra GDOs.
@@ -119,6 +123,7 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Flotación Plana sin Colchón Contracíclico** | **Descartada** | Simplicidad de cálculo en surtidor | Obliga al Estado a asumir subsidios millonarios imprevistos cada vez que el petróleo WTI supera los 85 USD/bbl | Descartada. Recrea el déficit fiscal y viola el principio de cero dependencia de subsidios. |
 | **Colchón Contracíclico del 5% al 10% y Cuenta CFEC** | **Aprobada** | Sistema 100% autofinanciado; absorbe picos de WTI con saldos propios acumulados; garantiza subsidio fiscal neto de 0.00 USD | Exige administración fiduciaria transparente en el BCE | Aprobada. Convierte la fórmula de precios en un estabilizador automático sin costo para el Presupuesto del Estado. |
 | **Prohibición de Crédito Fiscal de IVA en Combustibles (Art. 66 LORTI)** | **Aprobada** | Recupera +135 M USD/año netos; combate la defraudación por facturas fantasmas; no altera el precio en surtidor al consumidor | Oposición de cámaras empresariales que utilizaban el crédito tributario | Aprobada. Erradica el subsidio tributario encubierto sin impacto inflacionario en surtidor. |
+| **Cupo de GLP por Cédula vs. Medidor Residencial (CUEN)** | **Aprobada (CUEN)** | CUEN ancla el subsidio a la vivienda física (5.3M medidores = 79.5M cilindros techo); erradica el tráfico de cédulas alquiladas; 15 cilindros/año cubren 148% de la demanda de cocción familiar | Requiere interconexión ARCH-ARCONEL y app telemática en camiones repartidores | Aprobada por medidor eléctrico. El esquema por cédula crea 107M de cupos teóricos, incentiva mafias de acopio de cédulas y no coincide con la termodinámica de cocción por hogar. |
 
 ---
 
