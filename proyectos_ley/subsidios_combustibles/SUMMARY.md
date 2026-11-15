@@ -98,4 +98,6 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 
 - **Memoria Técnica y Económica:** [`Memoria_Tecnica_Economica_Combustibles.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Memoria_Tecnica_Economica_Combustibles.md)
 - **Proyecto de Ley Completo (Formato Legislativo Oficial):** [`Proyecto_Ley_Subsidios_Combustibles.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Proyecto_Ley_Subsidios_Combustibles.md)
+- **Balance de Subsidios y Precios Dinámicos HOY:** [`Balance_Subsidios_Dinamicos_Hoy.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Balance_Subsidios_Dinamicos_Hoy.md)
+- **Configuración de Parámetros YAML:** [`config/reformas/subsidios_combustibles.yaml`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/reformas/subsidios_combustibles.yaml)
 - **Archivo Histórico de Versiones Descartadas:** Directorio [`historico/`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/historico/)
