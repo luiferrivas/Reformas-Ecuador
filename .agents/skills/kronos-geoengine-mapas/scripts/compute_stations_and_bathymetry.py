@@ -1,5 +1,5 @@
 """
-Olimpo GeoEngine - Script 2: Computador de Estaciones Equidistantes, Perfil Batimétrico y Snapping Fluvial Obligatorio
+Kronos GeoEngine - Script 2: Computador de Estaciones Equidistantes, Perfil Batimétrico y Snapping Fluvial Obligatorio
 Calcula hitos batimétricos cada N metros (default 500m) a lo largo de la traza real meándrica del río.
 Incluye Snapping Matemático Obligatorio: Bloquea obras civiles (presas, tomas, casas de máquinas) al eje fluvial
 con tolerancia 0.00m, detecta puntos desfasados en laderas montañosas y valida la monotonicidad hidráulica descendente.
@@ -141,7 +141,7 @@ def compute_stations(river_pts, interval_m=500.0, cota_start=970.0, cota_dam=825
     return stations, total_dist
 
 def main():
-    parser = argparse.ArgumentParser(description="Computador de Batimetría y Snapping Fluvial Olimpo GeoEngine")
+    parser = argparse.ArgumentParser(description="Computador de Batimetría y Snapping Fluvial Kronos GeoEngine")
     parser.add_argument("--input", required=True, help="Archivo JSON generado por extract_osm_hydrography.py")
     parser.add_argument("--interval", type=float, default=500.0, help="Intervalo entre estaciones en metros (default 500)")
     parser.add_argument("--cota-start", type=float, required=False, default=1000.0, help="Cota lecho al inicio del tramo (msnm)")

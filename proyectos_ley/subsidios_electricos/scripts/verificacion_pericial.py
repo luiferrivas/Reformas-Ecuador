@@ -2,7 +2,7 @@
 """
 Script Pericial de Verificación Matemática y Forense
 Proyecto de Ley Reformatoria al Sector Eléctrico del Ecuador
-Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) - Cumplimiento Mandatorio AGENTS.md y olimpo-auditor-documentos
+Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) - Cumplimiento Mandatorio AGENTS.md y kronos-auditor-documentos
 """
 
 import math
