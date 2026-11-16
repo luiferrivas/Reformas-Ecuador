@@ -344,6 +344,18 @@ c) La estructura del nuevo Pliego Tarifario Codificado que incorpore el piso tar
 
 **SÉPTIMA.-** En el plazo de sesenta (60) días a partir de la vigencia de esta Ley, el Ministerio de Economía y Finanzas, el Banco Central del Ecuador y la ARCONEL emitirán el instructivo interinstitucional vinculante que implementará la plataforma automatizada de retención y compensación de tasas municipales, el protocolo de corte remoto a edificios administrativos morosos y el débito automático presupuestario de cuentas y asignaciones del Modelo de Equidad Territorial para la extinción inmediata de deudas eléctricas del sector público.
 
+**OCTAVA.- Régimen de Transición Gradual para la Provincia de Galápagos y Financiamiento Verde Express (12 a 24 Meses):**
+1. En observancia de la Disposición Reformatoria Segunda a la LOREG, el ajuste tarifario para el sector comercial, hotelero, turístico e industrial y consumos excedentes en la provincia de Galápagos se implementará mediante un cronograma escalonado de veinticuatro (24) meses, contados a partir de la vigencia de esta Ley:
+   a) Meses 1 a 6: Vigencia plena de la tarifa residencial preferente protegida (hasta 250 kWh/mes) para residentes permanentes acreditados. Para el sector hotelero, comercial y consumos turísticos excedentes (>250 kWh), regirá la tarifa histórica más un recargo inicial moderado del diez por ciento (10%) sobre el diferencial hacia el costo real insular, preservando la estabilidad comercial de los paquetes turísticos contratados con antelación y emitiendo una señal de precio temprana para la inversión en autogeneración.
+   b) Meses 7 a 12: Absorción del treinta y tres por ciento (33%) del diferencial de costo real insular.
+   c) Meses 13 a 18: Absorción del sesenta y seis por ciento (66%) del diferencial de costo real insular.
+   d) Meses 19 a 24: Convergencia progresiva hasta alcanzar el cien por ciento (100%) de la tarifa a costo real pleno insular (0.350 a 0.420 USD/kWh).
+2. **Línea de Crédito Verde Express 'Galápagos Solar y Resiliencia':**
+   La Corporación Financiera Nacional (CFN B.P.) y el Banco de Desarrollo del Ecuador (BDE B.P.) habilitarán dentro de los primeros treinta (30) días de vigencia de esta Ley una línea de financiamiento preferente al cinco por ciento (5%) de interés anual, con plazo de hasta siete (7) años y seis (6) meses de gracia de capital, destinada a la adquisición e instalación de sistemas solares fotovoltaicos en techos, inversores inteligentes y baterías BESS para establecimientos hoteleros, comerciales y residenciales de las islas. Las importaciones de paneles solares, inversores y baterías BESS con destino exclusivo a Galápagos gozarán de arancel cero por ciento (0%), tarifa cero por ciento (0%) de IVA y exención total del Impuesto a la Salida de Divisas (ISD).
+
+**NOVENA.- Programa de Sustitución Tecnológica de Conductores Eléctricos para Mitigación de Pérdidas de Distribución (Estandarización en Calibre #6 AWG o Superior):**
+En el plazo de noventa (90) días contados a partir de la vigencia de esta Ley, la ARCONEL y las empresas distribuidoras actualizarán las normas técnicas de homologación de materiales de distribución, prohibiendo la adquisición o tendido de conductores de calibre inferior a número seis (calibre #8 AWG o menor, con sección transversal inferior a 13.30 mm²) en nuevas acometidas de baja tensión, redes secundarias preensambladas y proyectos de electrificación pública o privada. Se estandariza el conductor calibre #6 AWG (en aluminio AAC/AAAC/ACSR o cobre concéntrico) como especificación técnica mínima obligatoria a nivel nacional para reducir las pérdidas térmicas por efecto Joule en al menos un treinta y cinco por ciento (35%) en acometidas domiciliarias y comerciales.
+
 ---
 
 ### DISPOSICIONES REFORMATORIAS
@@ -367,6 +379,11 @@ Agréguese a continuación del Artículo 71 de la Ley Orgánica de Régimen Espe
 > La energía renovable no convencional local (solar fotovoltaica y eólica con almacenamiento BESS) se asignará prioritariamente al consumo residencial de subsistencia de hasta 250 kWh/mes a tarifa preferente insular.
 >
 > Todos los consumos residenciales excedentes y la totalidad de la demanda eléctrica del sector turístico comercial (hoteles, ecolodges, cruceros, restaurantes turísticos, centros de buceo), industrial y de servicios pagarán el cien por ciento (100%) del costo real eficiente de generación térmica, flete marítimo, almacenamiento y distribución insular, erradicando cualquier subvención al diésel en las islas. Las empresas del sector turístico y comercial podrán instalar libremente sistemas de autogeneración solar fotovoltaica con baterías BESS para autoabastecimiento conforme a las normas de interconexión rápida vigentes."
+
+**TERCERA.- Incentivo Arancelario y Tributario para la Reducción de Pérdidas Técnicas de Red (Reforma a la Ley de Régimen Tributario Interno y al Código Orgánico de la Producción, Comercio e Inversiones - COPCI):**
+1. Agréguese como numeral a continuación del Artículo 55 de la Ley de Régimen Tributario Interno (Transferencias e importaciones con tarifa cero por ciento de IVA) el siguiente texto:
+   > "Num. (...).- Las transferencias e importaciones de cables y conductores eléctricos de aluminio, aleaciones de aluminio (AAC, AAAC, ACSR), cables concéntricos multiplexados antifraude y conductores de cobre, de calibre igual o superior a número seis (calibre #6 AWG o inferior numéricamente, con sección transversal igual o superior a trece coma treinta milímetros cuadrados: 13.30 mm²), destinados a redes de transmisión, distribución eléctrica, acometidas y evacuación de autogeneración renovable."
+2. Establécese una tarifa arancelaria del cero por ciento (0%) en el Arancel del Ecuador (COPCI / Comité de Comercio Exterior - COMEX) para las subpartidas arancelarias correspondientes a conductores eléctricos de calibre igual o superior a #6 AWG (sección transversal mayor o igual a 13.30 mm²), así como para el alambrón de aluminio destinado al trefilado y extrusión industrial nacional de conductores eléctricos eficientes de baja y media tensión.
 
 ---
 

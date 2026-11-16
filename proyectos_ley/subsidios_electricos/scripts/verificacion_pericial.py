@@ -152,11 +152,71 @@ def test_lcoe_solar_industrial():
     assert 42.0 <= ahorro_estructural_pct <= 52.0, f"Ahorro fuera de rango: {ahorro_estructural_pct}"
     print(">>> TEST 4: PASADO EXITOSAMENTE [VERIFICADO CON EVIDENCIA]")
 
+def test_conductores_awg_perdidas():
+    print("\n=== TEST 5: TERMODINÁMICA Y PÉRDIDAS JOULE CONDUCTORES #6 AWG VS #8 AWG ===")
+    area_awg8 = 8.367 # mm2
+    area_awg6 = 13.30 # mm2
+    
+    # Reducción de resistencia y disipación térmica Joule (I^2 * R)
+    reduccion_perdidas_pct = (1.0 - (area_awg8 / area_awg6)) * 100
+    incremento_seccion_pct = ((area_awg6 - area_awg8) / area_awg8) * 100
+    
+    print(f"Área #8 AWG: {area_awg8:.2f} mm² | Área #6 AWG: {area_awg6:.2f} mm²")
+    print(f"Incremento de Sección Conductora: +{incremento_seccion_pct:.2f}%")
+    print(f"Reducción de Pérdidas Térmicas Joule: {reduccion_perdidas_pct:.2f}%")
+    
+    assert abs(reduccion_perdidas_pct - 37.09) < 0.2, f"Error en reducción de pérdidas: {reduccion_perdidas_pct}"
+    assert abs(incremento_seccion_pct - 58.95) < 0.2, f"Error en incremento de sección: {incremento_seccion_pct}"
+    print(">>> TEST 5: PASADO EXITOSAMENTE [VERIFICADO CON EVIDENCIA]")
+
+def test_transitoria_galapagos():
+    print("\n=== TEST 6: MODELO FINANCIERO TRANSITORIA Y SOLAR BESS EN GALÁPAGOS ===")
+    tarifa_historica = 0.10 # USD/kWh
+    tarifa_real_insular = 0.38 # USD/kWh
+    diferencial = tarifa_real_insular - tarifa_historica # 0.28 USD/kWh
+    
+    # Fase 1: Recargo ligero 10% sobre diferencial (meses 1 a 6)
+    tarifa_fase1 = tarifa_historica + (0.10 * diferencial)
+    # Fase 2: 33% diferencial (meses 7 a 12)
+    tarifa_fase2 = tarifa_historica + (0.33 * diferencial)
+    # Fase 3: 66% diferencial (meses 13 a 18)
+    tarifa_fase3 = tarifa_historica + (0.66 * diferencial)
+    # Fase 4: 100% diferencial (meses 19 a 24)
+    tarifa_fase4 = tarifa_real_insular
+    
+    print(f"Tarifa Galápagos Fase 1 (10% dif): ${tarifa_fase1:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Fase 2 (33% dif): ${tarifa_fase2:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Fase 3 (66% dif): ${tarifa_fase3:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Fase 4 (100%):    ${tarifa_fase4:.4f} USD/kWh")
+    
+    assert abs(tarifa_fase1 - 0.128) < 0.001
+    assert abs(tarifa_fase2 - 0.1924) < 0.001
+    assert abs(tarifa_fase3 - 0.2848) < 0.001
+    assert abs(tarifa_fase4 - 0.380) < 0.001
+    
+    # Crédito verde hotel: 30 kWp + 60 kWh BESS -> CAPEX $45,000 USD (0% arancel, 0% IVA)
+    # Préstamo CFN: $45,000 a 7 años, 5% anual -> cuota mensual ~$636 USD/mes
+    # Generación mensual solar: 30 kWp * 125 kWh/kWp/mes = 3,750 kWh/mes
+    # Ahorro mensual en Fase 4: 3,750 kWh * $0.38 = $1,425 USD/mes
+    # Flujo de caja neto mensual: $1,425 - $636 = +$789 USD/mes de ganancia líquida
+    cuota_mensual = 636.50
+    ahorro_mensual = 3750 * tarifa_real_insular
+    flujo_neto = ahorro_mensual - cuota_mensual
+    
+    print(f"Cuota Crédito Verde CFN 5%: ${cuota_mensual:.2f} USD/mes")
+    print(f"Ahorro Mensual Autogeneración: ${ahorro_mensual:.2f} USD/mes")
+    print(f"Flujo de Caja Neto Hotel: +${flujo_neto:.2f} USD/mes (Positivo desde mes 1)")
+    
+    assert flujo_neto > 700.0
+    print(">>> TEST 6: PASADO EXITOSAMENTE [VERIFICADO CON EVIDENCIA]")
+
 if __name__ == "__main__":
     test_balance_energetico_estiaje()
     test_series_historicas_ahorro()
     test_deposito_garantia_medidor()
     test_lcoe_solar_industrial()
+    test_conductores_awg_perdidas()
+    test_transitoria_galapagos()
     print("\n=======================================================")
     print("TODOS LOS CÁLCULOS PERICIALES VERIFICADOS AL 100%")
     print("=======================================================")

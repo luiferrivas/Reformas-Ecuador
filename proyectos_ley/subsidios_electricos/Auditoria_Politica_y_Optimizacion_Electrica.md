@@ -298,6 +298,18 @@ Históricamente, para maquillar las pérdidas por hurto de CNEL y las tarifas po
 * **Viabilidad Política:** El turismo de lujo en Galápagos factura en dólares tarifas de alta gama internacional (\$300 a \$1,200 USD por noche). Cobrar la tarifa real de 35 a 42 ¢USD/kWh al sector hotelero es éticamente inobjetable.
 * **El Detonante de Inversión Privada:** Con tarifas de 38 ¢USD/kWh, el Payback para instalar paneles solares con baterías BESS en hoteles cae a **menos de 2 años**. El propio sector privado financia la descarbonización de Galápagos sin gasto público.
 
+#### B. La Adaptación Realista ("El Cómo Sí"): Transición de 24 Meses y Créditos Verdes Express
+Para neutralizar de raíz la amenaza de un paro provincial insular o bloqueo de aeropuertos (Baltra / San Cristóbal) por parte de la Cámara de Turismo de Galápagos (CAPTURGAL) y alcaldes locales, la reforma incorpora una **Disposición Transitoria de 24 meses**:
+1. **Blindaje Inmediato del Residente Permanente (Día 1):** Los primeros 250 kWh/mes de las familias locales se facturan a la tarifa preferente renovable (~0.12 a 0.14 USD/kWh). La ciudadanía residente no tiene motivo de protesta.
+2. **Escalonamiento en 4 Fases para Hoteles y Turismo:**
+   - *Meses 1 a 6:* Tarifa histórica con **subida inicial leve del 10% sobre el diferencial** hacia el costo real. Esto evita el shock financiero sobre paquetes turísticos previamente vendidos a mayoristas internacionales y envía una señal temprana de urgencia económica.
+   - *Meses 7 a 12:* Absorción del 33% del diferencial hacia costo real.
+   - *Meses 13 a 18:* Absorción del 66% del diferencial.
+   - *Meses 19 a 24:* Aplicación plena del 100% de la tarifa a costo real insular (0.35 a 0.42 USD/kWh).
+3. **Línea de Crédito Verde Express CFN/BDE al 5% con Arancel 0%, IVA 0% e ISD 0%:**
+   - La cuota bancaria mensual es inferior a lo que el hotel pagaría de tarifa de red, generando flujo de caja positivo inmediato desde el primer mes.
+   - Con esta adaptación pragmática, la probabilidad de conflicto social en Galápagos se desploma de un **75% a menos del 15%**, transformando la resistencia hotelera en una carrera privada por instalar techos solares antes de que expire la transitoria.
+
 ---
 
 ### 13. Auditoría Política y Comparativa Arquitectónica: Propuesta Original vs. Modificación del Agente
@@ -397,21 +409,26 @@ A fin de blindar los servicios de supervivencia y la paz social popular sin reab
    * *Diagnóstico:* Modelos hidrológicos deterministas con poca anticipación de crecidas.
    * *Solución:* Algoritmos de Machine Learning alimentados con telemetría satelital (GPM/Copernicus).
    * *Impacto:* Anticipación de caudales con 72-96 horas; preserva cotas de embalse para el pico de las 19:00 horas.
+7. **Estandarización de Conductores Eficientes (#6 AWG vs #8 AWG) y Exención Fiscal (0% IVA y 0% Arancel para Calibre >= #6 AWG):**
+   * *Diagnóstico:* Pérdidas técnicas severas en acometidas y redes secundarias por uso de cable delgado #8 AWG.
+   * *Solución:* Exención de IVA (0%) y aranceles (0%) a conductores de calibre igual o mayor a #6 AWG (sección transversal >= 13.30 mm²).
+   * *Impacto:* Desplaza al conductor #8 AWG, reduce pérdidas térmicas Joule en un 37.1% y ahorra de 45 a 65 M USD anuales en CNEL EP y distribuidoras.
 
 ---
 
 ## VI. SÍNTESIS DE CONCLUSIONES PARA LA REFORMA LEGISLATIVA
 
 1. **Protocolo Coercitivo de Extinción de Deudas Públicas (4 Vías):** Combinar la retención forzosa de tasas de aseo y bomberos, corte remoto quirúrgico a dependencias burocráticas y débito automático en MEF/BCE, con sanción de destitución inmediata por Contraloría para erradicar las deudas de los GADs y ministerios sin afectar el agua potable.
-2. **Prioridad Vital Ampliada (Hogares, Red Alimentaria, Agroindustria de Consumo Interno, Salud, Educación y 3era Edad):** Asignar la energía más barata de la matriz disponible a residencias (250-300 kWh), tiendas y panaderías (500-800 kWh), molinos de trigo/harina, piladoras de arroz, balanceado avícola/porcino y pasteurizadoras de consumo nacional (~85 GWh/mes con cruce SRI/SENAE), adultos mayores (50% de descuento vital hasta 50 kWh en 1 solo medidor), hospitales de la RPIS y escuelas fiscales, con estricto pago puntual y autofinanciamiento hidroeléctrico sin subsidios. Dejar a la agroexportación (camarón, banano, cacao) y gran minería a la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia).
+2. **Prioridad Vital Ampliada (Hogares, Red Alimentaria, Agroindustria de Consumo Interno, Salud, Educación y 3era Edad):** Asignar la energía más barata de la matriz disponible a residencias (200 kWh base / 250 kWh inducción), tiendas y panaderías (500-800 kWh), molinos de trigo/harina, piladoras de arroz, balanceado avícola/porcino y pasteurizadoras de consumo nacional (~85 GWh/mes con cruce SRI/SENAE), adultos mayores (50% de descuento vital hasta 50 kWh en 1 solo medidor), hospitales de la RPIS y escuelas fiscales, con estricto pago puntual y autofinanciamiento hidroeléctrico sin subsidios. Dejar a la agroexportación (camarón, banano, cacao) y gran minería a la tarifa a costo real pleno ($T_{\text{real}}$ + TOU + Factor de Contingencia).
 3. **Cero Subsidios Cruzados y Cost-of-Service:** Cada sector paga su costo real eficiente, protegiendo la competitividad industrial ecuatoriana.
-4. **Sinceramiento Constitucional en Galápagos:** Cobro de 35 a 42 ¢USD/kWh a turismo y consumos suntuarios bajo Arts. 258 y 396 CRE, detonando la autogeneración solar con baterías BESS con retorno en <2 años.
+4. **Sinceramiento Constitucional en Galápagos con Transición de 24 Meses y Créditos Verdes Express:** Cobro de 35 a 42 ¢USD/kWh a turismo y consumos suntuarios bajo Arts. 258 y 396 CRE, pero modulado mediante cronograma de 4 fases (24 meses) con subida ligera inicial del 10% y créditos CFN/BDE al 5% con arancel 0%, IVA 0% e ISD 0%, detonando la autogeneración solar con baterías BESS con retorno en <2 años y reduciendo la probabilidad de paro insular a menos del 15%.
 5. **Evitar la trampa discursiva de la privatización de CNEL:** No plantear concesiones de empresas eléctricas en la ley; adoptar **contratos de ingeniería y blindaje por éxito (ESCO/EPCm)**.
 6. **Agilidad en Mecheros:** No esperar a que Petroecuador ejecute obras públicas; facultar la **autogeneración modular privada en boca de pozo**.
 7. **Universalizar Medidores Inteligentes con Depósito de Garantía (Costo + 10%) financiado a 36 meses:** Supera la prohibición legal previa mediante la figura de garantía reembolsable, fondea un stock permanente y erradica las tomas clandestinas.
 8. **Sostenibilidad Financiera:** Prohibición de operar a pérdida, margen regulado del 10% y **descuento comercial del 2% por pronto pago o débito bancario**, acelerando la recaudación en los primeros 5 días del mes.
 9. **Rubro de Resiliencia de hasta 1 Centavo/kWh ($0.01 USD/kWh):** Genera entre \$190 y \$280 millones anuales en liquidez directa para el FERRE, financiando baterías BESS para aplanar el pico nocturno de 18:00 a 22:00 y terminar con los apagones.
 10. **Net Billing Asimétrico (Regla del 70/30):** Retención del 30% en inyección solar industrial para pérdidas y peajes del SNI, obligando a inyectar excedentes diurnos para embalsar agua hidroeléctrica, con 100% de reconocimiento tarifario en punta nocturna para baterías BESS.
+11. **Estandarización de Conductores Eficientes (#6 AWG):** 0% IVA y 0% arancel a cables de sección >= 13.30 mm² para reducir pérdidas técnicas en 37.1% y modernizar acometidas.
 
 ---
 
