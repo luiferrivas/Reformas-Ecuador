@@ -510,3 +510,58 @@ capping_perdidas_distribucion_vad:
   entidad_reguladora: "ARCONEL"
   tratamiento_perdidas_excedentes: "Pérdida patrimonial directa contra balance contable de la distribuidora; prohibido trasladar a tarifa de abonados o Presupuesto del Estado"
   sancion_administrativa: "Causal de remoción para Directorio y Gerencia General de la empresa eléctrica distribuidora"
+
+# ------------------------------------------------------------------------------
+# 14. RÉGIMEN DE TRANSICIÓN GRADUAL PARA GALÁPAGOS Y CRÉDITO VERDE EXPRESS
+# ------------------------------------------------------------------------------
+transitoria_galapagos_resiliencia:
+  plazo_total_meses: 24
+  base_constitucional: ["Art. 258 CRE", "Art. 396 CRE (Principio Contaminador-Pagador)", "LOREG"]
+  fases_ajuste:
+    fase_1_meses_1_a_6:
+      tarifa_residencial_base: "100% protegida hasta 250 kWh/mes para residentes permanentes"
+      recargo_comercial_turistico_pct: 10.0
+      criterio: "Subida inicial ligera del 10% sobre el diferencial de costo real insular; preserva paquetes turísticos contratados y emite señal temprana"
+    fase_2_meses_7_a_12:
+      absorcion_diferencial_costo_real_pct: 33.0
+    fase_3_meses_13_a_18:
+      absorcion_diferencial_costo_real_pct: 66.0
+    fase_4_meses_19_a_24:
+      absorcion_diferencial_costo_real_pct: 100.0
+      tarifa_costo_real_pleno_usd_kwh: 0.380 # Rango: 0.350 a 0.420 USD/kWh
+  credito_verde_express_cfn_bde:
+    tasa_interes_anual_pct: 5.0
+    plazo_amortizacion_anos: 7
+    gracia_capital_meses: 6
+    arancel_importacion_pct: 0.0
+    tarifa_iva_pct: 0.0
+    impuesto_salida_divisas_isd_pct: 0.0
+    equipos_financiados: ["Paneles solares fotovoltaicos", "Inversores inteligentes Grid-Forming", "Baterías BESS de litio"]
+    payback_estimado_anos: 2.1 # Rango: 1.8 a 2.3 años
+    impacto_flujo_caja_hotel_mes_usd: 1220.0 # Flujo neto positivo inmediato
+
+# ------------------------------------------------------------------------------
+# 15. ESTANDARIZACIÓN DE CONDUCTORES EFICIENTES Y EXENCIÓN FISCAL DE RED
+# ------------------------------------------------------------------------------
+estandarizacion_conductores_eficientes:
+  calibre_minimo_obligatorio_acometidas: "AWG #6"
+  seccion_transversal_minima_mm2: 13.30
+  calibre_desplazado_prohibido: "AWG #8"
+  seccion_calibre_desplazado_mm2: 8.37
+  reduccion_perdidas_termicas_joule_pct: 37.1
+  materiales_homologados:
+    - "Aluminio AAC / AAAC / ACSR para redes aéreas preensambladas y multiplexadas"
+    - "Cobre y aluminio concéntrico antifraude para acometidas domiciliarias"
+  fisica_conductores_comparativa:
+    resistencia_cobre_awg8_ohm_km: 2.06
+    resistencia_cobre_awg6_ohm_km: 1.30
+    resistencia_aluminio_awg8_ohm_km: 3.38
+    resistencia_aluminio_awg6_ohm_km: 2.13
+    equivalencia_aluminio6_vs_cobre8: "Aluminio #6 AWG tiene resistencia casi idéntica a cobre #8 AWG con 1/3 del peso y menor costo"
+  incentivo_tributario_lorti_copci:
+    reforma_lorti_art55_iva_pct: 0.0
+    reforma_copci_arancel_pct: 0.0
+    umbral_calibre_exencion: "Calibre igual o superior a #6 AWG (sección transversal >= 13.30 mm²)"
+    tratamiento_calibres_menores: "Calibres #8, #10, #12, #14 AWG mantienen gravamen de 15% IVA y arancel para forzar sustitución"
+    ahorro_anual_tecnico_distribuidoras_usd: 55000000 # Rango: $45M a $65M USD/año
+
