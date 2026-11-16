@@ -518,15 +518,18 @@ transitoria_galapagos_resiliencia:
   plazo_total_meses: 24
   base_constitucional: ["Art. 258 CRE", "Art. 396 CRE (Principio Contaminador-Pagador)", "LOREG"]
   fases_ajuste:
-    fase_1_meses_1_a_6:
+    semestre_1_meses_1_a_6:
       tarifa_residencial_base: "100% protegida hasta 250 kWh/mes para residentes permanentes"
-      recargo_comercial_turistico_pct: 10.0
-      criterio: "Subida inicial ligera del 10% sobre el diferencial de costo real insular; preserva paquetes turísticos contratados y emite señal temprana"
-    fase_2_meses_7_a_12:
-      absorcion_diferencial_costo_real_pct: 33.0
-    fase_3_meses_13_a_18:
-      absorcion_diferencial_costo_real_pct: 66.0
-    fase_4_meses_19_a_24:
+      absorcion_diferencial_costo_real_pct: 25.0
+      tarifa_resultante_usd_kwh: 0.170
+      criterio: "Subida incremental inmediata a día de hoy del 25% sobre el diferencial hacia costo real insular; rompe inercia y fomenta autogeneración"
+    semestre_2_meses_7_a_12:
+      absorcion_diferencial_costo_real_pct: 50.0
+      tarifa_resultante_usd_kwh: 0.240
+    semestre_3_meses_13_a_18:
+      absorcion_diferencial_costo_real_pct: 75.0
+      tarifa_resultante_usd_kwh: 0.310
+    semestre_4_meses_19_a_24:
       absorcion_diferencial_costo_real_pct: 100.0
       tarifa_costo_real_pleno_usd_kwh: 0.380 # Rango: 0.350 a 0.420 USD/kWh
   credito_verde_express_cfn_bde:

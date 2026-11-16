@@ -2,7 +2,7 @@
 """
 Script Pericial de Verificación Matemática y Forense
 Proyecto de Ley Reformatoria al Sector Eléctrico del Ecuador
-Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) - Cumplimiento Mandatorio AGENTS.md y olimpo-auditor-documentos
+Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) - Cumplimiento Mandatorio AGENTS.md y kronos-auditor-documentos
 """
 
 import math
@@ -175,24 +175,24 @@ def test_transitoria_galapagos():
     tarifa_real_insular = 0.38 # USD/kWh
     diferencial = tarifa_real_insular - tarifa_historica # 0.28 USD/kWh
     
-    # Fase 1: Recargo ligero 10% sobre diferencial (meses 1 a 6)
-    tarifa_fase1 = tarifa_historica + (0.10 * diferencial)
-    # Fase 2: 33% diferencial (meses 7 a 12)
-    tarifa_fase2 = tarifa_historica + (0.33 * diferencial)
-    # Fase 3: 66% diferencial (meses 13 a 18)
-    tarifa_fase3 = tarifa_historica + (0.66 * diferencial)
-    # Fase 4: 100% diferencial (meses 19 a 24)
-    tarifa_fase4 = tarifa_real_insular
+    # Semestre 1 (Meses 1 a 6): 25% del diferencial (subida inmediata a día de hoy)
+    tarifa_semestre1 = tarifa_historica + (0.25 * diferencial) # 0.170 USD/kWh
+    # Semestre 2 (Meses 7 a 12): 50% del diferencial
+    tarifa_semestre2 = tarifa_historica + (0.50 * diferencial) # 0.240 USD/kWh
+    # Semestre 3 (Meses 13 a 18): 75% del diferencial
+    tarifa_semestre3 = tarifa_historica + (0.75 * diferencial) # 0.310 USD/kWh
+    # Semestre 4 (Meses 19 a 24): 100% del diferencial
+    tarifa_semestre4 = tarifa_real_insular # 0.380 USD/kWh
     
-    print(f"Tarifa Galápagos Fase 1 (10% dif): ${tarifa_fase1:.4f} USD/kWh")
-    print(f"Tarifa Galápagos Fase 2 (33% dif): ${tarifa_fase2:.4f} USD/kWh")
-    print(f"Tarifa Galápagos Fase 3 (66% dif): ${tarifa_fase3:.4f} USD/kWh")
-    print(f"Tarifa Galápagos Fase 4 (100%):    ${tarifa_fase4:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Semestre 1 (25% dif a día de hoy): ${tarifa_semestre1:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Semestre 2 (50% dif):              ${tarifa_semestre2:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Semestre 3 (75% dif):              ${tarifa_semestre3:.4f} USD/kWh")
+    print(f"Tarifa Galápagos Semestre 4 (100% costo real):      ${tarifa_semestre4:.4f} USD/kWh")
     
-    assert abs(tarifa_fase1 - 0.128) < 0.001
-    assert abs(tarifa_fase2 - 0.1924) < 0.001
-    assert abs(tarifa_fase3 - 0.2848) < 0.001
-    assert abs(tarifa_fase4 - 0.380) < 0.001
+    assert abs(tarifa_semestre1 - 0.170) < 0.001
+    assert abs(tarifa_semestre2 - 0.240) < 0.001
+    assert abs(tarifa_semestre3 - 0.310) < 0.001
+    assert abs(tarifa_semestre4 - 0.380) < 0.001
     
     # Crédito verde hotel: 30 kWp + 60 kWh BESS -> CAPEX $45,000 USD (0% arancel, 0% IVA)
     # Préstamo CFN: $45,000 a 7 años, 5% anual -> cuota mensual ~$636 USD/mes

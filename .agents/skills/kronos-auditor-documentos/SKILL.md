@@ -1,5 +1,5 @@
 ---
-name: olimpo-auditor-documentos
+name: kronos-auditor-documentos
 description: >-
   Sistema Forense Multi-Agente de Confrontación Atómica Enunciado por Enunciado.
   Cuestiona, audita y confronta cada afirmación, tabla y cifra técnica bajo los
@@ -8,7 +8,7 @@ description: >-
   Incluye la Auditoría Forense de Inconsistencias Inter-Documentales como fase final.
 ---
 
-# Sistema Forense Multi-Agente de Confrontación Atómica (`olimpo-auditor-documentos`)
+# Sistema Forense Multi-Agente de Confrontación Atómica (`kronos-auditor-documentos`)
 
 ## Mandato Base del Usuario
 > "Vuelve a auditar y revisar todo de tus respuestas respecto a las últimas respuestas y cada documento.
@@ -28,7 +28,7 @@ El sistema no está restringido a un número rígido:
   * *Ingeniería Básica / Anteproyecto:* `umbral: 90%` o `umbral: 97%` (estándar por defecto).
   * *Ingeniería de Detalle / Grado Inversión:* ej. `umbral: 98%` o `confianza: 99%`.
 - **Regla de Operación:**
-  * Si el usuario indica un porcentaje explícito $X\%$, el Orquestador adopta $\text{UMBRAL\_OBJETIVO} = X\%$ y se lo transmite a los subagentes (`olimpo_fiscal_hostil`, `olimpo_cirujano_documental`, `olimpo_auditor_ciego`).
+  * Si el usuario indica un porcentaje explícito $X\%$, el Orquestador adopta $\text{UMBRAL\_OBJETIVO} = X\%$ y se lo transmite a los subagentes (`kronos_fiscal_hostil`, `kronos_cirujano_documental`, `kronos_auditor_ciego`).
   * Si el usuario no especifica ningún porcentaje, el Orquestador asume automáticamente el estándar del **$97\%$**.
 - **Condición de Parada Parametrizada:**
   $$\text{Score Global} = \min(\text{Física}, \text{Aritmética}, \text{Legal}, \text{Financiera}, \text{Operativa}, \text{Consistencia\_InterDocumental}) \ge \text{UMBRAL\_OBJETIVO}$$
@@ -54,7 +54,7 @@ Queda estrictamente prohibido realizar auditorías por párrafos o resúmenes ej
 
 ---
 
-## ⚠️ El Catálogo de las 10 Trampas Industriales de Olimpo
+## ⚠️ El Catálogo de las 10 Trampas Industriales de Kronos
 
 El sistema rastrea y denuncia explícitamente si el documento incurre en alguna de estas 10 trampas:
 
@@ -97,7 +97,7 @@ El sistema rastrea y denuncia explícitamente si el documento incurre en alguna 
 ### 4. Prohibición del "Cierre por Subsanación de Pliego" (Amnesia Contextual en Ronda 2)
 - **El problema general:** Si el mismo agente que emite observaciones en la Ronda 1 revisa la Ronda 2, sufre *sesgo de confirmación y complacencia*: se limita a verificar si el redactor corrigió los 4 puntos que él pidió. Al verlos corregidos, asume erróneamente que el trabajo está terminado y asigna 98%.
 - **La solución universal:** **Rotación obligatoria de contexto o auditor fresco para la verificación.**
-  La verificación final no debe auditarse contra el pliego viejo; debe someterse a un agente en un contexto limpio (`olimpo_auditor_ciego`) con una instrucción ciega: *"Destruye este documento final asumiendo que el peor escenario posible ocurrirá"*. Si no conoce el pliego anterior, no sentirá la tentación de "aprobar porque me hicieron caso".
+  La verificación final no debe auditarse contra el pliego viejo; debe someterse a un agente en un contexto limpio (`kronos_auditor_ciego`) con una instrucción ciega: *"Destruye este documento final asumiendo que el peor escenario posible ocurrirá"*. Si no conoce el pliego anterior, no sentirá la tentación de "aprobar porque me hicieron caso".
 
 ### 5. El "Coeficiente de Fricción Entrópica Universal"
 - **El problema general:** Los proyectos en papel se diseñan en un mundo ideal ("frictionless"): los drones no se caen, las cuadrillas no entran en huelga, los contratos se firman sin discutir y los subproductos se transportan a "costo marginal cero".
@@ -129,10 +129,10 @@ Todo proceso de auditoría forense debe concluir obligatoriamente con el **Escan
 1. **Contraste Canónico:** Confrontar cifras de potencia, caudales, CAPEX, OPEX, tonelajes, peajes y rendimientos del documento auditado contra:
    - El `SUMMARY.md` del subproyecto (Regla 10 de Cero Deriva).
    - El `context.md` y `gemini_history.md` del subproyecto.
-   - El Plan Maestro (`Olimpo_Master_Plan.md`) y los `SUMMARY.md` de subproyectos clientes o proveedores (interfaces de entrada/salida).
+   - El Plan Maestro (`Kronos_Master_Plan.md`) y los `SUMMARY.md` de subproyectos clientes o proveedores (interfaces de entrada/salida).
 2. **Matriz de Inconsistencias Cruzadas:**
    `| Variable / Parámetro | Valor en Doc Auditado | Valor en Doc Relacionado | Archivo Relacionado en Conflicto | Veredicto y Fuente de Verdad Canónica |`
-3. **Cirugía Bidireccional:** Si existen contradicciones, `olimpo_cirujano_documental` sincroniza inmediatamente los archivos divergentes y actualiza el `SUMMARY.md` en el mismo turno de trabajo para evitar la deriva documental en toda la mesa de mejoras.
+3. **Cirugía Bidireccional:** Si existen contradicciones, `kronos_cirujano_documental` sincroniza inmediatamente los archivos divergentes y actualiza el `SUMMARY.md` en el mismo turno de trabajo para evitar la deriva documental en todo el consorcio.
 
 ---
 
@@ -140,10 +140,10 @@ Todo proceso de auditoría forense debe concluir obligatoriamente con el **Escan
 
 | Agente | Archivo de Definición Relativo | Permisos | Misión Exclusiva |
 | :--- | :--- | :--- | :--- |
-| **`olimpo_auditor_documentos`** | `.agents/agents/olimpo_auditor_documentos/agent.json` | Lectura/Escritura + Subagentes | **Orquestador Maestro:** Parametriza el Umbral Objetivo (97% por defecto o configurable), exige la Matriz Enunciado por Enunciado, coordina el careo entre Fiscal y Cirujano, y garantiza la amnesia contextual, el Protocolo Universal de Consistencia Semántica y la auditoría final de inconsistencias inter-documentales. |
-| **`olimpo_fiscal_hostil`** | `.agents/agents/olimpo_fiscal_hostil/agent.json` | Lectura + Scripts Python | **Fiscal Red Team (Ronda 1):** Cuestiona cada frase, formula contraejemplos hostiles, ejecuta scripts Python de verificación, evalúa contra el Umbral Objetivo, aplica la verificación por tuplas semánticas y llena la Matriz Forense. |
-| **`olimpo_cirujano_documental`** | `.agents/agents/olimpo_cirujano_documental/agent.json` | Lectura/Escritura + Scripts Python | **Cirujano Documental:** Responde a la matriz con código Python o reingeniería descarnada hasta alcanzar el Umbral Objetivo, resuelve discrepancias texto-tabla-gráfico, sincroniza `SUMMARY.md` e interfaces, edita los archivos `.md` con KaTeX aislado (Regla 6) y Bitácora de Descartes (Regla 7). |
-| **`olimpo_auditor_ciego`** | `.agents/agents/olimpo_auditor_ciego/agent.json` | Lectura + Scripts Python | **Auditor Ciego (Ronda 2):** Ataca el documento final en contexto limpio bajo el peor escenario posible (sin auditoría por diff), verificando triangulación multimodal, coherencia vertical y ejecutando el escaneo pericial de inconsistencias inter-documentales. |
+| **`kronos_auditor_documentos`** | `.agents/agents/kronos_auditor_documentos/agent.json` | Lectura/Escritura + Subagentes | **Orquestador Maestro:** Parametriza el Umbral Objetivo (97% por defecto o configurable), exige la Matriz Enunciado por Enunciado, coordina el careo entre Fiscal y Cirujano, y garantiza la amnesia contextual, el Protocolo Universal de Consistencia Semántica y la auditoría final de inconsistencias inter-documentales. |
+| **`kronos_fiscal_hostil`** | `.agents/agents/kronos_fiscal_hostil/agent.json` | Lectura + Scripts Python | **Fiscal Red Team (Ronda 1):** Cuestiona cada frase, formula contraejemplos hostiles, ejecuta scripts Python de verificación, evalúa contra el Umbral Objetivo, aplica la verificación por tuplas semánticas y llena la Matriz Forense. |
+| **`kronos_cirujano_documental`** | `.agents/agents/kronos_cirujano_documental/agent.json` | Lectura/Escritura + Scripts Python | **Cirujano Documental:** Responde a la matriz con código Python o reingeniería descarnada hasta alcanzar el Umbral Objetivo, resuelve discrepancias texto-tabla-gráfico, sincroniza `SUMMARY.md` e interfaces, edita los archivos `.md` con KaTeX aislado (Regla 6) y Bitácora de Descartes (Regla 7). |
+| **`kronos_auditor_ciego`** | `.agents/agents/kronos_auditor_ciego/agent.json` | Lectura + Scripts Python | **Auditor Ciego (Ronda 2):** Ataca el documento final en contexto limpio bajo el peor escenario posible (sin auditoría por diff), verificando triangulación multimodal, coherencia vertical y ejecutando el escaneo pericial de inconsistencias inter-documentales. |
 
 ---
 
@@ -151,13 +151,13 @@ Todo proceso de auditoría forense debe concluir obligatoriamente con el **Escan
 
 ```mermaid
 flowchart TD
-    A["Solicitud de Auditoría Forense (Umbral X% o def: 97%)"] --> B["Orquestador (olimpo_auditor_documentos)"]
-    B --> C["Fase 1: olimpo_fiscal_hostil (Acusación Atómica)"]
+    A["Solicitud de Auditoría Forense (Umbral X% o def: 97%)"] --> B["Orquestador (kronos_auditor_documentos)"]
+    B --> C["Fase 1: kronos_fiscal_hostil (Acusación Atómica)"]
     C --> D["Genera Matriz Forense Enunciado por Enunciado + Scripts Python + 3 Vectores Letales + Score Anillos O"]
     D --> E{"¿Score Global >= UMBRAL_OBJETIVO y Confianza >= UMBRAL_OBJETIVO?"}
-    E -- "No (Kill-Switch / Fallas / Trampas)" --> F["Fase 2: Cirugía por olimpo_cirujano_documental"]
+    E -- "No (Kill-Switch / Fallas / Trampas)" --> F["Fase 2: Cirugía por kronos_cirujano_documental"]
     F --> G["Reingeniería con Python + Fricción Entrópica (+30-50%) + Edita .md con Bitácora"]
-    G --> H["Fase 3: olimpo_auditor_ciego (Amnesia Contextual / Contexto Limpio)"]
+    G --> H["Fase 3: kronos_auditor_ciego (Amnesia Contextual / Contexto Limpio)"]
     H --> I{"¿Score Ciego >= UMBRAL_OBJETIVO en Peor Escenario?"}
     I -- "No" --> F
     I -- "Sí" --> J["Fase 4: Auditoría de Inconsistencias Inter-Documentales"]

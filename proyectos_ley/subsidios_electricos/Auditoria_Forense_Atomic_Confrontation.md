@@ -1,4 +1,4 @@
-# 🏛️ AUDITORÍA FORENSE MULTI-AGENTE DE CONFRONTACIÓN ATÓMICA (OLIMPO-AUDITOR-DOCUMENTOS)
+# 🏛️ AUDITORÍA FORENSE MULTI-AGENTE DE CONFRONTACIÓN ATÓMICA (KRONOS-AUDITOR-DOCUMENTOS)
 
 > **Proyecto de Ley Orgánica Reformatoria a la LOSPEE — Sector Eléctrico del Ecuador**  
 > **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Red Team de Auditoría y Fiscalización Forense**  
@@ -9,7 +9,7 @@
 
 ## 1. ACTA DE APERTURA Y MARCO METODOLÓGICO FORENSE
 
-En estricto cumplimiento del mandato del protocolo **`olimpo-auditor-documentos`** y los 12 Mandamientos de la doctrina de ejecución del Sistema de Mesa de Mejoras Olimpo (`AGENTS.md`), se procedió a la auditoría integral, atómica e interdocumental de **todos los documentos, memorias técnicas, articulados de ley, scripts de cálculo y archivos de configuración del proyecto de reforma eléctrica del Ecuador**.
+En estricto cumplimiento del mandato del protocolo **`kronos-auditor-documentos`** y los 12 Mandamientos de la doctrina de ejecución del Sistema de Mesa de Mejoras Olimpo (`AGENTS.md`), se procedió a la auditoría integral, atómica e interdocumental de **todos los documentos, memorias técnicas, articulados de ley, scripts de cálculo y archivos de configuración del proyecto de reforma eléctrica del Ecuador**.
 
 ### A. Parámetro de Control y Umbral de Confianza
 - **Umbral Objetivo Configurado:** $97.0\%$

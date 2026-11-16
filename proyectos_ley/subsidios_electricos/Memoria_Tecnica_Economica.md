@@ -212,11 +212,11 @@ A fin de conjurar el riesgo de conflictos o paros provinciales en el archipiéla
 1. **Blindaje Inmediato del Consumo Residencial Familiar (Día 1):**
    - Los primeros 250 kWh/mes de las familias residentes permanentes en Santa Cruz, San Cristóbal, Isabela y Floreana se facturan a la tarifa preferencial renovable insular (~0.12 a 0.14 USD/kWh), blindando el costo de vida de los hogares galapagueños desde la promulgación de la ley.
 
-2. **Cronograma Escalonado en 4 Fases para Hoteles, Turismo y Consumos Excedentes (>250 kWh):**
-   - **Fase 1 (Meses 1 a 6):** Vigencia de la tarifa histórica con una **subida ligera inicial del diez por ciento (10%) sobre el diferencial hacia el costo real insular**. Esta señal temprana de precio alerta al sector hotelero sin alterar la rentabilidad de las reservas turísticas ya cobradas en el mercado internacional, activando de inmediato la búsqueda de proveedores solares.
-   - **Fase 2 (Meses 7 a 12):** Absorción del **treinta y tres por ciento (33%)** del diferencial hacia la tarifa a costo real pleno insular.
-   - **Fase 3 (Meses 13 a 18):** Absorción del **sesenta y seis por ciento (66%)** del diferencial hacia la tarifa a costo real pleno insular.
-   - **Fase 4 (Meses 19 a 24):** Aplicación plena del **cien por ciento (100%)** de la tarifa a costo real insular (0.350 a 0.420 USD/kWh).
+2. **Cronograma Escalonado Semestral en 4 Tramos Progresivos del 25% para Hoteles, Turismo y Consumos Excedentes (>250 kWh):**
+   - **Fase 1 (Meses 1 a 6 / Semestre 1 - Inicio a día de hoy):** Vigencia de la tarifa histórica con una **subida incremental inmediata a día de hoy del veinticinco por ciento (25%) sobre el diferencial hacia el costo real insular (alcanzando 0.170 USD/kWh)**. Esta señal de precio inmediata e ineludible quiebra la inercia del subsidio y alerta al sector hotelero sobre la urgencia de migrar a techos solares, pero sin asfixiar la liquidez operativa de las reservas turísticas contratadas con antelación en el mercado internacional.
+   - **Fase 2 (Meses 7 a 12 / Semestre 2):** Absorción del **cincuenta por ciento (50%)** del diferencial hacia la tarifa a costo real pleno insular (alcanzando **0.240 USD/kWh**).
+   - **Fase 3 (Meses 13 a 18 / Semestre 3):** Absorción del **setenta y cinco por ciento (75%)** del diferencial hacia la tarifa a costo real pleno insular (alcanzando **0.310 USD/kWh**).
+   - **Fase 4 (Meses 19 a 24 / Semestre 4):** Aplicación plena del **cien por ciento (100%)** de la tarifa a costo real insular (0.350 a 0.420 USD/kWh, promedio **0.380 USD/kWh**).
 
 3. **Línea de Crédito Verde Express 'Galápagos Solar y Resiliencia' (CFN / BDE):**
    - La Corporación Financiera Nacional (CFN) y el Banco de Desarrollo del Ecuador (BDE) aperturan un fondo rotativo de crédito preferente con las siguientes condiciones financieras:
@@ -224,9 +224,9 @@ A fin de conjurar el riesgo de conflictos o paros provinciales en el archipiéla
      - Plazo de amortización de hasta **7 años** con **6 meses de gracia** de capital.
      - **Cero Aranceles (0%), Cero IVA (0%) y Cero ISD (0%)** para paneles solares fotovoltaicos, inversores inteligentes con soporte de red y bancos de baterías BESS importados con destino exclusivo a Galápagos.
    - **Mecánica Financiera de Aceptación Inmediata:**
-     - La cuota mensual del crédito verde para instalar un sistema solar de 30 kWp con 60 kWh de baterías BESS ronda los **$680 USD/mes**.
-     - El ahorro mensual frente a pagar la tarifa real plena insular supera los **$1,900 USD/mes**.
-     - El hotel genera un **flujo de caja neto positivo de más de $1,200 USD mensuales desde el primer mes de operación del sistema**, desarticulando cualquier incentivo para protestas gremiales.
+     - La cuota mensual del crédito verde para instalar un sistema solar de 30 kWp con 60 kWh de baterías BESS ronda los **$636.50 USD/mes**.
+     - El ahorro mensual frente a pagar la tarifa real plena insular supera los **$1,425.00 USD/mes** (y más de $1,900 USD/mes en meses de alta climatización).
+     - El hotel genera un **flujo de caja neto positivo de más de $780 a $1,200 USD mensuales desde el primer mes de operación del sistema**, desarticulando cualquier incentivo para protestas gremiales.
 
 #### 3.3. Balance Energético Nacional: ¿Alcanza la energía hidroeléctrica barata para hogares, comida, hospitales y escuelas públicas? ("¿Nos alcanza acaso la energía?")
 
