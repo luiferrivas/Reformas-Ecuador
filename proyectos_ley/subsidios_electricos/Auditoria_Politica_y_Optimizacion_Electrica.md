@@ -298,16 +298,16 @@ Históricamente, para maquillar las pérdidas por hurto de CNEL y las tarifas po
 * **Viabilidad Política:** El turismo de lujo en Galápagos factura en dólares tarifas de alta gama internacional (\$300 a \$1,200 USD por noche). Cobrar la tarifa real de 35 a 42 ¢USD/kWh al sector hotelero es éticamente inobjetable.
 * **El Detonante de Inversión Privada:** Con tarifas de 38 ¢USD/kWh, el Payback para instalar paneles solares con baterías BESS en hoteles cae a **menos de 2 años**. El propio sector privado financia la descarbonización de Galápagos sin gasto público.
 
-#### B. La Adaptación Realista ("El Cómo Sí"): Transición de 24 Meses y Créditos Verdes Express
-Para neutralizar de raíz la amenaza de un paro provincial insular o bloqueo de aeropuertos (Baltra / San Cristóbal) por parte de la Cámara de Turismo de Galápagos (CAPTURGAL) y alcaldes locales, la reforma incorpora una **Disposición Transitoria de 24 meses**:
+#### B. La Adaptación Realista ("El Cómo Sí"): Transición de 24 Meses en 4 Tramos Semestrales del 25% y Créditos Verdes Express
+Para neutralizar de raíz la amenaza de un paro provincial insular o bloqueo de aeropuertos (Baltra / San Cristóbal) por parte de la Cámara de Turismo de Galápagos (CAPTURGAL) y alcaldes locales, la reforma incorpora una **Disposición Transitoria de 24 meses estructurada en 4 semestres del 25%**:
 1. **Blindaje Inmediato del Residente Permanente (Día 1):** Los primeros 250 kWh/mes de las familias locales se facturan a la tarifa preferente renovable (~0.12 a 0.14 USD/kWh). La ciudadanía residente no tiene motivo de protesta.
-2. **Escalonamiento en 4 Fases para Hoteles y Turismo:**
-   - *Meses 1 a 6:* Tarifa histórica con **subida inicial leve del 10% sobre el diferencial** hacia el costo real. Esto evita el shock financiero sobre paquetes turísticos previamente vendidos a mayoristas internacionales y envía una señal temprana de urgencia económica.
-   - *Meses 7 a 12:* Absorción del 33% del diferencial hacia costo real.
-   - *Meses 13 a 18:* Absorción del 66% del diferencial.
-   - *Meses 19 a 24:* Aplicación plena del 100% de la tarifa a costo real insular (0.35 a 0.42 USD/kWh).
+2. **Escalonamiento Semestral en 4 Fases para Hoteles y Turismo:**
+   - *Meses 1 a 6 (Semestre 1 - Inicio a día de hoy):* Tarifa histórica con **subida incremental inmediata a día de hoy del 25% sobre el diferencial** hacia el costo real (~0.170 USD/kWh). Esta señal temprana es contundente para romper la inercia del subsidio y forzar a los hoteleros a cotizar sistemas solares, sin quebrar la liquidez de las reservas hoteleras contratadas previamente.
+   - *Meses 7 a 12 (Semestre 2):* Absorción del 50% del diferencial (~0.240 USD/kWh).
+   - *Meses 13 a 18 (Semestre 3):* Absorción del 75% del diferencial (~0.310 USD/kWh).
+   - *Meses 19 a 24 (Semestre 4):* Aplicación plena del 100% de la tarifa a costo real insular (0.35 a 0.42 USD/kWh).
 3. **Línea de Crédito Verde Express CFN/BDE al 5% con Arancel 0%, IVA 0% e ISD 0%:**
-   - La cuota bancaria mensual es inferior a lo que el hotel pagaría de tarifa de red, generando flujo de caja positivo inmediato desde el primer mes.
+   - La cuota bancaria mensual (~$636.50 USD/mes) es inferior a lo que el hotel pagaría de tarifa de red ($1,425 a $1,900 USD/mes), generando flujo de caja positivo inmediato desde el primer mes.
    - Con esta adaptación pragmática, la probabilidad de conflicto social en Galápagos se desploma de un **75% a menos del 15%**, transformando la resistencia hotelera en una carrera privada por instalar techos solares antes de que expire la transitoria.
 
 ---
