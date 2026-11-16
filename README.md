@@ -61,7 +61,8 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 5. **[Auditoría Forense de Resistencia CONAIE y Hoja de Ruta Secuencial](./proyectos_ley/subsidios_combustibles/Critica_Forense_Resistencia_CONAIE_y_Hoja_Ruta_Secuencial.md)**: Análisis sin complacencia de detonantes de paros históricos, superación de la trampa del solar rural mediante la reforma eléctrica previa, exclusión de camiones C2 campesinos y hoja de ruta en 3 fases.
 6. **[Modelo de Cocina Dual (Inducción 220V) y Red de Micro-Bodegas Rurales](./proyectos_ley/subsidios_combustibles/Modelo_Cocina_Dual_Induccion_y_Red_Depositos_Rurales.md)**: Ingeniería de la placa robusta 220V de 2 quemadores (3,500 W Heavy-Duty), convivencia dual con 1 tanque de gas de respaldo y red de micro-bodegas comunales en poblados para venta a PVP oficial (2.26 USD en Año 1).
 7. **[Auditoría Forense de Viabilidad Práctica (Inducción 220V y Micro-Bodegas)](./proyectos_ley/subsidios_combustibles/Auditoria_Viabilidad_Induccion_220V_y_Microbodegas.md)**: Confrontación de la oferta comercial de placas 220V, solución al cableado interno campesino mediante kits preensamblados de CNEL, blindaje legal ARCH-Bomberos y las 6 anclas de viabilidad práctica.
-8. **[Parámetros y Configuraciones Técnicas](./config/reformas/subsidios_combustibles.yaml)**: Parámetros estructurados en YAML para simulación y regulación.
+8. **[Matriz de Riesgos Integrales y Estrategias de Mitigación](./proyectos_ley/subsidios_combustibles/Matriz_Riesgos_Integrales_y_Estrategias_Mitigacion.md)**: Mapeo exhaustivo de 14 riesgos sociopolíticos, técnicos, regulatorios y de mercado, con sus protocolos de ingeniería y contingencia.
+9. **[Parámetros y Configuraciones Técnicas](./config/reformas/subsidios_combustibles.yaml)**: Parámetros estructurados en YAML para simulación y regulación.
 
 ---
 

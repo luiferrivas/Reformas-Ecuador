@@ -146,6 +146,7 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 
 ## 6. Índice de Documentación Profunda
 
+- **Matriz de Riesgos Integrales y Estrategias de Mitigación:** [`Matriz_Riesgos_Integrales_y_Estrategias_Mitigacion.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Matriz_Riesgos_Integrales_y_Estrategias_Mitigacion.md)
 - **Auditoría Forense de Viabilidad Práctica (Inducción 220V y Micro-Bodegas):** [`Auditoria_Viabilidad_Induccion_220V_y_Microbodegas.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Auditoria_Viabilidad_Induccion_220V_y_Microbodegas.md)
 - **Modelo de Cocina Dual y Red de Micro-Bodegas Rurales:** [`Modelo_Cocina_Dual_Induccion_y_Red_Depositos_Rurales.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Modelo_Cocina_Dual_Induccion_y_Red_Depositos_Rurales.md)
 - **Auditoría Forense de Resistencia CONAIE y Hoja de Ruta Secuencial:** [`Critica_Forense_Resistencia_CONAIE_y_Hoja_Ruta_Secuencial.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Critica_Forense_Resistencia_CONAIE_y_Hoja_Ruta_Secuencial.md)
