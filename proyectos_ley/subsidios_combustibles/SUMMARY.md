@@ -140,11 +140,13 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Secuenciamiento Táctico en Tres Fases (Desacople Político y Catalizador Eléctrico)** | **Aprobada** | Fase 1 (Diésel camaronero + Pesca + IVA) genera +210M sin resistencia; Fase 2 (Reforma eléctrica) fuerza a solares rurales a instalar medidores individuales; Fase 3 (GLP y Diésel pesado) opera sobre parque ya formalizado | Requiere desfase de 6 a 8 meses entre la ley eléctrica y la fase de GLP | Aprobada. Desarticula por completo la capacidad de la CONAIE de aglutinar descontento y resuelve el problema del solar multigeneracional en el terreno físico. |
 | **Placa de Inducción de 220V (2 Quemadores 3,500 W Heavy-Duty) y Respaldo Dual de Gas** | **Aprobada** | Balance de fases perfecto; 75% menos pérdidas Joule que 120V; hierve en 4.5 min; no quema transformadores; cilindro de gas como respaldo para emergencias | Requiere acometida bifásica (resuelta con medidores AMI de Fase 2) | Aprobada. Sustituye el 85% de la cocción diaria con costo de ~5.40 USD/mes, manteniendo el gas para contingencias y cocción prolongada. |
 | **Red de Micro-Bodegas Rurales Comunitarias (30 a 100 Cilindros en Poblados Cercanos)** | **Aprobada** | Quiebra el sobreprecio del fletero rural (4.50-5.50 USD); permite al campesino comprar a PVP de mostrador (2.26 USD en Año 1) bajando en burro/moto/bici; tendero gana 0.30 USD/tanque | Exige terminal POS con app ARCH y control estricto de cupo por CUEN | Aprobada. Ahorra más del 50% en efectivo a las familias rurales y formaliza la distribución sin subsidiar el combustible de camiones fleteros. |
+| **Seis Anclas de Viabilidad Práctica Rural (Kit CNEL, Jaula ARCH, Arancel 0%, Power Sharing)** | **Aprobada** | Resuelve el desabastecimiento de placas 220V en percha; previene choques eléctricos con extensión prefabricada a 0.65 USD/mes; evita colapso de transformadores; blinda legalmente a tenderos contra COIP | Requiere coordinación regulatoria ARCH-Bomberos-ANT-CNEL | Aprobada. Convierte una idea de escritorio en una política pública físicamente instalable, segura y resistente a trabas burocráticas locales. |
 
 ---
 
 ## 6. Índice de Documentación Profunda
 
+- **Auditoría Forense de Viabilidad Práctica (Inducción 220V y Micro-Bodegas):** [`Auditoria_Viabilidad_Induccion_220V_y_Microbodegas.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Auditoria_Viabilidad_Induccion_220V_y_Microbodegas.md)
 - **Modelo de Cocina Dual y Red de Micro-Bodegas Rurales:** [`Modelo_Cocina_Dual_Induccion_y_Red_Depositos_Rurales.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Modelo_Cocina_Dual_Induccion_y_Red_Depositos_Rurales.md)
 - **Auditoría Forense de Resistencia CONAIE y Hoja de Ruta Secuencial:** [`Critica_Forense_Resistencia_CONAIE_y_Hoja_Ruta_Secuencial.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Critica_Forense_Resistencia_CONAIE_y_Hoja_Ruta_Secuencial.md)
 - **Memoria Técnica y Económica:** [`Memoria_Tecnica_Economica_Combustibles.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/Memoria_Tecnica_Economica_Combustibles.md)
@@ -153,5 +155,6 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 - **Configuración de Parámetros YAML:** [`config/reformas/subsidios_combustibles.yaml`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/reformas/subsidios_combustibles.yaml)
 - **Ley de Subsidios Eléctricos (Articulación de Electromovilidad):** [`Proyecto_Ley_Subsidios_Electricos_Ecuador.md`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md)
 - **Archivo Histórico de Versiones Descartadas:** Directorio [`historico/`](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_combustibles/historico/)
+
 
 
