@@ -1068,7 +1068,7 @@ A fin de erradicar de forma definitiva los problemas de racionamiento, déficit 
 
 #### 12.3. Conversión de Gas de Mecheros Petroleros a Electricidad en Boca de Pozo ("Flare-to-Power" Modular Privado)
 - **Diagnóstico Ambiental y Energético:** En los campos petroleros de la Amazonía (Orellana y Sucumbíos) se queman en mecheros aproximadamente **60 a 80 millones de pies cúbicos diarios (MMSCFD) de gas natural asociado**, liberando CO2 y calor mientras las operaciones de bombeo del SOTE y pozos queman diésel importado subsidiado.
-- **La Solución Modular Kronos:** Autorizar de inmediato contratos privados de autogeneración en sitio donde empresas especializadas instalan **motogeneradores y microturbinas modulares en contenedores (skids sobre ruedas)** directamente al pie de los pozos petroleros.
+- **La Solución Modular Olimpo:** Autorizar de inmediato contratos privados de autogeneración en sitio donde empresas especializadas instalan **motogeneradores y microturbinas modulares en contenedores (skids sobre ruedas)** directamente al pie de los pozos petroleros.
 - **Impacto:**
   - Generación de **350 a 450 MW de potencia firme** en el Oriente ecuatoriano.
   - Autoabastecimiento del 100% de la carga electromecánica petrolera (bombeo electrosumergible y estaciones de bombeo de crudo), retirando más de 200 MW de demanda de la red nacional y apagando generadores diésel contaminantes.

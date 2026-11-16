@@ -1,5 +1,5 @@
 # SUMMARY — Reforma Modular y Tributaria al Régimen de Subsidios a Combustibles
-> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Kronos**  
+> **L1 Cache Contractual, Técnico y Financiero — Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**  
 > *Fuente primaria obligatoria de consulta para agentes y modelos en el subproyecto de Subsidios a los Combustibles. Sujeta a la Regla de Cero Deriva.*
 
 ---

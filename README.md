@@ -10,7 +10,7 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 **"Ley Orgánica Reformatoria a la Ley Orgánica del Servicio Público de Energía Eléctrica (LOSPEE) para la Asignación Prioritaria de Energía de Menor Costo, Focalización Tarifaria Equitativa y Sostenibilidad Financiera ante Contingencias Climáticas"**
 
 ### Documentos del Proyecto
-1. **[L1 Cache Contractual y Resumen Ejecutivo (SUMMARY.md)](./proyectos_ley/subsidios_electricos/SUMMARY.md)**: Interfaz primaria y parámetros críticos del proyecto bajo la doctrina Kronos.
+1. **[L1 Cache Contractual y Resumen Ejecutivo (SUMMARY.md)](./proyectos_ley/subsidios_electricos/SUMMARY.md)**: Interfaz primaria y parámetros críticos del proyecto bajo la doctrina Olimpo.
 2. **[Proyecto de Ley Completo (Formato Legislativo Oficial)](./proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md)**: Texto legal estructurado con Exposición de Motivos, Considerandos, Articulado Reformatorio, Disposiciones Generales, Transitorias, Derogatorias y Final.
 3. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md)**: Análisis cuantitativo de demanda, modelado de los umbrales de 250 kWh, 500 kWh y 800 kWh, regla de despacho por orden de mérito regional, tarifas horarias TOU, formulación del $FCC$, gobernanza del FERRE y régimen de medidores con garantía (Costo + 10%).
 4. **[Auditoría de Viabilidad Política y Optimización del Sistema Eléctrico](./proyectos_ley/subsidios_electricos/Auditoria_Politica_y_Optimizacion_Electrica.md)**: Análisis de realismo político y límites constitucionales sobre mecheros petroleros, autonomía municipal en cobranzas, sindicatos de CNEL, hidroeléctricas de bombeo, solares flotantes y el modelo de luz prepago digital.
@@ -81,6 +81,32 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 
 ---
 
+## 💼 Iniciativa Legislativa: Reforma Fiscal, Sustitución de Impuestos al Patrimonio y Racionalización del IVA/GLP
+
+### Denominación del Proyecto de Ley
+**"Ley Orgánica de Competitividad Tributaria, Sustitución de Impuestos al Patrimonio y Racionalización de Subsidios"**
+
+### Documentos del Proyecto
+1. **[L1 Cache Contractual y Resumen Ejecutivo (SUMMARY.md)](./proyectos_ley/reforma_fiscal_tributaria/SUMMARY.md)**: Interfaz primaria y parámetros críticos del proyecto fiscal bajo la doctrina Kronos.
+2. **[Proyecto de Ley Completo (Formato Legislativo Oficial)](./proyectos_ley/reforma_fiscal_tributaria/Proyecto_Ley_Reforma_Fiscal_Tributaria.md)**: Texto legal estructurado con Exposición de Motivos, Considerandos, Articulado Reformatorio (LRTI, COOTAD, GLP, CNT S.A.), Disposiciones Generales, Transitorias, Derogatorias y Final.
+3. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/reforma_fiscal_tributaria/Memoria_Tecnica_Economica.md)**: Análisis cuantitativo de contracción comercial por IVA 15% vs 12%, sustitución de Patente/1.5 por mil por Sobretasa al IR, curva de escalamiento del GLP al 10% anual, cupos biométricos de frontera y matriz de equilibrio macrofiscal.
+4. **[Parámetros y Configuraciones Técnicas](./config/reformas/reforma_fiscal_tributaria.yaml)**: Parámetros estructurados en YAML para simulación y balance fiscal.
+
+### Ejes Cardinales de la Propuesta Fiscal
+
+| Eje | Descripción | Impacto |
+| :--- | :--- | :--- |
+| **Retorno del IVA del 15% al 12%** | Disminución de 3 puntos porcentuales de la tarifa general de IVA para inyectar liquidez directa al comercio y hogares. | Revierte la recesión comercial (-3.5% en Quito, -4.4% en Guayaquil, -18.7% autos), reactiva la demanda y expande la base de Impuesto a la Renta. |
+| **Derogatoria de Patente y 1.5 por Mil** | Eliminación de los impuestos patrimoniales a los activos y capital de trabajo en el COOTAD. Cero utilidad = Cero impuesto municipal. | Elimina la asfixia fiscal a empresas en años de pérdidas y startups en fase de inversión. |
+| **Sobretasa Municipal sobre Renta Neta (SM-IR)** | Creación de una sobretasa de hasta el 1.5% calculada exclusivamente sobre la Renta Neta Imponible del SRI, prorrateada por ventas y nómina local. | Garantiza neutralidad fiscal a los 221 municipios (~490 M USD/año) sin requerir transferencias del Presupuesto Central (Art. 271 CRE). |
+| **Fiscalización Concurrente Antievasión GAD-SRI** | Los municipios auditan informalidad y facturación territorial, recibiendo el 30% de la recaudación recuperada por evasión local. | Convierte a los 221 municipios en aliados activos del SRI para combatir la evasión del Impuesto a la Renta. |
+| **Escalamiento GLP 10% Anual y Cupos Biométricos** | Incremento del 10% anual compuesto al precio del cilindro + cupos estrictos en frontera (1 cilindro/mes por persona o 1 cada 35-40 días por hogar). | Corta 120 M USD de contrabando hacia Perú/Colombia y 280 M USD de desvío comercial de inmediato, protegiendo a las familias vulnerables. |
+| **Fondo de Infraestructura de Gas (Margen 10%)** | Recargo del 10% post-paridad de importación destinado a un Fideicomiso Mercantil para renovación de cilindros y redes de gas natural. | Asegura la autosuficiencia operativa permanente del sector de hidrocarburos sin subsidios del PGE. |
+| **Focalización Quirúrgica Devolución IVA** | 100% de devolución preservada a personas con discapacidad; tercera edad restringida a ingresos <2 SBU y canasta exclusiva de comida y medicinas. | Erradica el mercado negro de facturas ajenas y ahorra 240 M USD/año al SRI cumpliendo la jurisprudencia de la Corte Constitucional. |
+| **Transformación de CNT EP a CNT S.A.** | Transformación a Sociedad Anónima privada regida por Ley de Compañías y Código del Trabajo ordinario (Modelo Banco del Pacífico). | Despolitiza la empresa, la excluye de compras SERCOP, anula contratos colectivos abusivos y genera 250 M USD/año en dividendos limpios. |
+
+---
+
 ## 🏛️ Trámite Constitucional y Parlamentario
 
 Este proyecto ha sido redactado observando las normas de la técnica legislativa de la **Asamblea Nacional de la República del Ecuador** y los preceptos de la **Constitución de la República (Arts. 133, 285, 286, 313, 314 y 315)** y de la **Ley Orgánica de la Función Legislativa (LOFL)**:
@@ -93,7 +119,7 @@ Este proyecto ha sido redactado observando las normas de la técnica legislativa
 
 ## 🤖 Doctrina y Gobernanza de Agentes IA
 
-El desarrollo, modelado cuantitativo y redacción técnica en este repositorio se rigen obligatoriamente bajo los **12 Mandamientos Inviolables de Ejecución del Consorcio Industrial Kronos**:
+El desarrollo, modelado cuantitativo y redacción técnica en este repositorio se rigen obligatoriamente bajo los **12 Mandamientos Inviolables de Ejecución del Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**:
 - **Documento Maestro:** [`AGENTS.md`](./AGENTS.md)
 - **Módulo de Configuración y Prompts:** Directorio [`config/agentes/`](./config/agentes/)
   - [`doctrina.yaml`](./config/agentes/doctrina.yaml): Especificación estructurada y reglas de validación.

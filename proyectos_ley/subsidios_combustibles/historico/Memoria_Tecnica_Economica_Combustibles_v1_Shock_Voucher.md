@@ -1,5 +1,5 @@
 # 🛑 BITÁCORA FORENSE DE DECISIÓN Y DESCARTE — ARCHIVO HISTÓRICO
-> **Regla de Oro del Consorcio Industrial Kronos (Mandamiento 12):**  
+> **Regla de Oro del Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) (Mandamiento 12):**  
 > *Este documento ha sido superado, auditado o descartado. Se conserva exclusivamente para memoria histórica, lecciones aprendidas y prevención de amnesia operativa.*
 
 ---
@@ -9,7 +9,7 @@
 - **Archivo Actual (Histórico):** 
 - **Versión Canónica Vigente Oficial:** 
 - **Fecha de Descarte:** 2026-11-14
-- **Agente / Auditor Responsable:** Kronos Forensic Policy Unit
+- **Agente / Auditor Responsable:** Olimpo Forensic Policy Unit
 - **Estado del Documento:** 
 
 ---
@@ -34,7 +34,7 @@
 
 ## REFORMA AL RÉGIMEN DE SUBSIDIOS EN COMBUSTIBLES FÓSILES NO ELÉCTRICOS Y SINCERAMIENTO FISCAL DEL ECUADOR
 
-> **Consorcio Industrial Kronos — División de Economía de la Energía y Finanzas Públicas**  
+> **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Mesa Técnica de Economía de la Energía y Finanzas Públicas**  
 > *Documento técnico oficial de sustento cuantitativo, legal y macroeconómico.*
 
 ---
@@ -116,7 +116,7 @@ Descontando el componente de termoeléctricas y barcazas de emergencia, en el Ec
 
 ---
 
-## 3. Arquitectura de Optimización Quirúrgica (La Doctrina Kronos)
+## 3. Arquitectura de Optimización Quirúrgica (La Doctrina Olimpo)
 
 ### 3.1. ¿Por qué Fracasaron los Intentos Históricos? (Lecciones de 2019, 2022 y 2025)
 
@@ -194,7 +194,7 @@ $$\text{Cobertura del Déficit Fiscal por la Reforma} = \frac{801.40 \text{ M US
 
 ### 4.3. Sinergia Total con la Reforma al Sector Eléctrico (Senda Hacia el Superávit Fiscal)
 
-Cuando esta reforma de subsidios a los combustibles se implementa en conjunto con la **Reforma Tarifaria Eléctrica de Kronos** (que libera entre **2,605.00 y 3,575.00 M USD/año** al erradicar el déficit tarifario y los combustibles térmicos importados), el resultado fiscal del Ecuador cambia radicalmente:
+Cuando esta reforma de subsidios a los combustibles se implementa en conjunto con la **Reforma Tarifaria Eléctrica de Olimpo** (que libera entre **2,605.00 y 3,575.00 M USD/año** al erradicar el déficit tarifario y los combustibles térmicos importados), el resultado fiscal del Ecuador cambia radicalmente:
 
 | Ejercicio Fiscal | Déficit Original PGE (M USD) | Alivio Sector Eléctrico (M USD) | Alivio Combustibles No Eléctricos (M USD) | Resultado Fiscal Consolidado (M USD) | Estado Fiscal del Ecuador |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -229,4 +229,4 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | :--- | :--- | :--- | :--- |
 | **Cupos de Galones de Diésel por Cooperativa de Buses** | **Descartada** | Aparentaba controlar el consumo del transporte urbano. | Genera de inmediato "ordeño", adulteración de odómetros y venta clandestina a la minería ilegal. Solo el precio de paridad en surtidor erradica el arbitraje. |
 | **Cilindros de Gas de Diferente Color para Negocios y Hogares** | **Descartada** | Se intentó pintar cilindros de color blanco para restaurantes y azul para hogares. | Fracaso empírico total: los talleres clandestinos repintaban los tanques o trasvasaban gas de cilindro a cilindro con mangueras artesanales, causando explosiones fatales. |
-| **Voucher Social Digital Directo por Cédula / Registro Social** | **Aprobada** | Focaliza la ayuda directamente en la billetera de la madre o jefe de familia en pobreza; el gas en bodega se vende a precio real de mercado. | Aprobada por cumplir el Mandamiento 7 de Kronos: cero subsidio a la oferta del producto y blindaje contra el contrabando fronterizo. |
+| **Voucher Social Digital Directo por Cédula / Registro Social** | **Aprobada** | Focaliza la ayuda directamente en la billetera de la madre o jefe de familia en pobreza; el gas en bodega se vende a precio real de mercado. | Aprobada por cumplir el Mandamiento 7 de Olimpo: cero subsidio a la oferta del producto y blindaje contra el contrabando fronterizo. |

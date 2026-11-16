@@ -1,6 +1,6 @@
 # 🤖 Configuración y Doctrina Operativa de Agentes
 
-Este directorio contiene las especificaciones operativas, plantillas y reglas inviolables de ejecución que rigen la conducta, cálculo y análisis de todos los agentes IA y subagentes que participan en el proyecto **Reformas Ecuador**, adoptando la doctrina técnica del **Consorcio Industrial Kronos**.
+Este directorio contiene las especificaciones operativas, plantillas y reglas inviolables de ejecución que rigen la conducta, cálculo y análisis de todos los agentes IA y subagentes que participan en el proyecto **Reformas Ecuador**, adoptando la doctrina técnica del **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**.
 
 ---
 

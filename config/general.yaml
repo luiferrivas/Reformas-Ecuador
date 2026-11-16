@@ -57,9 +57,15 @@ iniciativas_activas:
     estado: "borrador_prelegislativo"
     directorio: "proyectos_ley/subsidios_electricos"
     archivo_configuracion: "config/reformas/subsidios_electricos.yaml"
+  - id: "reforma_fiscal_tributaria"
+    titulo_corto: "Reforma Fiscal, Sustitución de Impuestos al Patrimonio y Racionalización del IVA/GLP"
+    ley_impactada: "Ley de Régimen Tributario Interno (LRTI), COOTAD, LOPAM y LOEP"
+    estado: "borrador_prelegislativo"
+    directorio: "proyectos_ley/reforma_fiscal_tributaria"
+    archivo_configuracion: "config/reformas/reforma_fiscal_tributaria.yaml"
 
 doctrina_agentes:
-  estandar: "Consorcio Industrial Kronos — Reglas Inviolables de Ejecución"
+  estandar: "Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Reglas Inviolables de Ejecución"
   documento_maestro: "AGENTS.md"
   directorio_configuracion: "config/agentes"
   archivo_reglas: "config/agentes/doctrina.yaml"

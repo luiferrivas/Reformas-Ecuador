@@ -8,7 +8,7 @@
 ### PESCA ARTESANAL: SUBSIDIO DIRECTO BANCARIO POR ZARPE Y PRECIO PLENO EN MUELLE (ESCUDO CONTRA GDOs)
 ### SECTOR INDUSTRIAL: SENDERO GRADUAL DEL 1.5% MENSUAL (36 MESES) Y SINERGIA CON ELECTROMOVILIDAD
 
-> **Consorcio Industrial Kronos — División de Economía de la Energía y Finanzas Públicas**  
+> **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Mesa Técnica de Economía de la Energía y Finanzas Públicas**  
 > *Documento técnico oficial de sustento cuantitativo, legal, tributario, macroeconómico y de seguridad pública.*  
 > *Nota Metodológica: Excluye taxativamente los subsidios a combustibles destinados a generación termoeléctrica, tratados en el subproyecto 07.*
 
@@ -104,7 +104,7 @@ Demostración de que la electricidad sin subsidios es **50.2% más barata** que 
 
 $$C_{\text{diésel}} = 20,000 \text{ h} \times 0.8 \frac{\text{gal}}{\text{h}} \times 3.20 \frac{\text{USD}}{\text{gal}} = 51,200.00 \text{ USD/año}$$
 
-- **Alternativa B: Motores Eléctricos Trifásicos a Tarifa Industrial Kronos (Sin Subsidio):**
+- **Alternativa B: Motores Eléctricos Trifásicos a Tarifa Industrial Plena (Mesa Olimpo) (Sin Subsidio):**
   * Potencia equivalente requerida: 15 kW.
   * Consumo energético: 15 kWh por hora de funcionamiento.
   * Tarifa industrial regulada por Costo de Servicio (LOSPEE): 0.085 USD/kWh.
@@ -158,7 +158,7 @@ En el universo residencial familiar (69.75 M cilindros), el precio aumenta +10% 
 
 $$A_{\text{residencial Año 1}} = 69,750,000 \text{ cil} \times 0.165 \frac{\text{USD}}{\text{cil}} = 11.51 \text{ M USD/año}$$
 
-*(Nota de Conciliación: Si se calcula sobre la masa total de 93 M de cilindros antes de la depuración del padrón comercial, el valor nominal alcanza 15.35 M USD/año. Para propósitos de máxima prudencia financiera, Kronos adopta 11.51 M USD como base garantizada de flujo neto residencial).*
+*(Nota de Conciliación: Si se calcula sobre la masa total de 93 M de cilindros antes de la depuración del padrón comercial, el valor nominal alcanza 15.35 M USD/año. Para propósitos de máxima prudencia financiera, Olimpo adopta 11.51 M USD como base garantizada de flujo neto residencial).*
 
 Trayectoria de precios residenciales y ahorro acumulado:
 

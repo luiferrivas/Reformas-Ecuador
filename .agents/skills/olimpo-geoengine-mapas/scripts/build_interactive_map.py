@@ -1,5 +1,5 @@
 """
-Kronos GeoEngine - Script 3: Generador de Mapa Interactivo HTML (Leaflet.js) y Archivo 3D KML
+Olimpo GeoEngine - Script 3: Generador de Mapa Interactivo HTML (Leaflet.js) y Archivo 3D KML
 Compila un visor web con OpenTopoMap por defecto, control de capas, HUD Glassmorphism y archivo KML 2.2 georreferenciado.
 Soporta:
 - Eje Fluvial Principal (OSM) y Estaciones Batimétricas cada 500m
@@ -65,7 +65,7 @@ def generate_html_map(config, main_river, stations, lateral_reservoirs, tunnels,
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{config.get('title', 'Proyecto Territorial Kronos - Mapa Interactivo')}</title>
+  <title>{config.get('title', 'Proyecto Territorial Olimpo - Mapa Interactivo')}</title>
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
   <style>
@@ -243,7 +243,7 @@ def generate_html_map(config, main_river, stations, lateral_reservoirs, tunnels,
 
   <div id="sidebar">
     <div id="header">
-      <div class="badge badge-info">{config.get('badge_text', 'KRONOS GEOENGINE')}</div>
+      <div class="badge badge-info">{config.get('badge_text', 'OLIMPO GEOENGINE')}</div>
       <h1>{config.get('heading', '🏔️ ' + config.get('title', 'Proyecto Territorial'))}</h1>
       <p>{config.get('description', '')}</p>
     </div>
@@ -565,7 +565,7 @@ def generate_kml_map(config, main_river, stations, lateral_reservoirs, tunnels, 
     kml = """<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>""" + config.get('title', 'Proyecto Territorial Kronos') + """</name>
+    <name>""" + config.get('title', 'Proyecto Territorial Olimpo') + """</name>
     <description><![CDATA[""" + config.get('description', '') + """]]></description>
 
     <Style id="damStyle">
@@ -785,7 +785,7 @@ def generate_kml_map(config, main_river, stations, lateral_reservoirs, tunnels, 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Compilador Cartográfico Kronos GeoEngine")
+    parser = argparse.ArgumentParser(description="Compilador Cartográfico Olimpo GeoEngine")
     parser.add_argument("--config", required=True, help="Archivo JSON de configuración de proyecto")
     args = parser.parse_args()
 

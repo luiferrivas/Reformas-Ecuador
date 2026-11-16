@@ -1,6 +1,6 @@
 # 🗄️ Archivo Histórico — Subproyecto Subsidios Eléctricos
 > **Mandamiento 12: Protocolo Mandatorio de Carpetas `historico/` y Regla de Oro de Descarte**  
-> *Consorcio Industrial Kronos — Reformas Ecuador*
+> *Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Reformas Ecuador*
 
 ---
 

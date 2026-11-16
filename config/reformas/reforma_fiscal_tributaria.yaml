@@ -1,0 +1,211 @@
+# ==============================================================================
+# CONFIGURACIÓN TÉCNICA Y PARÁMETROS: REFORMA FISCAL, TRIBUTARIA Y PRODUCTIVA
+# ==============================================================================
+# Base Legal: Proyecto de Ley Orgánica de Competitividad Tributaria, Descentralización Fiscal
+#             y Sostenibilidad de los Recursos Públicos
+# Documentos vinculados:
+#   - proyectos_ley/reforma_fiscal_tributaria/SUMMARY.md
+#   - proyectos_ley/reforma_fiscal_tributaria/Proyecto_Ley_Reforma_Fiscal_Tributaria.md
+#   - proyectos_ley/reforma_fiscal_tributaria/Memoria_Tecnica_Economica.md
+# ==============================================================================
+
+reforma_id: "reforma_fiscal_tributaria"
+denominacion: "Ley Orgánica de Competitividad Tributaria, Sustitución de Impuestos al Patrimonio y Racionalización de Subsidios"
+version: "1.3.0" # Auditado Red Team: exención directa de IVA en caja, descarte 1.5 SBU y domicilio único en servicios básicos
+
+# ------------------------------------------------------------------------------
+# 1. RÉGIMEN DE IVA Y RECUPERACIÓN COMERCIAL
+# ------------------------------------------------------------------------------
+iva:
+  tarifa_vigente_pct: 15.0
+  tarifa_objetivo_pct: 12.0
+  recaudacion_por_punto_usd: 410000000 # 410 M USD por punto porcentual de IVA
+  perdida_bruta_anual_usd: 1230000000 # 3 puntos * 410 M USD
+  impacto_contraccion_comercial_2024:
+    caida_ventas_quito_pct: -3.5
+    caida_ventas_guayaquil_pct: -4.4
+    caida_sector_automotriz_pct: -18.7
+    caida_importacion_insumos_pct: -10.0
+    contraccion_pib_t2_2024_pct: -2.2
+  efecto_rebote_demanda_plurianual:
+    ano_1_retenciones_anticipadas_usd: 80000000
+    ano_3_recuperacion_plena_ir_usd: 320000000
+    recuperacion_ventas_estimada_pct: 4.8
+
+# ------------------------------------------------------------------------------
+# 2. SUSTITUCIÓN DE IMPUESTOS AL PATRIMONIO MUNICIPAL (COOTAD)
+# ------------------------------------------------------------------------------
+impuestos_municipales_patrimonio:
+  recaudacion_historica_linea_base:
+    patente_municipal_actual_usd: 260000000
+    impuesto_1_5_por_mil_actual_usd: 230000000
+    total_gad_actual_usd: 490000000
+    impacto_adverso: "Penaliza la capitalización, inversiones en maquinaria y castiga empresas en pérdidas"
+  mecanismo_sustitucion_aprobado:
+    denominacion: "Sobretasa Municipal Coparticipada sobre la Renta Neta (SM-IR)"
+    base_imponible_total_usd: 24800000000 # 21,000 M sociedades + 3,800 M personas naturales contabilidad
+    alicuota_regulada_pct: 2.0 # 2.0% sobre la utilidad imponible genera 496 M USD
+    regla_cero_ganancia: "Empresas con utilidad cero o pérdida contable tributan exactamente 0.00 USD"
+    prorrateo_multijurisdiccional: "Distribución cantonal proporcional a ventas (60%) y nómina local (40%)"
+    recaudacion_estimada_sm_ir_usd: 496000000
+    tasa_habilitacion_rimpe_usd: 16000000 # 800,000 micronegocios a 20 USD/año
+    recaudacion_total_reforma_gads_usd: 512000000 # Superávit municipal de +22 M USD (neutralidad plena)
+    convenio_fiscalizacion_concurrente:
+      acceso_sri_gads: true
+      incentivo_auditoria_local_pct: 30.0 # GAD recibe 30% adicional sobre evasión de IR detectada en su cantón
+
+# ------------------------------------------------------------------------------
+# 3. ESCALAMIENTO Y FOCALIZACIÓN DEL GAS LICUADO DE PETRÓLEO (GLP)
+# ------------------------------------------------------------------------------
+gas_glp:
+  precio_cilindro_base_usd: 1.60
+  costo_real_importacion_logistica_usd: 13.50
+  subsidio_unitario_actual_usd: 11.90
+  gasto_fiscal_anual_glp_usd: 773500000
+  regla_escalamiento_anual:
+    incremento_porcentual_anual_pct: 10.0
+    margen_infraestructura_post_paridad_pct: 10.0
+    destino_margen: "Fondo de Renovación de Redes, Cilindros e Infraestructura de Gas Natural"
+  sistema_cupos_antifrontera_y_nacional:
+    fase_1_piloto_frontera:
+      cantones: ["Tulcán", "Huaquillas", "Arenillas", "Macará", "Loja", "Sucumbíos"]
+      cupo_maximo_adulto_mes: 1
+      cupo_maximo_familia_dias: 35
+      mecanismo_control: "Validación biométrica y cédula en punto de distribución"
+      ahorro_contrabando_fronterizo_usd: 95200000 # 8 millones de cilindros recuperados
+    fase_2_nacional:
+      cupo_residencial_familias_dias: 40
+      tarifa_excedente_usd: 13.50 # Tarifa comercial plena fuera de cupo
+      ahorro_nacional_ano_1_usd: 95000000 # Captura del 50% de desvíos comerciales año 1
+      ahorro_nacional_ano_3_usd: 280000000 # Captura plena
+    ahorro_ajuste_precio_10pct_ano_1_usd: 10200000
+    ahorro_total_glp_ano_1_usd: 200400000
+    ahorro_total_glp_ano_3_usd: 380000000
+
+# ------------------------------------------------------------------------------
+# 4. FOCALIZACIÓN Y EXENCIÓN AUTOMÁTICA DEL IVA (TERCERA EDAD Y DISCAPACIDAD)
+# ------------------------------------------------------------------------------
+devolucion_iva:
+  gasto_actual_anual_usd: 390000000
+  mecanismo_operativo_preferente: "Exención automática directa en punto de venta (Tarifa 0% en caja) mediante consulta WebService SRI en tiempo real"
+  mecanismo_operativo_supletorio: "Devolución digital centralizada para compras en comercios sin integración informática"
+  segmentacion:
+    discapacidad:
+      costo_anual_anterior_usd: 70000000
+      limite_ingresos_mensuales_sbu: 2 # Máximo 920 USD de ingreso individual verificado
+      limite_patrimonio_rbu: 100
+      condicion: "Discapacidad calificada >40% en MSP con cruce de ingresos IESS/SRI"
+      restriccion_canasta:
+        bienes_autorizados:
+          - "Alimentos básicos para nutrición personal y familiar"
+          - "Fármacos, salud general, medicamentos, prótesis, órtesis y tratamientos"
+          - "Bienes esenciales de subsistencia e higiene personal"
+        bienes_excluidos:
+          - "Electrodomésticos, tecnología y vehículos"
+          - "Hotelería, restaurantes y entretenimiento"
+          - "Facturación comercial de terceros y empresas"
+      costo_anual_reducido_usd: 35000000
+      ahorro_fiscal_neto_usd: 35000000
+    tercera_edad:
+      costo_anual_anterior_usd: 320000000
+      limite_ingresos_mensuales_sbu: 2 # Máximo 920 USD de ingreso para acceder
+      limite_patrimonio_rbu: 100
+      condicion: "Ciudadanos mayores a 65 años con cruce de ingresos IESS/SRI"
+      restriccion_canasta:
+        bienes_autorizados:
+          - "Alimentos básicos para nutrición familiar"
+          - "Medicamentos con prescripción, salud general y prótesis"
+          - "Bienes esenciales de subsistencia e higiene personal"
+        bienes_excluidos:
+          - "Electrodomésticos y tecnología"
+          - "Consumos en restaurantes, hotelería y entretenimiento"
+          - "Facturas comerciales de terceros"
+      costo_anual_reducido_usd: 80000000
+      ahorro_fiscal_neto_usd: 240000000
+  ahorro_total_devolucion_iva_usd: 275000000 # 240 M tercera edad + 35 M discapacidad
+  evaluacion_umbral_descarte_1_5_sbu:
+    umbral_evaluado_sbu: 1.5
+    valor_mensual_usd: 690.00
+    decision: "Descartado"
+    justificacion_tecnica: "Se ubica por debajo de la Canasta Básica Familiar del INEC (795 USD). Genera vulnerabilidad crítica ante demandas de inconstitucionalidad por regresividad en la Corte Constitucional (Arts. 11.8 y 37 CRE), con un diferencial de ahorro marginal de solo 20 M USD frente a un costo político y de litigio desproporcionado."
+  servicios_basicos_domicilio_unico:
+    descripcion: "Regla unívoca de 1 solo suministro preferencial por cédula en agua potable, alcantarillado, recolección y electricidad"
+    condicion: "Coincidencia estricta con residencia habitual validada en Registro Civil/CNE; bloqueo automático de suministros secundarios, vacacionales o arrendados"
+    ahorro_anual_estimado_usd: 65000000 # Erradicación de beneficios múltiples en casas de playa y arriendos
+
+# ------------------------------------------------------------------------------
+# 5. TRANSFORMACIÓN SOCIETARIA DE CNT EP A SOCIEDAD ANÓNIMA
+# ------------------------------------------------------------------------------
+cnt_sociedad_anonima:
+  figura_previa: "Empresa Pública (LOEP) con contratos colectivos y compras SERCOP"
+  figura_nueva: "Corporación Nacional de Telecomunicaciones CNT S.A. (Ley de Compañías)"
+  modelo_referencia: "Banco del Pacífico S.A. (100% acciones estatales, gestión privada)"
+  regimen_laboral: "Código del Trabajo ordinario del sector privado"
+  regimen_compras: "Comercial privado (fuera del SERCOP en giro de negocio)"
+  impacto_financiero:
+    ano_1_flujo_corte_perdidas_usd: 60000000
+    ano_3_dividendos_netos_usd: 150000000
+
+# ------------------------------------------------------------------------------
+# 6. RACIONALIZACIÓN DE OTROS SUBSIDIOS NO ELÉCTRICOS Y NO COMBUSTIBLES
+# ------------------------------------------------------------------------------
+otros_subsidios_y_drenajes:
+  inmobiliar_bienes_improductivos:
+    descripcion: "Custodia de 5,200 inmuebles incautados y baldíos (seguridad privada, alícuotas y mantenimiento)"
+    mecanismo: "Subasta pública electrónica acelerada (remate holandés con baja del 10% cada 30 días)"
+    ahorro_opex_recurrente_anual_usd: 20000000
+    ingreso_capital_por_venta_usd: 350000000
+  subsidio_transporte_bloque:
+    descripcion: "Compensaciones en efectivo a federaciones de transportistas para congelar pasajes"
+    mecanismo: "Sustitución por Subsidio a la Demanda Inteligente (tarjeta digital/cédula a estudiantes y vulnerables)"
+    ahorro_fiscal_neto_anual_usd: 60000000
+  subsidio_urea_fertilizantes_mag:
+    descripcion: "Compras públicas centralizadas de sacos de urea sujetas a clientelismo y contrabando"
+    mecanismo: "Eliminación del programa estatal; sustitución por 0% arancel y 0% IVA a insumos agropecuarios importados"
+    ahorro_fiscal_neto_anual_usd: 25000000
+  medicamentos_medicina_cerca_msp_iess:
+    descripcion: "Despilfarro, caducidad en bodegas y sobreprecios en compras hospitalarias de medicamentos"
+    mecanismo: "Generalización del modelo 'Medicina Cerca' mediante receta electrónica dispensada en farmacias privadas"
+    ahorro_fiscal_ano_1_usd: 120000000
+    ahorro_fiscal_ano_3_usd: 180000000
+  mtop_concesiones_peajes_automaticos:
+    descripcion: "Subsidio indirecto en mantenimiento de corredores troncales pesados sin peaje o peajes manuales de 1 USD"
+    mecanismo: "Concesión de corredores viales troncales bajo APP con telepeaje automatizado Free-Flow (TAG)"
+    ahorro_opex_vial_ano_1_usd: 80000000
+    ahorro_opex_vial_ano_3_usd: 180000000
+
+# ------------------------------------------------------------------------------
+# 7. OPTIMIZACIÓN INSTITUCIONAL COMPLEMENTARIA (MODELO CORPORATIVO Y CIERRES)
+# ------------------------------------------------------------------------------
+optimizacion_institucional_adicional:
+  flopec_sa:
+    descripcion: "Flota Petrolera Ecuatoriana operando pools opacos y time-charters"
+    mecanismo: "Transformación a FLOPEC S.A. privada (modelo Banco del Pacífico) o Alianza Estratégica Internacional"
+    aporte_corte_perdidas_ano_1_usd: 40000000
+    dividendos_netos_ano_3_usd: 100000000
+  medios_publicos_comunica_ep:
+    descripcion: "Empresa pública de medios de comunicación estatal deficitaria y sin audiencia"
+    mecanismo: "Liquidación y extinción definitiva; subasta de frecuencias y activos"
+    ahorro_opex_anual_usd: 15000000
+  unidades_liquidadoras_residuales:
+    descripcion: "Costos administrativos de liquidaciones interminables (TAME, Correos, Ferrocarriles)"
+    mecanismo: "Plazo perentorio improrrogable de 90 días, dación en pago y extinción legal"
+    ahorro_administrativo_anual_usd: 10000000
+  supresion_entidades_duplicadas:
+    descripcion: "Consejos hipertrofiados (CORDICOM, SOT) y secretarías técnicas sin rectoría operativa"
+    mecanismo: "Derogatoria orgánica, absorción en ministerios matrices y supresión de nómina redundante"
+    ahorro_fiscal_ano_1_usd: 30000000
+    ahorro_fiscal_ano_3_usd: 40000000
+
+# ------------------------------------------------------------------------------
+# 8. CONSOLIDACIÓN MACROFISCAL PLURIANUAL
+# ------------------------------------------------------------------------------
+balance_consolidado:
+  deficit_base_pge_usd: -4500000000
+  perdida_iva_12pct_usd: -1230000000
+  ano_1:
+    total_medidas_compensatorias_usd: 5410400000
+    balance_neto_usd: -319600000 # Reducción del déficit del 92.9%
+  ano_3_regimen_permanente:
+    total_medidas_compensatorias_usd: 6585000000
+    balance_neto_usd: 855000000 # Superávit estructural consolidado de +855 M USD
