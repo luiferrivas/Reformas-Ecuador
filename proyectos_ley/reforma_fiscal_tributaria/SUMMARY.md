@@ -1,5 +1,5 @@
 # SUMMARY — Reforma Fiscal, Sustitución de Impuestos al Patrimonio y Racionalización del IVA/GLP
-> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Kronos**  
+> **L1 Cache Contractual, Técnico y Financiero — Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**  
 > *Fuente primaria obligatoria de consulta para agentes y modelos. Sujeta a la Regla de Cero Deriva.*
 
 ---

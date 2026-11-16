@@ -1,6 +1,6 @@
 # Memoria Técnica y Económica de Soporte: Reforma Fiscal, Sustitución de Impuestos al Patrimonio y Racionalización del IVA/GLP
 
-> **Consorcio Industrial Kronos — Documento de Modelado Cuantitativo y Sustento Macroeconómico**  
+> **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Documento de Modelado Cuantitativo y Sustento Macroeconómico**  
 > *Versión 1.1.0 — Auditada con Rigor Red Team bajo los 12 Mandamientos de Ejecución de AGENTS.md*
 
 ---
@@ -265,7 +265,7 @@ Incorporando el factor de fricción entrópica y la curva real de maduración in
 | **Depuración Contratos Colectivos (Mandatos 2 y 4)** | **+180.0 M USD** | **+220.0 M USD** |
 | **Liquidación Definitiva EPs Inactivas (TAME, Correos)** | **+40.0 M USD** | **+40.0 M USD** |
 | **Depuración Forense de Bonos MIES (Registro Social)** | **+150.0 M USD** | **+180.0 M USD** |
-| **Reforma al Régimen Tarifario Eléctrico (Propuesta Kronos)** | **+2,925.0 M USD** | **+3,090.0 M USD** |
+| **Reforma al Régimen Tarifario Eléctrico (Propuesta Olimpo)** | **+2,925.0 M USD** | **+3,090.0 M USD** |
 | **INMOBILIAR: Ahorro OPEX Custodia y Mantenimiento** | **+20.0 M USD** | **+20.0 M USD** |
 | **Sustitución Subsidio Transporte por Demanda Inteligente** | **+60.0 M USD** | **+60.0 M USD** |
 | **Eliminación Subsidio Centralizado Urea MAG (Arancel 0%)** | **+25.0 M USD** | **+25.0 M USD** |
