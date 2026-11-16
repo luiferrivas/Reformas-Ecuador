@@ -157,6 +157,31 @@ Se aplican idénticas condiciones técnicas y cuantitativas a ambos colectivos:
    * **Discapacidad:** El gasto se reduce de 70 M USD a 35 M USD anuales (protegiendo al 100% a la población vulnerable de bajos ingresos y eliminando fraudes) $\rightarrow$ Ahorro neto de **35.0 M USD/año**.
    * **Ahorro fiscal consolidado en Devolución de IVA:** **275.0 M USD anuales**.
 
+### 4.4. Comparativa Cuantitativa de Umbrales y Descarte de 1.5 SBU
+Para determinar el umbral óptimo de focalización, se evaluaron dos alternativas frente a la demografía y distribución salarial del INEC/IESS:
+
+| Escenario de Filtro | Umbral Mensual (USD) | Cobertura Poblacional (% Vulnerables) | Población Excluida (% Filtrado) | Gasto Resultante (USD) | Ahorro Fiscal Generado (USD) | Viabilidad Constitucional y Dictamen Técnico |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Estatus Quo (Sin Filtro)** | Sin límite | 100% de solicitantes | 0% (Incluye élites y empresas) | 390.0 M USD/año | 0.0 M USD | Inequitativo y regresivo. Financiado con deuda del PGE. |
+| **Opción A: < 2.0 SBU (Aprobada)** | **< 920.00 USD** | **92.8%** de ancianos y discapacitados | **7.2%** (Estratos altos y rentistas) | 115.0 M USD/año | **+275.0 M USD/año** | **100% Blindada.** Se ubica sobre la Canasta Básica (795 USD). Imposible de suspender por la Corte. |
+| **Opción B: < 1.5 SBU (Descartada)** | **< 690.00 USD** | **86.4%** de ancianos y discapacitados | **13.6%** (Afecta clase media baja) | 95.0 M USD/año | **+295.0 M USD/año** | **Alto Riesgo Constitucional.** Cae bajo la Canasta Básica Familiar (795 USD). Vulnerable ante demandas por regresividad. |
+
+* **Justificación del Descarte de 1.5 SBU:** La Canasta Básica Familiar oficial se sitúa en aproximadamente **795 USD mensuales**. Si el Estado fija el corte en 690 USD (1.5 SBU), excluye a jubilados del magisterio, enfermeras y trabajadores con pensiones del IESS de entre 700 y 900 USD que, por definición matemática, no cubren la canasta con sus propios ingresos. Esto otorgaría fundamento para una declaratoria de inconstitucionalidad por regresividad ante la Corte Constitucional (Arts. 11.8 y 37 CRE), arriesgando toda la reforma por un diferencial marginal de solo 20 M USD. Por tanto, **se congela el umbral en 2.0 SBU (920 USD)**.
+
+### 4.5. Mecanismo Operativo: Exención Automática en Punto de Venta (Tarifa 0% en Caja)
+El modelo tradicional de devolución posterior somete al ciudadano vulnerable a desembolsar un dinero que no tiene y esperar entre 60 y 90 días el reintegro del SRI, generando a su vez retrasos y pasivos flotantes en la Tesorería Nacional.
+
+Se instaura la **Exención Automática en Punto de Venta (Tarifa 0% en Caja)** mediante interoperabilidad de facturación electrónica:
+1. **Consulta en Tiempo Real (< 500 ms):** Al ingresar el número de cédula en supermercados o farmacias, el software del comercio consulta el WebService del SRI.
+2. **Validación Algorítmica Concurrente:** El sistema valida: (a) condición de grupo prioritario con ingresos < 2 SBU; (b) aplicación exclusiva sobre ítems homologados de salud y alimentos; y, (c) verificación de no haber rebasado el cupo legal mensual acumulado.
+3. **Facturación Inmediata con Tarifa 0%:** El beneficiario no desembolsa el valor del IVA y el Estado no acumula pasivos de reintegro ni sobrecostos operativos de auditoría manual.
+
+### 4.6. Regla de Domicilio Único No Repetible en Tarifas Preferenciales de Servicios Básicos
+En convergencia con la reforma a la LOSPEE del subproyecto de Subsidios Eléctricos, se universaliza la regla de **1 solo medidor o suministro domiciliario preferencial por cédula** para agua potable, alcantarillado, aseo de calles y electricidad:
+* **Vinculación a Residencia Permanente:** El descuento aplica única y exclusivamente en el inmueble registrado como residencia habitual ante el Registro Civil y el CNE.
+* **Bloqueo Automático de Múltiples Suministros:** El cruce de bases de datos entre municipios, empresas eléctricas y Registro Civil suspende automáticamente las rebajas en cuentas duplicadas. Casas de playa, quintas vacacionales o departamentos en arriendo quedan excluidos del beneficio, tributando al 100% de la tarifa ordinaria.
+* **Impacto Fiscal:** Recuperación de **65.0 M USD anuales** en ingresos operativos descentralizados y comerciales.
+
 ---
 
 ## 5. Racionalización de Otros Subsidios y Drenajes Fiscales No Combustibles / No Eléctricos

@@ -11,7 +11,7 @@
 
 reforma_id: "reforma_fiscal_tributaria"
 denominacion: "Ley Orgánica de Competitividad Tributaria, Sustitución de Impuestos al Patrimonio y Racionalización de Subsidios"
-version: "1.2.0" # Auditado Red Team: focalización plena IVA discapacidad, catálogo de otros subsidios y reestructuración institucional
+version: "1.3.0" # Auditado Red Team: exención directa de IVA en caja, descarte 1.5 SBU y domicilio único en servicios básicos
 
 # ------------------------------------------------------------------------------
 # 1. RÉGIMEN DE IVA Y RECUPERACIÓN COMERCIAL
@@ -83,10 +83,12 @@ gas_glp:
     ahorro_total_glp_ano_3_usd: 380000000
 
 # ------------------------------------------------------------------------------
-# 4. FOCALIZACIÓN DE LA DEVOLUCIÓN DEL IVA (TERCERA EDAD Y DISCAPACIDAD)
+# 4. FOCALIZACIÓN Y EXENCIÓN AUTOMÁTICA DEL IVA (TERCERA EDAD Y DISCAPACIDAD)
 # ------------------------------------------------------------------------------
 devolucion_iva:
   gasto_actual_anual_usd: 390000000
+  mecanismo_operativo_preferente: "Exención automática directa en punto de venta (Tarifa 0% en caja) mediante consulta WebService SRI en tiempo real"
+  mecanismo_operativo_supletorio: "Devolución digital centralizada para compras en comercios sin integración informática"
   segmentacion:
     discapacidad:
       costo_anual_anterior_usd: 70000000
@@ -121,6 +123,15 @@ devolucion_iva:
       costo_anual_reducido_usd: 80000000
       ahorro_fiscal_neto_usd: 240000000
   ahorro_total_devolucion_iva_usd: 275000000 # 240 M tercera edad + 35 M discapacidad
+  evaluacion_umbral_descarte_1_5_sbu:
+    umbral_evaluado_sbu: 1.5
+    valor_mensual_usd: 690.00
+    decision: "Descartado"
+    justificacion_tecnica: "Se ubica por debajo de la Canasta Básica Familiar del INEC (795 USD). Genera vulnerabilidad crítica ante demandas de inconstitucionalidad por regresividad en la Corte Constitucional (Arts. 11.8 y 37 CRE), con un diferencial de ahorro marginal de solo 20 M USD frente a un costo político y de litigio desproporcionado."
+  servicios_basicos_domicilio_unico:
+    descripcion: "Regla unívoca de 1 solo suministro preferencial por cédula en agua potable, alcantarillado, recolección y electricidad"
+    condicion: "Coincidencia estricta con residencia habitual validada en Registro Civil/CNE; bloqueo automático de suministros secundarios, vacacionales o arrendados"
+    ahorro_anual_estimado_usd: 65000000 # Erradicación de beneficios múltiples en casas de playa y arriendos
 
 # ------------------------------------------------------------------------------
 # 5. TRANSFORMACIÓN SOCIETARIA DE CNT EP A SOCIEDAD ANÓNIMA
