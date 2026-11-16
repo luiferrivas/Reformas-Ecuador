@@ -59,7 +59,8 @@ Repositorio de iniciativas legislativas, proyectos de ley orgánicos y propuesta
 3. **[Memoria Técnica y Económica de Soporte](./proyectos_ley/subsidios_combustibles/Memoria_Tecnica_Economica_Combustibles.md)**: Análisis macroeconómico del déficit estatal 2023-2026, modelado de termodinámica de bombeo camaronero, proyección a 22 años del GLP al 10% anual, reforma tributaria al IVA en combustibles, capping a 5 años del Decreto 308, modelo de pesca artesanal con escudo satelital AIS contra GDOs y sendero industrial.
 4. **[Balance de Subsidios y Precios Dinámicos HOY](./proyectos_ley/subsidios_combustibles/Balance_Subsidios_Dinamicos_Hoy.md)**: Radiografía en tiempo real de qué subsidios le restan al Estado, tabla de precios dinámicos y balance comparativo.
 5. **[Auditoría Forense de Resistencia CONAIE y Hoja de Ruta Secuencial](./proyectos_ley/subsidios_combustibles/Critica_Forense_Resistencia_CONAIE_y_Hoja_Ruta_Secuencial.md)**: Análisis sin complacencia de detonantes de paros históricos, superación de la trampa del solar rural mediante la reforma eléctrica previa, exclusión de camiones C2 campesinos y hoja de ruta en 3 fases.
-6. **[Parámetros y Configuraciones Técnicas](./config/reformas/subsidios_combustibles.yaml)**: Parámetros estructurados en YAML para simulación y regulación.
+6. **[Modelo de Cocina Dual (Inducción 220V) y Red de Micro-Bodegas Rurales](./proyectos_ley/subsidios_combustibles/Modelo_Cocina_Dual_Induccion_y_Red_Depositos_Rurales.md)**: Ingeniería de la placa robusta 220V de 2 quemadores (3,500 W Heavy-Duty), convivencia dual con 1 tanque de gas de respaldo y red de micro-bodegas comunales en poblados para venta a PVP oficial (2.26 USD en Año 1).
+7. **[Parámetros y Configuraciones Técnicas](./config/reformas/subsidios_combustibles.yaml)**: Parámetros estructurados en YAML para simulación y regulación.
 
 ---
 
