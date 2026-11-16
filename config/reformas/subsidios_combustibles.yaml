@@ -154,7 +154,8 @@ colchon_contraciclico_estabilizacion:
 transporte_pesado_carga_diesel_10_pct:
   estatus_reforma: "Sendero suave 10% anual compuesto cada 1 de enero"
   parque_automotor_unidades: 75000
-  categorias_afectadas: ["C2", "C3", "C3S2", "C3S3"]
+  categorias_afectadas: ["C3", "C3S2", "C3S3"] # Camiones pesados y tractocamiones articulados de flota comercial
+  exclusion_expresa_campesina: ["C2_rural_comunitario"] # Camiones livianos de 2 ejes campesinos/lecheros congelados a 1.75 USD
   consumo_promedio_mensual_galones_unidad: 1400
   volumen_anual_nacional_galones: 1260000000
   precio_base_inicial_usd_galon: 1.750
