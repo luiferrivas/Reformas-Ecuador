@@ -92,7 +92,7 @@ Este proyecto ha sido redactado observando las normas de la técnica legislativa
 
 ## 🤖 Doctrina y Gobernanza de Agentes IA
 
-El desarrollo, modelado cuantitativo y redacción técnica en este repositorio se rigen obligatoriamente bajo los **12 Mandamientos Inviolables de Ejecución del Consorcio Industrial Olimpo**:
+El desarrollo, modelado cuantitativo y redacción técnica en este repositorio se rigen obligatoriamente bajo los **12 Mandamientos Inviolables de Ejecución del Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**:
 - **Documento Maestro:** [`AGENTS.md`](./AGENTS.md)
 - **Módulo de Configuración y Prompts:** Directorio [`config/agentes/`](./config/agentes/)
   - [`doctrina.yaml`](./config/agentes/doctrina.yaml): Especificación estructurada y reglas de validación.

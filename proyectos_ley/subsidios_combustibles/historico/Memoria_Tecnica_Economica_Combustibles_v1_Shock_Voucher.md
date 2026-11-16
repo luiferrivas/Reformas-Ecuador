@@ -1,5 +1,5 @@
 # 🛑 BITÁCORA FORENSE DE DECISIÓN Y DESCARTE — ARCHIVO HISTÓRICO
-> **Regla de Oro del Consorcio Industrial Olimpo (Mandamiento 12):**  
+> **Regla de Oro del Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) (Mandamiento 12):**  
 > *Este documento ha sido superado, auditado o descartado. Se conserva exclusivamente para memoria histórica, lecciones aprendidas y prevención de amnesia operativa.*
 
 ---
@@ -34,7 +34,7 @@
 
 ## REFORMA AL RÉGIMEN DE SUBSIDIOS EN COMBUSTIBLES FÓSILES NO ELÉCTRICOS Y SINCERAMIENTO FISCAL DEL ECUADOR
 
-> **Consorcio Industrial Olimpo — División de Economía de la Energía y Finanzas Públicas**  
+> **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Mesa Técnica de Economía de la Energía y Finanzas Públicas**  
 > *Documento técnico oficial de sustento cuantitativo, legal y macroeconómico.*
 
 ---

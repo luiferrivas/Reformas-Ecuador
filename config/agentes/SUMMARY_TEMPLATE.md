@@ -1,5 +1,5 @@
 # SUMMARY — [NOMBRE DEL SUBPROYECTO O MÓDULO]
-> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Olimpo**  
+> **L1 Cache Contractual, Técnico y Financiero — Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**  
 > *Fuente primaria obligatoria de consulta para agentes y modelos. Sujeta a la Regla de Cero Deriva.*
 
 ---
@@ -13,7 +13,7 @@
 
 ---
 
-## 2. Contrato de Interfaces (Simbiosis Industrial)
+## 2. Contrato de Interfaces (Simbiosis e Interconexión de Reformas)
 
 ### Insumos Requeridos (Entradas desde otros subproyectos o fuentes)
 - **Entrada 1:** [Descripción del insumo, flujo, cota, tensión o materia prima] $\rightarrow$ *Origen:* `[Proyecto Origen]`

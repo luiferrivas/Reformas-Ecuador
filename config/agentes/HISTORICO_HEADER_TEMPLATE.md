@@ -1,5 +1,5 @@
 # 🛑 BITÁCORA FORENSE DE DECISIÓN Y DESCARTE — ARCHIVO HISTÓRICO
-> **Regla de Oro del Consorcio Industrial Olimpo (Mandamiento 12):**  
+> **Regla de Oro del Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) (Mandamiento 12):**  
 > *Este documento ha sido superado, auditado o descartado. Se conserva exclusivamente para memoria histórica, lecciones aprendidas y prevención de amnesia operativa.*
 
 ---

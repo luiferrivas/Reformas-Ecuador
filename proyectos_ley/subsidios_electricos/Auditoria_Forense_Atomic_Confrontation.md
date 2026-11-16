@@ -1,7 +1,7 @@
 # 🏛️ AUDITORÍA FORENSE MULTI-AGENTE DE CONFRONTACIÓN ATÓMICA (OLIMPO-AUDITOR-DOCUMENTOS)
 
 > **Proyecto de Ley Orgánica Reformatoria a la LOSPEE — Sector Eléctrico del Ecuador**  
-> **Consorcio Industrial Olimpo — Red Team de Auditoría y Fiscalización Forense**  
+> **Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Red Team de Auditoría y Fiscalización Forense**  
 > *Fecha de Ejecución Pericial: Noviembre 2026 | Umbral de Confianza Objetivo: 97.0% | Estado: Auditado y Certificado*  
 > *Referencias Canónicas:* [Proyecto de Ley](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md) | [Memoria Técnica](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md) | [Auditoría Política](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Auditoria_Politica_y_Optimizacion_Electrica.md) | [SUMMARY.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/SUMMARY.md) | [Configuración YAML](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/reformas/subsidios_electricos.yaml) | [Simulador Python](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/scripts/simulacion_tarifaria_casos.py)
 
@@ -9,7 +9,7 @@
 
 ## 1. ACTA DE APERTURA Y MARCO METODOLÓGICO FORENSE
 
-En estricto cumplimiento del mandato del protocolo **`olimpo-auditor-documentos`** y los 12 Mandamientos de la doctrina de ejecución del Consorcio Olimpo (`AGENTS.md`), se procedió a la auditoría integral, atómica e interdocumental de **todos los documentos, memorias técnicas, articulados de ley, scripts de cálculo y archivos de configuración del proyecto de reforma eléctrica del Ecuador**.
+En estricto cumplimiento del mandato del protocolo **`olimpo-auditor-documentos`** y los 12 Mandamientos de la doctrina de ejecución del Sistema de Mesa de Mejoras Olimpo (`AGENTS.md`), se procedió a la auditoría integral, atómica e interdocumental de **todos los documentos, memorias técnicas, articulados de ley, scripts de cálculo y archivos de configuración del proyecto de reforma eléctrica del Ecuador**.
 
 ### A. Parámetro de Control y Umbral de Confianza
 - **Umbral Objetivo Configurado:** $97.0\%$
@@ -25,7 +25,7 @@ $$\text{Confianza Determinista} = 100\% - (15\% \times N_{\text{supuestos\_no\_d
 
 ### Principio 1: La Regla del "Locus de Control" (Taxonomía Endógena vs. Exógena)
 Se descompusieron todas las variables del proyecto para impedir que la viabilidad dependa de deseos de terceros:
-- **Variables Endógenas (Control Absoluto del Consorcio y del Estado Reformador - 100% Controlables):**
+- **Variables Endógenas (Control Absoluto de la Mesa Técnica y del Estado Reformador - 100% Controlables):**
   1. *Fórmula del Pliego Tarifario y Piso Legal:* Aprobada por Ley Orgánica vinculante, sin requerir asignaciones discrecionales del Ministerio de Finanzas.
   2. *Protocolo Coercitivo de Cobro a Municipios (4 Vías):* Retención física de las tasas de aseo y bomberos recaudadas en la planilla eléctrica de la distribuidora. Si el alcalde no paga, la distribuidora retiene los fondos en su propia cuenta bancaria. No depende de la "buena voluntad" del municipio.
   3. *Corte Remoto Quirúrgico AMI:* Desconexión remota de edificios administrativos y sedes municipales morosas (>30 días) sin afectar estaciones de bombeo de agua ni hospitales.

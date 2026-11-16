@@ -59,7 +59,7 @@ iniciativas_activas:
     archivo_configuracion: "config/reformas/subsidios_electricos.yaml"
 
 doctrina_agentes:
-  estandar: "Consorcio Industrial Olimpo — Reglas Inviolables de Ejecución"
+  estandar: "Sistema de Mesa de Mejoras a Largo Plazo (Olimpo) — Reglas Inviolables de Ejecución"
   documento_maestro: "AGENTS.md"
   directorio_configuracion: "config/agentes"
   archivo_reglas: "config/agentes/doctrina.yaml"

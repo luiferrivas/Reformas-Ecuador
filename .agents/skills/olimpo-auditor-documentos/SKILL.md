@@ -132,7 +132,7 @@ Todo proceso de auditoría forense debe concluir obligatoriamente con el **Escan
    - El Plan Maestro (`Olimpo_Master_Plan.md`) y los `SUMMARY.md` de subproyectos clientes o proveedores (interfaces de entrada/salida).
 2. **Matriz de Inconsistencias Cruzadas:**
    `| Variable / Parámetro | Valor en Doc Auditado | Valor en Doc Relacionado | Archivo Relacionado en Conflicto | Veredicto y Fuente de Verdad Canónica |`
-3. **Cirugía Bidireccional:** Si existen contradicciones, `olimpo_cirujano_documental` sincroniza inmediatamente los archivos divergentes y actualiza el `SUMMARY.md` en el mismo turno de trabajo para evitar la deriva documental en todo el consorcio.
+3. **Cirugía Bidireccional:** Si existen contradicciones, `olimpo_cirujano_documental` sincroniza inmediatamente los archivos divergentes y actualiza el `SUMMARY.md` en el mismo turno de trabajo para evitar la deriva documental en toda la mesa de mejoras.
 
 ---
 

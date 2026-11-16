@@ -1,5 +1,5 @@
 # SUMMARY — Reforma al Régimen Tarifario y Subsidios Eléctricos
-> **L1 Cache Contractual, Técnico y Financiero — Consorcio Industrial Olimpo**  
+> **L1 Cache Contractual, Técnico y Financiero — Sistema de Mesa de Mejoras a Largo Plazo (Olimpo)**  
 > *Fuente primaria obligatoria de consulta para agentes y modelos en el subproyecto de Subsidios Eléctricos. Sujeta a la Regla de Cero Deriva.*
 
 ---
