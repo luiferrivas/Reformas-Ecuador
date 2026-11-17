@@ -133,11 +133,13 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 | **Umbral Plano de 250 kWh sin Distinción de Cocina a Inducción** | **Descartada** | Simplicidad aparente de número único | Subsidia 50 kWh de confort suntuario a quienes usan GLP importado subsidiado; no crea incentivo para abandonar el gas | Se aprobó el umbral dual: 200 kWh/mes base y 250 kWh/mes con cocina de inducción (+50 kWh para cocción limpia), ahorrando divisas de GLP en Petroecuador y recaudando 64.8 M USD/año adicionales en distribución. |
 | **Ajuste Inmediato de Golpe en Tarifas de Galápagos** | **Descartada** | Sinceramiento fiscal instantáneo | Riesgo de paro provincial insular, bloqueo de aeropuertos y quiebra de paquetes turísticos ya vendidos | Se aprobó Transitoria de 24 meses en 4 semestres del 25% (subida inmediata a día de hoy del 25% sobre el diferencial a 0.170 USD/kWh) y créditos verdes express CFN/BDE al 5% con arancel 0%, IVA 0% e ISD 0% (Payback < 2 años). |
 | **Uso Indiscriminado de Conductor Delgado #8 AWG en Acometidas** | **Descartada** | Menor costo inicial de compra de cable | Pérdidas Joule severas (+59% de resistencia frente a #6 AWG) y caídas de tensión en colas de circuito | Se aprobó estandarizar en calibre #6 AWG o superior (>= 13.30 mm²) con 0% IVA y 0% arancel en LORTI y COPCI, reduciendo pérdidas en 37.1% y ahorrando de 45 a 65 M USD/año. |
+| **Placa de Inducción Heavy-Duty 220V de 2 Quemadores (Chasis AISI 304 No Magnético y Limitador 2,800 W)** | **Aprobada** | Chasis no magnético evita calentamiento parásito; soporta 35 kg; pérdidas Joule 75% menores que 120V; limitador protege transformadores rurales | Requiere acometida bifásica 220V (resuelta con medidor AMI de Fase 2) | Aprobada como estándar de fabricación OEM/ODM e IP nacional para electrificación rural segura. |
 
 ---
 
 ## 6. Índice de Documentación Profunda
 
+- **Especificación Técnica Placa Inducción Heavy-Duty 220V:** [Especificacion_Tecnica_Placa_Induccion_HeavyDuty_220V.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Especificacion_Tecnica_Placa_Induccion_HeavyDuty_220V.md)
 - **Memoria Técnica, Económica y Tarifaria:** [Memoria_Tecnica_Economica.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Memoria_Tecnica_Economica.md)
 - **Proyecto de Ley en Formato Oficial:** [Proyecto_Ley_Subsidios_Electricos_Ecuador.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Proyecto_Ley_Subsidios_Electricos_Ecuador.md)
 - **Auditoría de Viabilidad Política y Optimización:** [Auditoria_Politica_y_Optimizacion_Electrica.md](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/Auditoria_Politica_y_Optimizacion_Electrica.md)
@@ -145,3 +147,4 @@ $$T_{\text{payback}} = \frac{\text{CAPEX}}{\text{Flujo de Caja Neto Anual Despu�
 - **Configuración de Parámetros YAML:** [subsidios_electricos.yaml](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/reformas/subsidios_electricos.yaml)
 - **Esquema de Validación JSON:** [reforma_electrica.schema.json](file:///home/antigravity/luiferrivas/Reformas-Ecuador/config/schemas/reforma_electrica.schema.json)
 - **Directorio de Versiones Superadas / Archivadas:** [historico/](file:///home/antigravity/luiferrivas/Reformas-Ecuador/proyectos_ley/subsidios_electricos/historico/)
+
